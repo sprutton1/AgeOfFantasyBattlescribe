@@ -9,6 +9,11 @@
         <categoryLink id="4276-8de7-acd4-4ec6" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="20b7-a829-4495-ec05" name="Berserker Lord" hidden="false" collective="false" import="true" targetId="5758-530f-dd76-76fa" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2d4d-7712-616d-6b3f" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9965-47d5-cea5-73af" name="Dwarf Lord" hidden="false" collective="false" import="true" type="upgrade">
@@ -110,6 +115,34 @@
         <infoLink id="7576-9476-ea46-6349" name="Swift" hidden="false" targetId="55ef-d64b-61c9-1770" type="rule"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry id="5758-530f-dd76-76fa" name="Berserker Lord" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d12d-24d9-9229-0845" name="Berserker Lord" hidden="false" targetId="3cc9-e57a-b7cf-4159" type="profile"/>
+        <infoLink id="e048-88aa-41e4-1e52" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="16a4-15af-f1f2-27e7" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="514d-2579-145b-756a" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="c0c5-1092-1288-304a" name="Slayer" hidden="false" targetId="294b-f03a-1de8-d541" type="rule"/>
+        <infoLink id="50a4-d8ef-e2ee-f4a3" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="fcdb-4b18-d79a-f259" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="9fe9-12cb-8324-377e" name="Berserker Axe (Lord)" hidden="false" collective="false" import="true" targetId="a9ca-6ccd-00c2-4fba" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa6e-67c1-f00a-c780" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d67e-b046-bc94-e885" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a9ca-6ccd-00c2-4fba" name="Berserker Axe" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f725-666f-609e-861c" name="Berserker Axe (Lord)" hidden="false" targetId="fc51-d3a1-f8e4-5e8e" type="profile"/>
+        <infoLink id="e46b-6a34-54d2-8fa3" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="53f8-9f06-8e13-809b" name="Weapons - Heroes - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="1fc2-2709-3dfe-c7eb">
@@ -193,8 +226,11 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="55ef-d64b-61c9-1770" name="Swift" hidden="false">
+    <rule id="55ef-d64b-61c9-1770" name="Swift" publicationId="203a-872c-5637-fe03" hidden="false">
       <description>The hero may ignore the Slow rule.</description>
+    </rule>
+    <rule id="294b-f03a-1de8-d541" name="Slayer" publicationId="203a-872c-5637-fe03" hidden="false">
+      <description>This model gets AP(+2) when fighting units with Tough(3) or higher.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -231,6 +267,19 @@ Weapon: Claws(A3, AP(1))</characteristic>
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Impact(1), Swift
 Weapon: Claws(A1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3cc9-e57a-b7cf-4159" name="Berserker Lord" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Furious, Hero, Slayer, Slow, Tough(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fc51-d3a1-f8e4-5e8e" name="Berserker Axe" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
