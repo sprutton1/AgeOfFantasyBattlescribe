@@ -64,219 +64,333 @@
       <infoLinks>
         <infoLink id="4318-8bc1-1811-26b1" name="Hand Weapon (A1)" hidden="false" targetId="cc05-7b8d-015b-defa" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4b3e-ec94-2ac8-9ae2" name="Hand Weapon (A2)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="afc0-96c6-0119-3cd3" name="Hand Weapon (A2)" hidden="false" targetId="eb3f-0eed-5e25-6ff1" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="df9b-db26-3a90-d447" name="Hand Weapon (A3)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="fd38-59b7-b57f-159d" name="Hand Weapon (A3)" hidden="false" targetId="f7ac-ec82-eef1-ae36" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fa2b-dd87-7353-7873" name="Great Weapon (A1)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="5f13-7a2a-0ad0-02e6" name="Great Weapon (A1)" hidden="false" targetId="850d-0fac-53e0-2988" type="profile"/>
         <infoLink id="dced-f904-c99c-bc34" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d8de-2401-9142-84cd" name="Great Weapon (A2)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6678-f0c0-baf1-dab8" name="Great Weapon (A2)" hidden="false" targetId="1444-dacb-f50d-ea32" type="profile"/>
         <infoLink id="a3b2-eae6-85f3-4b0a" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="89f5-3b8b-10f5-e093" name="Great Weapon (A3)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="03a6-dc47-31b0-bbac" name="Great Weapon (A3)" hidden="false" targetId="fdbb-8cb0-601b-b272" type="profile"/>
         <infoLink id="6bbd-a8ad-a79a-3017" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fd2f-c48e-2881-b8ab" name="Spear (A1)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e1e1-d1a0-d01c-80d2" name="Spear (A1)" hidden="false" targetId="d9a4-5f49-350a-44e7" type="profile"/>
         <infoLink id="20b7-1614-9fb1-fe13" name="Phalanx" hidden="false" targetId="4c1e-89c9-499f-9ab9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6f38-1529-f40f-0010" name="Spear (A2)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="1a18-f222-060b-93a7" name="Spear (A2)" hidden="false" targetId="c47e-ae7b-85b6-a0c5" type="profile"/>
         <infoLink id="fadf-eb95-8e85-e353" name="Phalanx" hidden="false" targetId="4c1e-89c9-499f-9ab9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="35fe-a77c-b5e7-7610" name="Spear (A3)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e14e-918d-2cba-5bbf" name="Spear (A3)" hidden="false" targetId="069b-089c-fa3f-bf5c" type="profile"/>
         <infoLink id="33de-9a6c-40f8-8125" name="Phalanx" hidden="false" targetId="4c1e-89c9-499f-9ab9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="88b0-76c7-e9f2-fee0" name="Halberd (A1)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="eae3-ee61-7454-faae" name="Halberd (A1)" hidden="false" targetId="e7d9-9387-4eb3-b436" type="profile"/>
         <infoLink id="e15f-6147-a9f2-add3" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d84a-3dd5-3948-4d3d" name="Halberd (A2)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="c947-86f0-c579-79dd" name="Halberd (A2)" hidden="false" targetId="1f2c-714b-e5d5-ae5f" type="profile"/>
         <infoLink id="b0d2-0953-a3b9-5a12" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1e72-2624-86e9-0ee0" name="Halberd (A3)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="ed64-1545-9d20-426f" name="Halberd (A3)" hidden="false" targetId="d0d7-eff5-b963-03d8" type="profile"/>
         <infoLink id="78dc-d28f-8ab7-db68" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4235-a513-5a6e-d5bb" name="Great Weapon (A1)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="89c1-470c-b540-e763" name="Great Weapon (A1)" hidden="false" targetId="850d-0fac-53e0-2988" type="profile"/>
         <infoLink id="a993-dc63-be29-5d5c" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="85fe-d500-b945-93ff" name="Great Weapon (A2)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6662-8b9c-1a02-8d0b" name="Great Weapon (A2)" hidden="false" targetId="1444-dacb-f50d-ea32" type="profile"/>
         <infoLink id="5c42-69eb-cc7c-86e2" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b2eb-dbb4-19ef-99de" name="Great Weapon (A3)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="f936-ac5c-aae2-650e" name="Great Weapon (A3)" hidden="false" targetId="fdbb-8cb0-601b-b272" type="profile"/>
         <infoLink id="2599-1972-1a08-c091" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="44f8-017a-b4b0-6c1c" name="Halberd (A1)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="92b1-f48d-47c2-51cb" name="Halberd (A1)" hidden="false" targetId="e7d9-9387-4eb3-b436" type="profile"/>
         <infoLink id="d67c-64cf-c624-6aa5" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5738-e370-b644-b15a" name="Halberd (A2)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="92b3-dc15-6388-130d" name="Halberd (A2)" hidden="false" targetId="1f2c-714b-e5d5-ae5f" type="profile"/>
         <infoLink id="867d-007c-fce4-93bb" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8e8b-f926-f718-2600" name="Halberd (A3)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6908-a211-0e19-2b5b" name="Halberd (A3)" hidden="false" targetId="d0d7-eff5-b963-03d8" type="profile"/>
         <infoLink id="9429-4c4f-29c1-7c4b" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="18e9-22bb-b469-e565" name="Hand Weapon (A1)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9cf9-e1ad-d2d4-89fa" name="Hand Weapon (A1)" hidden="false" targetId="cc05-7b8d-015b-defa" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cc97-cb46-8a1d-cc0c" name="Hand Weapon (A2)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6b5e-e44f-961b-8ecb" name="Hand Weapon (A2)" hidden="false" targetId="eb3f-0eed-5e25-6ff1" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8ee1-94a2-4fc8-a2a8" name="Hand Weapon (A3)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3033-4a49-0b05-4a6a" name="Hand Weapon (A3)" hidden="false" targetId="f7ac-ec82-eef1-ae36" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b7ad-83c8-3ce9-5619" name="Spear (A1)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="d164-fced-32bc-b50c" name="Spear (A1)" hidden="false" targetId="d9a4-5f49-350a-44e7" type="profile"/>
         <infoLink id="7676-b61d-452b-6a34" name="Phalanx" hidden="false" targetId="4c1e-89c9-499f-9ab9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f843-48d9-166b-ef57" name="Spear (A2)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="24cf-d0f3-541e-a344" name="Spear (A2)" hidden="false" targetId="c47e-ae7b-85b6-a0c5" type="profile"/>
         <infoLink id="8770-8194-a205-56a4" name="Phalanx" hidden="false" targetId="4c1e-89c9-499f-9ab9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e455-6b2c-3062-48d8" name="Spear (A3)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="796d-acda-3349-6d1b" name="Spear (A3)" hidden="false" targetId="069b-089c-fa3f-bf5c" type="profile"/>
         <infoLink id="40dd-3423-0e98-0562" name="Phalanx" hidden="false" targetId="4c1e-89c9-499f-9ab9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b2ba-1897-ecd9-2780" name="Lance (A1)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9cc7-0a38-ac7d-c3a4" name="Lance (A1)" hidden="false" targetId="723c-b9e9-dfe0-0f2e" type="profile"/>
         <infoLink id="2546-8851-14c2-a78d" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8fb4-99f9-6c5e-5d26" name="Lance (A2)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6a13-bcd3-10a9-c02a" name="Lance (A2)" hidden="false" targetId="2cc6-0f5c-db9b-9473" type="profile"/>
         <infoLink id="9f62-e3a0-6588-f713" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3bb1-404a-e499-ee8f" name="Lance (A3)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="7397-c4ac-9002-474c" name="Lance (A3)" hidden="false" targetId="7f9e-4152-28cb-4267" type="profile"/>
         <infoLink id="e231-8090-00e6-a5d7" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="280f-5d04-d2ce-ffbd" name="Lance (A1)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="f006-11ad-fc88-f79f" name="Lance (A1)" hidden="false" targetId="723c-b9e9-dfe0-0f2e" type="profile"/>
         <infoLink id="3e21-7821-1e85-5c83" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="63e5-98de-4abc-09bf" name="Lance (A2)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="218c-a671-97ee-433e" name="Lance (A2)" hidden="false" targetId="2cc6-0f5c-db9b-9473" type="profile"/>
         <infoLink id="33d6-033f-d7ff-b327" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c18c-3f70-0f34-6af9" name="Lance (A3)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="c5be-2d7a-16ac-57b2" name="Lance (A3)" hidden="false" targetId="7f9e-4152-28cb-4267" type="profile"/>
         <infoLink id="900d-9e66-8727-7147" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="718b-a2ce-fa32-88ea" name="Throwing Weapon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="fa33-2714-24d2-9783" name="Throwing Weapon" hidden="false" targetId="a18f-69fc-b868-a1e3" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c14d-740c-cb3f-88af" name="Pistol" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="878e-19b6-84a7-64f5" name="Pistol" hidden="false" targetId="a930-6b82-f5f8-e216" type="profile"/>
         <infoLink id="2d3d-b1b9-35f4-dcdb" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="366b-eaf8-31b4-b1d4" name="Shortbow" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="87ab-ab12-75d3-d2b0" name="Shortbow" hidden="false" targetId="ca3d-1b17-d7a7-412e" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6bb6-5124-2f4d-236d" name="Fire Thrower" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="c603-8a58-7a66-2f2b" name="Fire Thrower" hidden="false" targetId="1016-4ced-e8b9-40c8" type="profile"/>
         <infoLink id="c401-d65e-4ad2-1b3f" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6692-eae4-9176-05bb" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="b54b-6c67-e02f-86bb" name="Bow" hidden="false" targetId="b4aa-c3c4-ef81-0ac5" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9d2a-d0f5-1183-1fe0" name="Rifle" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="cac2-ae35-a204-3761" name="Rifle" hidden="false" targetId="b92c-ce95-2769-f720" type="profile"/>
         <infoLink id="9456-57c5-cbf9-c881" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f94e-ef25-6aa1-7195" name="Longbow" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9bf2-b5e7-b510-7c3a" name="Longbow" hidden="false" targetId="e2e2-432d-3c5e-965c" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cbe3-a564-3af7-b8a6" name="Crossbow" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="b88a-b533-2669-5266" name="Crossbow" hidden="false" targetId="ee48-3c6d-6764-eb15" type="profile"/>
         <infoLink id="6d2d-00fd-409f-116e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6a33-04fa-ecda-4037" name="Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -284,6 +398,9 @@
         <infoLink id="ae68-129d-8ef8-cc1b" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="50ed-abac-2381-9b2b" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5b86-67cc-f40b-5607" name="Bolt Thrower" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -291,6 +408,9 @@
         <infoLink id="feb3-6c70-5310-c2a2" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="e0b5-82ae-be54-8575" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="92ca-2be6-624f-484f" name="Stone Thrower" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -299,39 +419,60 @@
         <infoLink id="85e7-346a-6ca0-44bc" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
         <infoLink id="a13b-9bd8-44ba-e724" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b2d2-cfaf-8ce6-6198" name="Wizard(1)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="83d6-187a-b558-6819" name="Wizard(1)" hidden="false" targetId="0e95-2be7-c5cb-ef32" type="profile"/>
         <infoLink id="ec31-9b34-e7df-3490" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3fd8-1309-fe4e-3b6e" name="Wizard(2)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3df3-0793-e55f-1759" name="Wizard(2)" hidden="false" targetId="a7d8-7a35-cd06-0231" type="profile"/>
         <infoLink id="8dfd-f149-6589-93c3" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5b94-0e56-00d3-1804" name="Wizard(3)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="a3e7-5a89-c0fa-606c" name="Wizard(3)" hidden="false" targetId="cb17-fbfa-24f6-af25" type="profile"/>
         <infoLink id="fddf-d4b8-2e11-2964" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3cc3-f100-14b2-b35b" name="Sergeant" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e5cc-fee7-eb28-f672" name="Sergeant" hidden="false" targetId="58f7-c42b-1b9a-0fe4" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f0ab-367a-82e4-7a85" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6b7b-8839-e897-b92a" name="Musician" hidden="false" targetId="2566-b4e3-d247-1089" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="284a-5077-0751-f8e9" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="92b6-4f39-e4d8-3ce0" name="Standard Bearer" hidden="false" targetId="19da-5c1b-a387-ca43" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -456,13 +597,16 @@ When rolling morale tests units may use the hero’s Quality value and when roll
     <rule id="2c1d-c23a-cb5d-cb83" name="Immobile" publicationId="d755-5d69-pubN65537" hidden="false">
       <description>Units with this special rule may never move regardless of which action they take and they can’t take Charge actions.</description>
     </rule>
-    <rule id="3e72-2796-edff-896b" name="Fire Breath" hidden="false">
+    <rule id="3e72-2796-edff-896b" name="Fire Breath" publicationId="d755-5d69-pubN65537" hidden="false">
       <description>Once per round, models with this special rule may either deal 3 automatic hits with AP(1) when fighting in melee, or to one enemy unit within 12&quot; when shooting.</description>
     </rule>
-    <rule id="4c1e-89c9-499f-9ab9" name="Phalanx" hidden="false">
+    <rule id="4c1e-89c9-499f-9ab9" name="Phalanx" publicationId="d755-5d69-pubN65537" hidden="false">
       <description>Whenever an enemy unit charges a uit with this special rule, that unit must take a Dangerous Terrain test before attacking.
 
 Note that the charging unit must only roll up to as many dice as models with the Phalanx rule in the target unit.</description>
+    </rule>
+    <rule id="92bc-0fe3-fc76-788f" name="Artillery" publicationId="d755-5d69-pubN65537" hidden="false">
+      <description>Models with this special rule count as having Defense 2+ against all shooting attacks.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
