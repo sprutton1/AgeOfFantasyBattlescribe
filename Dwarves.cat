@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="040f-53de-2e2d-7666" name="Dwarves" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="203a-872c-5637-fe03" name="Dwarves v2.7"/>
+  </publications>
+  <entryLinks>
+    <entryLink id="dcf7-55b6-400e-9bae" name="Dwarf Lord" hidden="false" collective="false" import="true" targetId="9965-47d5-cea5-73af" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4276-8de7-acd4-4ec6" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="9965-47d5-cea5-73af" name="Dwarf Lord" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a7eb-c711-65d1-71ed" name="Dwarf Lord" hidden="false" targetId="8849-e90c-50ee-0161" type="profile"/>
+        <infoLink id="2de0-52ae-e4f4-f083" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="f371-5fdf-af3a-ed02" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="9074-bfbc-a10a-2b82" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="c8a8-cf64-f36e-3101" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0e4d-db08-9dcb-1f40" name="Mount Options" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dce-6ad0-e52a-1b21" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d0d5-b01b-b5c6-b138" name="Shield Carriers" hidden="false" collective="false" import="true" targetId="f48d-039a-01e6-52a0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccb0-9f07-227e-931d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1f68-8493-6bad-b008" name="Ancestral Stone" hidden="false" collective="false" import="true" targetId="4ee4-4eee-65e1-d0d2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2583-7848-c69d-2d40" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1acf-540b-9c29-a597" name="Beast" hidden="false" collective="false" import="true" targetId="0e71-2219-453d-f26f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f808-7780-a76e-59e6" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e8e5-04c3-8634-6b73" name="Great War-Bear" hidden="false" collective="false" import="true" targetId="d2fe-97d1-c97c-8a10" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f65-7510-1004-4306" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="120.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a38d-26e9-acc8-71fc" name="Weapons - Heroes - Melee" hidden="false" collective="false" import="true" targetId="53f8-9f06-8e13-809b" type="selectionEntryGroup"/>
+        <entryLink id="b284-8aa8-d946-632b" name="Weapons - Heroes - Ranged" hidden="false" collective="false" import="true" targetId="f788-e729-5176-d362" type="selectionEntryGroup"/>
+        <entryLink id="03ac-0faa-5fd8-2557" name="Grudge" hidden="false" collective="false" import="true" targetId="6501-2566-3e31-7114" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4bc-de27-560a-e618" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6501-2566-3e31-7114" name="Grudge" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0940-ccf4-c8a6-b38d" name="Grudge" hidden="false" targetId="5a3e-ac68-ac35-cda8" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="f48d-039a-01e6-52a0" name="Shield Carriers" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a696-b445-e5cc-94d1" name="Shield Carriers" hidden="false" targetId="0086-5a32-b2a9-4b06" type="profile"/>
+        <infoLink id="9a85-6359-ce85-3740" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="4ee4-4eee-65e1-d0d2" name="Ancestral Stone" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="70c3-9d17-6e01-11c8" name="Ancestral Stone" hidden="false" targetId="5b78-0947-b3a5-ec9a" type="profile"/>
+        <infoLink id="7d43-f470-861d-79b7" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="d2fe-97d1-c97c-8a10" name="Great War-Bear" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="54c4-fab3-82ef-0f05" name="Great War Bear" hidden="false" targetId="6d8d-429f-3f6b-c487" type="profile"/>
+        <infoLink id="ab35-f7b9-b544-f318" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="8f02-566e-de86-275f" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="051a-51e6-2024-6e39" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="dc96-b106-27f4-17b7" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="8ed9-5ac1-837d-22a6" name="Swift" hidden="false" targetId="55ef-d64b-61c9-1770" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="0e71-2219-453d-f26f" name="Beast" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d318-7bdc-d242-9399" name="Beast" hidden="false" targetId="7335-f764-d6a8-31a1" type="profile"/>
+        <infoLink id="e295-8faf-8014-14db" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="7576-9476-ea46-6349" name="Swift" hidden="false" targetId="55ef-d64b-61c9-1770" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="53f8-9f06-8e13-809b" name="Weapons - Heroes - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="1fc2-2709-3dfe-c7eb">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cde5-6955-57c0-2487" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bc2-baf9-c170-45ea" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="eccd-2e38-cbee-c3b6" name="2x Hand Weapons (A3)" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="bd41-a992-5de9-0af6" name="Hand Weapon (A3)" hidden="false" targetId="f7ac-ec82-eef1-ae36" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="1fc2-2709-3dfe-c7eb" name="Hand Weapon (A3)" hidden="false" collective="false" import="true" targetId="df9b-db26-3a90-d447" type="selectionEntry"/>
+        <entryLink id="6e9f-0447-7c83-b31a" name="Halberd (A3)" hidden="false" collective="false" import="true" targetId="1e72-2624-86e9-0ee0" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="d965-98d9-7f65-a580" name="Great Weapon (A3)" hidden="false" collective="false" import="true" targetId="89f5-3b8b-10f5-e093" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="fbcc-48b8-6c13-9f49" name="Spear (A3)" hidden="false" collective="false" import="true" targetId="35fe-a77c-b5e7-7610" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f788-e729-5176-d362" name="Weapons - Heroes - Ranged" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ba3-7e50-a491-d194" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="ebe1-bb1e-5f4f-36ab" name="2x Pistols" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="250b-4541-ffcf-a6e6" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3a8e-4594-6727-8bb7" name="Pistol" hidden="false" targetId="a930-6b82-f5f8-e216" type="profile"/>
+            <infoLink id="7907-c240-4e86-57b0" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="e580-bbad-248d-e8e2" name="Pistol" hidden="false" collective="false" import="true" targetId="c14d-740c-cb3f-88af" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67b4-37b5-f9d9-803e" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="b105-79ee-b10f-0eb4" name="Rifle" hidden="false" collective="false" import="true" targetId="9d2a-d0f5-1183-1fe0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7a4-f07c-bfec-a48c" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="839c-1b3f-02db-d8b7" name="Crossbow" hidden="false" collective="false" import="true" targetId="cbe3-a564-3af7-b8a6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7db8-abd8-2efd-7674" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="55ef-d64b-61c9-1770" name="Swift" hidden="false">
+      <description>The hero may ignore the Slow rule.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="8849-e90c-50ee-0161" name="Dwarf Lord" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Hero, Slow, Tough(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5a3e-ac68-ac35-cda8" name="Grudge" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">The hero and his unit get +1 to their rolls when fighting in melee.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5b78-0947-b3a5-ec9a" name="Ancestral Stone" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Tough(+3)	</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0086-5a32-b2a9-4b06" name="Shield Carriers" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Tough(+3)
+Weapon: Hand Weapons(A4)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6d8d-429f-3f6b-c487" name="Great War-Bear" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fear, Impact(3), Swift, Tough(+3)
+Weapon: Claws(A3, AP(1))</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7335-f764-d6a8-31a1" name="Beast" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Impact(1), Swift
+Weapon: Claws(A1)</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

@@ -318,7 +318,52 @@
         <infoLink id="fddf-d4b8-2e11-2964" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry id="3cc3-f100-14b2-b35b" name="Sergeant" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e5cc-fee7-eb28-f672" name="Sergeant" hidden="false" targetId="58f7-c42b-1b9a-0fe4" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="f0ab-367a-82e4-7a85" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6b7b-8839-e897-b92a" name="Musician" hidden="false" targetId="2566-b4e3-d247-1089" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="284a-5077-0751-f8e9" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="92b6-4f39-e4d8-3ce0" name="Standard Bearer" hidden="false" targetId="19da-5c1b-a387-ca43" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="9ef2-ae67-0a46-a60a" name="Command Group" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="3d13-5346-1842-f333" name="Sergeant" hidden="false" collective="false" import="true" targetId="3cc3-f100-14b2-b35b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b18-850b-a1d9-3dee" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="56df-b627-ae45-6203" name="Musician" hidden="false" collective="false" import="true" targetId="f0ab-367a-82e4-7a85" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0d0-2080-53f2-ad2e" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="ad29-52ec-54cf-6bbd" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="284a-5077-0751-f8e9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d641-b7ad-4952-aed3" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="859e-e070-e91c-26e1" name="Ambush" publicationId="d755-5d69-pubN65537" hidden="false">
       <description>You may choose not to deploy a model with this special rule with your army but instead keep it off the table in reserve.
@@ -410,12 +455,6 @@ When rolling morale tests units may use the hero’s Quality value and when roll
     </rule>
     <rule id="2c1d-c23a-cb5d-cb83" name="Immobile" publicationId="d755-5d69-pubN65537" hidden="false">
       <description>Units with this special rule may never move regardless of which action they take and they can’t take Charge actions.</description>
-    </rule>
-    <rule id="ad34-473a-41f3-57e1" name="Command Group - Sergeant" hidden="false">
-      <description>One model in the unit gets +1 to hit when shooting or in melee (pick one before the game begins.)</description>
-    </rule>
-    <rule id="a478-5bf5-9761-c6ee" name="Command Group - Musician/Standard Bearer" hidden="false">
-      <description>Always counts as having dealt +1 wound for seeing who won melee.</description>
     </rule>
     <rule id="3e72-2796-edff-896b" name="Fire Breath" hidden="false">
       <description>Once per round, models with this special rule may either deal 3 automatic hits with AP(1) when fighting in melee, or to one enemy unit within 12&quot; when shooting.</description>
@@ -607,6 +646,21 @@ Note that the charging unit must only roll up to as many dice as models with the
     <profile id="cb17-fbfa-24f6-af25" name="Wizard(3)" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Wizard(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="58f7-c42b-1b9a-0fe4" name="Sergeant" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">One model in the unit gets +1 to hit when shooting or in melee (pick one before the game begins.)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2566-b4e3-d247-1089" name="Musician" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Always counts as having dealt +1 wound for seeing who won melee.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="19da-5c1b-a387-ca43" name="Standard Bearer" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Always counts as having dealt +1 wound for seeing who won melee.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
