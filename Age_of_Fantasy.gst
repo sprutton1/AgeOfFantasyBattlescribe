@@ -474,6 +474,46 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c27c-a967-632d-29d5" name="Harpoon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ba67-ff4b-fdcd-7204" name="Harpoon" hidden="false" targetId="350e-f8eb-3154-cf1f" type="profile"/>
+        <infoLink id="31d6-11cb-e068-3652" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="8ddf-8913-fd9c-ce82" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3864-81be-1759-179c" name="2x Hand Weapons (A1)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1e6d-3b1c-5b9c-3556" name="Hand Weapon (A1)" hidden="false" targetId="cc05-7b8d-015b-defa" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="b14b-84f8-6e4e-cc3f" name="2x Hand Weapons (A1)" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4649-c5a0-3f42-c652" name="Hand Weapon (A1)" hidden="false" targetId="cc05-7b8d-015b-defa" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="80e1-3dbf-adf4-58e1" name="2x Hand Weapons (A2)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ec5a-e7a7-d60e-b05b" name="Hand Weapon (A2)" hidden="false" targetId="eb3f-0eed-5e25-6ff1" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="05e0-6646-94ae-c000" name="2x Hand Weapons (A2)" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e893-d3f2-32fd-8251" name="Hand Weapon (A2)" hidden="false" targetId="eb3f-0eed-5e25-6ff1" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="8eb1-4655-31d4-2e5c" name="2x Hand Weapons (A3)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8eb0-f830-9fcb-f38b" name="Hand Weapon (A3)" hidden="false" targetId="f7ac-ec82-eef1-ae36" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="1ae4-082c-1398-60a1" name="2x Hand Weapons (A3)" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f47c-ff27-400b-1642" name="Hand Weapon (A3)" hidden="false" targetId="f7ac-ec82-eef1-ae36" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9ef2-ae67-0a46-a60a" name="Command Group" hidden="false" collective="false" import="true">
@@ -805,6 +845,12 @@ Note that the charging unit must only roll up to as many dice as models with the
     <profile id="19da-5c1b-a387-ca43" name="Standard Bearer" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Always counts as having dealt +1 wound for seeing who won melee.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="350e-f8eb-3154-cf1f" name="Harpoon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Deadly(3)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
