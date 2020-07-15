@@ -59,6 +59,11 @@
         <categoryLink id="46de-6f86-3cf1-d85e" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="904e-4978-401b-fc62" name="Dwarf Centaurs" hidden="false" collective="false" import="true" targetId="920f-3a18-b5f2-f071" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cb6f-e339-1a1b-be82" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3d4f-7c8a-5b9e-a2c1" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -675,6 +680,65 @@
         <entryLink id="915c-f210-3310-eefa" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="920f-3a18-b5f2-f071" name="Dwarf Centaurs" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4101-b2d7-c2c8-55cf" name="Dwarf Centaur" hidden="false" targetId="e1fd-eb91-68ee-9c7b" type="profile"/>
+        <infoLink id="f6bd-ee86-89ce-0791" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="9b2c-2a7a-c1d2-8d8d" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2aeb-0b4b-e53c-2e25" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="7a76-dbb2-5817-6a54">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0089-85c2-6232-067d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6735-9895-9f30-ab58" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7a76-dbb2-5817-6a54" name="Single Unit [5 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="0a8f-9501-fb5c-cee5" name="Dwarf Centaur" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b2f-5e16-2c44-81ec" type="min"/>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91dd-85f4-17cd-5aff" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="97d0-4412-746a-0098" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="4235-a513-5a6e-d5bb" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af80-c289-8bc6-8e41" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dc8-ab44-aeaa-c5bc" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="135.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="90d5-a2c4-b128-8863" name="Combined Unit [10 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="80e0-49a5-2dbd-00fa" name="Dwarf Centaur" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5003-87f9-1c1f-a1a1" type="min"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f354-09db-f179-168f" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="48ae-a68f-d6eb-9226" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="4235-a513-5a6e-d5bb" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ae-92a4-3dc1-7abf" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8655-947b-11e1-f3e2" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="270.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ac88-1958-6d6e-ed48" name="Weapons - Hero - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a40-5595-0803-3708">
@@ -885,6 +949,13 @@ Weapons: Claws (A6, AP(2))</characteristic>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e1fd-eb91-68ee-9c7b" name="Dwarf Centaur" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Impact(1), Regeneration</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
