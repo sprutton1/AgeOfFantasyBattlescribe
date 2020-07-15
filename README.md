@@ -20,7 +20,7 @@ then refresh the data.
 
 The index is hosted at:
 
-~~ TBD ~~
+https://age-of-fantasy.s3.amazonaws.com/index.bsi
 
 ## Instructions
 
@@ -61,32 +61,32 @@ table!
 | Army | Version | Progress |
 |---|---|---|
 |Game System|v2.10|Done|
-|Beastmen|xyz|NOT STARTED|
-|Chivalrous Kingdoms|xyz|NOT STARTED|
-|Dark Elves|xyz|NOT STARTED|
-|Deap-Sea Elves|xyz|NOT STARTED|
-|Dwarves|xyz|NOT STARTED|
-|Eternal Wardens|xyz|NOT STARTED|
-|Ghostly Undead|xyz|NOT STARTED|
-|Goblins|xyz|NOT STARTED|
-|Halflings|xyz|NOT STARTED|
-|Havoc Dwarves|xyz|NOT STARTED|
-|Havoc Warriors|xyz|NOT STARTED|
-|High Elves|xyz|NOT STARTED|
-|Humans|xyz|NOT STARTED|
-|Kingdom of Angels|xyz|NOT STARTED|
-|Mummified Undead|xyz|NOT STARTED|
-|Ogres|xyz|NOT STARTED|
-|Orcs|xyz|NOT STARTED|
-|Ossified Undead|xyz|NOT STARTED|
-|Ratmen|xyz|NOT STARTED|
-|Rift Daemons|xyz|NOT STARTED|
-|Saurians|xyz|NOT STARTED|
-|Shadow Stalkers|xyz|NOT STARTED|
-|Sky-City Dwarves|xyz|NOT STARTED|
-|Vampiric Undead|xyz|NOT STARTED|
-|Volcanic Dwarves|xyz|NOT STARTED|
-|Wood Elves|xyz|NOT STARTED|
+|Beastmen|-|NOT STARTED|
+|Chivalrous Kingdoms|-|NOT STARTED|
+|Dark Elves|-|NOT STARTED|
+|Deap-Sea Elves|-|NOT STARTED|
+|Dwarves|v2.7|Done|
+|Eternal Wardens|-|NOT STARTED|
+|Ghostly Undead|-|NOT STARTED|
+|Goblins|-|NOT STARTED|
+|Halflings|-|NOT STARTED|
+|Havoc Dwarves|-|NOT STARTED|
+|Havoc Warriors|-|NOT STARTED|
+|High Elves|-|NOT STARTED|
+|Humans|-|NOT STARTED|
+|Kingdom of Angels|-|NOT STARTED|
+|Mummified Undead|-|NOT STARTED|
+|Ogres|-|NOT STARTED|
+|Orcs|-|NOT STARTED|
+|Ossified Undead|-|NOT STARTED|
+|Ratmen|-|NOT STARTED|
+|Rift Daemons|-|NOT STARTED|
+|Saurians|-|NOT STARTED|
+|Shadow Stalkers|-|NOT STARTED|
+|Sky-City Dwarves|-|NOT STARTED|
+|Vampiric Undead|-|NOT STARTED|
+|Volcanic Dwarves|-|NOT STARTED|
+|Wood Elves|-|NOT STARTED|
 
 ## Reporting an issue
 
