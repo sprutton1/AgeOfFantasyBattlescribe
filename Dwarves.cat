@@ -34,6 +34,11 @@
         <categoryLink id="debd-c68e-4d95-6038" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="2f27-164f-ff34-a00f" name="Miners" hidden="false" collective="false" import="true" targetId="81b8-95d4-bd1f-9276" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ed98-4125-d3a7-eed3" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9965-47d5-cea5-73af" name="Dwarf Lord" hidden="false" collective="false" import="true" type="upgrade">
@@ -480,6 +485,9 @@
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -509,6 +517,9 @@
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -521,6 +532,9 @@
       <entryLinks>
         <entryLink id="d975-afc2-dba9-4dd0" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b659-30af-8b12-9ae6" name="2x Berserker Axes" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
@@ -530,6 +544,170 @@
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="81b8-95d4-bd1f-9276" name="Miners" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="bca0-9a4c-4885-2b7f" name="Miner" hidden="false" targetId="a1a2-b50c-5451-5f06" type="profile"/>
+        <infoLink id="0679-6f18-be6f-2345" name="Ambush" hidden="false" targetId="859e-e070-e91c-26e1" type="rule"/>
+        <infoLink id="99ce-8285-3fd7-de24" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7ae4-c7ce-49fc-f484" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="44a6-0774-834f-1b21">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="642f-61d9-268f-a4c7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92fa-1044-6c3b-4063" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="44a6-0774-834f-1b21" name="Single Unit [10 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="f917-8d13-20ad-3b0d" name="Upgrade any model with:" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="66bc-bda5-c379-f1fe" name="Shrapnel Bombs" hidden="false" collective="false" import="true" targetId="6837-3534-96cd-e870" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86f7-c9b9-b0a5-bcb5" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="fb5b-f0d6-4281-aad5" name="Miners" hidden="false" collective="false" import="true" defaultSelectionEntryId="7f13-680e-724d-4a89">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d22-6484-fc15-4168" type="min"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff3d-1087-d4d2-235f" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="7f13-680e-724d-4a89" name="Miner" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65b5-2992-d4b6-d1c8" type="min"/>
+                        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3890-7b09-cf71-485d" type="max"/>
+                      </constraints>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="4dc0-ccdc-c538-4e60" name="Weapon Options" hidden="false" collective="false" import="true">
+                          <entryLinks>
+                            <entryLink id="8de7-aee0-9418-8c9b" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="4235-a513-5a6e-d5bb" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9981-f938-b2e7-7820" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17a1-759f-1554-3ba1" type="max"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                    </selectionEntry>
+                    <selectionEntry id="7611-e943-6e14-6ac5" name="Miner Champion" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13b3-6527-9ed6-0eed" type="max"/>
+                      </constraints>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="bfe3-86ed-615b-2938" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="383f-015c-254a-d6e1">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04f3-ca0d-3e32-cdce" type="min"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1113-c4e0-655f-0610" type="max"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink id="383f-015c-254a-d6e1" name="Mining Drill" hidden="false" collective="false" import="true" targetId="d53e-343c-3015-3678" type="selectionEntry">
+                              <costs>
+                                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+                              </costs>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="150.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="465a-ddf7-7ded-0400" name="Combined Unit [20 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="234a-b452-2392-6a1f" name="Upgrade any model with:" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="6bd8-bec8-38c7-a8c3" name="Shrapnel Bombs" hidden="false" collective="false" import="true" targetId="6837-3534-96cd-e870" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b062-0859-fa87-1b1f" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="4aa9-3f0d-db66-ea8d" name="Miners" hidden="false" collective="false" import="true" defaultSelectionEntryId="76ed-3cb4-5944-ad03">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cce-d3f1-042b-2046" type="min"/>
+                    <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2b2-d5c1-2595-e476" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="76ed-3cb4-5944-ad03" name="Miner" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f214-0906-d9ee-4ca0" type="min"/>
+                        <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae8e-9a03-15c3-5e47" type="max"/>
+                      </constraints>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="a7fc-2a7e-8759-46a7" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="a25d-f84b-ea4c-cc7d">
+                          <entryLinks>
+                            <entryLink id="a25d-f84b-ea4c-cc7d" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="4235-a513-5a6e-d5bb" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9602-7896-ae6f-366e" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8131-3102-f840-9144" type="max"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                    </selectionEntry>
+                    <selectionEntry id="1280-97ec-5458-a035" name="Miner Champion" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe3a-5aa9-6769-6b0f" type="max"/>
+                      </constraints>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="6196-da28-09b5-0f2b" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="24ad-4e51-71d5-c0ec">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e6f-ba4e-2d98-98e6" type="min"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45bb-51fc-c9b9-2fe9" type="max"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink id="24ad-4e51-71d5-c0ec" name="Mining Drill" hidden="false" collective="false" import="true" targetId="d53e-343c-3015-3678" type="selectionEntry">
+                              <costs>
+                                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+                              </costs>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="300.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3c95-4197-7026-35f9" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="d53e-343c-3015-3678" name="Mining Drill" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7890-69e7-2943-20b2" name="Mining Drill" hidden="false" targetId="4367-4ac7-d660-1cfa" type="profile"/>
+        <infoLink id="9160-e230-0940-3fc7" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="2ba4-7e87-66f6-b557" name="Drill" hidden="false" targetId="4768-c715-123c-0ace" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="6837-3534-96cd-e870" name="Shrapnel Bombs" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2901-f8a4-9498-366f" name="Shrapnel Bombs" hidden="false" targetId="577a-2751-bdc4-2964" type="profile"/>
+        <infoLink id="b894-1c70-70bd-0c76" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="1c1a-5d48-a381-ffd9" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -619,6 +797,9 @@
     </rule>
     <rule id="294b-f03a-1de8-d541" name="Slayer" publicationId="203a-872c-5637-fe03" hidden="false">
       <description>This model gets AP(+2) when fighting units with Tough(3) or higher.</description>
+    </rule>
+    <rule id="4768-c715-123c-0ace" name="Drill" publicationId="203a-872c-5637-fe03" hidden="false">
+      <description>The unit may be deployed from Ambush at up to 3&quot; from enemy units.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -743,6 +924,26 @@ Weapon: Claws(A1)</characteristic>
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a1a2-b50c-5451-5f06" name="Miner" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ambush, Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4367-4ac7-d660-1cfa" name="Mining Drill" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(3), Drill</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="577a-2751-bdc4-2964" name="Shrapnel Bombs" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">6&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1), Blast(3)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
