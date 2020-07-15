@@ -74,6 +74,11 @@
         <categoryLink id="647b-b2f7-c136-db9a" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="f884-ad59-461a-aa0e" name="Drake Marksmen" hidden="false" collective="false" import="true" targetId="0fa9-696b-ba3a-baba" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="30da-8dd7-3fcf-3388" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9965-47d5-cea5-73af" name="Dwarf Lord" hidden="false" collective="false" import="true" type="upgrade">
@@ -1246,7 +1251,7 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3d46-5a46-ba16-27c5" name="2x Fire Pistols" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3d46-5a46-ba16-27c5" name="2x Fire Pistols" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3fda-7ab6-6b8a-b1a6" name="Fire Pistol" hidden="false" targetId="731d-faed-078b-eb69" type="profile"/>
         <infoLink id="77d1-dd78-da71-0679" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
@@ -1984,6 +1989,294 @@
         <entryLink id="4cd9-11be-cb89-6f62" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="531a-6843-004d-bd52" name="Fire Rifle" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5e82-572c-c812-1674" name="Fire Rifle" hidden="false" targetId="3294-6f0a-c4c4-753a" type="profile"/>
+        <infoLink id="06a9-707d-43d3-d09d" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="647b-8524-0b4f-0b4f" name="Torpedo Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ae9a-4af8-35f2-a221" name="Torpedo Rifle" hidden="false" targetId="3fc7-ea1f-be71-0922" type="profile"/>
+        <infoLink id="4197-fb8d-6d6f-d432" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="35c7-3eeb-9d6e-bf26" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="0fa9-696b-ba3a-baba" name="Drake Marksmen" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="06f8-2bb4-880f-a3a8" name="Drake Marksman" hidden="false" targetId="6533-8e2b-d9ae-6002" type="profile"/>
+        <infoLink id="404f-84f1-e434-f8a2" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="3881-c420-3515-ee49" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9374-07e1-28ad-44a5" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a719-a467-8a6e-8bab">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c65-94da-b4f9-34bc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c025-14ad-432f-2542" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a719-a467-8a6e-8bab" name="Single Unit [5 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="acd5-728a-940f-9897" name="Drake Marksmen" hidden="false" collective="false" import="true" defaultSelectionEntryId="d879-4617-a31b-224e">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25b2-2deb-a200-abc2" type="min"/>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36b6-113f-e5cf-aec5" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="d879-4617-a31b-224e" name="Drake Marksmen" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66ce-42cf-1c7e-d22f" type="min"/>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddb3-df0c-ae84-a69f" type="max"/>
+                      </constraints>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="307f-72c3-9c2a-4547" name="Weapons" hidden="false" collective="false" import="true">
+                          <entryLinks>
+                            <entryLink id="8d55-0484-3183-14b0" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="18e9-22bb-b469-e565" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8d1-3cb4-c469-1036" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a30-87af-96d1-a7a7" type="max"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink id="7028-bfe9-a816-bf75" name="Fire Rifle" hidden="false" collective="false" import="true" targetId="531a-6843-004d-bd52" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ac4-f6e1-7f10-5129" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e97-9b3d-40ce-a085" type="max"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                    </selectionEntry>
+                    <selectionEntry id="38bb-4703-ad56-fc0f" name="Drake Marksmen (Upgrade J)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c760-8ef0-94bc-c904" type="max"/>
+                      </constraints>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="0775-5a2e-7199-649e" name="Weapons" hidden="false" collective="false" import="true">
+                          <entryLinks>
+                            <entryLink id="7c31-315d-5cf0-178a" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="e5cd-e60e-53a9-7ce4" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e90a-65ae-9462-b78f" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ed9-9442-e9a8-e55b" type="max"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink id="3108-54ca-ff65-bcd2" name="Fire Rifle" hidden="false" collective="false" import="true" targetId="0e69-f035-0876-50e2" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="decf-084f-1aee-94ff" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64d3-7cc2-715a-105a" type="max"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink id="5ded-2dd2-3880-6511" name="Shrapnel Bombs" hidden="false" collective="false" import="true" targetId="6837-3534-96cd-e870" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc24-ad32-625b-5d3c" type="max"/>
+                              </constraints>
+                              <costs>
+                                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                              </costs>
+                            </entryLink>
+                            <entryLink id="30a9-51ac-fc04-5dc1" name="2x Fire Pistols" hidden="false" collective="false" import="true" targetId="f586-594d-7601-a9d7" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a9f-cb92-aa46-67c2" type="max"/>
+                              </constraints>
+                              <costs>
+                                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                              </costs>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                    </selectionEntry>
+                    <selectionEntry id="8923-91ce-9488-f337" name="Drake Marksmen (Upgrade N)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8562-a4bd-c8f5-4b27" type="max"/>
+                      </constraints>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="1807-6b01-8b3a-cc5a" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8ff4-a1c3-f043-23ff">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="560b-e469-7d6f-7bde" type="min"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de70-bf1f-0ef9-532f" type="max"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink id="8ff4-a1c3-f043-23ff" name="Fire Rifle" hidden="false" collective="false" import="true" targetId="0e69-f035-0876-50e2" type="selectionEntry"/>
+                            <entryLink id="0c38-8bb6-6477-c49b" name="2x Fire Pistols" hidden="false" collective="false" import="true" targetId="f586-594d-7601-a9d7" type="selectionEntry">
+                              <costs>
+                                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                              </costs>
+                            </entryLink>
+                            <entryLink id="3ce4-14d6-1faa-3e22" name="Torpedo Rifle" hidden="false" collective="false" import="true" targetId="647b-8524-0b4f-0b4f" type="selectionEntry">
+                              <costs>
+                                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+                              </costs>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <entryLinks>
+                        <entryLink id="d8ff-e5e8-2dd2-10f9" name="Shrapnel Bombs" hidden="false" collective="false" import="true" targetId="6837-3534-96cd-e870" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="310c-12ae-5e7a-29f1" type="max"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink id="bde9-5279-738a-8d91" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="18e9-22bb-b469-e565" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cbb-bd24-dedb-424a" type="min"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09ce-4443-94ef-46da" type="max"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="120.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e4de-2980-2f14-a7c1" name="Combined Unit [10 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="00c7-4c6b-5035-0359" name="Drake Marksmen" hidden="false" collective="false" import="true" defaultSelectionEntryId="c96b-7d22-4459-f95b">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07ce-f9bd-55cd-6f86" type="min"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cac2-103d-f0ea-ee3b" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="c96b-7d22-4459-f95b" name="Drake Marksmen" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d632-319e-fc57-2813" type="min"/>
+                        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f06c-7ed5-4ed4-6c4d" type="max"/>
+                      </constraints>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="dfa8-5be3-526c-ce4c" name="Weapons" hidden="false" collective="false" import="true">
+                          <entryLinks>
+                            <entryLink id="3235-3c3e-d34f-0b4a" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="18e9-22bb-b469-e565" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5882-728f-097c-c21d" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a21-6ef0-efe9-5b01" type="max"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink id="ce36-a5b8-aa73-0da2" name="Fire Rifle" hidden="false" collective="false" import="true" targetId="531a-6843-004d-bd52" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac62-67e8-6d26-0ec8" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db04-260b-cc4a-45ea" type="max"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                    </selectionEntry>
+                    <selectionEntry id="2fe7-544c-aefd-f66e" name="Drake Marksmen (Upgrade J)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b81a-b0c4-4eec-90ff" type="max"/>
+                      </constraints>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="cdec-e613-9442-b336" name="Weapons" hidden="false" collective="false" import="true">
+                          <entryLinks>
+                            <entryLink id="c06d-3206-9ed7-0747" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="e5cd-e60e-53a9-7ce4" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6127-c527-a97e-ce63" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12e2-4a63-7c14-ffd2" type="max"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink id="61b6-5ff2-f964-e812" name="Fire Rifle" hidden="false" collective="false" import="true" targetId="0e69-f035-0876-50e2" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0979-9a98-b864-7755" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1632-ec6f-125c-194b" type="max"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink id="6a9b-56af-41bb-29fe" name="Shrapnel Bombs" hidden="false" collective="false" import="true" targetId="6837-3534-96cd-e870" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15a2-ad2d-8de4-5079" type="max"/>
+                              </constraints>
+                              <costs>
+                                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                              </costs>
+                            </entryLink>
+                            <entryLink id="10c3-c81e-9760-2858" name="2x Fire Pistols" hidden="false" collective="false" import="true" targetId="f586-594d-7601-a9d7" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1128-d7d1-83b7-63ce" type="max"/>
+                              </constraints>
+                              <costs>
+                                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                              </costs>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                    </selectionEntry>
+                    <selectionEntry id="441d-1494-7952-a7e4" name="Drake Marksmen (Upgrade N)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f97-cd0f-d800-d126" type="max"/>
+                      </constraints>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="28d0-d57d-3ac3-9039" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="0e78-ae85-363c-e1f7">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a05f-ac2f-410e-a778" type="min"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7414-ca84-a1ce-cdaa" type="max"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink id="0e78-ae85-363c-e1f7" name="Fire Rifle" hidden="false" collective="false" import="true" targetId="0e69-f035-0876-50e2" type="selectionEntry"/>
+                            <entryLink id="114c-3789-a7ba-c2dd" name="2x Fire Pistols" hidden="false" collective="false" import="true" targetId="f586-594d-7601-a9d7" type="selectionEntry">
+                              <costs>
+                                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                              </costs>
+                            </entryLink>
+                            <entryLink id="4730-2179-b712-9159" name="Torpedo Rifle" hidden="false" collective="false" import="true" targetId="647b-8524-0b4f-0b4f" type="selectionEntry">
+                              <costs>
+                                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+                              </costs>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <entryLinks>
+                        <entryLink id="7fb5-4cd7-be65-4ad1" name="Shrapnel Bombs" hidden="false" collective="false" import="true" targetId="6837-3534-96cd-e870" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc11-480c-fed6-8bf8" type="max"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink id="787b-4e95-78b2-9d32" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="18e9-22bb-b469-e565" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="823f-e6ea-c601-01b9" type="min"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc2b-0ec0-9519-0f05" type="max"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="240.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8f4c-4400-d0ff-6fb6" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="0e69-f035-0876-50e2" name="Fire Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="340c-91e7-719d-7e45" name="Fire Rifle" hidden="false" targetId="3294-6f0a-c4c4-753a" type="profile"/>
+        <infoLink id="0ab2-cda0-7b79-48ae" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="f586-594d-7601-a9d7" name="2x Fire Pistols" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3e29-6be3-90e0-a5b6" name="Fire Pistol" hidden="false" targetId="731d-faed-078b-eb69" type="profile"/>
+        <infoLink id="043b-36fd-d867-668f" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="53f8-9f06-8e13-809b" name="Weapons - Heroes - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="1fc2-2709-3dfe-c7eb">
@@ -2284,6 +2577,27 @@ Weapon: Claws(A1)</characteristic>
         <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6533-8e2b-d9ae-6002" name="Drake Marksman" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3294-6f0a-c4c4-753a" name="Fire Rifle" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">18&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3fc7-ea1f-be71-0922" name="Torpedo Rifle" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">24&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(3), Deadly(3)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
