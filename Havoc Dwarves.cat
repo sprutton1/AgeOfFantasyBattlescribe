@@ -9,6 +9,11 @@
         <categoryLink id="f1ea-40c5-788a-d254" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="0ca8-2d02-c75c-fc5f" name="Slave Driver" hidden="false" collective="false" import="true" targetId="ba2b-fdeb-5bed-65c7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ec2c-16da-b692-f5d3" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3d4f-7c8a-5b9e-a2c1" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -69,6 +74,22 @@
         <infoLink id="ba4c-5e96-a279-eeec" name="Swift" hidden="false" targetId="c044-2060-9e32-f302" type="rule"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry id="ba2b-fdeb-5bed-65c7" name="Slave Driver" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3dde-3ac7-de8b-e9cc" name="Slave Driver" hidden="false" targetId="7d59-bebe-4ae0-ea08" type="profile"/>
+        <infoLink id="8fa4-e7f0-5485-2e59" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="b2d4-5268-dec6-5b2b" name="Sadist" hidden="false" targetId="01cb-8a0a-c857-7170" type="rule"/>
+        <infoLink id="d802-6ed4-0138-c48f" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="dc7a-696c-9c23-f67c" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="789d-c99f-634a-b489" name="Weapons - Hero - Melee" hidden="false" collective="false" import="true" targetId="ac88-1958-6d6e-ed48" type="selectionEntryGroup"/>
+        <entryLink id="9f0f-c2f6-675f-9436" name="Weapons - Hero - Ranged" hidden="false" collective="false" import="true" targetId="143f-c88e-c17a-5c92" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ac88-1958-6d6e-ed48" name="Weapons - Hero - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a40-5595-0803-3708">
@@ -127,6 +148,9 @@
     <rule id="c044-2060-9e32-f302" name="Swift" publicationId="0261-f45a-ceb9-a931" hidden="false">
       <description>The hero may ignore the Slow rule.</description>
     </rule>
+    <rule id="01cb-8a0a-c857-7170" name="Sadist" publicationId="0261-f45a-ceb9-a931" hidden="false">
+      <description>Whenever the hero&apos;s unit fails a morale test you must kill one of its models and the morale test counts as passed instead.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="6f3c-ceff-16f3-ed65" name="Abyssal King" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
@@ -152,6 +176,13 @@
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Defense +1, Fear, Flying, Swift, Tough(+6)
 Weapons: Claws (A6, AP(2))</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7d59-bebe-4ae0-ea08" name="Slave Driver" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Sadist, Slow, Tough(3)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
