@@ -49,6 +49,11 @@
         <categoryLink id="7c8d-dcf3-2938-e11f" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="255e-6c9c-d36e-db8f" name="Gargoyles" hidden="false" collective="false" import="true" targetId="0cb5-f70e-398c-bac1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c853-9971-2e01-2966" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3d4f-7c8a-5b9e-a2c1" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -504,6 +509,70 @@
         <entryLink id="78fd-4089-6628-bbe0" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="7853-3c44-3c1a-c81e" name="Claws" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2474-0920-cb3f-04ad" name="Claws" hidden="false" targetId="4a21-73ee-c19f-6cda" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="0cb5-f70e-398c-bac1" name="Gargoyles" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d2d2-fb22-4a6c-403e" name="Gargoyles" hidden="false" targetId="2e05-e67d-4ff8-df1b" type="profile"/>
+        <infoLink id="c8c8-e87f-7eaf-bbdc" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+        <infoLink id="5f38-97f3-bdbf-90f1" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f597-2caa-a764-2e5a" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="13ab-3422-0f22-300e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52da-55d8-25cc-5fe3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84b1-ed8e-136b-a11f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="13ab-3422-0f22-300e" name="Single Unit [10 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="704b-dc73-7091-6673" name="Gargoyle" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c81e-13ae-6142-2f6f" type="min"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66e8-05c8-7b82-d56a" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="bec1-2a67-a767-478a" name="Claws A2" hidden="false" collective="false" import="true" targetId="7853-3c44-3c1a-c81e" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c740-eb33-d83a-cf31" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b785-3016-824c-caab" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1548-bef8-4150-c35a" name="Combined Unit [20 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="94bd-8640-f448-50b3" name="Gargoyle" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d9e-32e5-33ad-f783" type="min"/>
+                    <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea2b-67f0-4366-3357" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="b0bc-8c62-aa5d-47e3" name="Claws A2" hidden="false" collective="false" import="true" targetId="7853-3c44-3c1a-c81e" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98ae-21a0-3f57-5f1f" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bb4-966b-7490-efb2" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="400.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ac88-1958-6d6e-ed48" name="Weapons - Hero - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a40-5595-0803-3708">
@@ -694,6 +763,19 @@ Weapons: Claws (A6, AP(2))</characteristic>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Regeneration, Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2e05-e67d-4ff8-df1b" name="Gargoyles" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Flying, Regeneration</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4a21-73ee-c19f-6cda" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
       </characteristics>
     </profile>
   </sharedProfiles>
