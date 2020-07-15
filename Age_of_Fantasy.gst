@@ -41,11 +41,10 @@
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="4b4e-fbe0-5211-ae65" name="Heroes" hidden="false"/>
-    <categoryEntry id="dfbf-5076-f148-2f58" name="Infantry: Light" hidden="false"/>
-    <categoryEntry id="d248-d52b-61c0-d4d9" name="Cavalry: Light" hidden="false"/>
-    <categoryEntry id="2ac9-aad6-b0c0-3833" name="Monster: Light" hidden="false"/>
+    <categoryEntry id="dfbf-5076-f148-2f58" name="Infantry" hidden="false"/>
+    <categoryEntry id="d248-d52b-61c0-d4d9" name="Cavalry" hidden="false"/>
+    <categoryEntry id="2ac9-aad6-b0c0-3833" name="Monsters" hidden="false"/>
     <categoryEntry id="a4d0-1721-c616-6775" name="Warmachines" hidden="false"/>
-    <categoryEntry id="c40a-e782-9c9c-ace7" name="Monster: Heavy" hidden="false"/>
     <categoryEntry id="a3a9-bf23-dca8-0fc3" name="Infantry: Heavy" hidden="false"/>
     <categoryEntry id="29ed-f715-6de9-9e1c" name="Cavalry: Heavy" hidden="false"/>
   </categoryEntries>
@@ -58,7 +57,6 @@
         <categoryLink id="5761-fe17-da08-7655" name="Cavalry" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="false"/>
         <categoryLink id="321d-b66d-2f40-8446" name="Cavalry: Heavy" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="false"/>
         <categoryLink id="4bb1-374c-f4e4-f4f9" name="Monster: Light" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="false"/>
-        <categoryLink id="781d-c323-9c4a-4817" name="Monster: Heavy" hidden="false" targetId="c40a-e782-9c9c-ace7" primary="false"/>
         <categoryLink id="ef4b-5148-9626-516a" name="Warmachines" hidden="false" targetId="a4d0-1721-c616-6775" primary="false"/>
       </categoryLinks>
     </forceEntry>
@@ -549,12 +547,18 @@
         <infoLink id="0f3e-a5ba-8f0d-a1cd" name="Pistol" hidden="false" targetId="a930-6b82-f5f8-e216" type="profile"/>
         <infoLink id="c1d8-f98a-5e7e-bfce" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0480-a61b-6e51-b3d3" name="2x Pistols" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="1433-d14a-8ed9-3837" name="Pistol" hidden="false" targetId="a930-6b82-f5f8-e216" type="profile"/>
         <infoLink id="da42-509e-034a-d817" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ccc6-84ca-1234-83ba" name="Crossbow" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
