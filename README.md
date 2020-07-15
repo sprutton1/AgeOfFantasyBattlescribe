@@ -1,6 +1,16 @@
-[![Build Status](https://travis-ci.com/sprutton1/AgeOfFantasyBattlescribe.svg?branch=master)](https://travis-ci.com/sprutton1/AgeOfFantasyBattlescribe)
+![CI](https://github.com/sprutton1/GrimdarkFutureBattlescribe/workflows/CI/badge.svg?branch=master)
 
-<!-- TOC -->autoauto- [Introduction](#introduction)auto- [How do I use these files?](#how-do-i-use-these-files)auto    - [Instructions](#instructions)auto- [How can I help?](#how-can-i-help)auto    - [Adding an army](#adding-an-army)auto        - [Guidelines](#guidelines)auto        - [What's Done](#whats-done)auto    - [Reporting an issue](#reporting-an-issue)auto- [Credits](#credits)autoauto<!-- /TOC -->
+<!-- TOC -->
+- [Introduction](#introduction) 
+- [How do I use these files?](#how-do-i-use-these-files)
+   - [Instructions](#instructions)
+- [How can I help?](#how-can-i-help)
+   - [Adding an army](#adding-an-army)
+      - [Guidelines](#guidelines)
+      - [What's Done](#whats-done)
+   - [Reporting an issue](#reporting-an-issue)
+- [Credits](#credits)
+<!-- /TOC -->
 
 # Introduction
 
@@ -54,7 +64,7 @@ table!
    Lists should use the entries from the game system file instead of entries in
    the army file itself in this case.
 
-4. When in doubt on how to format something, feel free to ask!
+4. When in doubt on how to format something, feel free to ask
 
 ### What's Done
 
