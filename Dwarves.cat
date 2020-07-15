@@ -54,6 +54,11 @@
         <categoryLink id="87ce-93ab-b7e5-b05a" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="61ae-b1d8-b955-f7d0" name="Golems" hidden="false" collective="false" import="true" targetId="b7e9-4833-5107-907e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3134-f5fe-703b-431e" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9965-47d5-cea5-73af" name="Dwarf Lord" hidden="false" collective="false" import="true" type="upgrade">
@@ -1213,6 +1218,77 @@
         <infoLink id="77d1-dd78-da71-0679" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry id="9f6d-c74d-f9f0-4cb9" name="Claws" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c7e2-e54a-86ee-44a0" name="Claws" hidden="false" targetId="ea2d-2000-27dc-d903" type="profile"/>
+        <infoLink id="4063-6fe2-3e1b-e248" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="b7e9-4833-5107-907e" name="Golems" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="98b3-95c9-ae6e-0bd4" name="Golem" hidden="false" targetId="f48e-5416-ff5d-c7c1" type="profile"/>
+        <infoLink id="f5fc-d11f-d05a-9e36" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="15b2-ed7f-0234-ede6" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6432-9496-0f25-2a83" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="58e4-4009-a738-e5be">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04f8-f2e0-ef91-7d7a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddbd-2916-f15a-0412" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="58e4-4009-a738-e5be" name="Single Unit [3 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="b3b1-ebc1-d10a-f23c" name="Golem" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c0e-3e86-eb6a-2157" type="min"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b51-06ea-7ce9-1d60" type="max"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="3748-3b45-f499-0250" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="04c2-f861-243f-b2d6">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbd4-f385-bd10-c23a" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24c5-d61f-5a3b-4457" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="04c2-f861-243f-b2d6" name="Claws" hidden="false" collective="false" import="true" targetId="9f6d-c74d-f9f0-4cb9" type="selectionEntry"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="130.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b235-5be4-afbb-6516" name="Combined Unit [6 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="f169-e442-c11b-0c2a" name="Golem" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82d5-b845-e691-e6ac" type="min"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2100-024c-781c-b373" type="max"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="d9c2-5305-cfde-50b1" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="65c6-e10e-e0f8-c8e4">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d669-1258-6c21-a2d4" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f419-5a42-4936-bc3b" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="65c6-e10e-e0f8-c8e4" name="Claws" hidden="false" collective="false" import="true" targetId="9f6d-c74d-f9f0-4cb9" type="selectionEntry"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="260.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="53f8-9f06-8e13-809b" name="Weapons - Heroes - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="1fc2-2709-3dfe-c7eb">
@@ -1476,6 +1552,19 @@ Weapon: Claws(A1)</characteristic>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">12&quot;</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">A1</characteristic>
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">AP(2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f48e-5416-ff5d-c7c1" name="Golem" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Slow, Tough(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ea2d-2000-27dc-d903" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
