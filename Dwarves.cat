@@ -94,6 +94,11 @@
         <categoryLink id="e391-5eed-033b-8ceb" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="7d05-dab4-bb86-1db9" name="Bomber Helicopter" hidden="false" collective="false" import="true" targetId="b6b3-d8ce-aaa4-838d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4fc4-01cf-5e4b-80b0" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9965-47d5-cea5-73af" name="Dwarf Lord" hidden="false" collective="false" import="true" type="upgrade">
@@ -2688,6 +2693,44 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="230.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="74d2-366f-5f22-fbce" name="Machinegun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fbb5-641d-b33b-716d" name="Machinegun" hidden="false" targetId="c2fb-5424-5f56-d06d" type="profile"/>
+        <infoLink id="c6f3-7e92-55fa-f444" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="a14d-3d82-1c01-cc63" name="Bombing Run" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b52f-45fa-6d21-071a" name="Bombing Run" hidden="false" targetId="3509-1bda-5a1e-0331" type="profile"/>
+        <infoLink id="1681-cefc-dc93-ba28" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="b6b3-d8ce-aaa4-838d" name="Bomber Helicopter" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8ac5-b0b9-a687-bbd7" name="Bomber Helicopter" hidden="false" targetId="e2cb-1e64-4e6c-64a2" type="profile"/>
+        <infoLink id="73f9-9a02-4193-11ab" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="07eb-65f7-f25f-d756" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="7322-70f1-68f0-74cc" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+        <infoLink id="3213-4ed0-3f46-2329" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="cb93-71d5-12ca-aaab" name="Bombing Run" hidden="false" collective="false" import="true" targetId="a14d-3d82-1c01-cc63" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf85-10aa-ce6b-1b02" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7522-eaf6-18f1-088e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="dc0f-e3bd-1e27-c65a" name="Machinegun" hidden="false" collective="false" import="true" targetId="74d2-366f-5f22-fbce" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a22-50fc-ec82-4797" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="440b-f113-e4c5-341c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="285.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="53f8-9f06-8e13-809b" name="Weapons - Heroes - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="1fc2-2709-3dfe-c7eb">
@@ -3066,6 +3109,25 @@ Weapon: Claws(A1)</characteristic>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Fearless, Flying, Tough(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c2fb-5424-5f56-d06d" name="Machinegun" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">24&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A4</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3509-1bda-5a1e-0331" name="Bombing Run" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Whenever this unit moves over enemies pick one of them and roll 3 dice, for each 2+ it takes 3 hits with AP(1).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e2cb-1e64-4e6c-64a2" name="Bomber Helicopter" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Bombing Run, Fast, Fearless, Flying, Tough(6)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
