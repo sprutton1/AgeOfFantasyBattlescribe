@@ -21,7 +21,7 @@ jobs:
       run: dotnet tool install wham --global
       
     - name: Build Index
-      run:  wham publish -a zip bsi -s . -o ./index --repo-name https://age-of-fantasy.s3.amazonaws.com/index.bsi -f index
+      run:  wham publish -a zip bsi -s . -o ./index -f index
   
     - name: Publish
       if: github.event_name == 'push' && github.ref == 'refs/heads/master'
