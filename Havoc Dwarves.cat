@@ -39,6 +39,11 @@
         <categoryLink id="76ba-2570-1bfd-1d80" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="5848-4422-1f96-6345" name="Berserkers" hidden="false" collective="false" import="true" targetId="0897-e750-4b25-1bef" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="502d-993b-51d4-9025" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3d4f-7c8a-5b9e-a2c1" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -339,6 +344,89 @@
         <entryLink id="2b49-6fdd-5fc8-e2c7" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="0897-e750-4b25-1bef" name="Berserkers" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a340-f7ad-6a54-0069" name="Berserker" hidden="false" targetId="6603-e3a1-21d7-18a7" type="profile"/>
+        <infoLink id="fdcd-08b2-a7bf-4441" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="6cf4-b763-13aa-8076" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="04f9-4652-c416-9f87" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="1ed9-7ffb-1d7f-bfb0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbc4-ffaa-202a-1cea" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cba-33a9-35e4-ee8a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1ed9-7ffb-1d7f-bfb0" name="Single Unit [10 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="a973-ac8b-16cf-510b" name="Berserker" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ee8-711a-f160-f123" type="min"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41f1-92ca-8f89-74c6" type="max"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="82ab-5d95-b05b-14e5" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="17da-645c-1db8-a10a">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="203a-e233-4b0a-688c" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6332-20f9-7259-f2fe" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="17da-645c-1db8-a10a" name="2x Hand Weapons (A1)" hidden="false" collective="false" import="true" targetId="b14b-84f8-6e4e-cc3f" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b687-35dd-2ac4-1a6d" type="max"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink id="ef7a-3527-2275-1623" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="4235-a513-5a6e-d5bb" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3790-862e-a468-57a5" type="max"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bfa8-d7e9-0dca-a0ea" name="Combined Unit [20 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="da28-346e-e37b-8ebe" name="Berserker" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8501-d497-7dd1-eb98" type="min"/>
+                    <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ad7-3fca-5a5f-c63e" type="max"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="c832-b36d-9b73-5624" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="f005-f2c4-1174-713d">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1a9-782d-9016-14cf" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a80-b4ea-782c-2b49" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="f005-f2c4-1174-713d" name="2x Hand Weapons (A1)" hidden="false" collective="false" import="true" targetId="b14b-84f8-6e4e-cc3f" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89cd-d329-316f-631a" type="max"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink id="7989-1298-c87e-1995" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="4235-a513-5a6e-d5bb" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db45-70d0-0942-f97c" type="max"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ac88-1958-6d6e-ed48" name="Weapons - Hero - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a40-5595-0803-3708">
@@ -515,6 +603,13 @@ Weapons: Claws (A6, AP(2))</characteristic>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6603-e3a1-21d7-18a7" name="Berserker" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Furious, Slow</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
