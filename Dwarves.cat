@@ -44,6 +44,11 @@
         <categoryLink id="92d5-5bdf-4553-e95d" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="2bb3-94cb-21b7-24d1" name="Elites" hidden="false" collective="false" import="true" targetId="3fee-0c0c-821f-389b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5a19-cc43-3d7f-c6c1" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9965-47d5-cea5-73af" name="Dwarf Lord" hidden="false" collective="false" import="true" type="upgrade">
@@ -600,6 +605,9 @@
                           </entryLinks>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="7611-e943-6e14-6ac5" name="Miner Champion" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -620,6 +628,9 @@
                           </entryLinks>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
@@ -665,6 +676,9 @@
                           </entryLinks>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="1280-97ec-5458-a035" name="Miner Champion" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -685,6 +699,9 @@
                           </entryLinks>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
@@ -699,6 +716,9 @@
       <entryLinks>
         <entryLink id="3c95-4197-7026-35f9" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d53e-343c-3015-3678" name="Mining Drill" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
@@ -706,6 +726,9 @@
         <infoLink id="9160-e230-0940-3fc7" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="2ba4-7e87-66f6-b557" name="Drill" hidden="false" targetId="4768-c715-123c-0ace" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6837-3534-96cd-e870" name="Shrapnel Bombs" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -713,6 +736,9 @@
         <infoLink id="b894-1c70-70bd-0c76" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="1c1a-5d48-a381-ffd9" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7966-8079-cdfd-b478" name="Veterans" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -890,6 +916,74 @@
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="3fee-0c0c-821f-389b" name="Elites" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5eec-a2b6-10dd-b1f6" name="Elite" hidden="false" targetId="a810-e272-c035-57a1" type="profile"/>
+        <infoLink id="2531-40b9-7d25-ef82" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="0f3b-cfbe-bcdf-f753" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6a43-c984-5ba6-ca71" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="b9e1-4188-c116-7218">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8346-769c-830c-637c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da82-871d-45b1-d02a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b9e1-4188-c116-7218" name="Single Unit [10 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="e40d-8eff-c922-e6f9" name="Elite" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0625-8871-c172-193f" type="min"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a3d-23f1-faed-bcfb" type="max"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="653b-0d92-a3c1-4515" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="c2f9-a95b-7701-7625">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b972-4e81-7980-c158" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1233-46f4-7843-4b4f" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="c2f9-a95b-7701-7625" name="Great Weapon (A2)" hidden="false" collective="false" import="true" targetId="85fe-d500-b945-93ff" type="selectionEntry"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="240.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="99eb-3a2c-9700-a976" name="Combined Unit [20 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="7059-9cfb-4a7b-f800" name="Elite" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a048-188e-7b84-3627" type="min"/>
+                    <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3297-0575-9897-2908" type="max"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="29d9-40b1-6563-3a19" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="ec0f-9730-c48a-0cb0">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b938-1363-ddb7-4d01" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b857-4473-0b13-09bf" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="ec0f-9730-c48a-0cb0" name="Great Weapon (A2)" hidden="false" collective="false" import="true" targetId="85fe-d500-b945-93ff" type="selectionEntry"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="480.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c07f-4b53-6ac8-872c" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1129,6 +1223,13 @@ Weapon: Claws(A1)</characteristic>
       </characteristics>
     </profile>
     <profile id="0c03-4611-da8e-c89b" name="Veteran" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a810-e272-c035-57a1" name="Elite" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
       <characteristics>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>

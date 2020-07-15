@@ -41,21 +41,25 @@
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="4b4e-fbe0-5211-ae65" name="Heroes" hidden="false"/>
-    <categoryEntry id="dfbf-5076-f148-2f58" name="Infantry" hidden="false"/>
-    <categoryEntry id="d248-d52b-61c0-d4d9" name="Cavalry" hidden="false"/>
+    <categoryEntry id="dfbf-5076-f148-2f58" name="Infantry: Light" hidden="false"/>
+    <categoryEntry id="d248-d52b-61c0-d4d9" name="Cavalry: Light" hidden="false"/>
     <categoryEntry id="2ac9-aad6-b0c0-3833" name="Monster: Light" hidden="false"/>
     <categoryEntry id="a4d0-1721-c616-6775" name="Warmachines" hidden="false"/>
     <categoryEntry id="c40a-e782-9c9c-ace7" name="Monster: Heavy" hidden="false"/>
+    <categoryEntry id="a3a9-bf23-dca8-0fc3" name="Infantry: Heavy" hidden="false"/>
+    <categoryEntry id="29ed-f715-6de9-9e1c" name="Cavalry: Heavy" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="e1b6-6db4-e6e8-6188" name="Army" hidden="true">
       <categoryLinks>
-        <categoryLink id="5d28-c3b1-e41a-ddf0" name="Heroes" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="false"/>
-        <categoryLink id="3f25-8e55-c2d8-3363" name="Infantry" hidden="false" targetId="dfbf-5076-f148-2f58" primary="false"/>
-        <categoryLink id="97f4-c76b-ea28-da10" name="Monster: Light" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="false"/>
-        <categoryLink id="01f7-4b67-d9b6-5f83" name="Monster: Heavy" hidden="false" targetId="a4d0-1721-c616-6775" primary="false"/>
-        <categoryLink id="d974-5b2a-9e4f-73c9" name="Monster: Aircraft" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="false"/>
-        <categoryLink id="83b7-f556-c396-22d6" name="Monster: Super-Heavy" hidden="false" targetId="c40a-e782-9c9c-ace7" primary="false"/>
+        <categoryLink id="e3b7-bb9b-abec-4172" name="Heroes" page="" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="false"/>
+        <categoryLink id="1d7f-0e7f-31f4-529f" name="Infantry" hidden="false" targetId="dfbf-5076-f148-2f58" primary="false"/>
+        <categoryLink id="1a76-8dcd-50ef-68ae" name="Infantry: Heavy" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="false"/>
+        <categoryLink id="5761-fe17-da08-7655" name="Cavalry" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="false"/>
+        <categoryLink id="321d-b66d-2f40-8446" name="Cavalry: Heavy" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="false"/>
+        <categoryLink id="4bb1-374c-f4e4-f4f9" name="Monster: Light" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="false"/>
+        <categoryLink id="781d-c323-9c4a-4817" name="Monster: Heavy" hidden="false" targetId="c40a-e782-9c9c-ace7" primary="false"/>
+        <categoryLink id="ef4b-5148-9626-516a" name="Warmachines" hidden="false" targetId="a4d0-1721-c616-6775" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -488,30 +492,53 @@
       <infoLinks>
         <infoLink id="1e6d-3b1c-5b9c-3556" name="Hand Weapon (A1)" hidden="false" targetId="cc05-7b8d-015b-defa" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b14b-84f8-6e4e-cc3f" name="2x Hand Weapons (A1)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="4649-c5a0-3f42-c652" name="Hand Weapon (A1)" hidden="false" targetId="cc05-7b8d-015b-defa" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="80e1-3dbf-adf4-58e1" name="2x Hand Weapons (A2)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="ec5a-e7a7-d60e-b05b" name="Hand Weapon (A2)" hidden="false" targetId="eb3f-0eed-5e25-6ff1" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="05e0-6646-94ae-c000" name="2x Hand Weapons (A2)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e893-d3f2-32fd-8251" name="Hand Weapon (A2)" hidden="false" targetId="eb3f-0eed-5e25-6ff1" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8eb1-4655-31d4-2e5c" name="2x Hand Weapons (A3)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8eb0-f830-9fcb-f38b" name="Hand Weapon (A3)" hidden="false" targetId="f7ac-ec82-eef1-ae36" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1ae4-082c-1398-60a1" name="2x Hand Weapons (A3)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="f47c-ff27-400b-1642" name="Hand Weapon (A3)" hidden="false" targetId="f7ac-ec82-eef1-ae36" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="09ed-15ba-6121-e8eb" name="Crew" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="bffc-108b-2110-b241" name="Crew" hidden="false" targetId="357c-5a02-fa4f-c09c" type="profile"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -851,6 +878,12 @@ Note that the charging unit must only roll up to as many dice as models with the
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Deadly(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="357c-5a02-fa4f-c09c" name="Crew" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
       </characteristics>
     </profile>
   </sharedProfiles>
