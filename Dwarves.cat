@@ -84,6 +84,11 @@
         <categoryLink id="ff16-0f17-5e17-1934" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="d4e2-e9cc-08bf-991c" name="War-Bear Riders" hidden="false" collective="false" import="true" targetId="8158-889a-2b66-8bf8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6c08-6819-7a82-0ea9" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9965-47d5-cea5-73af" name="Dwarf Lord" hidden="false" collective="false" import="true" type="upgrade">
@@ -2360,6 +2365,178 @@
         <entryLink id="8785-30fc-94ed-b609" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="8158-889a-2b66-8bf8" name="War-Bear Riders" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b5b4-f3aa-e7ca-5d38" name="War-Bear Rider" hidden="false" targetId="b704-f707-3340-459d" type="profile"/>
+        <infoLink id="ca51-eeb3-e323-81cf" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="b808-9d0d-d065-b7b7" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="b156-9b32-4b79-d74c" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3183-65ca-88d3-d2cd" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="1e6b-ddce-a35d-3cc7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="445c-dddb-3adf-9497" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd9c-8d06-a4a9-a4cd" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1e6b-ddce-a35d-3cc7" name="Single Unit [3 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="7594-c3f1-e726-48f1" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="1c72-4e09-2fb3-9231">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68a9-9d92-5361-bf0d" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b72f-2c4a-48d6-0c48" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="1c72-4e09-2fb3-9231" name="Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cddc-a8ef-36e3-d1c0" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="c276-1d6b-ec9f-993b" name="War-Bear Rider" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e130-c1d4-b1a7-34ae" type="min"/>
+                            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e736-b566-9e88-6fcf" type="max"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink id="4d98-cc88-e18e-33c5" name="Claws" hidden="false" collective="false" import="true" targetId="9f6d-c74d-f9f0-4cb9" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2442-e8e9-10d4-87cd" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9507-faff-1ba4-5066" type="max"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink id="0873-dc2f-4fa4-42dc" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="18e9-22bb-b469-e565" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd45-af5e-fdb5-70ba" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3059-0570-6ac0-91bc" type="max"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntry>
+                    <selectionEntry id="8217-2120-78b5-57c9" name="Axe-Halberds" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edc9-1094-1e0b-204c" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="412e-4ddc-dfb6-1fc8" name="War-Bear Rider" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edc0-2f9b-6a30-c750" type="min"/>
+                            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2dc-f682-9a6c-3bc7" type="max"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink id="fb7b-e2bc-bcbb-4b56" name="Claws" hidden="false" collective="false" import="true" targetId="9f6d-c74d-f9f0-4cb9" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d26-95db-80e4-fba1" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d86d-3136-1b67-72d3" type="max"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink id="d634-be00-df6b-a0c4" name="Axe-Halberd" hidden="false" collective="false" import="true" targetId="3a07-65c5-bb12-be9f" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc32-cf66-6646-b495" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bff4-c3a2-3002-decc" type="max"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="275.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="56d8-c96e-703b-284e" name="Combined Unit [6 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="c6b3-acee-7987-feaa" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="2d21-1c3d-d25c-ecac">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="748a-211a-088d-bf1f" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8934-9a72-fc17-073c" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="2d21-1c3d-d25c-ecac" name="Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f9-7464-6249-c18a" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="fefd-11ec-a350-8800" name="War-Bear Rider" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac9d-d0ee-2c5f-431a" type="min"/>
+                            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1393-136f-342c-83da" type="max"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink id="417c-3a5a-ef8d-c508" name="Claws" hidden="false" collective="false" import="true" targetId="9f6d-c74d-f9f0-4cb9" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7399-e3d8-e70d-be30" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4f7-364c-50d7-f2df" type="max"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink id="1fbf-4f93-4877-8f06" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="18e9-22bb-b469-e565" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="011c-b162-5844-8855" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a54-1b60-b98c-eed6" type="max"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntry>
+                    <selectionEntry id="1385-bce1-d65f-0971" name="Axe-Halberds" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed4f-708a-6302-0530" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="e8a5-de4f-1b3b-9cb4" name="War-Bear Rider" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f97-e24e-29b7-b057" type="min"/>
+                            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50e7-8b1b-2b76-934d" type="max"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink id="db87-e6bf-def6-1ef0" name="Claws" hidden="false" collective="false" import="true" targetId="9f6d-c74d-f9f0-4cb9" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e84b-ccbb-f4ff-f77d" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ffd-e3a1-4fcc-e51e" type="max"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink id="346b-73d8-c284-8da5" name="Axe-Halberd" hidden="false" collective="false" import="true" targetId="3a07-65c5-bb12-be9f" type="selectionEntry">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f480-be02-2810-0e89" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3015-b373-51d7-10a7" type="max"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="275.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ae8e-a364-491a-9db6" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="3a07-65c5-bb12-be9f" name="Axe-Halberd" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="53bc-6597-c289-ba21" name="Axe-Halberd" hidden="false" targetId="f3ca-8d2b-6699-663d" type="profile"/>
+        <infoLink id="fec7-3179-99b2-0182" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="8ef0-77fa-c9e0-54bd" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="53f8-9f06-8e13-809b" name="Weapons - Heroes - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="1fc2-2709-3dfe-c7eb">
@@ -2694,6 +2871,19 @@ Weapon: Claws(A1)</characteristic>
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+      </characteristics>
+    </profile>
+    <profile id="b704-f707-3340-459d" name="War-Bear Rider" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Impact(3), Tough(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f3ca-8d2b-6699-663d" name="Axe-Halberd" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Rending</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
