@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="a88e-2b4c-d1b5-d4d3" name="Age of Fantasy" revision="2" battleScribeVersion="2.03" authorName="Scott Prutton" authorContact="sprutton1@gmail.com" authorUrl="https://github.com/sprutton1/AgeOfFantasyBattlescribe" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="a88e-2b4c-d1b5-d4d3" name="Age of Fantasy" revision="3" battleScribeVersion="2.03" authorName="Scott Prutton" authorContact="sprutton1@gmail.com" authorUrl="https://github.com/sprutton1/AgeOfFantasyBattlescribe" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="d755-5d69-pubN65537" name="Age of Fantasy v2.10"/>
   </publications>
@@ -32,7 +32,7 @@
         <characteristicType id="189e-687a-bec2-51ad" name="Special Rules"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="57dc-caf6-641d-327b" name="Psychic Power">
+    <profileType id="57dc-caf6-641d-327b" name="Wizard Spell">
       <characteristicTypes>
         <characteristicType id="86f2-adcb-3afd-566c" name="Roll"/>
         <characteristicType id="e490-3d41-dc85-9d0f" name="Details"/>

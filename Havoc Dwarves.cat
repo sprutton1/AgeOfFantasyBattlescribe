@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b52c-0afc-44ab-7e5a" name="Havoc Dwarves" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b52c-0afc-44ab-7e5a" name="Havoc Dwarves" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0261-f45a-ceb9-a931" name="Havoc Dwarves v2.1"/>
   </publications>
@@ -14,6 +14,11 @@
         <categoryLink id="ec2c-16da-b692-f5d3" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="9ab5-af14-df0a-aee5" name="Hex Caster" hidden="false" collective="false" import="true" targetId="2714-918a-12f8-53ac" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="90c5-f59e-8f2d-ca61" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3d4f-7c8a-5b9e-a2c1" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -21,12 +26,18 @@
         <infoLink id="91e0-c4be-b78b-bfa3" name="Shotgun" hidden="false" targetId="b364-4698-f118-a93a" type="profile"/>
         <infoLink id="3675-39f2-25b5-31bc" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b7e9-17f4-64cf-c9e2" name="Shotgun" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="4fdb-6bdc-c49c-f3d1" name="Shotgun" hidden="false" targetId="b364-4698-f118-a93a" type="profile"/>
         <infoLink id="645b-5e4f-3dbd-c292" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ba34-0792-84f8-789f" name="Abyssal King" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -64,6 +75,9 @@
       <infoLinks>
         <infoLink id="97b1-24b1-3272-b705" name="Abyssal Icon" hidden="false" targetId="ab9b-639f-6319-bbf9" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7f81-de32-fdb5-1324" name="Great Winged Beast" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -73,6 +87,9 @@
         <infoLink id="bc46-203e-647a-918d" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="ba4c-5e96-a279-eeec" name="Swift" hidden="false" targetId="c044-2060-9e32-f302" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ba2b-fdeb-5bed-65c7" name="Slave Driver" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -88,6 +105,66 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6297-fe66-9d30-fdde" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b760-d3f8-3fa6-6035" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="cee5-aa7b-a0ca-198a" name="1. Shroud Rune" hidden="false" targetId="f285-183a-c94e-d879" type="profile"/>
+        <infoLink id="2c8f-2b5c-f0c2-8e77" name="2. Insanity Rune" hidden="false" targetId="bb50-6a6a-6f5d-685c" type="profile"/>
+        <infoLink id="c741-e201-37d2-9618" name="3. Havoc Rune" hidden="false" targetId="8410-c6b4-308f-3f36" type="profile"/>
+        <infoLink id="4c11-bfff-9afb-ac5c" name="4. Bolt Rune" hidden="false" targetId="8acd-729d-d445-effb" type="profile"/>
+        <infoLink id="7047-58e7-343a-0182" name="5. Crack Rune" hidden="false" targetId="00e0-ec9f-311a-4d9d" type="profile"/>
+        <infoLink id="580a-18fd-3a3d-bb3d" name="6. Black Rune" hidden="false" targetId="8fbe-ba86-b4d6-9851" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2714-918a-12f8-53ac" name="Hex Caster" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="dac6-3d25-e5c5-41b8" name="Hex Caster" hidden="false" targetId="8549-778a-f8b0-bf41" type="profile"/>
+        <infoLink id="e8e0-e99d-065c-62a4" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+        <infoLink id="6834-4ba0-b8b7-6ee4" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="e17b-5cb4-109b-e9e8" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="31cd-b621-2cd8-d6be" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="46fb-6b37-daed-1018" name="Wizard(X)" hidden="false" collective="false" import="true" defaultSelectionEntryId="ede2-72c6-e00d-d4ec">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad2c-e011-0e0f-5e8b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fda-87f9-ab39-91f6" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ede2-72c6-e00d-d4ec" name="Wizard(1)" hidden="false" collective="false" import="true" targetId="b2d2-cfaf-8ce6-6198" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="29a4-86d6-9c98-46b7" name="Show Spells" hidden="false" collective="false" import="true" targetId="6297-fe66-9d30-fdde" type="selectionEntry"/>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="444c-109c-721f-b7f8" name="Wizard(2)" hidden="false" collective="false" import="true" targetId="3fd8-1309-fe4e-3b6e" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="1a7a-62ef-938e-4219" name="Show Spells" hidden="false" collective="false" import="true" targetId="6297-fe66-9d30-fdde" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0ec6-8612-87f6-3f72" name="Weapons - Hero - Melee" hidden="false" collective="false" import="true" targetId="ac88-1958-6d6e-ed48" type="selectionEntryGroup"/>
+        <entryLink id="ea17-56eb-34ea-942c" name="Weapons - Hero - Ranged" hidden="false" collective="false" import="true" targetId="143f-c88e-c17a-5c92" type="selectionEntryGroup"/>
+        <entryLink id="2bde-e755-e6ab-b53c" name="Great Winged Beast" hidden="false" collective="false" import="true" targetId="7f81-de32-fdb5-1324" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="803c-e9a0-d8c6-f744" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="230.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -183,6 +260,49 @@ Weapons: Claws (A6, AP(2))</characteristic>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Sadist, Slow, Tough(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8549-778a-f8b0-bf41" name="Hex Caster" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Slow, Tough(3), Wizard(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8410-c6b4-308f-3f36" name="3. Havoc Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets +6&quot; next time it moves.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bb50-6a6a-6f5d-685c" name="2. Insanity Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 4 automatic hits.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8acd-729d-d445-effb" name="4. Bolt Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy model within 12&quot; takes 2 automatic hits with AP(2).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="00e0-ec9f-311a-4d9d" name="5. Crack Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target piece of terrain within 6&quot; may be moved by up to 6&quot; in any direction or may be removed from play.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8fbe-ba86-b4d6-9851" name="6. Black Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target 2 enemy units within 12&quot; take 6 automatic hits each.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f285-183a-c94e-d879" name="1. Shroud Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; gets -1 to hit in melee next time it fights.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
