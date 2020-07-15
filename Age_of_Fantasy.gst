@@ -540,6 +540,72 @@
       <infoLinks>
         <infoLink id="bffc-108b-2110-b241" name="Crew" hidden="false" targetId="357c-5a02-fa4f-c09c" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e704-7adb-6004-26a0" name="2x Pistols" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0f3e-a5ba-8f0d-a1cd" name="Pistol" hidden="false" targetId="a930-6b82-f5f8-e216" type="profile"/>
+        <infoLink id="c1d8-f98a-5e7e-bfce" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="0480-a61b-6e51-b3d3" name="2x Pistols" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1433-d14a-8ed9-3837" name="Pistol" hidden="false" targetId="a930-6b82-f5f8-e216" type="profile"/>
+        <infoLink id="da42-509e-034a-d817" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="ccc6-84ca-1234-83ba" name="Crossbow" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="32ed-d067-151e-e2ca" name="Crossbow" hidden="false" targetId="ee48-3c6d-6764-eb15" type="profile"/>
+        <infoLink id="7d62-3434-aeaa-6ab5" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a40-1d31-c96b-a2df" name="Longbow" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="416d-d285-f1c6-eb97" name="Longbow" hidden="false" targetId="e2e2-432d-3c5e-965c" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8dae-4427-c863-8c53" name="Pistol" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="36d1-3655-09c7-41af" name="Pistol" hidden="false" targetId="a930-6b82-f5f8-e216" type="profile"/>
+        <infoLink id="e5c6-0311-a82f-40ac" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b36d-e85c-f7eb-f24c" name="Rifle" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9157-3a31-0943-15f4" name="Rifle" hidden="false" targetId="b92c-ce95-2769-f720" type="profile"/>
+        <infoLink id="d84e-d834-26f7-9188" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5e41-2374-8ab2-d093" name="Shortbow" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="433b-ee0d-c2b7-0848" name="Shortbow" hidden="false" targetId="ca3d-1b17-d7a7-412e" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df19-afd7-e2a9-20c6" name="Throwing Weapon" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6668-c66f-663a-0541" name="Throwing Weapon" hidden="false" targetId="a18f-69fc-b868-a1e3" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
