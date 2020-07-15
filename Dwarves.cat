@@ -59,6 +59,11 @@
         <categoryLink id="3134-f5fe-703b-431e" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="5d1d-aa91-cd0a-c772" name="Steam-Power Suits" hidden="false" collective="false" import="true" targetId="9ddb-78b3-19cd-a235" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="723e-8d6f-226b-8a5c" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9965-47d5-cea5-73af" name="Dwarf Lord" hidden="false" collective="false" import="true" type="upgrade">
@@ -954,7 +959,12 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1233-46f4-7843-4b4f" type="max"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink id="c2f9-a95b-7701-7625" name="Great Weapon (A2)" hidden="false" collective="false" import="true" targetId="85fe-d500-b945-93ff" type="selectionEntry"/>
+                        <entryLink id="c2f9-a95b-7701-7625" name="Great Weapon (A2)" hidden="false" collective="false" import="true" targetId="85fe-d500-b945-93ff" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ad8-d8ef-2609-98b6" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3627-041e-1d80-89c2" type="min"/>
+                          </constraints>
+                        </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
@@ -978,7 +988,12 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b857-4473-0b13-09bf" type="max"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink id="ec0f-9730-c48a-0cb0" name="Great Weapon (A2)" hidden="false" collective="false" import="true" targetId="85fe-d500-b945-93ff" type="selectionEntry"/>
+                        <entryLink id="ec0f-9730-c48a-0cb0" name="Great Weapon (A2)" hidden="false" collective="false" import="true" targetId="85fe-d500-b945-93ff" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e719-bd0f-9ba0-7ea1" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28c0-a637-e284-dd53" type="min"/>
+                          </constraints>
+                        </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
@@ -1289,6 +1304,116 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry id="857c-0669-fd16-1be1" name="Steam-Gun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e249-127c-1a56-a515" name="Steam-Gun" hidden="false" targetId="6974-affd-3e48-0767" type="profile"/>
+        <infoLink id="8732-fa57-5139-dd5b" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="9ddb-78b3-19cd-a235" name="Steam-Power Suits" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="70cc-fa87-599e-f480" name="Steam-Power Suit" hidden="false" targetId="ea67-fe1c-82f6-5845" type="profile"/>
+        <infoLink id="2d68-5dc4-4c70-1df5" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="bdd2-a451-3a6a-ca90" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="a900-6b39-9c04-cd6e" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a0db-45d8-fa29-18b0" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="b0cf-c01d-ae9f-368f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb31-0978-c770-1c3b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e185-ce41-cf41-bef3" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b0cf-c01d-ae9f-368f" name="Single Unit [3 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="f441-840d-3137-62d8" name="Steam-Power Suit" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d835-ce4b-d187-06bc" type="min"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f423-09e2-fdcf-4c4a" type="max"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="3ec6-8566-fa1d-bc63" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="4a88-20b8-936e-3215">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ddd-4038-2b73-087a" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e673-1acb-8632-47b6" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="4a88-20b8-936e-3215" name="Great Weapon (A3)" hidden="false" collective="false" import="true" targetId="b2eb-dbb4-19ef-99de" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff4b-1d97-e088-3d3f" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84ff-bf62-34c4-923b" type="min"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="a092-d771-ab68-4f7f" name="Upgrade any model with:" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="6ff9-c648-57de-5ebe" name="Steam-Gun" hidden="false" collective="false" import="true" targetId="857c-0669-fd16-1be1" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b656-c690-5cc6-8cee" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="230.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5bae-7304-4a76-99cf" name="Combined Unit [6 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="eaa2-46b2-2e95-243f" name="Steam-Power Suit" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="349f-8bad-825c-04b4" type="min"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c1b-2acc-b296-85d2" type="max"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="cf7e-2e4f-00d7-2d7b" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="d6b5-c13f-65a9-a89b">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01a7-6b51-4baf-9f46" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0826-4016-dd8b-6c5f" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="d6b5-c13f-65a9-a89b" name="Great Weapon (A3)" hidden="false" collective="false" import="true" targetId="b2eb-dbb4-19ef-99de" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c85-5af7-4307-38cb" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b67a-fccc-7aa9-c4bd" type="min"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="2256-8ca5-f476-216d" name="Upgrade any model with:" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="5013-e7b7-529a-a587" name="Steam-Gun" hidden="false" collective="false" import="true" targetId="857c-0669-fd16-1be1" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aec-d75e-78f3-fb85" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="460.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="53f8-9f06-8e13-809b" name="Weapons - Heroes - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="1fc2-2709-3dfe-c7eb">
@@ -1565,6 +1690,20 @@ Weapon: Claws(A1)</characteristic>
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ea67-fe1c-82f6-5845" name="Steam-Power Suit" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Slow, Tough(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6974-affd-3e48-0767" name="Steam-Gun" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">24&quot;</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">AP(1)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
