@@ -104,6 +104,11 @@
         <categoryLink id="09e5-37b9-c02b-75f9" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="0183-01f0-5090-6d70" name="Mortar Team" hidden="false" collective="false" import="true" targetId="b13a-1bfa-09c3-ffcd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d0d5-ae3b-500f-ee4f" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3d4f-7c8a-5b9e-a2c1" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -1344,6 +1349,38 @@
         <infoLink id="e723-f82d-8c60-8a53" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry id="d6b5-a4d4-3f1a-6ba4" name="Mortar" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7567-069e-decf-8d56" name="Mortar" hidden="false" targetId="f5ea-e352-b72c-5688" type="profile"/>
+        <infoLink id="e6c5-eec1-64ca-ca46" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="1cda-daa0-b9b6-2cad" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+        <infoLink id="e42b-4d2f-d704-202e" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="b13a-1bfa-09c3-ffcd" name="Mortar Team" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6c4c-c726-e764-afb4" name="Mortar Team" hidden="false" targetId="fa09-de3f-2aae-b4ea" type="profile"/>
+        <infoLink id="c921-b246-c94a-e50a" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="1f0b-919e-06c9-16db" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="0b45-d8ad-b91a-40c2" name="Mortar" hidden="false" collective="false" import="true" targetId="d6b5-a4d4-3f1a-6ba4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dfb-bf43-6c82-292a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77a9-3ec2-f71e-7aff" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9aad-3648-ccf1-e9d8" name="Crew (A2)" hidden="false" collective="false" import="true" targetId="2679-46e1-0f98-921d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2af-7bfa-7e32-1fa2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6230-e955-1ec4-c749" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ac88-1958-6d6e-ed48" name="Weapons - Hero - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a40-5595-0803-3708">
@@ -1682,6 +1719,20 @@ Weapons: Claws (A6, AP(2))</characteristic>
         <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A6</characteristic>
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f5ea-e352-b72c-5688" name="Mortar" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">24&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1), Blast(3), Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fa09-de3f-2aae-b4ea" name="Mortar Team" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Slow, Tough(3)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
