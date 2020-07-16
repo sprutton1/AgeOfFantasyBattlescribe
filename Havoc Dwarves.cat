@@ -109,6 +109,11 @@
         <categoryLink id="d0d5-ae3b-500f-ee4f" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="0d4c-9690-e064-8e72" name="Rocket Launcher" hidden="false" collective="false" import="true" targetId="1ddc-7c1f-92b5-4fe7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a2bd-b3b5-ca44-7278" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3d4f-7c8a-5b9e-a2c1" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -1381,6 +1386,39 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="1b54-6679-a5b5-3ee7" name="Rocket" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5429-371f-c23e-71d6" name="Rocket" hidden="false" targetId="e960-7004-fe5c-9f27" type="profile"/>
+        <infoLink id="c262-3b44-252d-d103" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="1201-58aa-5854-d7a7" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+        <infoLink id="134a-4982-5a6e-069a" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="1ddc-7c1f-92b5-4fe7" name="Rocket Launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3ebb-6326-a371-e5b4" name="Rocket Launcher" hidden="false" targetId="f3ea-4886-47db-cbb6" type="profile"/>
+        <infoLink id="9f8e-0ce4-874b-b631" name="Artillery" hidden="false" targetId="92bc-0fe3-fc76-788f" type="rule"/>
+        <infoLink id="0037-532d-c9b4-c800" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="2301-5b3e-1328-9440" name="Immobile" hidden="false" targetId="2c1d-c23a-cb5d-cb83" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="912a-1b75-e089-c8d3" name="Rocket" hidden="false" collective="false" import="true" targetId="1b54-6679-a5b5-3ee7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b005-c2b0-ba1a-2e0b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fc0-a848-8f7e-862c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2e22-b178-6586-0d62" name="Crew (A3)" hidden="false" collective="false" import="true" targetId="09ed-15ba-6121-e8eb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f93-d087-5f42-4804" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34ea-fc6e-f1dc-9fda" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ac88-1958-6d6e-ed48" name="Weapons - Hero - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a40-5595-0803-3708">
@@ -1733,6 +1771,20 @@ Weapons: Claws (A6, AP(2))</characteristic>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Slow, Tough(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f3ea-4886-47db-cbb6" name="Rocket Launcher" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Artillery, Immobile, Tough(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e960-7004-fe5c-9f27" name="Rocket" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">36&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2), Deadly(3), Indirect</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
