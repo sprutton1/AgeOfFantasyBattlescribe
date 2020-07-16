@@ -64,7 +64,7 @@ table!
    Lists should use the entries from the game system file instead of entries in
    the army file itself in this case.
 
-4. When in doubt on how to format something, feel free to ask
+4. When in doubt on how to format something, feel free to ask!
 
 ### What's Done
 
@@ -80,7 +80,7 @@ table!
 |Ghostly Undead|-|NOT STARTED|
 |Goblins|-|NOT STARTED|
 |Halflings|-|NOT STARTED|
-|Havoc Dwarves|-|NOT STARTED|
+|Havoc Dwarves|v2.1|Done|
 |Havoc Warriors|-|NOT STARTED|
 |High Elves|-|NOT STARTED|
 |Humans|-|NOT STARTED|

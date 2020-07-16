@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="a88e-2b4c-d1b5-d4d3" name="Age of Fantasy" revision="2" battleScribeVersion="2.03" authorName="Scott Prutton" authorContact="sprutton1@gmail.com" authorUrl="https://github.com/sprutton1/AgeOfFantasyBattlescribe" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="a88e-2b4c-d1b5-d4d3" name="Age of Fantasy" revision="3" battleScribeVersion="2.03" authorName="Scott Prutton" authorContact="sprutton1@gmail.com" authorUrl="https://github.com/sprutton1/AgeOfFantasyBattlescribe" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="d755-5d69-pubN65537" name="Age of Fantasy v2.10"/>
   </publications>
@@ -32,7 +32,7 @@
         <characteristicType id="189e-687a-bec2-51ad" name="Special Rules"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="57dc-caf6-641d-327b" name="Psychic Power">
+    <profileType id="57dc-caf6-641d-327b" name="Wizard Spell">
       <characteristicTypes>
         <characteristicType id="86f2-adcb-3afd-566c" name="Roll"/>
         <characteristicType id="e490-3d41-dc85-9d0f" name="Details"/>
@@ -534,7 +534,7 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="09ed-15ba-6121-e8eb" name="Crew" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="09ed-15ba-6121-e8eb" name="Crew (A3)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="bffc-108b-2110-b241" name="Crew" hidden="false" targetId="357c-5a02-fa4f-c09c" type="profile"/>
       </infoLinks>
@@ -611,6 +611,14 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2679-46e1-0f98-921d" name="Crew (A2)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="23c5-653e-8c13-30a6" name="Crew (A2)" hidden="false" targetId="a161-509a-3cec-6728" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9ef2-ae67-0a46-a60a" name="Command Group" hidden="false" collective="false" import="true">
@@ -637,6 +645,96 @@
           </constraints>
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4e77-dbc0-ef4e-5c9d" name="Weapons - Infantry - Melee (Q4, A1)" hidden="false" collective="false" import="true" defaultSelectionEntryId="8270-485d-e09e-e7dd">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="571b-e985-3bf7-7549" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc67-44bb-d5fc-5a48" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8270-485d-e09e-e7dd" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="18e9-22bb-b469-e565" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0475-8f70-0869-aeb8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="771d-55db-d1a1-488c" name="Halberd (A1)" hidden="false" collective="false" import="true" targetId="44f8-017a-b4b0-6c1c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca69-4cde-ea8d-4a99" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="b3ed-c090-4130-a9b4" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="4235-a513-5a6e-d5bb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac2d-dd2d-8b8b-a60e" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="1.5"/>
+          </costs>
+        </entryLink>
+        <entryLink id="cb3d-17c6-b1d2-8f97" name="2x Hand Weapons (A1)" hidden="false" collective="false" import="true" targetId="b14b-84f8-6e4e-cc3f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ad1-ce04-a90e-74ad" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="1.5"/>
+          </costs>
+        </entryLink>
+        <entryLink id="ff77-b2ff-d4aa-0064" name="Spear (A1)" hidden="false" collective="false" import="true" targetId="b7ad-83c8-3ce9-5619" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30a4-f055-a071-0cfd" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="3.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="570e-e7f6-5cb2-8dfe" name="Weapons - Infantry - Melee (Q3, A1)" hidden="false" collective="false" import="true" defaultSelectionEntryId="134a-daf2-6b4a-d28c">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ed0-5a89-11ec-7c38" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58af-3457-0dea-1256" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="134a-daf2-6b4a-d28c" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="18e9-22bb-b469-e565" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e21a-8399-3bd4-1505" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="68f5-7762-7990-4f1e" name="Halberd (A1)" hidden="false" collective="false" import="true" targetId="44f8-017a-b4b0-6c1c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0601-e412-7d51-ee53" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="9466-00ee-497c-c5f6" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="4235-a513-5a6e-d5bb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b684-f011-3ff3-56d4" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="7f8c-fa22-f41b-517f" name="2x Hand Weapons (A1)" hidden="false" collective="false" import="true" targetId="b14b-84f8-6e4e-cc3f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b62f-1b38-3491-dff3" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="2cee-9743-4556-9746" name="Spear (A1)" hidden="false" collective="false" import="true" targetId="b7ad-83c8-3ce9-5619" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5caa-a9eb-9949-96fd" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="3.0"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -950,9 +1048,15 @@ Note that the charging unit must only roll up to as many dice as models with the
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Deadly(3)</characteristic>
       </characteristics>
     </profile>
-    <profile id="357c-5a02-fa4f-c09c" name="Crew" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+    <profile id="357c-5a02-fa4f-c09c" name="Crew (A3)" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+      </characteristics>
+    </profile>
+    <profile id="a161-509a-3cec-6728" name="Crew (A2)" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
       </characteristics>
     </profile>
