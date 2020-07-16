@@ -69,6 +69,11 @@
         <categoryLink id="9155-9f5e-8b7e-481a" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="f458-02de-c5ca-75b6" name="Havoc Golems" hidden="false" collective="false" import="true" targetId="785d-736f-dfba-3a5b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="662d-db46-82ca-afa1" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3d4f-7c8a-5b9e-a2c1" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -320,6 +325,9 @@
                   <entryLinks>
                     <entryLink id="8f5d-e47b-a4c8-7c79" name="Weapons - Infantry - Melee (Q4, A1)" hidden="false" collective="false" import="true" targetId="4e77-dbc0-ef4e-5c9d" type="selectionEntryGroup"/>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -346,6 +354,9 @@
                   <entryLinks>
                     <entryLink id="6d38-c07e-f9a8-e38a" name="Weapons - Infantry - Melee (Q4, A1)" hidden="false" collective="false" import="true" targetId="4e77-dbc0-ef4e-5c9d" type="selectionEntryGroup"/>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -368,6 +379,9 @@
       <entryLinks>
         <entryLink id="2b49-6fdd-5fc8-e2c7" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0897-e750-4b25-1bef" name="Berserkers" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -409,6 +423,9 @@
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -442,6 +459,9 @@
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -451,6 +471,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="747e-dc91-3fff-acf4" name="Immortals" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -475,6 +498,9 @@
                   <entryLinks>
                     <entryLink id="328e-3053-cc01-5ddc" name="Weapons - Infantry - Melee (Q3, A1)" hidden="false" collective="false" import="true" targetId="570e-e7f6-5cb2-8dfe" type="selectionEntryGroup"/>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -501,6 +527,9 @@
                   <entryLinks>
                     <entryLink id="12de-7be7-9f86-a029" name="Weapons - Infantry - Melee (Q3, A1)" hidden="false" collective="false" import="true" targetId="570e-e7f6-5cb2-8dfe" type="selectionEntryGroup"/>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -523,11 +552,17 @@
       <entryLinks>
         <entryLink id="78fd-4089-6628-bbe0" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7853-3c44-3c1a-c81e" name="Claws" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2474-0920-cb3f-04ad" name="Claws" hidden="false" targetId="4a21-73ee-c19f-6cda" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0cb5-f70e-398c-bac1" name="Gargoyles" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -557,6 +592,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -578,6 +616,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -587,6 +628,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="baf3-b881-e83f-a03d" name="Shooters" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -633,6 +677,9 @@
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -672,6 +719,9 @@
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -684,6 +734,9 @@
       <entryLinks>
         <entryLink id="915c-f210-3310-eefa" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="920f-3a18-b5f2-f071" name="Dwarf Centaurs" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -713,6 +766,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -734,6 +790,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -743,6 +802,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c0ac-770e-935f-da9b" name="Bull Centaurs" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -772,6 +834,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -793,6 +858,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -802,12 +870,83 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c4ce-59ae-2d10-93f5" name="Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e937-9257-e328-ab8c" name="Hand Weapon BULL" hidden="false" targetId="c099-821d-8c26-e5f0" type="profile"/>
         <infoLink id="85f8-bf22-fd57-7789" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="02b9-f9ae-127d-cdac" name="Claws" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3241-8711-135d-1af7" name="Claws" hidden="false" targetId="2169-ea4e-883a-f265" type="profile"/>
+        <infoLink id="324c-df37-4524-9bee" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="785d-736f-dfba-3a5b" name="Havoc Golems" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fb6a-f46c-19f5-db4c" name="Havoc Golem" hidden="false" targetId="4feb-47ef-5e91-829a" type="profile"/>
+        <infoLink id="7cd8-8fd1-652d-a693" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="0afb-9397-01ab-f4e8" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fbce-33e5-1917-b059" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="f7e8-aace-69b5-2fa5">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9af4-9ed5-6e17-1aa8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d260-6015-0b6c-fecf" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f7e8-aace-69b5-2fa5" name="Single Unit [3 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="9f7c-ecaf-cf80-808b" name="Havoc Golem" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="485b-effe-5c38-c77d" type="min"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1726-4e12-313e-dd2b" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="a613-6e12-8e57-68e9" name="Claws GOL" hidden="false" collective="false" import="true" targetId="02b9-f9ae-127d-cdac" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9317-4f87-d4d2-c6eb" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98f6-db16-307a-b81d" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="130.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1eea-f8a8-e3fa-47e7" name="Combined Unit [6 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="aa3f-ae7a-c129-6dca" name="Havoc Golem" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="193f-ab79-5970-2b04" type="min"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1615-d636-b14c-07d9" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="8676-6b8a-5033-eca8" name="Claws GOL" hidden="false" collective="false" import="true" targetId="02b9-f9ae-127d-cdac" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98cc-6a7e-0d98-f120" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cf8-28db-f9ab-33bc" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="260.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1036,6 +1175,19 @@ Weapons: Claws (A6, AP(2))</characteristic>
       </characteristics>
     </profile>
     <profile id="c099-821d-8c26-e5f0" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4feb-47ef-5e91-829a" name="Havoc Golem" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Slow, Tough(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2169-ea4e-883a-f265" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
