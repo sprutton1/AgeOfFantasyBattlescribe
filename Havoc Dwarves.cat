@@ -94,6 +94,11 @@
         <categoryLink id="3c45-e2d4-de13-a27e" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="b52b-b2ea-4146-5598" name="Siege Chariot" hidden="false" collective="false" import="true" targetId="57a4-ba31-6d72-5bbc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d89e-6687-1556-788f" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3d4f-7c8a-5b9e-a2c1" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -1243,6 +1248,67 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="325.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6199-d72e-ca70-a4bc" name="Siege Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b458-4f81-9017-ed6c" name="Siege Cannon" hidden="false" targetId="0f45-20c2-b0c4-ec39" type="profile"/>
+        <infoLink id="d6dc-048c-e4da-2ed7" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="9e43-80d4-bb8f-94d7" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="817d-37bf-92ab-c23b" name="Twin Cannons" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1829-6a03-94f2-49d8" name="Twin Cannons" hidden="false" targetId="7dca-f805-d21a-5f16" type="profile"/>
+        <infoLink id="4c98-0d0f-604f-d74c" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="4ebb-2ba6-43b6-b51a" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="e3a3-dac3-228a-fa73" name="Siege Mortar" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="829c-6399-ca60-658c" name="Siege Mortar" hidden="false" targetId="da40-a00e-8e8d-a828" type="profile"/>
+        <infoLink id="c8b9-577d-2532-d589" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="1d41-72a9-34bb-f4e4" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+        <infoLink id="80b5-5668-a17b-97e5" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="57a4-ba31-6d72-5bbc" name="Siege Chariot" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cf08-530b-ee2d-c5b6" name="Siege Chariot" hidden="false" targetId="ecaa-5c0a-305b-edcd" type="profile"/>
+        <infoLink id="ccff-0cb4-1a69-0ee9" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="462b-a003-871f-297c" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9113-f038-9039-8258" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2e03-5a13-e619-65e9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be3f-fe30-06f8-ca58" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5474-a071-aecb-1bed" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="88d4-d5e1-a842-5355" name="Siege Cannon" hidden="false" collective="false" import="true" targetId="6199-d72e-ca70-a4bc" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6d8c-a43f-2bec-fea1" name="Twin Cannons" hidden="false" collective="false" import="true" targetId="817d-37bf-92ab-c23b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2e03-5a13-e619-65e9" name="Siege Mortar" hidden="false" collective="false" import="true" targetId="e3a3-dac3-228a-fa73" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ef2d-e6c6-0ca4-b739" name="Crew (A3)" hidden="false" collective="false" import="true" targetId="09ed-15ba-6121-e8eb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c638-7160-3375-30ff" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79a5-23ba-0b04-fd0a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ac88-1958-6d6e-ed48" name="Weapons - Hero - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a40-5595-0803-3708">
@@ -1539,6 +1605,34 @@ Weapons: Claws (A6, AP(2))</characteristic>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
         <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Slow, Tough(12)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ecaa-5c0a-305b-edcd" name="Siege Chariot" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Slow, Tough(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="da40-a00e-8e8d-a828" name="Siege Mortar" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">24&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Blast(6), Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7dca-f805-d21a-5f16" name="Twin Cannons" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">36&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A2</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Blast(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0f45-20c2-b0c4-ec39" name="Siege Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Blast(6)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
