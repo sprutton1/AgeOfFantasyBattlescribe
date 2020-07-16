@@ -74,6 +74,11 @@
         <categoryLink id="662d-db46-82ca-afa1" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="71dd-d41d-c61f-16b3" name="Flame Spirits" hidden="false" collective="false" import="true" targetId="b0fd-0351-5993-321a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fc8a-2840-4f62-4178" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3d4f-7c8a-5b9e-a2c1" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -948,6 +953,104 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry id="91bc-a912-a3e6-105c" name="Spit Fire" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="028b-ba35-db18-9840" name="Spit Fire" hidden="false" targetId="ca90-35ac-3dc9-5c19" type="profile"/>
+        <infoLink id="363b-c364-f03c-0235" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="b0fd-0351-5993-321a" name="Flame Spirits" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cf5c-f61d-2366-0854" name="Flame Spirit" hidden="false" targetId="11c8-25a9-e385-39b2" type="profile"/>
+        <infoLink id="df9e-2750-9b2b-8461" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="3b9b-f5f1-62c2-83ff" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="30a8-36bf-387f-0881" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9be1-2ff6-12bf-c180" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="bcb5-2c00-236d-04b3">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc6a-f7e4-431d-4b01" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="127f-927c-1870-e58c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bcb5-2c00-236d-04b3" name="Single Unit [3 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="43b3-ce4b-aab9-7cde" name="Flame Spirit" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b4a-dd30-a473-377c" type="min"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="557d-5b5a-6eea-85bb" type="max"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="b3b6-6e21-8cf3-918c" name="Upgrade all models with:" hidden="false" collective="false" import="true" defaultSelectionEntryId="f545-116c-b860-dcd7">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bcb-2a2d-7dee-338d" type="min"/>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc40-66e2-da9b-0646" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="f545-116c-b860-dcd7" name="2x Hand Weapons (A3)" hidden="false" collective="false" import="true" targetId="1ae4-082c-1398-60a1" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4da-4486-d145-8045" type="min"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c4b-b567-811b-7c15" type="max"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink id="2e3b-e37a-9577-cc30" name="Spit Fire" hidden="false" collective="false" import="true" targetId="91bc-a912-a3e6-105c" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="968b-769c-f6aa-6053" type="max"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="180.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3fc0-ea6c-0943-92f0" name="Combined Unit [6 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="1c4f-5f94-6303-712a" name="Flame Spirit" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d956-638e-85cc-76a3" type="min"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a37e-a6f3-bb8a-d751" type="max"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="bc18-65fb-dcaa-df63" name="Upgrade all models with:" hidden="false" collective="false" import="true" defaultSelectionEntryId="0341-e6b9-7f0b-01eb">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7be4-4510-e506-a790" type="min"/>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f715-0e62-f008-76fa" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="0341-e6b9-7f0b-01eb" name="2x Hand Weapons (A3)" hidden="false" collective="false" import="true" targetId="1ae4-082c-1398-60a1" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea53-db53-b39e-8d89" type="min"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80d5-5b20-1fdf-88f5" type="max"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink id="7921-68af-c2a6-93f2" name="Spit Fire" hidden="false" collective="false" import="true" targetId="91bc-a912-a3e6-105c" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b331-62a0-d148-26cd" type="max"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="360.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ac88-1958-6d6e-ed48" name="Weapons - Hero - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a40-5595-0803-3708">
@@ -1191,6 +1294,20 @@ Weapons: Claws (A6, AP(2))</characteristic>
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="11c8-25a9-e385-39b2" name="Flame Spirit" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Strider, Regeneration, Tough(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ca90-35ac-3dc9-5c19" name="Spit Fire" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A2</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
