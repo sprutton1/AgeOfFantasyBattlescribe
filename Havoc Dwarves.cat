@@ -84,6 +84,11 @@
         <categoryLink id="3168-5e00-fa67-a87c" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="08f1-6321-e19e-5b66" name="Giant Rhino" hidden="false" collective="false" import="true" targetId="09d3-bfcb-6fe8-ed42" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ca5a-26e0-9327-bbb2" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3d4f-7c8a-5b9e-a2c1" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -898,6 +903,9 @@
         <infoLink id="3241-8711-135d-1af7" name="Claws" hidden="false" targetId="2169-ea4e-883a-f265" type="profile"/>
         <infoLink id="324c-df37-4524-9bee" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="785d-736f-dfba-3a5b" name="Havoc Golems" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -927,6 +935,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -948,6 +959,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -957,12 +971,18 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="91bc-a912-a3e6-105c" name="Spit Fire" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="028b-ba35-db18-9840" name="Spit Fire" hidden="false" targetId="ca90-35ac-3dc9-5c19" type="profile"/>
         <infoLink id="363b-c364-f03c-0235" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b0fd-0351-5993-321a" name="Flame Spirits" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1009,6 +1029,9 @@
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1046,6 +1069,9 @@
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1055,12 +1081,18 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8caa-6cef-434b-d0fe" name="Claws" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="ecfa-f709-eeca-7294" name="Claws" hidden="false" targetId="b4eb-4a1d-b816-4496" type="profile"/>
         <infoLink id="e841-18d2-9aa7-9ec4" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d72f-5218-f562-43d4" name="Grotesques" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1090,6 +1122,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1111,6 +1146,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1120,6 +1158,66 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef26-edd1-ae59-e5dd" name="Horn" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="aefe-0292-d21f-999d" name="Horn" hidden="false" targetId="19a2-7125-2212-3de6" type="profile"/>
+        <infoLink id="71f2-5234-7c13-9c4c" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="5b35-4dbe-5979-9ecd" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="b982-5ad7-4125-3858" name="Stomp" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cc14-854b-f389-3348" name="Stomp" hidden="false" targetId="5200-3d7b-c923-18a3" type="profile"/>
+        <infoLink id="32ce-eefa-5bfa-58d8" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="09d3-bfcb-6fe8-ed42" name="Giant Rhino" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="bd58-0994-6e4d-bbb7" name="Giant Rhino" hidden="false" targetId="9d24-e1de-5081-7656" type="profile"/>
+        <infoLink id="a483-2285-481d-31a3" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="1247-46a7-8c87-90c2" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="2490-dfa5-cd8e-c992" name="Abyssal Icon" hidden="false" collective="false" import="true" targetId="445c-9494-a1af-6ff5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68b3-138d-31a1-7265" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="4e60-fcf2-90e0-20e7" name="Horn" hidden="false" collective="false" import="true" targetId="ef26-edd1-ae59-e5dd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b154-a736-2c84-d8fc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbf6-dcc3-745d-11c2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="dfcd-59e1-537a-7bf6" name="Stomp" hidden="false" collective="false" import="true" targetId="b982-5ad7-4125-3858" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af9d-2a83-4f72-604f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42a2-cedb-1890-271e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8a57-d0b2-c383-bff9" name="Crew (A2)" hidden="false" collective="false" import="true" targetId="2679-46e1-0f98-921d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0466-94b6-fa6f-8161" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3aa3-ef4a-540a-6924" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9e24-a5a6-c84c-5aae" name="2x Pistols" hidden="false" collective="false" import="true" targetId="e704-7adb-6004-26a0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f87e-38e2-9ca7-0916" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2193-72d7-a336-e374" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="195.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1391,6 +1489,25 @@ Weapons: Claws (A6, AP(2))</characteristic>
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Poison	</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9d24-e1de-5081-7656" name="Giant Rhino" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Tough(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="19a2-7125-2212-3de6" name="Horn" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(3), Deadly(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5200-3d7b-c923-18a3" name="Stomp" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
