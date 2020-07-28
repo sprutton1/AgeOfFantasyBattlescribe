@@ -388,7 +388,7 @@
     <selectionEntry id="cbe3-a564-3af7-b8a6" name="Crossbow" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="b88a-b533-2669-5266" name="Crossbow" hidden="false" targetId="ee48-3c6d-6764-eb15" type="profile"/>
-        <infoLink id="6d2d-00fd-409f-116e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="6d2d-00fd-409f-116e" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -563,7 +563,7 @@
     <selectionEntry id="ccc6-84ca-1234-83ba" name="Crossbow" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="32ed-d067-151e-e2ca" name="Crossbow" hidden="false" targetId="ee48-3c6d-6764-eb15" type="profile"/>
-        <infoLink id="7d62-3434-aeaa-6ab5" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="7d62-3434-aeaa-6ab5" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -988,7 +988,7 @@ Note that the charging unit must only roll up to as many dice as models with the
       <characteristics>
         <characteristic name="Range" typeId="79f4-5578-c041-f866">30&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
-        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">Rending</characteristic>
       </characteristics>
     </profile>
     <profile id="41f9-035c-7c69-b46a" name="Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
