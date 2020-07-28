@@ -534,7 +534,7 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="09ed-15ba-6121-e8eb" name="Crew" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="09ed-15ba-6121-e8eb" name="Crew (A3)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="bffc-108b-2110-b241" name="Crew" hidden="false" targetId="357c-5a02-fa4f-c09c" type="profile"/>
       </infoLinks>
@@ -606,6 +606,14 @@
     <selectionEntry id="df19-afd7-e2a9-20c6" name="Throwing Weapon" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6668-c66f-663a-0541" name="Throwing Weapon" hidden="false" targetId="a18f-69fc-b868-a1e3" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2679-46e1-0f98-921d" name="Crew (A2)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="23c5-653e-8c13-30a6" name="Crew (A2)" hidden="false" targetId="a161-509a-3cec-6728" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -1040,9 +1048,15 @@ Note that the charging unit must only roll up to as many dice as models with the
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Deadly(3)</characteristic>
       </characteristics>
     </profile>
-    <profile id="357c-5a02-fa4f-c09c" name="Crew" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+    <profile id="357c-5a02-fa4f-c09c" name="Crew (A3)" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+      </characteristics>
+    </profile>
+    <profile id="a161-509a-3cec-6728" name="Crew (A2)" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
       </characteristics>
     </profile>
