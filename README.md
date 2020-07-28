@@ -80,7 +80,7 @@ table!
 |Ghostly Undead|-|NOT STARTED|
 |Goblins|-|NOT STARTED|
 |Halflings|-|NOT STARTED|
-|Havoc Dwarves|v2.1|Done|
+|Havoc Dwarves|v2.2|Done|
 |Havoc Warriors|-|NOT STARTED|
 |High Elves|-|NOT STARTED|
 |Humans|-|NOT STARTED|
