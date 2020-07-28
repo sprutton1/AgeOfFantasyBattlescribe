@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="a88e-2b4c-d1b5-d4d3" name="Age of Fantasy" revision="3" battleScribeVersion="2.03" authorName="Scott Prutton" authorContact="sprutton1@gmail.com" authorUrl="https://github.com/sprutton1/AgeOfFantasyBattlescribe" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="a88e-2b4c-d1b5-d4d3" name="Age of Fantasy" revision="4" battleScribeVersion="2.03" authorName="Scott Prutton" authorContact="sprutton1@gmail.com" authorUrl="https://github.com/sprutton1/AgeOfFantasyBattlescribe" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="d755-5d69-pubN65537" name="Age of Fantasy v2.10"/>
   </publications>
@@ -619,6 +619,24 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="37ea-318c-d68b-be7e" name="Horse" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4e4c-d205-eb4a-40f3" name="Horse" hidden="false" targetId="e8b8-65cc-8e31-5130" type="profile"/>
+        <infoLink id="e1b9-ecea-1fb4-6d69" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="5ac3-8b70-c7fb-fe6f" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b96c-5b0a-9009-3053" name="Bow" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9736-ebda-30d1-687f" name="Bow" hidden="false" targetId="b4aa-c3c4-ef81-0ac5" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9ef2-ae67-0a46-a60a" name="Command Group" hidden="false" collective="false" import="true">
@@ -1058,6 +1076,11 @@ Note that the charging unit must only roll up to as many dice as models with the
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+      </characteristics>
+    </profile>
+    <profile id="e8b8-65cc-8e31-5130" name="Horse" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Impact(1)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
