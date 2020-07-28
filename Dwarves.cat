@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="040f-53de-2e2d-7666" name="Dwarves" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="040f-53de-2e2d-7666" name="Dwarves" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="203a-872c-5637-fe03" name="Dwarves v2.7"/>
+    <publication id="203a-872c-5637-fe03" name="Dwarves v2.9"/>
   </publications>
   <entryLinks>
     <entryLink id="dcf7-55b6-400e-9bae" name="Dwarf Lord" hidden="false" collective="false" import="true" targetId="9965-47d5-cea5-73af" type="selectionEntry">
@@ -193,7 +193,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6501-2566-3e31-7114" name="Grudge" hidden="false" collective="false" import="true" type="upgrade">
@@ -264,7 +264,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="85.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a9ca-6ccd-00c2-4fba" name="Berserker Axe" hidden="false" collective="false" import="true" type="upgrade">
@@ -291,6 +291,25 @@
         <infoLink id="f2c1-c08c-2b05-f0ad" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
         <infoLink id="9672-d9ea-8714-483f" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b431-c86c-dbc1-b77f" name="Upgrade with one:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5d7-2268-bfa1-de4c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b404-d0cb-b899-4d4a" name="Flame-Rifle" hidden="false" collective="false" import="true" targetId="510c-de79-2633-c35b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="cba9-f505-4b5c-dffb" name="Organ-Rifle" hidden="false" collective="false" import="true" targetId="fa5b-77a8-95bf-7d32" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="2397-ba74-e125-430e" name="Weapons - Heroes - Melee" hidden="false" collective="false" import="true" targetId="53f8-9f06-8e13-809b" type="selectionEntryGroup"/>
         <entryLink id="4db5-6d93-10f8-4439" name="Weapons - Heroes - Ranged" hidden="false" collective="false" import="true" targetId="f788-e729-5176-d362" type="selectionEntryGroup"/>
@@ -907,7 +926,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="180.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="140.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="321d-776b-4590-a3b0" name="Combined Unit [20 models]" hidden="false" collective="false" import="true" type="upgrade">
@@ -984,7 +1003,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="150.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="280.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1039,7 +1058,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="240.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="99eb-3a2c-9700-a976" name="Combined Unit [20 models]" hidden="false" collective="false" import="true" type="upgrade">
@@ -1071,7 +1090,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="480.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="400.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1191,7 +1210,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="260.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="180.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="21fb-9007-b938-b501" name="Combined Unit [20 models]" hidden="false" collective="false" import="true" type="upgrade">
@@ -1288,7 +1307,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="520.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="360.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1459,7 +1478,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="230.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5bae-7304-4a76-99cf" name="Combined Unit [6 models]" hidden="false" collective="false" import="true" type="upgrade">
@@ -1505,7 +1524,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="460.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="380.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2209,7 +2228,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="120.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="100.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e4de-2980-2f14-a7c1" name="Combined Unit [10 models]" hidden="false" collective="false" import="true" type="upgrade">
@@ -2338,7 +2357,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="240.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2551,7 +2570,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="275.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="240.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="56d8-c96e-703b-284e" name="Combined Unit [6 models]" hidden="false" collective="false" import="true" type="upgrade">
@@ -2632,7 +2651,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="275.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="480.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2725,14 +2744,14 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70e0-9787-c258-75ab" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
               </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="230.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="180.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="74d2-366f-5f22-fbce" name="Machinegun" hidden="false" collective="false" import="true" type="upgrade">
@@ -2776,7 +2795,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="285.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="220.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a3a0-6b11-2a02-af29" name="Giant Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2784,12 +2803,18 @@
         <infoLink id="b703-6597-ef7f-f87b" name="Giant Hand Weapon" hidden="false" targetId="287f-d37f-77bd-d8da" type="profile"/>
         <infoLink id="7f63-aae5-caff-f4b6" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d4fc-d320-bbe6-38c1" name="Giant Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="b356-f9ad-b7c9-d34a" name="Giant Great Weapon" hidden="false" targetId="1761-7d81-4e08-ec0e" type="profile"/>
         <infoLink id="0e48-eb6c-c4c9-fcd6" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="db75-f72f-4e3d-e9ab" name="Heavy Steam-Gun" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -2797,6 +2822,9 @@
         <infoLink id="80fa-0817-639f-4049" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="19fc-1ee2-5716-0aaa" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f28c-1490-aac9-52c7" name="Giant Construct" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -2835,7 +2863,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="420.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="320.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="47f3-42d1-3aa6-e7bb" name="Flame Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2960,7 +2988,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="130.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c5f6-947d-c15d-2f96" name="Flame Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2968,11 +2996,27 @@
         <infoLink id="1bf9-6948-27b9-2993" name="Flame Cannon" hidden="false" targetId="5822-f3a4-26b9-b2b7" type="profile"/>
         <infoLink id="af01-c834-e794-c47d" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4aaa-9a32-5599-0d51" name="Organ Gun" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2de3-28f2-8b3f-8164" name="Organ Gun" hidden="false" targetId="e7a3-d5a4-a98d-6ee7" type="profile"/>
-        <infoLink id="eb67-6665-6941-f97e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="510c-de79-2633-c35b" name="Flame-Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3c49-a9cb-4440-ab22" name="Flame-Rifle" hidden="false" targetId="f740-188a-7b74-c5f9" type="profile"/>
+        <infoLink id="f9f5-6c1a-1478-8b98" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="fa5b-77a8-95bf-7d32" name="Organ-Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fd6c-461a-9e80-1461" name="Organ-Rifle" hidden="false" targetId="337a-e7bc-57fe-8983" type="profile"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -3125,37 +3169,37 @@ Weapon: Claws(A1)</characteristic>
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Slow, Tough(3), Wizard(1)</characteristic>
       </characteristics>
     </profile>
-    <profile id="16ad-bbb5-06b1-f7f9" name="4. Breaking Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Psychic Power">
+    <profile id="16ad-bbb5-06b1-f7f9" name="4. Breaking Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
       <characteristics>
         <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
         <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy model within 12&quot; takes 2 automatic hits with AP(2).</characteristic>
       </characteristics>
     </profile>
-    <profile id="1c74-8595-9067-c671" name="2. Smiting Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Psychic Power">
+    <profile id="1c74-8595-9067-c671" name="2. Smiting Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
       <characteristics>
         <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
         <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 4 automatic hits.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8338-bdea-cf31-6005" name="3. Battle Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Psychic Power">
+    <profile id="8338-bdea-cf31-6005" name="3. Battle Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
       <characteristics>
         <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
         <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets +6&quot; next time it moves.</characteristic>
       </characteristics>
     </profile>
-    <profile id="2382-6a6c-1995-58b3" name="1. Spite Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Psychic Power">
+    <profile id="2382-6a6c-1995-58b3" name="1. Spite Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
       <characteristics>
         <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
         <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; gets -1 to hit in melee next time it fights.</characteristic>
       </characteristics>
     </profile>
-    <profile id="08c6-e212-f692-a313" name="5. Drill Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Psychic Power">
+    <profile id="08c6-e212-f692-a313" name="5. Drill Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
       <characteristics>
         <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
         <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target piece of terrain within 6&quot; may be moved by up to 6&quot; in any direction or may be removed from play.</characteristic>
       </characteristics>
     </profile>
-    <profile id="088f-66e2-47d4-a517" name="6. Cleaving Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Psychic Power">
+    <profile id="088f-66e2-47d4-a517" name="6. Cleaving Rune" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
       <characteristics>
         <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
         <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target 2 enemy units within 12&quot; take 6 automatic hits each.</characteristic>
@@ -3444,9 +3488,23 @@ Weapon: Claws(A1)</characteristic>
     </profile>
     <profile id="e7a3-d5a4-a98d-6ee7" name="Organ Gun" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="79f4-5578-c041-f866">30&quot;</characteristic>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">24&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A12</characteristic>
-        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2)</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d"></characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f740-188a-7b74-c5f9" name="Flame-Rifle" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A6</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="337a-e7bc-57fe-8983" name="Organ-Rifle" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A12</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d"></characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

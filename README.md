@@ -75,12 +75,12 @@ table!
 |Chivalrous Kingdoms|-|NOT STARTED|
 |Dark Elves|-|NOT STARTED|
 |Deap-Sea Elves|-|NOT STARTED|
-|Dwarves|v2.7|Done|
+|Dwarves|v2.9|Done|
 |Eternal Wardens|-|NOT STARTED|
 |Ghostly Undead|-|NOT STARTED|
 |Goblins|-|NOT STARTED|
 |Halflings|-|NOT STARTED|
-|Havoc Dwarves|v2.1|Done|
+|Havoc Dwarves|v2.2|Done|
 |Havoc Warriors|-|NOT STARTED|
 |High Elves|-|NOT STARTED|
 |Humans|-|NOT STARTED|
