@@ -75,7 +75,7 @@ table!
 |Chivalrous Kingdoms|-|NOT STARTED|
 |Dark Elves|-|NOT STARTED|
 |Deap-Sea Elves|-|NOT STARTED|
-|Dwarves|v2.7|Done|
+|Dwarves|v2.9|Done|
 |Eternal Wardens|-|NOT STARTED|
 |Ghostly Undead|-|NOT STARTED|
 |Goblins|-|NOT STARTED|
