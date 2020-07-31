@@ -1072,7 +1072,7 @@ Note that the charging unit must only roll up to as many dice as models with the
       <characteristics>
         <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
-        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1), Blast(6), Indirect</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2), Blast(6), Indirect</characteristic>
       </characteristics>
     </profile>
     <profile id="0e95-2be7-c5cb-ef32" name="Wizard(1)" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">

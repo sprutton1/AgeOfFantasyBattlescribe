@@ -104,6 +104,51 @@
         <categoryLink id="b097-8384-34eb-dc99" name="Monsters" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="0e4d-a5b1-19cb-f819" name="Pair of Giant Cave-Beasts" hidden="false" collective="false" import="true" targetId="45d3-8fd3-86e0-89e2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7871-0228-2537-1bf8" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6581-60db-6afd-1b06" name="Troll Giant" hidden="false" collective="false" import="true" targetId="baa8-e81f-7ed9-d3bb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="058e-bb03-4a94-a2f9" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="95dc-6f76-c783-d5e9" name="Giant Spider" hidden="false" collective="false" import="true" targetId="87f0-985e-73e6-5227" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9ad4-bbea-de7f-8b66" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e239-3034-bbf1-1466" name="Wolf Chariot" hidden="false" collective="false" import="true" targetId="862c-9649-bd3e-6fb6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6a18-4409-a129-bbb9" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="32ea-f586-8010-2060" name="Pump Chariot" hidden="false" collective="false" import="true" targetId="1209-f012-bf56-6bf9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e90a-e13a-c76c-57e9" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="286a-2ff3-6471-80d7" name="Giant Blunderbuss" hidden="false" collective="false" import="true" targetId="bd89-b1bc-51a0-6115" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ca87-7a8d-1f97-809e" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5db1-4d26-2d69-7777" name="Goblin Thrower" hidden="false" collective="false" import="true" targetId="7a6b-20e7-c37a-cc44" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1581-4fd4-b72d-60c1" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8ccc-5cbb-7297-b830" name="Bolt Thrower" hidden="false" collective="false" import="true" targetId="2ce7-37e3-6e75-f1b9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="177e-3acc-e87f-4c9d" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="095e-ec18-ddf9-06c7" name="Stone Thrower" hidden="false" collective="false" import="true" targetId="3bb9-3718-bb8d-e520" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="499a-a9da-c8e7-c045" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="6d5a-a77e-3775-03be" name="Inspiring Presence" hidden="false" collective="false" import="true" type="upgrade">
@@ -783,6 +828,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -804,6 +852,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -822,6 +873,9 @@
         <infoLink id="0050-fcd4-3305-7e4c" name="Hand Weapon" hidden="false" targetId="1e6e-14a1-a0a9-0957" type="profile"/>
         <infoLink id="11b7-fd8e-068d-9c73" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f3ee-6c3a-948f-2ac9" name="Nasty Assassins" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -851,6 +905,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -872,6 +929,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -881,6 +941,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1aee-fcaf-1654-f6c5" name="Archers" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -914,6 +977,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -941,6 +1007,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -953,6 +1022,9 @@
       <entryLinks>
         <entryLink id="e939-6952-06be-969b" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ce6e-4685-4cd8-786e" name="Cave Archers" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -987,6 +1059,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1014,6 +1089,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1026,11 +1104,17 @@
       <entryLinks>
         <entryLink id="98c7-1cc6-2cc1-5851" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="abbe-82a2-2099-6a0c" name="Claws" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="c553-121b-6e70-ad80" name="Claws" hidden="false" targetId="37d9-5240-16cb-8449" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b929-1947-f815-3058" name="Wolf Riders" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1061,6 +1145,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1083,6 +1170,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1095,11 +1185,17 @@
       <entryLinks>
         <entryLink id="716b-1bcc-1c2e-883b" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7cfb-a001-fa3f-0c64" name="Claws" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="281c-5b20-4493-7b60" name="Claws" hidden="false" targetId="35cf-1180-b3d2-e6b8" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7474-bde9-1009-f495" name="Spider Riders" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1131,6 +1227,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1153,6 +1252,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1165,6 +1267,9 @@
       <entryLinks>
         <entryLink id="5425-95bd-b704-1ff8" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d8a0-5274-2367-4c48" name="Cave-Beast Riders" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1196,6 +1301,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1218,6 +1326,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1227,12 +1338,18 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d674-c055-3025-731b" name="Hand Weapon (Troll)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="f405-3251-0a98-796e" name="Hand Weapon (Troll)" hidden="false" targetId="e4cb-0c8b-f293-a41b" type="profile"/>
         <infoLink id="7da9-a3fb-230f-4386" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9fea-73b6-ffd6-d3fd" name="Forest Trolls" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1262,6 +1379,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1283,6 +1403,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1292,12 +1415,18 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0210-5d08-1e18-380b" name="Toxic Vomit" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8fc7-c111-aeca-563e" name="Toxic Vomit" hidden="false" targetId="c9f5-fd94-d23d-2775" type="profile"/>
         <infoLink id="7724-4358-47e3-62eb" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="958d-8746-3655-4420" name="River Trolls" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1328,6 +1457,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="e322-396b-bc9d-175d" name="Upgrade: Toxic Vomit" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -1365,6 +1497,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="d728-ab63-21d1-1ad1" name="Upgrade: Toxic Vomit" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -1390,12 +1525,18 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b631-f18a-affb-860c" name="Boulder Throwers" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="123b-d64b-6817-29f8" name="Boulder Throwers" hidden="false" targetId="b947-8302-884d-2e64" type="profile"/>
         <infoLink id="f6d1-b2da-e158-2e94" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f68d-a54a-8c69-5982" name="Mountain Trolls" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1425,6 +1566,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="9e64-0b60-cc0e-3012" name="Upgrade: Boulder Throwers" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -1462,6 +1606,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="4793-f76a-b5b5-b755" name="Upgrade: Boulder Throwers" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -1487,12 +1634,18 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c8e6-7ab4-673b-13a7" name="Stomp" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="55d9-307a-89f9-087d" name="Stomp" hidden="false" targetId="5998-be84-8543-7c0b" type="profile"/>
         <infoLink id="62ba-be0d-9e52-5384" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="46c4-49af-f8f9-4f4d" name="Giant Cave-Beast" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1512,6 +1665,434 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c26-dd70-dd4e-9545" name="Double Stomp" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6fbe-f1d7-042d-c0a9" name="Double Stomp" hidden="false" targetId="bc02-0c08-3b56-e41b" type="profile"/>
+        <infoLink id="1707-90f3-f50c-5853" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="45d3-8fd3-86e0-89e2" name="Pair of Giant Cave-Beasts" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="36f9-9653-9cf5-0aaf" name="Pair of Giant Cave-Beasts" hidden="false" targetId="dfe0-b593-ce50-68d7" type="profile"/>
+        <infoLink id="b80d-59e1-9c39-faae" name="Boing" hidden="false" targetId="49be-1cfa-e640-6e04" type="rule"/>
+        <infoLink id="dba7-3e60-9d8d-97c0" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="42c2-9bd0-41b2-fed2" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="9c59-386a-8ea7-2086" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="cae8-071f-f97a-024f" name="Double Stomp" hidden="false" collective="false" import="true" targetId="0c26-dd70-dd4e-9545" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b21-1a16-bde7-ad4a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b0f-ec67-65e5-77ca" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="050c-58e9-4133-bd8d" name="Giant Club" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4276-6b70-cb0b-1cf9" name="Giant Club" hidden="false" targetId="7e8c-5eec-01af-7a51" type="profile"/>
+        <infoLink id="50f9-519a-3f28-e4b8" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="acbf-b9fb-225c-9324" name="Crushing Blow" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3760-1001-822a-0bc3" name="Crushing Blow" hidden="false" targetId="6d58-9d68-d574-5811" type="profile"/>
+        <infoLink id="d070-f84c-ecb2-6b72" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="a4f7-3086-2ecb-94f2" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="baa8-e81f-7ed9-d3bb" name="Troll Giant" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3373-5d9d-0f8b-a69e" name="Troll Giant" hidden="false" targetId="bb0d-d9d3-6885-f417" type="profile"/>
+        <infoLink id="6cf9-c66c-f110-902d" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="d288-78a9-69a2-9eff" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="e909-3040-f9be-cd72" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="8fd6-96d8-7d61-d61b" name="Giant Club" hidden="false" collective="false" import="true" targetId="050c-58e9-4133-bd8d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f62b-b9d9-e02e-4404" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be30-b539-6496-cf8c" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b46d-eb2c-6936-157d" name="Crushing Blow" hidden="false" collective="false" import="true" targetId="acbf-b9fb-225c-9324" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c418-2d20-5611-f526" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="195.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="063d-cc0c-e17e-b527" name="Spider Claws" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="39a7-89c0-bff4-805c" name="Spider Claws" hidden="false" targetId="e695-5264-f1f4-1c47" type="profile"/>
+        <infoLink id="0bb8-feb2-2812-3e9f" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="ada7-e11c-d374-a371" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="ae1e-f046-94f9-96a7" name="Crew Attacks" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3dae-fc41-4bd5-bdf0" name="Crew Attacks" hidden="false" targetId="4ac3-e16b-700f-3815" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="8e00-53ab-64d8-46fc" name="Venom Sting" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0b0e-f524-4e12-5f57" name="Venom Sting" hidden="false" targetId="29bb-eeed-c12f-5900" type="profile"/>
+        <infoLink id="fb61-4f38-e480-1f02" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="92cb-890d-5622-58cf" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+        <infoLink id="6b84-9fed-af94-c16f" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="b98f-3e9d-428b-8aae" name="Spider Shrine" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="049a-3b03-e583-ed62" name="Spider Shrine" hidden="false" targetId="475d-ebd8-30cd-607c" type="profile"/>
+        <infoLink id="3af8-89cd-53de-106f" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="0d8a-260d-7bc1-5090" name="Wizard Spells" hidden="false" collective="false" import="true" targetId="eb76-3f3b-7649-84e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="962c-9942-8b9b-90db" name="Web Catapult" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c182-3650-076d-024b" name="Web Catapult" hidden="false" targetId="76ab-a033-3f57-8048" type="profile"/>
+        <infoLink id="16f9-b4b5-fd4c-ae6c" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+        <infoLink id="a024-2818-b3c5-21ac" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="87f0-985e-73e6-5227" name="Giant Spider" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d45f-071f-9e1d-7323" name="Giant Spider" hidden="false" targetId="a80a-201d-4733-55e4" type="profile"/>
+        <infoLink id="6f3f-058d-44ad-d16f" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="b565-3160-7b3e-441c" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="753a-d4f2-4832-bd9a" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bddc-c8e3-a625-900d" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3ae-2064-c69c-c8c0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8758-f8e5-2ef3-414d" name="Venom Sting" hidden="false" collective="false" import="true" targetId="8e00-53ab-64d8-46fc" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="499f-3544-a03d-b542" name="Spider Shrine" hidden="false" collective="false" import="true" targetId="b98f-3e9d-428b-8aae" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="bc4e-0b45-9701-7081" name="Web Catapult" hidden="false" collective="false" import="true" targetId="962c-9942-8b9b-90db" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b63c-55d7-3d51-4d9e" name="Spider Claws" hidden="false" collective="false" import="true" targetId="063d-cc0c-e17e-b527" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8db-3335-b931-823c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51df-b112-6cce-c900" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="639e-54e0-284f-d57c" name="Crew Attacks" hidden="false" collective="false" import="true" targetId="ae1e-f046-94f9-96a7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2f5-7199-0a09-6c10" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c38d-dabb-cb1c-63e2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5f7e-9e87-1854-8c63" name="Shortbow" hidden="false" collective="false" import="true" targetId="366b-eaf8-31b4-b1d4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f59-541e-2bbb-0f73" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e219-12db-66da-3b99" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="185.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2580-8d9b-d4ac-f1b9" name="Crew Attacks" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7eb6-021f-dd52-c962" name="Crew Attacks" hidden="false" targetId="b0a8-b1e0-3125-26b3" type="profile"/>
+        <infoLink id="8753-015e-defd-9491" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="fe4a-6a3c-a9be-528d" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2d3a-aec8-29f0-45d3" name="Claws" hidden="false" targetId="334c-6e54-cf8d-b455" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="862c-9649-bd3e-6fb6" name="Wolf Chariot" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="189f-5d0a-1cd9-494d" name="Wolf Chariot" hidden="false" targetId="176d-61cc-7dc4-0af6" type="profile"/>
+        <infoLink id="4e58-ddf5-c415-549b" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="d4d8-07d3-c04e-b9e0" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="1403-e5a0-5a6d-be4e" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="53af-db18-f328-4c24" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9fd-c29c-8641-00e0" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6150-d821-2fdd-e2bd" name="Shortbows" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="4e0e-7047-c77d-c975" name="Shortbow" hidden="false" collective="false" import="true" targetId="366b-eaf8-31b4-b1d4" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="050e-3bbb-86a2-8ac9" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be36-8c04-d93f-052f" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d89c-f748-b1c5-0d91" name="Claws" hidden="false" collective="false" import="true" targetId="fe4a-6a3c-a9be-528d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="349f-d04c-578c-c9cb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d1e-0120-04b0-1837" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="44ca-83f5-475d-3d3d" name="Crew Attacks" hidden="false" collective="false" import="true" targetId="2580-8d9b-d4ac-f1b9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7657-87ee-d3a2-9982" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c6c-a639-376e-b441" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e194-ed3d-5845-dee6" name="Giant Bombs" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0650-c952-ee95-32ba" name="Giant Bombs" hidden="false" targetId="c12a-2b34-99c8-5ea5" type="profile"/>
+        <infoLink id="cbf0-838b-86b6-ded0" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="e927-689c-6c8d-7919" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="df8a-7a59-ca7a-1fea" name="Wings" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f5dd-1c57-9d4e-f6c6" name="Wings" hidden="false" targetId="e3c6-31ab-8e1e-3d6a" type="profile"/>
+        <infoLink id="33b1-f1a0-dcd9-69ed" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="caad-bce0-e1ff-55e1" name="Sail" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="aabc-263d-73aa-a3f2" name="Sail" hidden="false" targetId="0f14-7d53-a656-9db1" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="258d-cf03-d825-4af0" name="Spiked Ram" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6ca2-b130-7019-6fdc" name="Spiked Ram" hidden="false" targetId="73f4-555f-91b0-88f0" type="profile"/>
+        <infoLink id="f593-4187-c79a-4518" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="1209-f012-bf56-6bf9" name="Pump Chariot" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="af13-6113-b279-c261" name="Pump Chariot" hidden="false" targetId="074e-8c68-eb35-bcf4" type="profile"/>
+        <infoLink id="faeb-5bd8-9bba-37f9" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="704b-a4d9-1e30-42dc" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="9165-0d19-b08e-aff7" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="8a19-64f8-03fc-57ff" name="Pump Engine" hidden="false" targetId="98ab-e2bd-3c80-6ace" type="rule"/>
+        <infoLink id="18de-8b7b-17b6-5f67" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cf8f-c3ab-a1ee-f54c" name="Upgrades" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="91ed-2b8e-d8f6-6d68" name="Wings" hidden="false" collective="false" import="true" targetId="df8a-7a59-ca7a-1fea" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="809c-109c-2484-af85" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a659-c506-4e93-f4c0" name="Sail" hidden="false" collective="false" import="true" targetId="caad-bce0-e1ff-55e1" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab41-05e7-989a-3103" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="11d5-f157-5c22-b9be" name="Bombs" hidden="false" collective="false" import="true" targetId="f765-b75a-1c1b-a03e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8d0-5164-f7d3-fa64" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3620-76e3-14a2-1c1b" name="Giant Bombs" hidden="false" collective="false" import="true" targetId="e194-ed3d-5845-dee6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a011-eb01-a474-74ed" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="86fc-224a-4788-a883" name="Spiked Ram" hidden="false" collective="false" import="true" targetId="258d-cf03-d825-4af0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec80-4f9c-7bd2-344f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="470e-9bb3-3e36-7932" name="Crew Attacks" hidden="false" collective="false" import="true" targetId="37b1-dc32-8e4a-59c7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3a6-690b-baba-21db" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7182-7e1d-eb82-ffbb" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="37b1-dc32-8e4a-59c7" name="Crew Attacks" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="078c-a38a-57b9-00da" name="Crew Attacks" hidden="false" targetId="4536-84d7-3d1d-e7aa" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="1f10-478c-a803-a51f" name="Giant Blunderbuss" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6e0a-cd26-8c6b-546c" name="Giant Blunderbuss" hidden="false" targetId="2457-b1b3-a16d-13d6" type="profile"/>
+        <infoLink id="628d-2fb1-6b83-afeb" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="bd89-b1bc-51a0-6115" name="Giant Blunderbuss" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="100b-c643-1c36-bb58" name="Giant Blunderbuss" hidden="false" targetId="29ca-9762-48b3-be82" type="profile"/>
+        <infoLink id="2c24-029f-b3fc-5d9c" name="Artillery" hidden="false" targetId="92bc-0fe3-fc76-788f" type="rule"/>
+        <infoLink id="232f-1bf5-67fd-d02c" name="Immobile" hidden="false" targetId="2c1d-c23a-cb5d-cb83" type="rule"/>
+        <infoLink id="adc0-ac23-29b9-8b5a" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="725b-5914-6204-8904" name="Crew (A3)" hidden="false" collective="false" import="true" targetId="09ed-15ba-6121-e8eb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc55-9f7e-9967-35d3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7090-6422-3bcc-7573" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9bdc-04a5-0a8a-48bf" name="Giant Blunderbuss" hidden="false" collective="false" import="true" targetId="1f10-478c-a803-a51f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db84-a77c-ff9f-34cd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="358f-4110-5541-a784" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4374-91ca-e480-c67d" name="Goblin Thrower" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d69c-d74a-5f47-677f" name="Goblin Thrower" hidden="false" targetId="7e3e-2104-d3a1-fe38" type="profile"/>
+        <infoLink id="ba77-f386-1f24-4915" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="1d37-e01b-ce19-4736" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
+        <infoLink id="9ad4-3b54-d49c-c41b" name="Sniper" hidden="false" targetId="2943-e3f6-fb44-ae13" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="7a6b-20e7-c37a-cc44" name="Goblin Thrower" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ac84-4ccb-2e93-451b" name="Goblin Thrower" hidden="false" targetId="119f-4535-432f-01ed" type="profile"/>
+        <infoLink id="0ef5-d605-9f72-8c9a" name="Artillery" hidden="false" targetId="92bc-0fe3-fc76-788f" type="rule"/>
+        <infoLink id="2208-7ee8-0bc3-9eef" name="Immobile" hidden="false" targetId="2c1d-c23a-cb5d-cb83" type="rule"/>
+        <infoLink id="5e04-8cdb-4df1-c343" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="34fc-0df7-1179-722b" name="Crew (A3)" hidden="false" collective="false" import="true" targetId="09ed-15ba-6121-e8eb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa2e-66c6-55ba-3dbf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddfb-b062-1150-95e4" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fb3d-1d67-040a-97c3" name="Goblin Thrower" hidden="false" collective="false" import="true" targetId="4374-91ca-e480-c67d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8be5-1516-b708-3de9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="407e-600d-ecd8-820a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ce7-37e3-6e75-f1b9" name="Bolt Thrower" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="22f2-bcf9-99b1-a370" name="Bolt Thrower" hidden="false" targetId="dc10-4698-6e01-f003" type="profile"/>
+        <infoLink id="21ea-eb0b-7b90-7004" name="Artillery" hidden="false" targetId="92bc-0fe3-fc76-788f" type="rule"/>
+        <infoLink id="ee57-c848-86db-d289" name="Immobile" hidden="false" targetId="2c1d-c23a-cb5d-cb83" type="rule"/>
+        <infoLink id="b894-d511-c9c2-4227" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="acd9-53a8-cb74-f0ee" name="Crew (A3)" hidden="false" collective="false" import="true" targetId="09ed-15ba-6121-e8eb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0de-63a7-e551-a53e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5664-3d20-cd4c-7a24" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6486-4cff-af41-fdd3" name="Bolt Thrower" hidden="false" collective="false" import="true" targetId="5b86-67cc-f40b-5607" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7cc-b7dd-ab57-f805" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fff-366f-9e82-724f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3bb9-3718-bb8d-e520" name="Stone Thrower" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ea0b-5778-1dd5-8afb" name="Stone Thrower" hidden="false" targetId="a84a-4918-ca9b-77b2" type="profile"/>
+        <infoLink id="c38a-46e2-464a-531a" name="Artillery" hidden="false" targetId="92bc-0fe3-fc76-788f" type="rule"/>
+        <infoLink id="5ad4-e44f-76ba-2313" name="Immobile" hidden="false" targetId="2c1d-c23a-cb5d-cb83" type="rule"/>
+        <infoLink id="b27b-5f30-6a06-96c4" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="c06a-7f70-b8e1-24b0" name="Crew (A3)" hidden="false" collective="false" import="true" targetId="09ed-15ba-6121-e8eb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eab-35b2-c59a-0db7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53e9-add1-b4fd-3f81" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b4e0-5353-627a-eba5" name="Stone Thrower" hidden="false" collective="false" import="true" targetId="92ca-2be6-624f-484f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afbe-4dc8-70ec-08aa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d22-ba63-5b8b-dfb5" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1782,6 +2363,9 @@
     </rule>
     <rule id="ca66-02bc-ac1c-063a" name="Surprise!" publicationId="6b0e-dfdd-26bc-c235" hidden="false">
       <description>This model may be placed up to 3&quot; away from enemy units when using Ambush. Once deployed roll 1 die, on a 2+ one enemy unit within 3&quot; takes 1 hit with Deadly(3).</description>
+    </rule>
+    <rule id="98ab-e2bd-3c80-6ace" name="Pump Engine" publicationId="6b0e-dfdd-26bc-c235" hidden="false">
+      <description>When this unit moves you may roll one die, on a 2+ this unit moves +4D3&quot;, else it takes 1 automatic wound.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -2093,6 +2677,171 @@ Weapon: Claws (A1)</characteristic>
       <characteristics>
         <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dfe0-b593-ce50-68d7" name="Pair of Giant Cave-Beasts" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Boing, Fear, Fearless, Tough(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bc02-0c08-3b56-e41b" name="Double Stomp" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bb0d-d9d3-6885-f417" name="Troll Giant" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Regeneration, Tough(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7e8c-5eec-01af-7a51" name="Giant Club" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6d58-9d68-d574-5811" name="Crushing Blow" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(4), Deadly(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a80a-201d-4733-55e4" name="Giant Spider" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Strider, Tough(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e695-5264-f1f4-1c47" name="Spider Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Poison</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4ac3-e16b-700f-3815" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+      </characteristics>
+    </profile>
+    <profile id="29bb-eeed-c12f-5900" name="Venom Sting" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Deadly(3), Poison</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="475d-ebd8-30cd-607c" name="Spider Shrine" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Wizard(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="76ab-a033-3f57-8048" name="Web Catapult" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">Blast(6), Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="176d-61cc-7dc4-0af6" name="Wolf Chariot" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Impact(6), Tough(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b0a8-b1e0-3125-26b3" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Impact(2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="334c-6e54-cf8d-b455" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+      </characteristics>
+    </profile>
+    <profile id="074e-8c68-eb35-bcf4" name="Pump Chariot" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">6+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Impact(6), Pump Engine, Tough(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4536-84d7-3d1d-e7aa" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6	</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+      </characteristics>
+    </profile>
+    <profile id="e3c6-31ab-8e1e-3d6a" name="Wings" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Strider</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0f14-7d53-a656-9db1" name="Sail" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Always moves +2D3&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="73f4-555f-91b0-88f0" name="Spiked Ram" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Impact(+3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c12a-2b34-99c8-5ea5" name="Giant Bombs" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1), Blast(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="29ca-9762-48b3-be82" name="Giant Blunderbuss" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Artillery, Immobile, Tough(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2457-b1b3-a16d-13d6" name="Giant Blunderbuss" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">18&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A6</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="119f-4535-432f-01ed" name="Goblin Thrower" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Artillery, Immobile, Tough(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dc10-4698-6e01-f003" name="Bolt Thrower" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Artillery, Immobile, Tough(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a84a-4918-ca9b-77b2" name="Stone Thrower" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Artillery, Immobile, Tough(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7e3e-2104-d3a1-fe38" name="Goblin Thrower" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1), Indirect, Sniper</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
