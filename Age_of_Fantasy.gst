@@ -757,6 +757,51 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="f05d-bf03-c1f8-f2b4" name="Weapons - Infantry - Melee (Q5, A1)" hidden="false" collective="false" import="true" defaultSelectionEntryId="705f-6204-ef4c-0e7c">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38f1-997d-ba84-c298" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6132-c062-e71d-788c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="705f-6204-ef4c-0e7c" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="18e9-22bb-b469-e565" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b00-7526-f868-5e57" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3b26-b636-fc0e-9ef0" name="Halberd (A1)" hidden="false" collective="false" import="true" targetId="44f8-017a-b4b0-6c1c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f02a-fff8-4f51-8364" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.5"/>
+          </costs>
+        </entryLink>
+        <entryLink id="1473-fc7d-e17f-eb42" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="4235-a513-5a6e-d5bb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e647-3197-36b5-5283" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="259b-730b-d69c-75cb" name="2x Hand Weapons (A1)" hidden="false" collective="false" import="true" targetId="b14b-84f8-6e4e-cc3f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0677-c165-bf29-00ca" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="93dd-983b-d641-e54a" name="Spear (A1)" hidden="false" collective="false" import="true" targetId="b7ad-83c8-3ce9-5619" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84df-06e5-87db-e866" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="3.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="859e-e070-e91c-26e1" name="Ambush" publicationId="d755-5d69-pubN65537" hidden="false">
