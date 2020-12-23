@@ -996,23 +996,12 @@
       <categoryLinks>
         <categoryLink id="7a32-5484-c8b9-0f54" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="29a1-26ca-48a1-7d4f" name="Boar Chariot" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed77-1917-ecc6-2961" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be2f-8a9f-69f8-9697" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="155.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="724e-be48-afee-fc6c" name="Tusks(A3)" hidden="false" collective="false" import="true" targetId="7eda-7cc9-42a6-2c6e" type="selectionEntry"/>
         <entryLink id="0db4-3134-c75f-d0dc" name="Crew Attacks (A2)" hidden="false" collective="false" import="true" targetId="d98a-dc54-9c75-0ecd" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="155.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8bd5-feee-52cf-52ad" name="Cyclops" hidden="false" collective="false" import="true" type="unit">
