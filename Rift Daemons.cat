@@ -4696,7 +4696,7 @@
         <infoLink id="9dcf-2944-1560-dacf" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="af30-e93c-afcf-e987" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="0df6-46c3-5819-26cc" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d408-a9b6-5323-0dbe" name="3 Lust Fiends" hidden="false" collective="false" import="true" type="model">
@@ -4705,7 +4705,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffad-9c5a-463b-e852" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="275.0"/>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="215.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bc66-d010-8a1b-d95b" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
