@@ -41,6 +41,7 @@
     <entryLink id="570b-abf6-bcc0-b6f3" name="Manta Daemons" hidden="false" collective="false" import="true" targetId="553a-8bc2-a1ec-534f" type="selectionEntry"/>
     <entryLink id="2133-aa76-9fba-d92e" name="Greater Daemon of Change" hidden="false" collective="false" import="true" targetId="fd67-10a4-644a-dba8" type="selectionEntry"/>
     <entryLink id="96bd-8acf-4208-be42" name="Razor-Flail Chariot" hidden="false" collective="false" import="true" targetId="7de9-9294-8722-f0ad" type="selectionEntry"/>
+    <entryLink id="443e-327f-8b81-fa31" name="Change Warriors" hidden="false" collective="false" import="true" targetId="95fe-a769-aa9d-9ec0" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="8cf9-6311-a645-5882" name="Greater Daemon of War" hidden="false" collective="false" import="true" type="unit">
@@ -3241,10 +3242,18 @@
         <entryLink id="ee1c-f5d2-00b1-f79e" name="Wizard(1)" hidden="false" collective="false" import="true" targetId="b2d2-cfaf-8ce6-6198" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0"/>
+            <modifier type="set" field="297c-4252-d2af-f876" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="297c-4252-d2af-f876" type="max"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="d02c-ace6-b027-c883" name="Wizard Spells - Change" hidden="false" collective="false" import="true" targetId="4ce8-e187-4e06-7822" type="selectionEntryGroup"/>
+          </entryLinks>
         </entryLink>
       </entryLinks>
       <costs>
