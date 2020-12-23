@@ -912,15 +912,6 @@
         <categoryLink id="4143-b42d-098b-0b89" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="55a8-fef0-e8fc-00c5" name="Hunter Chariot" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b865-aa41-08ca-92fe" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="455a-bbfd-5905-14ab" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="dc10-e63b-f1aa-308b" name="Claws(A2)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cfe-946e-6a79-ebd4" type="min"/>
@@ -943,7 +934,7 @@
         <entryLink id="32ce-ad05-4ef5-5bb7" name="Crew Attacks (A2)" hidden="false" collective="false" import="true" targetId="d98a-dc54-9c75-0ecd" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d98a-dc54-9c75-0ecd" name="Crew Attacks (A2)" hidden="false" collective="false" import="true" type="upgrade">
