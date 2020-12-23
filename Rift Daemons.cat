@@ -2705,7 +2705,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d165-e51a-b6a2-39b8" name="Champion of Lust" hidden="false" collective="false" import="true" type="unit">
