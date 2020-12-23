@@ -1734,6 +1734,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e95a-3c94-bdb9-76f8" name="Wizard Spells - Change" hidden="false" collective="false" import="true" targetId="4ce8-e187-4e06-7822" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="435.0"/>
       </costs>
@@ -2214,16 +2217,25 @@
               <modifiers>
                 <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0"/>
               </modifiers>
+              <entryLinks>
+                <entryLink id="aa21-4266-9a93-32dd" name="Wizard Spells - Change" hidden="false" collective="false" import="true" targetId="4ce8-e187-4e06-7822" type="selectionEntryGroup"/>
+              </entryLinks>
             </entryLink>
             <entryLink id="f020-0f02-6798-20dc" name="Wizard(2)" hidden="false" collective="false" import="true" targetId="3fd8-1309-fe4e-3b6e" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="567f-6468-66c6-2ea2" value="35.0"/>
               </modifiers>
+              <entryLinks>
+                <entryLink id="c951-8d15-87e9-4458" name="Wizard Spells - Change" hidden="false" collective="false" import="true" targetId="4ce8-e187-4e06-7822" type="selectionEntryGroup"/>
+              </entryLinks>
             </entryLink>
             <entryLink id="3799-01f2-9600-1050" name="Wizard(3)" hidden="false" collective="false" import="true" targetId="5b94-0e56-00d3-1804" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="567f-6468-66c6-2ea2" value="50.0"/>
               </modifiers>
+              <entryLinks>
+                <entryLink id="6a0e-9f1c-4aed-b782" name="Wizard Spells - Change" hidden="false" collective="false" import="true" targetId="4ce8-e187-4e06-7822" type="selectionEntryGroup"/>
+              </entryLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -2687,6 +2699,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd34-aa72-bf2e-a07e" type="max"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="e3fa-a37b-2ba7-5423" name="Wizard Spells - Change" hidden="false" collective="false" import="true" targetId="4ce8-e187-4e06-7822" type="selectionEntryGroup"/>
+          </entryLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -4721,6 +4736,25 @@
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="4ce8-e187-4e06-7822" name="Wizard Spells - Change" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="3edf-c385-06ce-66d3" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="782a-3a48-9a77-d10b" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="74a8-4cbd-5700-9786" name="1. Hex Blades" hidden="false" targetId="1ceb-7c32-26bc-4745" type="profile"/>
+            <infoLink id="6f47-4835-6e40-cf8c" name="2. Blaze" hidden="false" targetId="1241-d82a-07ae-ad2b" type="profile"/>
+            <infoLink id="30b4-2fc4-3e4b-bd6f" name="3. Steal Power" hidden="false" targetId="4991-0480-bbe8-389f" type="profile"/>
+            <infoLink id="8fae-09fb-d5c4-1d76" name="4. Firestorm" hidden="false" targetId="1dbc-2315-5339-d940" type="profile"/>
+            <infoLink id="e1ed-b1a3-b8af-341a" name="5. Loyalty" hidden="false" targetId="77b7-bdee-1c5c-d08e" type="profile"/>
+            <infoLink id="6483-1ae4-3b7d-ba1c" name="6. Change Bolt" hidden="false" targetId="d89f-6aa3-2b59-78e1" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d933-86d6-c2bc-8f1c" name="Symbol of War (X)" hidden="false">
       <description>When the hero is activated roll one die. On a X+ one enemy unit within 18&quot; takes 3 hits with AP(2).</description>
@@ -4778,6 +4812,42 @@
         <characteristic name="Range" typeId="79f4-5578-c041-f866">18&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A3</characteristic>
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4991-0480-bbe8-389f" name="3. Steal Power" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 18&quot; gets -1 to hit next time it shoots.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1241-d82a-07ae-ad2b" name="2. Blaze" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 2 automatic hits with AP(2).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1dbc-2315-5339-d940" name="4. Firestorm" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; must make a dangerous terrain test.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="77b7-bdee-1c5c-d08e" name="5. Loyalty" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets Regeneration on rolls of 4+ next time it takes wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1ceb-7c32-26bc-4745" name="1. Hex Blades" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; may immediately charge by 3&quot;.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d89f-6aa3-2b59-78e1" name="6. Change Bolt" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 1 hit with AP(4) and Deadly(6).</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
