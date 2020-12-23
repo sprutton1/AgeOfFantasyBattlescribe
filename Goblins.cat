@@ -2344,6 +2344,7 @@
             <infoLink id="5546-e434-64a5-1da3" name="3. Nuisance" hidden="false" targetId="8e8c-10f3-5cc5-427f" type="profile"/>
             <infoLink id="6072-b06e-6806-2bc3" name="4. Death Shroud" hidden="false" targetId="cdfa-d500-4dc9-ba09" type="profile"/>
             <infoLink id="ad97-9043-ecdc-e198" name="5. Sneaky" hidden="false" targetId="e4dd-ce53-9d09-7592" type="profile"/>
+            <infoLink id="c939-2dda-a0b1-55b0" name="6. Curse" hidden="false" targetId="2671-3585-e925-7ea5" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -2890,6 +2891,12 @@ Weapon: Claws (A1)</characteristic>
         <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1), Indirect, Sniper</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2671-3585-e925-7ea5" name="6. Curse" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 6&quot; takes 1 automatic hit per model.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
