@@ -1430,11 +1430,11 @@
     </selectionEntry>
     <selectionEntry id="e0ee-6591-11c1-c7a0" name="Greater Daemon of Lust" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="eaef-d74e-eb2f-809a" name="Greater Daemon of War" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+        <profile id="eaef-d74e-eb2f-809a" name="Greater Daemon of Lust" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
           <characteristics>
             <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">2+</characteristic>
             <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
-            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Furious, Flying, Hero, Tough(12)</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Fear, Hero, Tough(12), Wizard(2)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1442,8 +1442,8 @@
         <infoLink id="6247-1ce0-d2ab-7b32" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
         <infoLink id="14c3-cf82-3ea9-0e98" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
         <infoLink id="2b9c-62b9-a40e-8c5c" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
-        <infoLink id="61b4-e64e-7882-5daa" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
-        <infoLink id="7200-434c-8eba-64a2" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="61b4-e64e-7882-5daa" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+        <infoLink id="7200-434c-8eba-64a2" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ce6d-c87a-ba86-c84c" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
@@ -1561,8 +1561,11 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="66ec-e299-82aa-416f" name="Wizard Spells - Lust" hidden="false" collective="false" import="true" targetId="08dc-e265-447e-c02a" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="375.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="410.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd67-10a4-644a-dba8" name="Greater Daemon of Change" hidden="false" collective="false" import="true" type="unit">
@@ -4789,6 +4792,23 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="08dc-e265-447e-c02a" name="Wizard Spells - Lust" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="ac04-0037-adb3-aa38" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecea-f3ca-a0a7-3381" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="89eb-ad32-65e7-d521" name="1. Acquiescence" hidden="false" targetId="df58-a26c-6164-d10d" type="profile"/>
+            <infoLink id="b2ea-4dcd-6894-2c11" name="2. Magical Lash" hidden="false" targetId="7aa7-c279-60f2-340a" type="profile"/>
+            <infoLink id="b066-2d17-d5a4-291b" name="3. Phantasm" hidden="false" targetId="2795-dafe-24cc-b164" type="profile"/>
+            <infoLink id="d30b-46dc-5d00-acc5" name="4. Lust Choir" hidden="false" targetId="0b9c-5599-a501-5a5b" type="profile"/>
+            <infoLink id="c0f5-f69f-981f-695d" name="5. Ecstasy" hidden="false" targetId="c330-aa06-cdde-5895" type="profile"/>
+            <infoLink id="40e3-b46e-3257-8d85" name="6. Shards" hidden="false" targetId="6d70-c7cf-a4b4-7ad4" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d933-86d6-c2bc-8f1c" name="Symbol of War (X)" hidden="false">
@@ -4919,6 +4939,42 @@
       <characteristics>
         <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
         <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy model within 12&quot; takes 4 automatic hits with AP(2).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="df58-a26c-6164-d10d" name="1. Acquiescence" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; gets -1 to hit next time it shoots.	</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7aa7-c279-60f2-340a" name="2. Magical Lash" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 1 hit with AP(2) and Deadly(3).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2795-dafe-24cc-b164" name="3. Phantasm" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets Regeneration next time it&apos;s wounded.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0b9c-5599-a501-5a5b" name="4. Lust Choir" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 3 automatic hits with AP(2).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c330-aa06-cdde-5895" name="5. Ecstasy" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; may immediately charge by up to 6&quot; and gets +1 to hit for that melee.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6d70-c7cf-a4b4-7ad4" name="6. Shards" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 6&quot; takes 1 automatic hit per model.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
