@@ -380,7 +380,7 @@
         <infoLink id="e690-e410-215d-348c" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b02c-50d9-6a6b-3a6d" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="fc03-3e6c-9758-68b9" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8422-910e-5e9d-20e3" name="3 Brass Beast Riders" hidden="false" collective="false" import="true" type="model">
