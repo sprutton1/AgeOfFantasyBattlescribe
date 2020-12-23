@@ -106,3 +106,4 @@ Github issue so that myself or the owner of that file can address it.
 # Credits
 
 Scott Prutton & Darguth for doing this thing.
+Thanks to Cartag for primary authorship of several armies.
