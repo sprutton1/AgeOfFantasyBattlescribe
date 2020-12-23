@@ -4454,7 +4454,7 @@
         <infoLink id="25fa-b9b1-912f-013b" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="354e-776c-858e-c646" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="7062-8fd7-46bc-4c4f" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3732-ae53-c830-bbeb" name="3 Plague Fly Riders" hidden="false" collective="false" import="true" type="model">
@@ -4470,7 +4470,7 @@
           <modifiers>
             <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
               <conditions>
-                <condition field="selections" scope="d355-a09f-4f94-fe9a" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                <condition field="selections" scope="d355-a09f-4f94-fe9a" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3732-ae53-c830-bbeb" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -4498,13 +4498,14 @@
         <selectionEntryGroup id="1aaa-965a-4d8f-4787" name="Stingers" hidden="false" collective="false" import="true" defaultSelectionEntryId="c857-227a-35bc-9bba">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9167-2fc8-ce9f-653a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a908-3fd5-b26c-2daa" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="7a7f-71b6-8c0a-db1f" name="Poisoned Stingers" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
                   <conditions>
-                    <condition field="selections" scope="d355-a09f-4f94-fe9a" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                    <condition field="selections" scope="d355-a09f-4f94-fe9a" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3732-ae53-c830-bbeb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4525,10 +4526,6 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="c857-227a-35bc-9bba" name="Stingers" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2f51-cf31-c7ee-c409" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7834-a378-ac75-9ad8" type="min"/>
-              </constraints>
               <profiles>
                 <profile id="f339-f322-7c42-b874" name="Stingers" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
                   <characteristics>
