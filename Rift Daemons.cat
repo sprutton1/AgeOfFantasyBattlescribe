@@ -1905,7 +1905,7 @@
             <infoLink id="6ca3-d462-7f16-2951" name="Symbol of Plague (X)" hidden="false" targetId="09ac-ac2e-6e23-981e" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6156-331d-7c50-7423" name="Wings (Flying)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1927,7 +1927,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c62-298b-684f-f6af" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c212-36c6-7c93-ebc7" name="Great Plague Staff" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c212-36c6-7c93-ebc7" name="Great Plague Sword" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="a1a4-2c3a-5527-b45c" name="Great Plague Sword" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
                   <characteristics>
@@ -2039,6 +2039,17 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ad77-5cf6-790c-5f18" name="Wizard Spells - Plague" hidden="false" collective="false" import="true" targetId="7079-b8e4-b11c-f243" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="def8-2132-4011-1e1c" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="225.0"/>
       </costs>
