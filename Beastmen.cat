@@ -855,7 +855,7 @@
         <infoLink id="e690-e410-215d-348c" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b02c-50d9-6a6b-3a6d" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="b563-fca6-8cab-a764" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8422-910e-5e9d-20e3" name="3 Crazed Boars" hidden="false" collective="false" import="true" type="model">
@@ -909,7 +909,7 @@
         <infoLink id="86f8-12be-4606-5b45" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c79b-93fd-4d31-7f38" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
+        <categoryLink id="4143-b42d-098b-0b89" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="55a8-fef0-e8fc-00c5" name="Hunter Chariot" hidden="false" collective="false" import="true" type="model">
@@ -1003,7 +1003,7 @@
         <infoLink id="148c-0f7d-50d2-002b" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1860-0afe-82cc-1ca8" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
+        <categoryLink id="7a32-5484-c8b9-0f54" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="29a1-26ca-48a1-7d4f" name="Boar Chariot" hidden="false" collective="false" import="true" type="model">
