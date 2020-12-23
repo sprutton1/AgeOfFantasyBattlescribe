@@ -1103,7 +1103,7 @@
         <categoryLink id="faae-f7c9-274f-9026" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f11a-ddb6-7f2e-8750" name="Flame Cannon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f11a-ddb6-7f2e-8750" name="Flame Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="df73-cbdf-a759-f2aa">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ddd-901e-3b9d-2f74" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2951-2067-918f-b615" type="max"/>
@@ -1127,18 +1127,6 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="6f1a-6499-3fab-88ea" name="Heavy Flame Cannon" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
-                  <conditions>
-                    <condition field="selections" scope="97f2-81e9-4871-b76c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
-                  <conditions>
-                    <condition field="selections" scope="97f2-81e9-4871-b76c" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <profiles>
                 <profile id="6394-5477-f584-aea4" name="Heavy Flame Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
                   <characteristics>
@@ -1152,12 +1140,12 @@
                 <infoLink id="3d50-f27b-6da0-e431" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1aae-bba0-fa2e-670e" name="Flame Claw" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1aae-bba0-fa2e-670e" name="Flame Claw" hidden="false" collective="false" import="true" defaultSelectionEntryId="c9a5-8223-fcb4-0c4e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03f3-5687-c4ef-d98c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a37c-f4ee-9276-4c91" type="max"/>
@@ -1180,18 +1168,6 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="94b3-08e5-7d0a-ffd5" name="Flame Blade" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="5.0">
-                  <conditions>
-                    <condition field="selections" scope="97f2-81e9-4871-b76c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
-                  <conditions>
-                    <condition field="selections" scope="97f2-81e9-4871-b76c" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <profiles>
                 <profile id="ce10-51ba-e688-5749" name="Flame Blade" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
                   <characteristics>
@@ -1204,7 +1180,7 @@
                 <infoLink id="6d8d-f0c0-3af4-72e4" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
