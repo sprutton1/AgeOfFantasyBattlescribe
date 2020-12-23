@@ -546,18 +546,6 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="9115-c0b8-32e4-3f60" name="Heavy Plague Cannon" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
-                  <conditions>
-                    <condition field="selections" scope="cbea-330d-92e6-4d97" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
-                  <conditions>
-                    <condition field="selections" scope="cbea-330d-92e6-4d97" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <profiles>
                 <profile id="7357-1661-f1b6-37db" name="Heavy Plague Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
                   <characteristics>
@@ -571,7 +559,7 @@
                 <infoLink id="ccdc-4405-848c-4337" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4573,7 +4561,7 @@
         <infoLink id="7b6d-715a-3295-cd69" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f39a-fd2f-aeb1-7f1c" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="101a-8a6d-b84a-ab63" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bf1e-6c22-aae1-07ff" name="Claws" hidden="false" collective="false" import="true" type="model">
