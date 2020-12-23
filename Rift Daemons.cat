@@ -2280,7 +2280,7 @@
             <infoLink id="0a8e-8b7a-739b-4df2" name="Symbol of Plague (X)" hidden="false" targetId="09ac-ac2e-6e23-981e" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2437,7 +2437,7 @@
             </selectionEntry>
             <selectionEntry id="94c4-2996-026f-1321" name="Throne of Plague" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="8388-d23a-c5c6-44b9" name="Throne of Blood" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                <profile id="8388-d23a-c5c6-44b9" name="Throne of Plague" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
                   <characteristics>
                     <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Tough(+3)</characteristic>
                   </characteristics>
@@ -2484,9 +2484,18 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8c5-c570-d8ff-b49b" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="eea0-bf86-bf48-f169" name="Wizard Spells - Plague" hidden="false" collective="false" import="true" targetId="7079-b8e4-b11c-f243" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b2d2-cfaf-8ce6-6198" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e93-0871-4e7e-fac8" name="Champion of Change" hidden="false" collective="false" import="true" type="unit">
