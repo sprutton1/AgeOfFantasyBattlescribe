@@ -4231,7 +4231,7 @@
         <infoLink id="843d-c1ad-4f5f-0780" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b0bc-4efd-8a9d-a2d2" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="7fa2-1d15-1bca-8b48" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7b78-6679-cde5-206c" name="3 Manta Daemons" hidden="false" collective="false" import="true" type="model">
