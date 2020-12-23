@@ -181,9 +181,9 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="375.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e465-458e-d1af-2953" name="Cerberous Hound" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e465-458e-d1af-2953" name="Cerberus Hound" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="902f-c34d-b322-676b" name="Cerberous Hound" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+        <profile id="902f-c34d-b322-676b" name="Cerberus Hound" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
           <characteristics>
             <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
             <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
