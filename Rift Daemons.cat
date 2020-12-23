@@ -1433,8 +1433,11 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9c07-2168-2391-0265" name="Wizard Spells - Plague" hidden="false" collective="false" import="true" targetId="7079-b8e4-b11c-f243" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="375.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="450.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e0ee-6591-11c1-c7a0" name="Greater Daemon of Lust" hidden="false" collective="false" import="true" type="unit">
@@ -4767,6 +4770,23 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="7079-b8e4-b11c-f243" name="Wizard Spells - Plague" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="051d-6d56-81b5-9655" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25ac-ff02-bf02-c92e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8fdc-a247-6a64-3738" name="1. Abundance" hidden="false" targetId="7c77-c258-97aa-b4b2" type="profile"/>
+            <infoLink id="934f-1de9-21b6-27e8" name="2. Corruption" hidden="false" targetId="45ee-77e8-88f6-b7e7" type="profile"/>
+            <infoLink id="3545-3d4e-bff1-56bd" name="3. Putrefaction" hidden="false" targetId="7149-1a3e-82b3-be42" type="profile"/>
+            <infoLink id="562a-23e5-69aa-65a4" name="4. Visitations" hidden="false" targetId="5e32-7b33-c591-58a8" type="profile"/>
+            <infoLink id="8fc5-2fb2-d8c2-4aeb" name="5. Pestilence" hidden="false" targetId="7e71-ae19-4197-5720" type="profile"/>
+            <infoLink id="8274-3cf6-3cc4-2777" name="6. Plague Curse" hidden="false" targetId="e5b8-fc64-2c6e-c68f" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d933-86d6-c2bc-8f1c" name="Symbol of War (X)" hidden="false">
@@ -4861,6 +4881,42 @@
       <characteristics>
         <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
         <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 1 hit with AP(4) and Deadly(6).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7c77-c258-97aa-b4b2" name="1. Abundance" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets Stealth next time it&apos;s shot at.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="45ee-77e8-88f6-b7e7" name="2. Corruption" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 6&quot; must take a dangerous terrain test.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7149-1a3e-82b3-be42" name="3. Putrefaction" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets AP(+2) in melee next time it fights.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5e32-7b33-c591-58a8" name="4. Visitations" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 1 hit with AP(4) and Deadly(3).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7e71-ae19-4197-5720" name="5. Pestilence" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; may immediately move by up to 6&quot;.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e5b8-fc64-2c6e-c68f" name="6. Plague Curse" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy model within 12&quot; takes 4 automatic hits with AP(2).</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
