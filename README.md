@@ -71,7 +71,7 @@ table!
 | Army | Version | Progress |
 |---|---|---|
 |Game System|v2.10|Done|
-|Beastmen|-|NOT STARTED|
+|Beastmen|v2.4|Done|
 |Chivalrous Kingdoms|-|NOT STARTED|
 |Dark Elves|-|NOT STARTED|
 |Deap-Sea Elves|-|NOT STARTED|
