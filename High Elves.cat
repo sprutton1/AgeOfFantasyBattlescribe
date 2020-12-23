@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9a50-2dc6-6c22-f4fd" name="High Elves" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9a50-2dc6-6c22-f4fd" name="High Elves" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="faef-c7bc-acb0-2646" name="High Elves v2.6"/>
+    <publication id="faef-c7bc-acb0-2646" name="High Elves v2.7"/>
   </publications>
   <entryLinks>
     <entryLink id="c25f-e1ea-83a7-d3b0" name="Elf Prince" hidden="false" collective="false" import="true" targetId="b1f4-ae7a-9e80-84c4" type="selectionEntry">
@@ -102,6 +102,11 @@
     <entryLink id="766f-a588-dfe1-962d" name="Bolt Thrower" hidden="false" collective="false" import="true" targetId="2a5e-ef3e-e0bd-5a85" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b582-6378-9ce6-cc17" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e979-d1da-c34f-aa37" name="Bull Giant" hidden="false" collective="false" import="true" targetId="acc3-e57c-d982-78c8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9b53-fee2-6a21-140d" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1441,11 +1446,17 @@
         <infoLink id="df69-5f83-1511-e837" name="Crew Attacks" hidden="false" targetId="fa2d-0b32-ea35-f000" type="profile"/>
         <infoLink id="7e6b-b1e8-bf7d-0d64" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0d0e-5609-a87b-f979" name="Hooves" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="ca57-2000-687b-837e" name="Hooves" hidden="false" targetId="415b-2068-96c5-3d39" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6d85-7b8c-83b7-a7d5" name="Elf Chariot" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1483,6 +1494,9 @@
         <infoLink id="98df-3483-4a97-912e" name="Crew Attacks" hidden="false" targetId="a32e-fa9b-dce6-7fdb" type="profile"/>
         <infoLink id="93c3-5a00-dc2a-6a45" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9343-8624-ca74-d107" name="Mini Bolt Thrower" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1490,6 +1504,9 @@
         <infoLink id="297d-b286-6315-5948" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="f787-b75d-c85e-4c02" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9419-faf3-a410-3c70" name="Eagle Chariot" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1536,12 +1553,18 @@
         <infoLink id="07b5-412a-660e-ad0f" name="Crew Attacks" hidden="false" targetId="aa61-6863-08fa-2325" type="profile"/>
         <infoLink id="877b-0982-33c4-49e4" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bbb6-3caf-039c-7c3f" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2001-1307-45a7-2e22" name="Claws" hidden="false" targetId="89c4-a0c2-6a6c-d5f3" type="profile"/>
         <infoLink id="cd5a-dfa4-74a0-3c76" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2806-5c4e-4b15-4999" name="Lion Chariot" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1601,6 +1624,77 @@
         <infoLink id="3b21-ed36-6145-44dd" name="Repeater Bolts" hidden="false" targetId="f01c-0376-bf0b-566a" type="profile"/>
         <infoLink id="c47e-b4e9-e0be-07b9" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd35-0432-93a7-b409" name="Giant Greathammer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5cc8-3bdc-c250-e62f" name="Giant Greathammer" hidden="false" targetId="6e16-7b02-c494-e8c4" type="profile"/>
+        <infoLink id="6259-4f1a-009f-5d72" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="878c-1a54-b6f9-1a51" name="2x Giant Hammers" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5fe4-e1fa-d20e-03ef" name="Giant Hammer" hidden="false" targetId="4b94-403e-dc74-2de4" type="profile"/>
+        <infoLink id="2b3c-3e75-ffe6-fcff" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="9108-adbb-c5e1-748e" name="Mountain Shock" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="07fd-34c9-ca7d-b94c" name="Mountain Shock" hidden="false" targetId="1572-56a1-b29d-fa37" type="profile"/>
+        <infoLink id="9d17-6cd3-8748-aaba" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="68dc-49f5-0e98-63ab" name="Mountain Blast" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a1a2-c22b-2eee-14f2" name="Mountain Blast" hidden="false" targetId="5c32-762a-8262-e2fd" type="profile"/>
+        <infoLink id="a8c7-4577-e0b6-326e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="0536-8696-40e3-c295" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="acc3-e57c-d982-78c8" name="Bull Giant" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fbe0-e595-baea-fce5" name="Bull Giant" hidden="false" targetId="c13d-3270-a06e-b615" type="profile"/>
+        <infoLink id="e00a-b4c5-f9e9-a023" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="f436-1dab-8181-fb6d" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="9a7a-a053-d1f5-760d" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a07f-ee39-6b63-63f2" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="d583-eb34-0a06-d665">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ce5-2ff7-11c0-11cc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55ce-944a-5ea0-07fa" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d583-eb34-0a06-d665" name="Giant Greathammer" hidden="false" collective="false" import="true" targetId="fd35-0432-93a7-b409" type="selectionEntry"/>
+            <entryLink id="e61d-c946-4214-fe56" name="2x Giant Hammers" hidden="false" collective="false" import="true" targetId="878c-1a54-b6f9-1a51" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="239e-66db-8e2b-5e6d" name="Upgrades" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5a26-5026-c9bc-ddbc" name="Mountain Shock" hidden="false" collective="false" import="true" targetId="9108-adbb-c5e1-748e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0c8-66d9-9e26-c239" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c983-e68b-5828-442b" name="Mountain Blast" hidden="false" collective="false" import="true" targetId="68dc-49f5-0e98-63ab" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c51-4348-bcb5-a561" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1924,6 +2018,39 @@ Weapon: Claws (A6, AP(2))</characteristic>
         <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A6</characteristic>
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c13d-3270-a06e-b615" name="Bull Giant" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6e16-7b02-c494-e8c4" name="Giant Greathammer" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(4)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4b94-403e-dc74-2de4" name="Giant Hammer" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1572-56a1-b29d-fa37" name="Mountain Shock" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A4</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">Blast(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5c32-762a-8262-e2fd" name="Mountain Blast" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">24&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Deadly(3)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
