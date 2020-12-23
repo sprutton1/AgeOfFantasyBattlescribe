@@ -3068,7 +3068,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="95fe-a769-aa9d-9ec0" name="Change Warriors" hidden="false" collective="false" import="true" type="unit">
@@ -4064,6 +4064,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ba9-0205-f5c0-052d" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="ca12-76e8-8a26-f69c" name="Wizard Spells - Lust" hidden="false" collective="false" import="true" targetId="08dc-e265-447e-c02a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="100.0"/>
