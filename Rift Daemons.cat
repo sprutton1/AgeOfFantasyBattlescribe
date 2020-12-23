@@ -1234,18 +1234,6 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="82af-28be-784b-f242" name="Heavy Power Cannon" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
-                  <conditions>
-                    <condition field="selections" scope="e01d-b101-01b4-8714" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
-                  <conditions>
-                    <condition field="selections" scope="e01d-b101-01b4-8714" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <profiles>
                 <profile id="e211-46be-40e8-1bf7" name="Heavy Power Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
                   <characteristics>
@@ -1259,7 +1247,7 @@
                 <infoLink id="b157-0621-a6f4-0ee8" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1287,18 +1275,6 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="f81c-bec1-a28a-9ff3" name="Power Blade" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="5.0">
-                  <conditions>
-                    <condition field="selections" scope="e01d-b101-01b4-8714" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
-                  <conditions>
-                    <condition field="selections" scope="e01d-b101-01b4-8714" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <profiles>
                 <profile id="8e6b-d5cd-f3d2-61c2" name="Power Blade" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
                   <characteristics>
@@ -1311,14 +1287,14 @@
                 <infoLink id="6a75-92c5-8d24-7aab" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="270.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="285.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e24-dd81-6d0a-74c3" name="Greater Daemon of Plague" hidden="false" collective="false" import="true" type="unit">
