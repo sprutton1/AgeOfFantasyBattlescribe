@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6f58-1546-0f5a-24f2" name="Rift Daemons" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6f58-1546-0f5a-24f2" name="Rift Daemons" revision="1" battleScribeVersion="2.03" authorName="cartag" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="26a7-8eba-5611-16d4" name="Rift Daemons v2.8"/>
   </publications>
@@ -1001,18 +1001,6 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="6100-1952-3feb-db04" name="Heavy Lust Cannon" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
-                  <conditions>
-                    <condition field="selections" scope="9175-263c-fa4b-428e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="40.0">
-                  <conditions>
-                    <condition field="selections" scope="9175-263c-fa4b-428e" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <profiles>
                 <profile id="15df-9746-9b43-769a" name="Heavy Lust Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
                   <characteristics>
@@ -1026,12 +1014,12 @@
                 <infoLink id="c78d-5421-4eaa-0981" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1c16-962f-a172-b1b0" name="Lust Claw" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1c16-962f-a172-b1b0" name="Lust Claw" hidden="false" collective="false" import="true" defaultSelectionEntryId="53fb-7edc-e359-3156">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1830-3ac4-f303-fa97" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="885e-2311-7cb4-f05c" type="max"/>
