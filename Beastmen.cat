@@ -1029,15 +1029,6 @@
         <categoryLink id="a0d8-bbf6-fa64-6a20" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8144-855f-4cd0-4389" name="Cyclops" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1fb8-c671-6e1a-bc41" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3b1-de0d-05e2-afa7" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="b2d0-9e9e-2d33-3827" name="Claws (A6, AP(1))" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56ea-2bed-bb1f-d654" type="min"/>
@@ -1059,13 +1050,6 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="ed0c-0389-6120-e413" name="Throw Rocks" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="567f-6468-66c6-2ea2" value="90.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c2b-5f62-1f1c-43be" type="max"/>
           </constraints>
@@ -1089,7 +1073,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cbea-330d-92e6-4d97" name="Minotaur Giant" hidden="false" collective="false" import="true" type="unit">
@@ -1111,15 +1095,6 @@
         <categoryLink id="60dc-a16c-0cb1-be6b" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d49c-62dc-2d62-a6d7" name="Minotaur Giant" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de9e-8073-f522-f277" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0a9-eda8-2a9c-11c3" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="3f34-11a5-2d79-57cb" name="Claws (A6, AP(1))" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff39-1136-c959-a209" type="min"/>
@@ -1142,12 +1117,12 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cb79-c930-a84d-5f48" name="Slimy Beast" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="cb79-c930-a84d-5f48" name="Slimey Beast" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="53fc-3978-11f1-0476" name="Slimy Beast" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+        <profile id="53fc-3978-11f1-0476" name="Slimey Beast" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
           <characteristics>
             <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
             <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
@@ -1169,15 +1144,6 @@
         <categoryLink id="acee-5589-a9ff-8257" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="db3a-ad8a-c4d3-51d7" name="Slimy Beast" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="246c-7e93-f7f9-9d0c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aaf-9d30-ca25-e7e5" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="e4a1-fe93-c3f4-efa6" name="Claws (A6, AP(1), Poison)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02a4-1ebe-9a19-0597" type="min"/>
@@ -1223,7 +1189,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd4d-245a-fecc-8b32" name="Bane" hidden="false" collective="false" import="true" type="upgrade">
