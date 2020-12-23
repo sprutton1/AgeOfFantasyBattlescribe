@@ -112,7 +112,7 @@
           </constraints>
           <entryLinks>
             <entryLink id="2918-5d38-127d-22af" name="Hand Weapon (A3,AP(1))" hidden="false" collective="false" import="true" targetId="169a-7bfd-c4f3-759f" type="selectionEntry"/>
-            <entryLink id="c271-d207-7b57-093b" name="Great Weapon (A3)" hidden="false" collective="false" import="true" targetId="89f5-3b8b-10f5-e093" type="selectionEntry">
+            <entryLink id="c271-d207-7b57-093b" name="Great Weapon (A3,AP(3))" hidden="false" collective="false" import="true" targetId="f7b5-3423-a350-2516" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="567f-6468-66c6-2ea2" value="5.0"/>
               </modifiers>
@@ -1236,6 +1236,12 @@
         <infoLink id="a3a9-5ac3-140d-e38c" name="Bane" hidden="false" targetId="de66-efe5-f9a8-876a" type="profile"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry id="f7b5-3423-a350-2516" name="Great Weapon (A3,AP(3))" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="74a9-e67d-7b6e-d1f4" name="Great Weapon (A3,AP(3))" hidden="false" targetId="185a-c486-91cf-ee2b" type="profile"/>
+        <infoLink id="cf43-205b-e65f-eb9e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="ec1e-c927-dce8-0c39" name="Hand Weapon (A3,AP(1))" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
@@ -1247,6 +1253,12 @@
     <profile id="de66-efe5-f9a8-876a" name="Bane" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">The hero and his unit get 2 attacks from the Furious rule (instead of just 1).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="185a-c486-91cf-ee2b" name="Great Weapon (A3,AP(3))" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(3)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
