@@ -2746,12 +2746,12 @@
             <infoLink id="dd75-7fff-8e13-5bdb" name="Symbol of Lust (X)" hidden="false" targetId="18e1-6150-75c6-5d7b" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6d1a-5b87-8e75-f978" name="Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6d1a-5b87-8e75-f978" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="9876-be17-166a-9912">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ffa2-990f-162f-564d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e16-9b2b-1305-17c0" type="min"/>
@@ -2958,9 +2958,18 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6059-1f66-ab07-61b0" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="467a-a69b-043a-e04a" name="Wizard Spells - Lust" hidden="false" collective="false" import="true" targetId="08dc-e265-447e-c02a" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b2d2-cfaf-8ce6-6198" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce55-d21d-ac7b-0380" name="Crew Attacks (A8)" hidden="false" collective="false" import="true" type="upgrade">
