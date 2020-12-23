@@ -4404,7 +4404,7 @@
         <infoLink id="5310-619d-ebdf-f715" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d4dd-eb44-1fba-1b60" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="ea55-2297-8c55-e427" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="191c-b568-15cf-75e8" name="3 Plague Swarms" hidden="false" collective="false" import="true" type="model">
@@ -4432,9 +4432,6 @@
           <infoLinks>
             <infoLink id="471a-89ec-073b-a1e9" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
           </infoLinks>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
