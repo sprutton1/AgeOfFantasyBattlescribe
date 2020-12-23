@@ -3114,12 +3114,12 @@
           <selectionEntries>
             <selectionEntry id="3df8-a87a-d717-6b1a" name="Great Weapons" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
                   <conditions>
                     <condition field="selections" scope="95fe-a769-aa9d-9ec0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="60.0">
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
                   <conditions>
                     <condition field="selections" scope="95fe-a769-aa9d-9ec0" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
                   </conditions>
@@ -3142,12 +3142,12 @@
             </selectionEntry>
             <selectionEntry id="8ab3-03c5-e74e-73e4" name="Halberds" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
                   <conditions>
                     <condition field="selections" scope="95fe-a769-aa9d-9ec0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="60.0">
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
                   <conditions>
                     <condition field="selections" scope="95fe-a769-aa9d-9ec0" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
                   </conditions>
@@ -3202,12 +3202,12 @@
           <entryLinks>
             <entryLink id="bb1d-ea35-094e-6dea" name="2x Hand Weapons (A1,AP(2))" hidden="false" collective="false" import="true" targetId="7d43-f5ab-e3ae-fe2b" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="40.0">
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="25.0">
                   <conditions>
                     <condition field="selections" scope="95fe-a769-aa9d-9ec0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="80.0">
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="50.0">
                   <conditions>
                     <condition field="selections" scope="95fe-a769-aa9d-9ec0" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
                   </conditions>
@@ -3251,9 +3251,15 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="297c-4252-d2af-f876" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="d02c-ace6-b027-c883" name="Wizard Spells - Change" hidden="false" collective="false" import="true" targetId="4ce8-e187-4e06-7822" type="selectionEntryGroup"/>
-          </entryLinks>
+        </entryLink>
+        <entryLink id="f979-28ce-51da-3192" name="Wizard Spells - Change" hidden="false" collective="false" import="true" targetId="4ce8-e187-4e06-7822" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b2d2-cfaf-8ce6-6198" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
@@ -3473,7 +3479,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="299c-ecc6-f42d-963b" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="125.0"/>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="375.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="eed7-0031-4e61-d061" name="Banner of Change" hidden="false" collective="false" import="true" type="upgrade">
@@ -3636,13 +3642,27 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef03-ea6e-05d1-494e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="f6cb-a72f-0478-50c8" name="Wizard(1)" hidden="false" collective="false" import="true" targetId="b2d2-cfaf-8ce6-6198" type="selectionEntry">
+        <entryLink id="931e-724f-c05a-ecb3" name="Wizard(1)" hidden="false" collective="false" import="true" targetId="b2d2-cfaf-8ce6-6198" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0"/>
+            <modifier type="set" field="97f5-3acd-3d2c-7d7d" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8940-a007-e357-2265" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97f5-3acd-3d2c-7d7d" type="max"/>
           </constraints>
+        </entryLink>
+        <entryLink id="f130-349a-f013-63c0" name="Wizard Spells - Change" hidden="false" collective="false" import="true" targetId="4ce8-e187-4e06-7822" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b2d2-cfaf-8ce6-6198" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
