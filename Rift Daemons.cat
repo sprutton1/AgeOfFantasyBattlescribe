@@ -40,6 +40,7 @@
     <entryLink id="8638-f4dc-2e03-4be1" name="Flame Daemons" hidden="false" collective="false" import="true" targetId="b6c1-4fbf-9c30-2273" type="selectionEntry"/>
     <entryLink id="570b-abf6-bcc0-b6f3" name="Manta Daemons" hidden="false" collective="false" import="true" targetId="553a-8bc2-a1ec-534f" type="selectionEntry"/>
     <entryLink id="2133-aa76-9fba-d92e" name="Greater Daemon of Change" hidden="false" collective="false" import="true" targetId="fd67-10a4-644a-dba8" type="selectionEntry"/>
+    <entryLink id="96bd-8acf-4208-be42" name="Razor-Flail Chariot" hidden="false" collective="false" import="true" targetId="7de9-9294-8722-f0ad" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="8cf9-6311-a645-5882" name="Greater Daemon of War" hidden="false" collective="false" import="true" type="unit">
@@ -471,15 +472,6 @@
         <categoryLink id="80f7-bb15-3730-f231" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8144-855f-4cd0-4389" name="Cannon Chariot" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1fb8-c671-6e1a-bc41" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3b1-de0d-05e2-afa7" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="220.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="b2d0-9e9e-2d33-3827" name="Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56ea-2bed-bb1f-d654" type="min"/>
@@ -507,7 +499,7 @@
         <entryLink id="c7e1-6dbc-5fdc-3364" name="Crew Attacks (A2)" hidden="false" collective="false" import="true" targetId="d98a-dc54-9c75-0ecd" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="220.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cbea-330d-92e6-4d97" name="Crab Daemon of Plague" hidden="false" collective="false" import="true" type="unit">
@@ -528,17 +520,6 @@
       <categoryLinks>
         <categoryLink id="60dc-a16c-0cb1-be6b" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="d49c-62dc-2d62-a6d7" name="Crab Daemon of Plague" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de9e-8073-f522-f277" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0a9-eda8-2a9c-11c3" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="360.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="a7fc-b321-6c3e-64ab" name="Plague Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d550-e370-bda7-2fe8">
           <constraints>
@@ -637,7 +618,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="360.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4124-15e0-8762-5c9c" name="Daemon Champion of War" hidden="false" collective="false" import="true" type="unit">
@@ -1009,17 +990,6 @@
       <categoryLinks>
         <categoryLink id="fa2c-bcd0-8867-58d6" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="328a-d6f7-eb20-c13c" name="Crab Daemon of Lust" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2263-dbdf-6e4a-0ccd" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6251-e366-6ffb-4774" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="275.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="2846-55c6-7cf5-aa9d" name="Lust Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6fef-fe1a-70ad-4ef8">
           <constraints>
@@ -1111,7 +1081,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="97f2-81e9-4871-b76c" name="Crab Daemon of War" hidden="false" collective="false" import="true" type="unit">
@@ -1132,17 +1102,6 @@
       <categoryLinks>
         <categoryLink id="faae-f7c9-274f-9026" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="9a42-a123-091c-6f1d" name="Crab Daemon of War" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1e14-ff12-bb0d-f175" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf7c-004c-a0a1-0c1b" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="270.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="f11a-ddb6-7f2e-8750" name="Flame Cannon" hidden="false" collective="false" import="true">
           <constraints>
@@ -1252,7 +1211,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="270.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e01d-b101-01b4-8714" name="Crab Daemon of Change" hidden="false" collective="false" import="true" type="unit">
@@ -1273,17 +1232,6 @@
       <categoryLinks>
         <categoryLink id="5c99-8a92-d14e-e12c" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="cdb5-283b-db12-0361" name="Crab Daemon of Change" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8093-340e-9230-9729" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e958-4e79-5565-0787" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="270.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="3ad4-58eb-078f-39a3" name="Power Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="9f72-6737-62cd-abbc">
           <constraints>
@@ -1393,7 +1341,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="270.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e24-dd81-6d0a-74c3" name="Greater Daemon of Plague" hidden="false" collective="false" import="true" type="unit">
@@ -4383,15 +4331,6 @@
         <categoryLink id="2748-2cbb-5656-f268" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="634f-cdc2-02b9-c88f" name="1 Flame Chariot" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed65-83dd-6a2f-33b2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f7f-594d-c18e-c453" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="135.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="1daf-61c0-f8b6-9a5e" name="Claws" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4195-33a2-d924-269a" type="max"/>
@@ -4419,7 +4358,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="135.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba6d-bbf8-b219-65ed" name="Plague Swarms" hidden="false" collective="false" import="true" type="unit">
@@ -4616,15 +4555,6 @@
         <categoryLink id="f39a-fd2f-aeb1-7f1c" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="90a7-226b-47e8-5f6c" name="1 Plague Beast" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a21a-3d9b-7c80-250e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b4a-d9e6-5c9f-6af3" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="100.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="bf1e-6c22-aae1-07ff" name="Claws" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8137-bffc-470c-b259" type="max"/>
@@ -4647,7 +4577,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2ce8-f86c-c794-4bc7" name="Lust Beast Riders" hidden="false" collective="false" import="true" type="unit">
@@ -4781,15 +4711,6 @@
         <categoryLink id="be7c-a8a4-1d7c-d9ea" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="cf96-550d-1dfb-2bde" name="1 Razor-Flail Chariot" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5a5-3529-7d7a-aaf2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d96-9712-7a03-65b5" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="135.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="3ae4-d597-202b-b9d9" name="Claws" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8cc5-ff6d-c7ce-127a" type="max"/>
@@ -4820,7 +4741,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="180.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
