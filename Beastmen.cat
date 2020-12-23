@@ -716,7 +716,7 @@
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="16ef-851c-9ace-b62f" name="Bounding Advance (Scout)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="16ef-851c-9ace-b62f" name="Bounding Advance" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="567f-6468-66c6-2ea2" value="60.0">
               <conditions>
@@ -727,6 +727,13 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e45-fb49-2eda-2c96" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="ec16-f19f-5268-c878" name="Bounding Advance" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Scout</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <infoLinks>
             <infoLink id="0732-76a0-d38e-d375" name="Scout" hidden="false" targetId="7bc7-a892-49bc-ad88" type="rule"/>
           </infoLinks>
