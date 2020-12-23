@@ -2194,29 +2194,31 @@
               <modifiers>
                 <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0"/>
               </modifiers>
-              <entryLinks>
-                <entryLink id="aa21-4266-9a93-32dd" name="Wizard Spells - Change" hidden="false" collective="false" import="true" targetId="4ce8-e187-4e06-7822" type="selectionEntryGroup"/>
-              </entryLinks>
             </entryLink>
             <entryLink id="f020-0f02-6798-20dc" name="Wizard(2)" hidden="false" collective="false" import="true" targetId="3fd8-1309-fe4e-3b6e" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="567f-6468-66c6-2ea2" value="35.0"/>
               </modifiers>
-              <entryLinks>
-                <entryLink id="c951-8d15-87e9-4458" name="Wizard Spells - Change" hidden="false" collective="false" import="true" targetId="4ce8-e187-4e06-7822" type="selectionEntryGroup"/>
-              </entryLinks>
             </entryLink>
             <entryLink id="3799-01f2-9600-1050" name="Wizard(3)" hidden="false" collective="false" import="true" targetId="5b94-0e56-00d3-1804" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="567f-6468-66c6-2ea2" value="50.0"/>
               </modifiers>
-              <entryLinks>
-                <entryLink id="6a0e-9f1c-4aed-b782" name="Wizard Spells - Change" hidden="false" collective="false" import="true" targetId="4ce8-e187-4e06-7822" type="selectionEntryGroup"/>
-              </entryLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d76e-fbb2-d077-c2a4" name="Wizard Spells - Change" hidden="false" collective="false" import="true" targetId="4ce8-e187-4e06-7822" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fb29-1260-2bfc-0fed" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="205.0"/>
       </costs>
@@ -2676,9 +2678,15 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd34-aa72-bf2e-a07e" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="e3fa-a37b-2ba7-5423" name="Wizard Spells - Change" hidden="false" collective="false" import="true" targetId="4ce8-e187-4e06-7822" type="selectionEntryGroup"/>
-          </entryLinks>
+        </entryLink>
+        <entryLink id="95d7-9f6d-f5c0-3de9" name="Wizard Spells - Change" hidden="false" collective="false" import="true" targetId="4ce8-e187-4e06-7822" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b2d2-cfaf-8ce6-6198" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
