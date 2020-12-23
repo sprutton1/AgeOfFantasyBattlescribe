@@ -911,7 +911,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8cd5-ef11-e73c-826a" name="Combined Unit [6 models]" hidden="false" collective="false" import="true" type="upgrade">
@@ -935,7 +935,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="100.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="140.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2404,7 +2404,7 @@
       <description>This unit moves +2D3&quot; on Advance and +3D3&quot; on Rush/Charge actions.</description>
     </rule>
     <rule id="3302-bfba-747e-a650" name="Power Shrooms" publicationId="6b0e-dfdd-26bc-c235" hidden="false">
-      <description>When this unit is activated pick one friendly unit within 6&quot;, which gets +1 attack next time it fights in melee.</description>
+      <description>When this unit is activated pick one friendly unit within 6&quot;, which gets +1 attack per model next time it&apos;s in melee.</description>
     </rule>
     <rule id="2d2e-f00c-7b40-e07e" name="Destructive Force" publicationId="6b0e-dfdd-26bc-c235" hidden="false">
       <description>This model may move through enemy units. Whenever it does pick one of them and roll 1 die, on a 5+ it takes 3 automatic hits with AP(1).</description>
