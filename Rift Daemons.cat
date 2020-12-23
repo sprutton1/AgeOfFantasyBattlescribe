@@ -1741,7 +1741,7 @@
             <infoLink id="c079-6c06-e235-561d" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4a15-e029-4e24-764b" name="Wings (Flying)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1864,8 +1864,19 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8c85-ec02-f2bd-5c77" name="Wizard Spells - Lust" hidden="false" collective="false" import="true" targetId="08dc-e265-447e-c02a" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e5e-2df6-5043-944b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="205.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="210.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="acc2-7549-08bb-17ea" name="Daemon Champion of Plague" hidden="false" collective="false" import="true" type="unit">
