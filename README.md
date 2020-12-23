@@ -78,11 +78,11 @@ table!
 |Dwarves|v2.9|Done|
 |Eternal Wardens|-|NOT STARTED|
 |Ghostly Undead|-|NOT STARTED|
-|Goblins|v2.9|Done|
+|Goblins|v2.10|Done|
 |Halflings|-|NOT STARTED|
 |Havoc Dwarves|v2.2|Done|
 |Havoc Warriors|-|NOT STARTED|
-|High Elves|v2.6|Done|
+|High Elves|v2.7|Done|
 |Humans|-|NOT STARTED|
 |Kingdom of Angels|-|NOT STARTED|
 |Mummified Undead|-|NOT STARTED|
