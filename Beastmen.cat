@@ -776,7 +776,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="575d-89bb-feaf-1c09" name="Hand Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="575d-89bb-feaf-1c09" name="Hand Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="deaf-5c18-1887-ff2a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="61d9-c2d2-cf3a-1887" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="626d-7097-7995-968e" type="min"/>
