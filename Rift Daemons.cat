@@ -4747,7 +4747,7 @@
         <infoLink id="2971-1aa9-a932-fc6e" name="Very Fast" hidden="false" targetId="6ca3-f088-2a35-0aad" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="be7c-a8a4-1d7c-d9ea" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
+        <categoryLink id="c72c-5ce6-2b0e-bdc0" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3ae4-d597-202b-b9d9" name="Claws" hidden="false" collective="false" import="true" type="model">
@@ -4766,9 +4766,6 @@
           <infoLinks>
             <infoLink id="99b4-da53-5ac8-5a8b" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
           </infoLinks>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
