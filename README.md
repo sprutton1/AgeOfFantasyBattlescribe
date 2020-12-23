@@ -90,7 +90,7 @@ table!
 |Orcs|-|NOT STARTED|
 |Ossified Undead|-|NOT STARTED|
 |Ratmen|-|NOT STARTED|
-|Rift Daemons|v2.8|Done|
+|Rift Daemons|-|NOT STARTED|
 |Saurians|-|NOT STARTED|
 |Shadow Stalkers|-|NOT STARTED|
 |Sky-City Dwarves|-|NOT STARTED|
