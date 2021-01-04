@@ -1719,7 +1719,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="858a-0812-d0fe-3138" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="215.0"/>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1730,7 +1730,20 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ec8-4a7f-1ebc-02ae" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c384-e159-cd2e-5541" name="2x Hand Weapon (A3,AP(1))" hidden="false" collective="false" import="true" targetId="7d43-f5ab-e3ae-fe2b" type="selectionEntry"/>
+            <entryLink id="c384-e159-cd2e-5541" name="2x Hand Weapons (A3,AP(1))" hidden="false" collective="false" import="true" targetId="7d43-f5ab-e3ae-fe2b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="d355-a09f-4f94-fe9a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="40.0">
+                  <conditions>
+                    <condition field="selections" scope="d355-a09f-4f94-fe9a" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink id="9f4f-6036-4b44-8998" name="Hand Weapon (A3,AP(1))" hidden="false" collective="false" import="true" targetId="169a-7bfd-c4f3-759f" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
