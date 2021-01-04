@@ -339,6 +339,9 @@
       </infoLinks>
       <entryLinks>
         <entryLink id="0aad-40e0-4581-c200" name="Commander" hidden="false" collective="false" import="true" targetId="c25d-18e2-5ec6-b91c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5aa-7bb2-bfbc-27b8" type="max"/>
+          </constraints>
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
           </costs>
@@ -1087,7 +1090,19 @@
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
           </costs>
         </entryLink>
-        <entryLink id="d4c7-83bb-655d-e1d8" name="Lance (A3)" publicationId="d755-5d69-pubN65537" hidden="false" collective="false" import="true" targetId="3bb1-404a-e499-ee8f" type="selectionEntry">
+        <entryLink id="d4c7-83bb-655d-e1d8" name="Lance (A3)" publicationId="d755-5d69-pubN65537" hidden="true" collective="false" import="true" targetId="3bb1-404a-e499-ee8f" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b31-a8ee-0f54-1c3c" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3206-334b-4f2b-1328" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
           </costs>
