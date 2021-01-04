@@ -68,35 +68,35 @@ table!
 
 ### What's Done
 
-| Army | Version | Progress |
+| Army | Version | Progress | Author |
 |---|---|---|
-|Game System|v2.10|Done|
-|Beastmen|v2.4|Done|
-|Chivalrous Kingdoms|-|NOT STARTED|
-|Dark Elves|-|NOT STARTED|
-|Deap-Sea Elves|-|NOT STARTED|
-|Dwarves|v2.9|Done|
-|Eternal Wardens|-|NOT STARTED|
-|Ghostly Undead|-|NOT STARTED|
-|Goblins|v2.10|Done|
-|Halflings|-|NOT STARTED|
-|Havoc Dwarves|v2.2|Done|
-|Havoc Warriors|-|NOT STARTED|
-|High Elves|v2.7|Done|
-|Humans|-|NOT STARTED|
-|Kingdom of Angels|-|NOT STARTED|
-|Mummified Undead|-|NOT STARTED|
-|Ogres|-|NOT STARTED|
-|Orcs|-|NOT STARTED|
-|Ossified Undead|-|NOT STARTED|
-|Ratmen|-|NOT STARTED|
-|Rift Daemons|v2.8|Done|
-|Saurians|-|NOT STARTED|
-|Shadow Stalkers|-|NOT STARTED|
-|Sky-City Dwarves|-|NOT STARTED|
-|Vampiric Undead|-|NOT STARTED|
-|Volcanic Dwarves|-|NOT STARTED|
-|Wood Elves|-|NOT STARTED|
+|Game System|v2.10|Done|Darguth|
+|Beastmen|v2.4|Done|cartag|
+|Chivalrous Kingdoms|-|NOT STARTED|-|
+|Dark Elves|-|NOT STARTED|-|
+|Deap-Sea Elves|-|NOT STARTED|-|
+|Dwarves|v2.9|Done|Darguth|
+|Eternal Wardens|-|NOT STARTED|-|
+|Ghostly Undead|-|NOT STARTED|-|
+|Goblins|v2.10|Done|Darguth|
+|Halflings|-|NOT STARTED|-|
+|Havoc Dwarves|v2.2|Done|Darguth|
+|Havoc Warriors|-|NOT STARTED|-|
+|High Elves|v2.7|Done|Darguth|
+|Humans|-|NOT STARTED|-|
+|Kingdom of Angels|v2.3|Done|Perram|
+|Mummified Undead|-|NOT STARTED|-|
+|Ogres|-|NOT STARTED|-|
+|Orcs|-|NOT STARTED|-|
+|Ossified Undead|-|NOT STARTED|-|
+|Ratmen|-|NOT STARTED|-|
+|Rift Daemons|v2.8|Done|cartag|
+|Saurians|-|NOT STARTED|-|
+|Shadow Stalkers|-|NOT STARTED|-|
+|Sky-City Dwarves|-|NOT STARTED|-|
+|Vampiric Undead|-|NOT STARTED|-|
+|Volcanic Dwarves|-|NOT STARTED|-|
+|Wood Elves|-|NOT STARTED|-|
 
 ## Reporting an issue
 
@@ -105,5 +105,5 @@ Github issue so that myself or the owner of that file can address it.
 
 # Credits
 
-Scott Prutton & Darguth for doing this thing.
-Thanks to Cartag for primary authorship of several armies.
+Scott Prutton for creation and maintenance of the repo and build infrastructure.
+Darguth, cartag and Perram for army catalog authorship.
