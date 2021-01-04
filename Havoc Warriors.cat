@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6f58-1546-0f5a-24f2" name="Havoc Warriors" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6f58-1546-0f5a-24f2" name="Havoc Warriors" revision="1" battleScribeVersion="2.03" authorName="cartag, Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="c2ac-6aff-6930-ddca" name="Havoc Warriors v2.9"/>
     <publication id="54a5-d9ec-f7cc-691f" name="Havoc Warrior Disciples v2.10"/>
@@ -72,6 +72,7 @@
     <entryLink id="1ce6-78c3-827d-0ee8" name="Vortex Beast" hidden="false" collective="false" import="true" targetId="ba6d-bbf8-b219-65ed" type="selectionEntry"/>
     <entryLink id="4063-41a3-19bd-fd2e" name="Lord of War" hidden="false" collective="false" import="true" targetId="de5a-8c94-1057-aac6" type="selectionEntry"/>
     <entryLink id="7346-9547-8aa5-942e" name="Blood-Icon Bearer" hidden="false" collective="false" import="true" targetId="a289-1cc0-2e85-bc26" type="selectionEntry"/>
+    <entryLink id="263f-bc5f-0bde-6858" name="Gore Reavers" hidden="false" collective="false" import="true" targetId="2d33-8ad6-363f-3581" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="169a-7bfd-c4f3-759f" name="Hand Weapon (A3,AP(1))" hidden="false" collective="false" import="true" type="upgrade">
@@ -2617,6 +2618,56 @@
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="85.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="2d33-8ad6-363f-3581" name="Gore Reavers" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6ce5-a1b4-e54e-8f34" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="7e0b-14c5-64a9-b970" name="Gore Reavers" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Furious</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="60bc-2720-1a55-af68" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e426-4cbb-115c-8707" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a442-097d-fda0-48e7" name="10 Gore Reavers" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5897-2c09-db65-279f" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fd3-981d-828e-05ab" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4c9f-be9c-bcd9-6c26" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="7d8a-3c53-74e3-3316">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d76e-320d-675f-adc4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48be-7d58-ba9f-2624" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7d8a-3c53-74e3-3316" name="2x Hand Weapons (A1)" hidden="false" collective="false" import="true" targetId="3864-81be-1759-179c" type="selectionEntry"/>
+            <entryLink id="0876-9f7a-aa31-040b" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="fa2b-dd87-7353-7873" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="77fa-d188-b501-325b" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>

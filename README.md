@@ -81,7 +81,7 @@ table!
 |Goblins|v2.10|Done|Darguth|
 |Halflings|-|NOT STARTED|-|
 |Havoc Dwarves|v2.2|Done|Darguth|
-|Havoc Warriors|Main v2.9 - Disciples v2.10|Done|cartag|
+|Havoc Warriors|Main v2.9 - Disciples v2.10|Done|cartag (Main), Darguth (Disciples)|
 |High Elves|v2.7|Done|Darguth|
 |Humans|-|NOT STARTED|-|
 |Kingdom of Angels|v2.3|Done|Perram|
