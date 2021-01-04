@@ -414,9 +414,17 @@
         <selectionEntryGroup id="dd1a-6659-6178-5321" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="cbac-ee2b-656b-8f80">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80f9-4458-295c-0660" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d7d-1307-1289-a684" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3cac-35dc-6b48-3043" name="Lance(A3) - Mount Only" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3cac-35dc-6b48-3043" name="Lance(A3) - Mount Only" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="536c-5119-1401-e3f7" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
                 <infoLink id="6745-01aa-c0e3-32a9" name="Lance (A3)" hidden="false" targetId="7f9e-4152-28cb-4267" type="profile"/>
               </infoLinks>
