@@ -71,6 +71,7 @@
     <entryLink id="ecaa-652d-e3e9-6610" name="Slaughter Beast" hidden="false" collective="false" import="true" targetId="95fe-a769-aa9d-9ec0" type="selectionEntry"/>
     <entryLink id="1ce6-78c3-827d-0ee8" name="Vortex Beast" hidden="false" collective="false" import="true" targetId="ba6d-bbf8-b219-65ed" type="selectionEntry"/>
     <entryLink id="4063-41a3-19bd-fd2e" name="Lord of War" hidden="false" collective="false" import="true" targetId="de5a-8c94-1057-aac6" type="selectionEntry"/>
+    <entryLink id="7346-9547-8aa5-942e" name="Blood-Icon Bearer" hidden="false" collective="false" import="true" targetId="a289-1cc0-2e85-bc26" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="169a-7bfd-c4f3-759f" name="Hand Weapon (A3,AP(1))" hidden="false" collective="false" import="true" type="upgrade">
@@ -2574,6 +2575,48 @@
       <infoLinks>
         <infoLink id="2402-fe16-7e43-03ce" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="a289-1cc0-2e85-bc26" name="Blood-Icon Bearer" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6ce5-a1b4-e54e-8f34" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="ba45-cf51-bf48-5551" name="Blood-Icon Bearer" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Blood-Icon, Furious, Hero, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f69a-7682-51a9-9c66" name="Blood-Icon" publicationId="54a5-d9ec-f7cc-691f" hidden="false">
+          <description>The hero and his unit get +1A when fighting in melee.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="50b3-d9a8-a301-3a48" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="9781-d28b-b19a-49a1" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="3e4d-c35b-1a06-9602" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0819-1eef-e35c-b964" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="915b-63cb-634e-215c" name="Hand Weapon (A3)" hidden="false" collective="false" import="true" targetId="df9b-db26-3a90-d447" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8f5-6df3-c14e-bbe4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1bc-eb56-5e18-6a8a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="85.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
