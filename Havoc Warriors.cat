@@ -1689,7 +1689,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
             <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
-            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Fear, Impact(9), Tough(3)</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Fear, Impact(9), Tough(6)</characteristic>
           </characteristics>
         </profile>
       </profiles>
