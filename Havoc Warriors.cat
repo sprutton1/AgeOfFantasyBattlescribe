@@ -231,22 +231,11 @@
       <categoryLinks>
         <categoryLink id="ee6c-5560-a01c-cb30" name="Warmachines" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8144-855f-4cd0-4389" name="1 Havoc Shrine" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1fb8-c671-6e1a-bc41" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3b1-de0d-05e2-afa7" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="220.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="c7e1-6dbc-5fdc-3364" name="Crew Attacks (A4)" hidden="false" collective="false" import="true" targetId="ce55-d21d-ac7b-0380" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="245.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cbea-330d-92e6-4d97" name="Drake-Giant" hidden="false" collective="false" import="true" type="unit">
@@ -267,17 +256,6 @@
       <categoryLinks>
         <categoryLink id="60dc-a16c-0cb1-be6b" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="d49c-62dc-2d62-a6d7" name="Drake-Giant" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de9e-8073-f522-f277" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0a9-eda8-2a9c-11c3" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="79cc-c80b-efd5-7cfc" name="Hand Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="63ef-34e7-1e13-9c9e">
           <constraints>
@@ -351,7 +329,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d5bb-4b64-827d-8ed4" name="Havoc Lord" hidden="false" collective="false" import="true" type="unit">
@@ -601,15 +579,6 @@
         <categoryLink id="fa2c-bcd0-8867-58d6" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="328a-d6f7-eb20-c13c" name="Chimera" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2263-dbdf-6e4a-0ccd" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6251-e366-6ffb-4774" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="275.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="357c-5891-bb32-fc64" name="3x Vicious Jaws" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="588a-1d6d-883f-c19f" name="Vicious Jaws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
@@ -661,7 +630,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="185.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="97f2-81e9-4871-b76c" name="Giant" hidden="false" collective="false" import="true" type="unit">
@@ -683,15 +652,6 @@
         <categoryLink id="faae-f7c9-274f-9026" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9a42-a123-091c-6f1d" name="Giant" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1e14-ff12-bb0d-f175" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf7c-004c-a0a1-0c1b" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="155.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="f986-d0af-a1fb-6a3b" name="Giant Club" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c9f-a793-138d-8a47" type="min"/>
@@ -714,7 +674,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="155.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e01d-b101-01b4-8714" name="Demon Spawn" hidden="false" collective="false" import="true" type="unit">
@@ -733,18 +693,9 @@
         <infoLink id="df52-4caa-8762-530c" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="76d7-be56-76bd-1a40" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
+        <categoryLink id="2573-bac4-9471-3323" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="cdb5-283b-db12-0361" name="Demon Spawn" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8093-340e-9230-9729" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e958-4e79-5565-0787" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="292d-7b33-e30a-2239" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8966-38b3-a6df-ec82" type="min"/>
@@ -767,7 +718,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a05-52df-abe5-b205" name="Daemon Champion" hidden="false" collective="false" import="true" type="unit">
@@ -1048,15 +999,6 @@
         <categoryLink id="b6f5-29e2-e489-31c8" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="974e-7d6d-b0fd-1b40" name="1 Slaughter Beast" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b6c0-f43f-53e6-9272" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e7e-85eb-fbdb-a574" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="bbc5-94b4-8256-2172" name="Crushing Bite" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b8f-4a36-3b64-7377" type="min"/>
@@ -1099,7 +1041,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3bb7-7025-065f-21b2" name="Warriors" hidden="false" collective="false" import="true" type="unit">
@@ -1567,15 +1509,6 @@
         <categoryLink id="b507-8c70-ae15-9440" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="634f-cdc2-02b9-c88f" name="1 Cannon Monster" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed65-83dd-6a2f-33b2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f7f-594d-c18e-c453" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="135.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="1daf-61c0-f8b6-9a5e" name="Cannon" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4195-33a2-d924-269a" type="max"/>
@@ -1620,7 +1553,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="245.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba6d-bbf8-b219-65ed" name="Vortex Beast" hidden="false" collective="false" import="true" type="unit">
@@ -1643,15 +1576,6 @@
         <categoryLink id="5b3d-4e8b-b884-4cbb" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="191c-b568-15cf-75e8" name="1 Vortex Beast" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="03f7-f9bd-25df-fb88" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f08-25ec-2d57-8bdd" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="0b39-8ded-a90c-cb8d" name="Vortex of Mutation" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d206-07f3-0968-ffab" type="max"/>
@@ -1695,7 +1619,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d355-a09f-4f94-fe9a" name="Havoc Trolls" hidden="false" collective="false" import="true" type="unit">
@@ -1775,15 +1699,6 @@
         <categoryLink id="7daf-fab2-66ef-75a4" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="90a7-226b-47e8-5f6c" name="1 Gorebrute Chariot" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a21a-3d9b-7c80-250e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b4a-d9e6-5c9f-6af3" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="100.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="bf1e-6c22-aae1-07ff" name="Claws" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8137-bffc-470c-b259" type="max"/>
@@ -1814,7 +1729,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="185.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2ce8-f86c-c794-4bc7" name="Barbarian Horsemen" hidden="false" collective="false" import="true" type="unit">
@@ -1955,17 +1870,6 @@
       <categoryLinks>
         <categoryLink id="2413-351b-91be-330c" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="cf96-550d-1dfb-2bde" name="1 Havoc Chariot" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5a5-3529-7d7a-aaf2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d96-9712-7a03-65b5" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="cb77-f11e-36c8-eb1e" name="Crew Attacks (A4)" hidden="false" collective="false" import="true" targetId="ce55-d21d-ac7b-0380" type="selectionEntry">
           <constraints>
@@ -1981,7 +1885,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a763-adad-0106-ca36" name="Great Weapon (A4)" hidden="false" collective="false" import="true" type="upgrade">
