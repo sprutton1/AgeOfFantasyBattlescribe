@@ -1417,7 +1417,7 @@
         <infoLink id="d13c-7674-21e8-e1d4" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8dd3-9915-1f82-59fc" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="3dde-a68c-d2c7-d9c3" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8a2a-4eed-10ad-aeb3" name="3 Daemonic Guard Knights" hidden="false" collective="false" import="true" type="model">
@@ -1561,7 +1561,7 @@
         <infoLink id="19ff-eae8-1b67-2bf2" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2748-2cbb-5656-f268" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
+        <categoryLink id="b507-8c70-ae15-9440" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="634f-cdc2-02b9-c88f" name="1 Cannon Monster" hidden="false" collective="false" import="true" type="model">
@@ -1769,7 +1769,7 @@
         <infoLink id="00af-85cf-d7a3-48cf" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8f86-c635-412b-9e7d" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
+        <categoryLink id="7daf-fab2-66ef-75a4" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="90a7-226b-47e8-5f6c" name="1 Gorebrute Chariot" hidden="false" collective="false" import="true" type="model">
@@ -1950,7 +1950,7 @@
         <infoLink id="07c1-131a-b84d-f419" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="be7c-a8a4-1d7c-d9ea" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
+        <categoryLink id="2413-351b-91be-330c" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cf96-550d-1dfb-2bde" name="1 Havoc Chariot" hidden="false" collective="false" import="true" type="model">
@@ -2242,7 +2242,7 @@
         <infoLink id="1cf0-21c1-0512-7a63" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3159-9778-cc47-3437" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="1256-cee0-29dd-8342" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="64ed-c640-1b13-1292" name="3 Drake-Centaurs" hidden="false" collective="false" import="true" type="model">
