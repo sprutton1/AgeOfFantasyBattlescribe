@@ -89,6 +89,11 @@
         <categoryLink id="b46b-c354-9a58-64c1" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="a594-04b5-2237-2706" name="Penitents" hidden="false" collective="false" import="true" targetId="e72f-98b5-9577-d257" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="afde-877e-8ddf-37d2" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="600b-2f33-320f-f270" name="Infantry" hidden="false" collective="false" import="true" type="upgrade">
@@ -1080,6 +1085,70 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e72f-98b5-9577-d257" name="Penitents" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fbba-04af-9541-ef49" name="Penitent" hidden="false" targetId="8c3d-b86b-b4dd-f9e7" type="profile"/>
+        <infoLink id="0313-ec00-6793-1b19" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d517-72b3-ff7e-6d84" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="493c-6131-3aea-9756">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c87-869e-4aa0-595c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52a6-5902-c06d-a5be" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="493c-6131-3aea-9756" name="Single Unit [10 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="0614-e09c-a1b8-b11d" name="Penitents" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fb0-e693-0509-9d85" type="min"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca13-a005-6852-38a2" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="21c7-437e-88c6-fe1c" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="4235-a513-5a6e-d5bb" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d29d-b833-c7d8-f85b" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f06-6947-1ada-3dc1" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry id="d88b-a2e7-6cea-ca4e" name="Combined Unit [20 models]" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="be4a-1411-5236-617f" name="Penitents" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4392-82c3-5936-6717" type="min"/>
+                    <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d64-851d-2cec-1d68" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="20fb-f9a1-85b9-6da5" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="4235-a513-5a6e-d5bb" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1576-0df5-c6b9-974c" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d51-ec92-fdfa-3a88" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7dbc-0299-a0f3-d376" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="150.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="2630-653e-936d-3960" name="Weapons - Heroes - Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="11fe-d785-ea39-af49">
@@ -1292,13 +1361,6 @@
         <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Regeneration, Tough(3), Wizard(1)</characteristic>
       </characteristics>
     </profile>
-    <profile id="94e4-a466-8c0e-f383" name="Penitents" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
-      <characteristics>
-        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
-        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
-        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Regeneration</characteristic>
-      </characteristics>
-    </profile>
     <profile id="d4a2-cd4e-b647-3148" name="Paladins" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
       <characteristics>
         <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
@@ -1474,6 +1536,13 @@ Weapons: Claws(A2)</characteristic>
       <characteristics>
         <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
         <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target 2 enemy units within 6&quot; take 8 automatic hits each.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8c3d-b86b-b4dd-f9e7" name="Penitent" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+      <characteristics>
+        <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+        <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+        <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Regeneration</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
