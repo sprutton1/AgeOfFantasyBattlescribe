@@ -2,6 +2,7 @@
 <catalogue id="6f58-1546-0f5a-24f2" name="Havoc Warriors" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="c2ac-6aff-6930-ddca" name="Havoc Warriors v2.9"/>
+    <publication id="54a5-d9ec-f7cc-691f" name="Havoc Warrior Disciples v2.10"/>
   </publications>
   <entryLinks>
     <entryLink id="a632-2962-705c-dc13" name="Cannon Monster" hidden="false" collective="false" import="true" targetId="f13e-1d3f-220f-f5c6" type="selectionEntry"/>
@@ -864,8 +865,8 @@
         <profile id="d37a-67d0-b97e-e4c3" name="Sorcerer" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
           <characteristics>
             <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
-            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
-            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Furious, Hero, Tough(3)</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Tough(3), Wizard(1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -917,14 +918,15 @@
               <profiles>
                 <profile id="0d71-94b8-0697-8b82" name="Daemon Mount" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
                   <characteristics>
-                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Defense +2, Fast, Strider, Tough(+6)</characteristic>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Fear, Impact(1), Tough(+3)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="c893-f50b-d406-e145" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
                 <infoLink id="0e06-6be3-76e4-2e08" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
-                <infoLink id="771c-1799-2249-5c03" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+                <infoLink id="771c-1799-2249-5c03" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+                <infoLink id="fc42-0bf1-5c9d-6851" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="dcea-8fe6-50d1-024b" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
@@ -946,7 +948,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="155.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ba0d-d4ce-461f-487e" name="Manticore" hidden="false" collective="false" import="true" type="upgrade">
@@ -2408,6 +2410,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
