@@ -75,6 +75,7 @@
     <entryLink id="263f-bc5f-0bde-6858" name="Gore Reavers" hidden="false" collective="false" import="true" targetId="2d33-8ad6-363f-3581" type="selectionEntry"/>
     <entryLink id="3e6a-1c04-a21b-9ab7" name="Gore Warriors" hidden="false" collective="false" import="true" targetId="ad20-8f11-3d99-12bd" type="selectionEntry"/>
     <entryLink id="b88d-3f91-d01c-550b" name="Death-Reapers" hidden="false" collective="false" import="true" targetId="3e49-2a47-455a-49f6" type="selectionEntry"/>
+    <entryLink id="9687-7528-95c8-58d6" name="Death-Mongers" hidden="false" collective="false" import="true" targetId="6e49-8a4d-b3ce-2f6c" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="169a-7bfd-c4f3-759f" name="Hand Weapon (A3,AP(1))" hidden="false" collective="false" import="true" type="upgrade">
@@ -2822,6 +2823,59 @@
       <entryLinks>
         <entryLink id="c2a6-b3f7-b1c3-3473" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="6e49-8a4d-b3ce-2f6c" name="Death-Mongers" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6ce5-a1b4-e54e-8f34" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="c7c9-a9fa-8105-e670" name="Death-Mongers" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+	</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Furious, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7b96-7bc8-a339-46f5" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="2c90-e02b-89d8-941f" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ff82-14fd-55d3-60f8" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0ec3-159c-4975-89d7" name="3 Death Mongers" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7afa-de00-d5b1-8d7a" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d0d-a2e7-d162-1fc7" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="205d-bd90-49ef-bbf6" name="2x Flail-Hammers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10b7-d905-96c1-2f80" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de42-e19e-6e37-9482" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ffed-b3fa-65c3-f2d0" name="Flail-Hammer" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5d42-5923-57e8-9402" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
