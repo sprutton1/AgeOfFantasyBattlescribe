@@ -2381,7 +2381,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78ef-2a58-d97a-c756" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="105.0"/>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="155.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
