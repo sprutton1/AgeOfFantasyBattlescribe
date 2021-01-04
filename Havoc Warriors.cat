@@ -219,7 +219,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="8bdf-3d5c-7211-23b7" name="Dark Blessing" hidden="false">
+        <rule id="8bdf-3d5c-7211-23b7" name="Dark Blessing" publicationId="c2ac-6aff-6930-ddca" hidden="false">
           <description>When this unit is activated pick 2 friendly units within 6”, which get +1 to their melee rolls next time they fight.</description>
         </rule>
       </rules>
@@ -1547,9 +1547,6 @@
             <infoLink id="e2f5-1c37-85ed-8d29" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
             <infoLink id="fbc6-5828-ddbd-9dfa" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
           </infoLinks>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
-          </costs>
         </selectionEntry>
         <selectionEntry id="d418-96b9-47d8-26ab" name="Claws" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -1567,9 +1564,6 @@
           <infoLinks>
             <infoLink id="bda4-1745-a83e-ee49" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
           </infoLinks>
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
