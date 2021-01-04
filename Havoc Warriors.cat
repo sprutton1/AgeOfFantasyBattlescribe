@@ -158,7 +158,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3ad-9dec-2570-3a50" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="275.0"/>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="120.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -173,12 +173,12 @@
               <modifiers>
                 <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
                   <conditions>
-                    <condition field="selections" scope="fbe3-291b-cfc9-b64a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                    <condition field="selections" scope="fbe3-291b-cfc9-b64a" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" field="567f-6468-66c6-2ea2" value="15.0">
                   <conditions>
-                    <condition field="selections" scope="fbe3-291b-cfc9-b64a" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                    <condition field="selections" scope="fbe3-291b-cfc9-b64a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -188,12 +188,12 @@
               <modifiers>
                 <modifier type="set" field="567f-6468-66c6-2ea2" value="15.0">
                   <conditions>
-                    <condition field="selections" scope="fbe3-291b-cfc9-b64a" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                    <condition field="selections" scope="fbe3-291b-cfc9-b64a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
                   <conditions>
-                    <condition field="selections" scope="fbe3-291b-cfc9-b64a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                    <condition field="selections" scope="fbe3-291b-cfc9-b64a" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1244,7 +1244,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="d8b5-6a16-543d-94fd" name="Mutations" hidden="false">
+        <rule id="d8b5-6a16-543d-94fd" name="Mutations" publicationId="c2ac-6aff-6930-ddca" hidden="false">
           <description>When this model fights in melee roll one die and apply one bonus:
 1-2: Unit gets AP(+1)
 3-4: Unit gets +1 attack
