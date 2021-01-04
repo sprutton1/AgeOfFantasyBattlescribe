@@ -857,7 +857,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="205.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e93-0871-4e7e-fac8" name="Sorcerer" hidden="false" collective="false" import="true" type="unit">
