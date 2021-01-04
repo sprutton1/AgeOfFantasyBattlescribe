@@ -4,6 +4,46 @@
     <publication id="c2ac-6aff-6930-ddca" name="Havoc Warriors v2.9"/>
     <publication id="54a5-d9ec-f7cc-691f" name="Havoc Warrior Disciples v2.10"/>
   </publications>
+  <selectionEntries>
+    <selectionEntry id="1372-a514-0538-44f5" name="*** Disciples Selection ***" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a6c-aa7a-d449-4bd8" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b87-5d1d-7b99-95fa" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2c71-7ce5-a78a-f829" name="Disciples" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3afb-8255-3328-c359" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="62c2-0013-1f60-299d" name="Disciples of Plague" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d979-45b1-ca5c-1dfc" name="Disciples of Change" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="84a0-23f9-bdc2-85d3" name="Disciples of Lust" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6ce5-a1b4-e54e-8f34" name="Disciples of War" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
   <entryLinks>
     <entryLink id="a632-2962-705c-dc13" name="Cannon Monster" hidden="false" collective="false" import="true" targetId="f13e-1d3f-220f-f5c6" type="selectionEntry"/>
     <entryLink id="4dab-deb9-9d4e-2b20" name="Daemon Champion of Change" hidden="false" collective="false" import="true" targetId="2a05-52df-abe5-b205" type="selectionEntry"/>
@@ -30,6 +70,7 @@
     <entryLink id="e61d-5666-1b4f-36eb" name="Havoc Knights" hidden="false" collective="false" import="true" targetId="19cf-816d-47f3-6368" type="selectionEntry"/>
     <entryLink id="ecaa-652d-e3e9-6610" name="Slaughter Beast" hidden="false" collective="false" import="true" targetId="95fe-a769-aa9d-9ec0" type="selectionEntry"/>
     <entryLink id="1ce6-78c3-827d-0ee8" name="Vortex Beast" hidden="false" collective="false" import="true" targetId="ba6d-bbf8-b219-65ed" type="selectionEntry"/>
+    <entryLink id="4063-41a3-19bd-fd2e" name="Lord of War" hidden="false" collective="false" import="true" targetId="de5a-8c94-1057-aac6" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="169a-7bfd-c4f3-759f" name="Hand Weapon (A3,AP(1))" hidden="false" collective="false" import="true" type="upgrade">
@@ -248,6 +289,9 @@
           <infoLinks>
             <infoLink id="1b85-36fd-6615-bbdf" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1547,6 +1591,9 @@
             <infoLink id="e2f5-1c37-85ed-8d29" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
             <infoLink id="fbc6-5828-ddbd-9dfa" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d418-96b9-47d8-26ab" name="Claws" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -1564,6 +1611,9 @@
           <infoLinks>
             <infoLink id="bda4-1745-a83e-ee49" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -2384,6 +2434,147 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="de5a-8c94-1057-aac6" name="Lord of War" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6ce5-a1b4-e54e-8f34" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="3525-bc85-6b92-40df" name="Lord of War" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Furious, Hero, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9936-0097-3e38-28b7" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="03f0-7bf2-1d90-cbea" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="19b2-625b-2e62-ae29" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e43b-6a35-ace0-302e" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7fe1-2616-4748-19e6" name="Hound Companion" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca4e-e67e-5e79-6044" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6e68-4ceb-76db-acb7" name="Hound Companion" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b94f-d7fe-b82c-e08e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="912a-cec7-141c-771a" name="Blessing of War" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d361-eb2c-cfb3-d415" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="4236-f4ac-b474-0114" name="Blessing of War" publicationId="54a5-d9ec-f7cc-691f" hidden="false">
+              <description>The hero and his unit get +1 to their melee rolls.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0485-934a-6a23-a7c0" name="Brass Beast of War" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9360-6030-0c3a-245c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0bd8-9be1-3958-ca3b" name="Brass Beast of War" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Defense +1, Fast, Impact(3), Tough(+3)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="edcf-12c2-7689-0c43" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+            <infoLink id="20ba-2ae3-e576-9994" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+            <infoLink id="6d37-4e63-f35e-8c10" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="cedb-ebd5-7959-f68f" name="Hooves" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f08-756a-9e54-69ce" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46ca-d6ef-2287-67f8" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c423-fd34-4ce1-56bc" name="Hooves" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="5c67-c386-747d-d18b" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="120.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="83fa-7b10-0c88-3ed2" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="63bb-e663-12c0-a00e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dff-21c4-9765-e031" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b9e-8d17-2d1e-c3ec" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="63bb-e663-12c0-a00e" name="Hand Weapon (A4)" hidden="false" collective="false" import="true" targetId="126c-f2fa-4c2d-e401" type="selectionEntry"/>
+            <entryLink id="ce9c-b539-3259-9d43" name="2x Hand Weapons (A4)" hidden="false" collective="false" import="true" targetId="9c54-15ea-02e6-60b8" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5321-4acb-c9ae-2f9d" name="Halberd (A4)" hidden="false" collective="false" import="true" targetId="5bba-6cef-56e3-c1d2" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2b59-8f3b-3ceb-717c" name="Great Weapon (A4)" hidden="false" collective="false" import="true" targetId="a763-adad-0106-ca36" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="126c-f2fa-4c2d-e401" name="Hand Weapon (A4,AP(1))" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4e23-b81f-8ce0-18e6" name="Hand Weapon (A4,AP(1))" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2402-fe16-7e43-03ce" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="d933-86d6-c2bc-8f1c" name="Symbol of War (X)" hidden="false">
@@ -2426,7 +2617,7 @@
     </profile>
     <profile id="9ba9-8dfa-20b2-b091" name="Great Weapon (A4)" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
         <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)	</characteristic>
       </characteristics>
     </profile>
