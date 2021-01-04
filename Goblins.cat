@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1ec0-f7b1-9a02-8dc5" name="Goblins" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1ec0-f7b1-9a02-8dc5" name="Goblins" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="6b0e-dfdd-26bc-c235" name="Goblins v2.9"/>
+    <publication id="6b0e-dfdd-26bc-c235" name="Goblins v2.10"/>
   </publications>
   <entryLinks>
     <entryLink id="4f95-5671-e342-17a8" name="Boss" hidden="false" collective="false" import="true" targetId="5c7e-fbef-a881-2aed" type="selectionEntry">
@@ -911,7 +911,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8cd5-ef11-e73c-826a" name="Combined Unit [6 models]" hidden="false" collective="false" import="true" type="upgrade">
@@ -935,7 +935,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="100.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="140.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1701,6 +1701,9 @@
         <infoLink id="4276-6b70-cb0b-1cf9" name="Giant Club" hidden="false" targetId="7e8c-5eec-01af-7a51" type="profile"/>
         <infoLink id="50f9-519a-3f28-e4b8" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="acbf-b9fb-225c-9324" name="Crushing Blow" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1708,6 +1711,9 @@
         <infoLink id="d070-f84c-ecb2-6b72" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="a4f7-3086-2ecb-94f2" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="baa8-e81f-7ed9-d3bb" name="Troll Giant" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1742,11 +1748,17 @@
         <infoLink id="0bb8-feb2-2812-3e9f" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="ada7-e11c-d374-a371" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ae1e-f046-94f9-96a7" name="Crew Attacks" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3dae-fc41-4bd5-bdf0" name="Crew Attacks" hidden="false" targetId="4ac3-e16b-700f-3815" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8e00-53ab-64d8-46fc" name="Venom Sting" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1755,6 +1767,9 @@
         <infoLink id="92cb-890d-5622-58cf" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
         <infoLink id="6b84-9fed-af94-c16f" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b98f-3e9d-428b-8aae" name="Spider Shrine" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1764,6 +1779,9 @@
       <entryLinks>
         <entryLink id="0d8a-260d-7bc1-5090" name="Wizard Spells" hidden="false" collective="false" import="true" targetId="eb76-3f3b-7649-84e2" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="962c-9942-8b9b-90db" name="Web Catapult" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1771,6 +1789,9 @@
         <infoLink id="16f9-b4b5-fd4c-ae6c" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
         <infoLink id="a024-2818-b3c5-21ac" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="87f0-985e-73e6-5227" name="Giant Spider" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1832,11 +1853,17 @@
         <infoLink id="7eb6-021f-dd52-c962" name="Crew Attacks" hidden="false" targetId="b0a8-b1e0-3125-26b3" type="profile"/>
         <infoLink id="8753-015e-defd-9491" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fe4a-6a3c-a9be-528d" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2d3a-aec8-29f0-45d3" name="Claws" hidden="false" targetId="334c-6e54-cf8d-b455" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="862c-9649-bd3e-6fb6" name="Wolf Chariot" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1891,23 +1918,35 @@
         <infoLink id="cbf0-838b-86b6-ded0" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="e927-689c-6c8d-7919" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="df8a-7a59-ca7a-1fea" name="Wings" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="f5dd-1c57-9d4e-f6c6" name="Wings" hidden="false" targetId="e3c6-31ab-8e1e-3d6a" type="profile"/>
         <infoLink id="33b1-f1a0-dcd9-69ed" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="caad-bce0-e1ff-55e1" name="Sail" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="aabc-263d-73aa-a3f2" name="Sail" hidden="false" targetId="0f14-7d53-a656-9db1" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="258d-cf03-d825-4af0" name="Spiked Ram" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6ca2-b130-7019-6fdc" name="Spiked Ram" hidden="false" targetId="73f4-555f-91b0-88f0" type="profile"/>
         <infoLink id="f593-4187-c79a-4518" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1209-f012-bf56-6bf9" name="Pump Chariot" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1980,12 +2019,18 @@
       <infoLinks>
         <infoLink id="078c-a38a-57b9-00da" name="Crew Attacks" hidden="false" targetId="4536-84d7-3d1d-e7aa" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1f10-478c-a803-a51f" name="Giant Blunderbuss" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6e0a-cd26-8c6b-546c" name="Giant Blunderbuss" hidden="false" targetId="2457-b1b3-a16d-13d6" type="profile"/>
         <infoLink id="628d-2fb1-6b83-afeb" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bd89-b1bc-51a0-6115" name="Giant Blunderbuss" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -2019,6 +2064,9 @@
         <infoLink id="1d37-e01b-ce19-4736" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
         <infoLink id="9ad4-3b54-d49c-c41b" name="Sniper" hidden="false" targetId="2943-e3f6-fb44-ae13" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7a6b-20e7-c37a-cc44" name="Goblin Thrower" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -2296,6 +2344,7 @@
             <infoLink id="5546-e434-64a5-1da3" name="3. Nuisance" hidden="false" targetId="8e8c-10f3-5cc5-427f" type="profile"/>
             <infoLink id="6072-b06e-6806-2bc3" name="4. Death Shroud" hidden="false" targetId="cdfa-d500-4dc9-ba09" type="profile"/>
             <infoLink id="ad97-9043-ecdc-e198" name="5. Sneaky" hidden="false" targetId="e4dd-ce53-9d09-7592" type="profile"/>
+            <infoLink id="c939-2dda-a0b1-55b0" name="6. Curse" hidden="false" targetId="2671-3585-e925-7ea5" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -2356,7 +2405,7 @@
       <description>This unit moves +2D3&quot; on Advance and +3D3&quot; on Rush/Charge actions.</description>
     </rule>
     <rule id="3302-bfba-747e-a650" name="Power Shrooms" publicationId="6b0e-dfdd-26bc-c235" hidden="false">
-      <description>When this unit is activated pick one friendly unit within 6&quot;, which gets +1 attack next time it fights in melee.</description>
+      <description>When this unit is activated pick one friendly unit within 6&quot;, which gets +1 attack per model next time it&apos;s in melee.</description>
     </rule>
     <rule id="2d2e-f00c-7b40-e07e" name="Destructive Force" publicationId="6b0e-dfdd-26bc-c235" hidden="false">
       <description>This model may move through enemy units. Whenever it does pick one of them and roll 1 die, on a 5+ it takes 3 automatic hits with AP(1).</description>
@@ -2842,6 +2891,12 @@ Weapon: Claws (A1)</characteristic>
         <characteristic name="Range" typeId="79f4-5578-c041-f866">48&quot;</characteristic>
         <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
         <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1), Indirect, Sniper</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2671-3585-e925-7ea5" name="6. Curse" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+      <characteristics>
+        <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+        <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 6&quot; takes 1 automatic hit per model.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
