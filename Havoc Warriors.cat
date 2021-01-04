@@ -2251,12 +2251,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d21-6b5f-2bc3-018a" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="275.0"/>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="180.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="be1e-6cfb-ecd4-27ec" name="Hand Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="be1e-6cfb-ecd4-27ec" name="Hand Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5f0a-2038-1e2d-9b57">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a03-16cb-509d-881c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c356-8b65-7db8-7cfd" type="min"/>
@@ -2279,17 +2279,47 @@
                 <profile id="de5c-ff07-be6b-2d37" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
-                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(3)	</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(3)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="2ae7-cfb5-6097-fd4d" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
-          <entryLinks>
-            <entryLink id="e092-8096-a779-876b" name="2x Hand Weapons (A3)" hidden="false" collective="false" import="true" targetId="8eb1-4655-31d4-2e5c" type="selectionEntry">
+            <selectionEntry id="a119-d4ef-de40-3882" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="15.0">
+                  <conditions>
+                    <condition field="selections" scope="4341-b1a4-9d61-3072" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                  <conditions>
+                    <condition field="selections" scope="4341-b1a4-9d61-3072" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="2a15-32d3-00cf-5c71" name="Halberd" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Rending</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ec99-aa05-489e-a621" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+                <infoLink id="7855-bd03-0886-aca5" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fda1-f1f1-c10c-7a61" name="2x Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="567f-6468-66c6-2ea2" value="25.0">
                   <conditions>
@@ -2302,22 +2332,24 @@
                   </conditions>
                 </modifier>
               </modifiers>
-            </entryLink>
+              <profiles>
+                <profile id="2916-d189-c1a9-1da0" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="5931-0965-39b1-172a" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
             <entryLink id="5f0a-2038-1e2d-9b57" name="Hand Weapon (A3,AP(1))" hidden="false" collective="false" import="true" targetId="169a-7bfd-c4f3-759f" type="selectionEntry"/>
-            <entryLink id="011b-eb22-2d6e-8a92" name="Halberd (A3)" hidden="false" collective="false" import="true" targetId="1e72-2624-86e9-0ee0" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
-                  <conditions>
-                    <condition field="selections" scope="4341-b1a4-9d61-3072" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="15.0">
-                  <conditions>
-                    <condition field="selections" scope="4341-b1a4-9d61-3072" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
