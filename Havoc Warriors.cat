@@ -54,8 +54,8 @@
       <profiles>
         <profile id="b9f5-980c-bec5-eb08" name="Havoc Hounds" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
           <characteristics>
-            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
-            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
             <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Strider</characteristic>
           </characteristics>
         </profile>
@@ -109,7 +109,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cec-01a1-a818-2d9d" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="290.0"/>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="105.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="65c2-29af-7374-c696" name="Bounding Advance (Scout)" hidden="false" collective="false" import="true" type="upgrade">
