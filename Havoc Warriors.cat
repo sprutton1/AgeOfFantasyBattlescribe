@@ -1133,8 +1133,11 @@
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ed-e8f1-c0df-e6ac" type="max"/>
+          </constraints>
           <rules>
-            <rule id="b658-587b-6079-f34a" name="Chosen Veterans" hidden="false">
+            <rule id="b658-587b-6079-f34a" name="Chosen Veterans" publicationId="c2ac-6aff-6930-ddca" hidden="false">
               <description>This model gets +1 to its attack rolls when fighting in melee.</description>
             </rule>
           </rules>
