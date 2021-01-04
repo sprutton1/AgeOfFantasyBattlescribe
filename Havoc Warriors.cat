@@ -2017,7 +2017,7 @@
         <categoryLink id="41c6-5548-7705-6006" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4c1a-a2af-4c92-9f72" name="Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4c1a-a2af-4c92-9f72" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="af4e-f2e7-3fb6-f8ab">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="60e5-27cf-9441-ed8d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="204b-d1d2-11d0-8090" type="min"/>
