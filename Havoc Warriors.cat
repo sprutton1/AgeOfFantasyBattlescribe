@@ -231,9 +231,25 @@
       <categoryLinks>
         <categoryLink id="ee6c-5560-a01c-cb30" name="Warmachines" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="c7e1-6dbc-5fdc-3364" name="Crew Attacks (A4)" hidden="false" collective="false" import="true" targetId="ce55-d21d-ac7b-0380" type="selectionEntry"/>
-      </entryLinks>
+      <selectionEntries>
+        <selectionEntry id="5f2f-6a39-3dfd-6e20" name="Crew Attacks" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6f4-1311-ab16-f247" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="892a-164a-36b4-2390" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="22c4-5682-7b8a-6b9c" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1b85-36fd-6615-bbdf" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="245.0"/>
       </costs>
