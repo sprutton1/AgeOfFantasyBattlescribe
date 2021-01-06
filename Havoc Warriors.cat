@@ -2458,39 +2458,159 @@
       </constraints>
       <profiles>
         <profile id="3152-cdea-0622-bc1c" name="2. Barbed Spikes" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
             <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12” takes 2 automatic hits with AP(2).</characteristic>
           </characteristics>
         </profile>
         <profile id="6f2b-9b77-95d1-79cc" name="1. Modesty" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
             <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; gets -1 to hit next time it shoots.</characteristic>
           </characteristics>
         </profile>
         <profile id="04b1-7757-caaf-776b" name="3. Dark Chains" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
             <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 18” moves -6” next time it charges.</characteristic>
           </characteristics>
         </profile>
         <profile id="bfb9-1b2f-1d19-9c74" name="4. Impale" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
             <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy model within 12” takes 1 automatic hit with AP(3).</characteristic>
           </characteristics>
         </profile>
         <profile id="a4bf-6e6f-bc31-f764" name="5. Havoc Speed" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
             <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12” may immediately move by up to 6”.</characteristic>
           </characteristics>
         </profile>
         <profile id="be4a-ec60-ed37-03d0" name="6. Thorn FIeld" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
             <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target 2 enemy units within 6” take 8 automatic hits each.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9de4-123e-2a22-2076" name="1. Hex Blades" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; may immediately charge by 3&quot;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="24cc-4249-0d99-68eb" name="2. Blaze" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 2 automatic hits with AP(2).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1afb-577a-d8f0-7567" name="3. Steal Power" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 18&quot; gets -1 to hit next time it shoots.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8321-072c-6aa1-2a3a" name="4. Firestorm" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; must take a dangerous terrain test.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e62f-fc86-979e-d43f" name="5. Loyalty" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets Regeneration on rolls of 4+ next time it takes wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a4c4-e153-545a-16f5" name="6. Change Bolt" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 1 hit with AP(4) and Deadly(6).</characteristic>
           </characteristics>
         </profile>
       </profiles>
