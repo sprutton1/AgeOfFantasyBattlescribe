@@ -76,6 +76,7 @@
     <entryLink id="3e6a-1c04-a21b-9ab7" name="Gore Warriors" hidden="false" collective="false" import="true" targetId="ad20-8f11-3d99-12bd" type="selectionEntry"/>
     <entryLink id="b88d-3f91-d01c-550b" name="Death-Reapers" hidden="false" collective="false" import="true" targetId="3e49-2a47-455a-49f6" type="selectionEntry"/>
     <entryLink id="9687-7528-95c8-58d6" name="Death-Mongers" hidden="false" collective="false" import="true" targetId="6e49-8a4d-b3ce-2f6c" type="selectionEntry"/>
+    <entryLink id="2628-7fbd-7997-b57a" name="Brass Beast Knights" hidden="false" collective="false" import="true" targetId="e48f-9eda-5a86-41ea" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="169a-7bfd-c4f3-759f" name="Hand Weapon (A3,AP(1))" hidden="false" collective="false" import="true" type="upgrade">
@@ -2530,6 +2531,9 @@
               <infoLinks>
                 <infoLink id="5c67-c386-747d-d18b" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -2579,6 +2583,9 @@
       <infoLinks>
         <infoLink id="2402-fe16-7e43-03ce" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a289-1cc0-2e85-bc26" name="Blood-Icon Bearer" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
@@ -2671,6 +2678,9 @@
       <entryLinks>
         <entryLink id="77fa-d188-b501-325b" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ad20-8f11-3d99-12bd" name="Gore Warriors" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
@@ -2747,6 +2757,9 @@
       <entryLinks>
         <entryLink id="7f46-c149-780d-ff5a" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3e49-2a47-455a-49f6" name="Death-Reapers" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
@@ -2802,6 +2815,9 @@
               <infoLinks>
                 <infoLink id="7723-2100-9968-bb2d" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="dc95-08b3-e784-77e5" name="Great Weapons" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -2816,6 +2832,9 @@
                 <infoLink id="d09d-8ec8-5b25-b11c" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
                 <infoLink id="652b-800a-6140-1224" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2823,6 +2842,9 @@
       <entryLinks>
         <entryLink id="c2a6-b3f7-b1c3-3473" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6e49-8a4d-b3ce-2f6c" name="Death-Mongers" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
@@ -2874,8 +2896,101 @@
           <infoLinks>
             <infoLink id="5d42-5923-57e8-9402" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e48f-9eda-5a86-41ea" name="Brass Beast Knights" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6ce5-a1b4-e54e-8f34" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="bc15-562e-7e1a-abf9" name="Brass Beast Knights" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Furious, Regeneration, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5879-4ec8-5529-6645" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="1346-5824-56f5-ae7b" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="c10a-8584-12c1-db54" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="a3d6-1917-6892-97b4" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0e2c-162f-3908-a45a" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3f68-b877-8586-3033" name="3 Brass Beast Knights" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1015-404c-a996-9dc5" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf9f-b0de-41e0-40f5" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="280.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d46f-6007-685a-2926" name="Hooves" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdbc-2f94-053b-952e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2395-ed00-939d-5bc7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b0b8-fe99-e3d0-b7ea" name="Flail-Hammer" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9b02-a57c-ccce-916c" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1759-952b-7e30-8257" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="4d2f-ad01-68d5-fd8e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d02-def0-9b3c-9d7a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7bb-875d-252e-9d87" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4d2f-ad01-68d5-fd8e" name="Hand Weapon (A2)" hidden="false" collective="false" import="true" targetId="4b3e-ec94-2ac8-9ae2" type="selectionEntry"/>
+            <entryLink id="0148-ce3d-c7e9-5135" name="Lance (A2)" hidden="false" collective="false" import="true" targetId="8fb4-99f9-6c5e-5d26" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f68-b877-8586-3033" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="104d-8a5e-86e4-f123" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
