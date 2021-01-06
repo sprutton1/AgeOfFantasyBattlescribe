@@ -179,6 +179,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="f1fe-3f0c-3613-2ce4" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
@@ -251,6 +254,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="e339-6286-d2aa-75d6" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+        <entryLink id="5647-757c-1d98-36f9" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -301,6 +305,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="4b5a-93c6-9e1f-cd87" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="245.0"/>
       </costs>
@@ -395,6 +402,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d3d1-286d-553c-f211" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
       </costs>
@@ -606,6 +616,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="29a2-6c05-8e87-00ae" name="** Disciple Upgrade (Heroes) **" hidden="false" collective="false" import="true" targetId="cd09-858a-8e7d-51dd" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
@@ -700,6 +713,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="9f40-ccde-6ef4-a477" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="185.0"/>
       </costs>
@@ -744,13 +760,16 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="856d-855e-ba14-f77b" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="155.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e01d-b101-01b4-8714" name="Demon Spawn" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e01d-b101-01b4-8714" name="Daemon Spawn" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="3b96-e79b-9818-8ff0" name="Demon Spawn" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+        <profile id="3b96-e79b-9818-8ff0" name="Daemon Spawn" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
           <characteristics>
             <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
             <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
@@ -788,6 +807,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="5584-6bf9-66d2-cd21" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
       </costs>
@@ -877,6 +899,7 @@
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="e85a-8846-7062-0449" name="** Disciple Upgrade (Heroes) **" hidden="false" collective="false" import="true" targetId="cd09-858a-8e7d-51dd" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
@@ -1024,6 +1047,7 @@
           </constraints>
         </entryLink>
         <entryLink id="0660-6e9a-8616-f9bb" name="Wizard Spells" hidden="false" collective="false" import="true" targetId="0d5a-0490-727e-a17a" type="selectionEntry"/>
+        <entryLink id="a0bf-1b33-b3ef-2e5e" name="** Disciple Upgrade (Heroes) **" hidden="false" collective="false" import="true" targetId="cd09-858a-8e7d-51dd" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
@@ -1111,6 +1135,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="a2d2-33d9-2cf9-78de" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
       </costs>
@@ -1241,6 +1268,7 @@
           </constraints>
         </entryLink>
         <entryLink id="11a3-bd36-4834-1304" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+        <entryLink id="47e8-05ea-5a92-4f5c" name="** Disciple Upgrade (Units of [10]) **" hidden="false" collective="false" import="true" targetId="c877-35b4-24fc-bc9b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -1298,6 +1326,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="991d-31cc-25fc-4137" name="** Disciple Upgrade (Units of [10]) **" hidden="false" collective="false" import="true" targetId="c877-35b4-24fc-bc9b" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
@@ -1408,6 +1439,7 @@
           </constraints>
         </entryLink>
         <entryLink id="a418-79e4-54d8-79d8" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+        <entryLink id="9501-e719-1fd1-c20c" name="** Disciple Upgrade (Units of [10]) **" hidden="false" collective="false" import="true" targetId="c877-35b4-24fc-bc9b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -1557,6 +1589,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d276-a628-6c90-1f3b" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
@@ -1623,6 +1658,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="2484-dc69-5f7d-fb17" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="245.0"/>
       </costs>
@@ -1689,6 +1727,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="b05b-5433-2dda-c04d" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
       </costs>
@@ -1746,6 +1787,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d112-2844-515a-b685" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
@@ -1798,6 +1842,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e059-ed13-df60-b9ca" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="5800-402f-6ba6-2594" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="185.0"/>
@@ -1919,6 +1964,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0dba-56b8-ab8f-9d1b" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
@@ -1954,6 +2002,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42ca-ba0e-b3e6-04a5" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="2cd9-3c59-21be-b0ee" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
@@ -2201,6 +2250,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2941-1efc-b680-cb2f" name="** Disciple Upgrade (Heroes) **" hidden="false" collective="false" import="true" targetId="cd09-858a-8e7d-51dd" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
       </costs>
@@ -2331,6 +2383,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e686-9178-75c0-fe00" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
@@ -2390,6 +2445,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3551-5697-07bb-9f75" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+        <entryLink id="d708-ddfd-1296-db03" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true" targetId="0eb8-35e0-17b8-a2cb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -3034,6 +3090,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5d41-8804-9c87-ed2c" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3051,6 +3110,9 @@
           <infoLinks>
             <infoLink id="eea3-dcda-6ebd-b5cf" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e12e-f627-f9b9-89e8" name="Beast Master (Fast, Fearless)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3069,7 +3131,81 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="115.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="0b3b-a3cd-b74d-ed31" name="Disciples of War (Furious)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f00e-95ac-194f-8efa" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="cd09-858a-8e7d-51dd" name="** Disciple Upgrade (Heroes) **" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="8e11-fc28-ce09-cf5c" name="Disciples of War - Furious" hidden="true" collective="false" import="true" targetId="0b3b-a3cd-b74d-ed31" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6ce5-a1b4-e54e-8f34" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6880-53f5-855c-a854" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c877-35b4-24fc-bc9b" name="** Disciple Upgrade (Units of [10]) **" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="9865-3d2e-cd14-68bb" name="Disciples of War (Furious)" hidden="true" collective="false" import="true" targetId="0b3b-a3cd-b74d-ed31" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6ce5-a1b4-e54e-8f34" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3076-ee11-08ac-5e8b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0eb8-35e0-17b8-a2cb" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="7462-6297-ce1c-f66a" name="Disciples of War (Furious)" hidden="true" collective="false" import="true" targetId="0b3b-a3cd-b74d-ed31" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6ce5-a1b4-e54e-8f34" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ad4-076b-f567-1d79" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d933-86d6-c2bc-8f1c" name="Symbol of War (X)" hidden="false">
       <description>When the hero is activated roll one die. On a X+ one enemy unit within 18&quot; takes 3 hits with AP(2).</description>
