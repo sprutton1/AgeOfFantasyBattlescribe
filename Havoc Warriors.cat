@@ -78,6 +78,7 @@
     <entryLink id="9687-7528-95c8-58d6" name="Death-Mongers" hidden="false" collective="false" import="true" targetId="6e49-8a4d-b3ce-2f6c" type="selectionEntry"/>
     <entryLink id="2628-7fbd-7997-b57a" name="Brass Beast Knights" hidden="false" collective="false" import="true" targetId="e48f-9eda-5a86-41ea" type="selectionEntry"/>
     <entryLink id="887c-6840-e300-7eb6" name="Wrath Beast" hidden="false" collective="false" import="true" targetId="51f1-aa79-a6d8-c3a4" type="selectionEntry"/>
+    <entryLink id="9196-de35-b58e-9022" name="Lord of Change" hidden="false" collective="false" import="true" targetId="1e10-a473-a1cb-0cec" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="169a-7bfd-c4f3-759f" name="Hand Weapon (A3,AP(1))" hidden="false" collective="false" import="true" type="upgrade">
@@ -3135,6 +3136,96 @@
       <infoLinks>
         <infoLink id="f00e-95ac-194f-8efa" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="1e10-a473-a1cb-0cec" name="Lord of Change" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="aca3-dbde-1cdf-0382" name="Lord of Change" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Stealth, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9725-4b8d-0cce-1049" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
+        <infoLink id="9304-c4b9-7f73-504d" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="2505-cc3e-1003-d7ee" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6e41-fb95-1b76-4199" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7fef-1c76-f5ef-b875" name="Blessing of Change" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dea1-180f-58c0-d47b" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="78a1-38bf-c0e0-ee60" name="Blessing of Change" publicationId="54a5-d9ec-f7cc-691f" hidden="false">
+              <description>Enemies get -1 to their rolls when shooting at the hero and his unit.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="386f-f497-b51f-abf5" name="Disc of Change" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9720-cdde-3cd1-72c4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5835-ea4d-fd18-de1e" name="Disc of Change" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Impact(1), Strider</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="477d-9385-a7c2-14e6" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+            <infoLink id="95cd-13d4-2674-f851" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+            <infoLink id="11e6-0cbc-f200-990c" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5cd0-3b09-641d-6ea4" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="a89f-35c8-d2be-9e5f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e9c-2e57-7abc-c08a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88c3-85fc-01de-5eab" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a89f-35c8-d2be-9e5f" name="Hand Weapon (A4,AP(1))" hidden="false" collective="false" import="true" targetId="126c-f2fa-4c2d-e401" type="selectionEntry"/>
+            <entryLink id="59f0-94be-ac5e-67b3" name="2x Hand Weapons (A4)" hidden="false" collective="false" import="true" targetId="9c54-15ea-02e6-60b8" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3989-4208-2df8-ebdf" name="Halberd (A4)" hidden="false" collective="false" import="true" targetId="5bba-6cef-56e3-c1d2" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="0655-8ce1-b206-fab8" name="Great Weapon (A4)" hidden="false" collective="false" import="true" targetId="a763-adad-0106-ca36" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="65.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
