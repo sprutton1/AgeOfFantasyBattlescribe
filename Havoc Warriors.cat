@@ -84,6 +84,7 @@
     <entryLink id="c8db-b2ba-ed76-8f27" name="Birdmen" hidden="false" collective="false" import="true" targetId="c579-9ab3-a064-8a4a" type="selectionEntry"/>
     <entryLink id="47d7-31d4-d05a-a5d9" name="Birdmen Disc Riders" hidden="false" collective="false" import="true" targetId="c972-71de-224e-d930" type="selectionEntry"/>
     <entryLink id="0e26-5d4d-0a8f-f9be" name="Lord of Lust" hidden="false" collective="false" import="true" targetId="9f3b-2705-d655-de74" type="selectionEntry"/>
+    <entryLink id="acb0-ee32-36e9-5566" name="Masked Sorcerer" hidden="false" collective="false" import="true" targetId="5c2b-0470-a27e-ab50" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="169a-7bfd-c4f3-759f" name="Hand Weapon (A3,AP(1))" hidden="false" collective="false" import="true" type="upgrade">
@@ -2466,7 +2467,7 @@
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c71-7ce5-a78a-f829" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2479,7 +2480,7 @@
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c71-7ce5-a78a-f829" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2492,7 +2493,7 @@
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c71-7ce5-a78a-f829" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2505,7 +2506,7 @@
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c71-7ce5-a78a-f829" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2518,7 +2519,7 @@
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c71-7ce5-a78a-f829" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2531,7 +2532,7 @@
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c71-7ce5-a78a-f829" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2616,6 +2617,84 @@
           <characteristics>
             <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
             <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 1 hit with AP(4) and Deadly(6).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7ae3-eae3-0d10-c88b" name="1. Acquiescence" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="84a0-23f9-bdc2-85d3" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; gets -1 to hit next time it shoots.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5917-9acc-d12a-cd7e" name="2. Magical Lash" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="84a0-23f9-bdc2-85d3" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 1 hit with AP(2) and Deadly(2).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a812-1fa6-b263-e0d3" name="3. Phantasm" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="84a0-23f9-bdc2-85d3" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets Regeneration next time it&apos;s wounded.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="550b-cd9c-1c9e-d5f4" name="4. Lust Choir" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="84a0-23f9-bdc2-85d3" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 3 automatic hits with AP(2).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ede5-5507-98da-0d1f" name="5. Ecstasy" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="84a0-23f9-bdc2-85d3" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; may immediately charge by up to 6&quot; and gets +1 to hit for that melee.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="07ef-037f-3292-2a4b" name="6. Shards" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="84a0-23f9-bdc2-85d3" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 6&quot; takes 1 automatic hit per model.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3898,6 +3977,69 @@
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="5c2b-0470-a27e-ab50" name="Masked Sorcerer" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="84a0-23f9-bdc2-85d3" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="581a-50f3-8aa7-c973" name="Masked Sorcerer" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Hero, Tough(3), Wizard(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="dfc4-8909-5bcf-db60" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="b7fd-dbec-033b-edba" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="c40b-3641-1db1-afb2" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="0f9d-da89-9df6-0257" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7d95-0455-87a2-cf73" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bf52-400d-2d56-94bb" name="Wizard" hidden="false" collective="false" import="true" defaultSelectionEntryId="000e-f396-7df1-5bbb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="35b9-c3fa-b015-acbc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e91b-7a35-80c0-1a9f" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="000e-f396-7df1-5bbb" name="Wizard(1)" hidden="false" collective="false" import="true" targetId="b2d2-cfaf-8ce6-6198" type="selectionEntry"/>
+            <entryLink id="0480-2c33-9c92-1530" name="Wizard(2)" hidden="false" collective="false" import="true" targetId="3fd8-1309-fe4e-3b6e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4646-83b4-49fa-9618" name="Hand Weapon (A3)" hidden="false" collective="false" import="true" targetId="df9b-db26-3a90-d447" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d671-4787-fa05-ba67" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d286-57f9-dc27-6256" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4e52-67ad-c68c-91c8" name="Wizard Spells" hidden="false" collective="false" import="true" targetId="0d5a-0490-727e-a17a" type="selectionEntry"/>
+        <entryLink id="9913-f0f2-ce6c-ec7e" name="Lust Beast" hidden="false" collective="false" import="true" targetId="66ea-2a97-6d13-4a73" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ca5-7deb-9b2e-962a" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
