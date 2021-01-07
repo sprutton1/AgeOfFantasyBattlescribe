@@ -86,6 +86,7 @@
     <entryLink id="0e26-5d4d-0a8f-f9be" name="Lord of Lust" hidden="false" collective="false" import="true" targetId="9f3b-2705-d655-de74" type="selectionEntry"/>
     <entryLink id="acb0-ee32-36e9-5566" name="Masked Sorcerer" hidden="false" collective="false" import="true" targetId="5c2b-0470-a27e-ab50" type="selectionEntry"/>
     <entryLink id="e8a6-0435-0ec6-29b0" name="Agony Warriors" hidden="false" collective="false" import="true" targetId="46cf-74ce-da6a-1249" type="selectionEntry"/>
+    <entryLink id="4750-a343-c6f8-7390" name="Endless Warriors" hidden="false" collective="false" import="true" targetId="b985-6e0a-f7e3-1ce8" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="169a-7bfd-c4f3-759f" name="Hand Weapon (A3,AP(1))" hidden="false" collective="false" import="true" type="upgrade">
@@ -4082,6 +4083,64 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbaf-9d19-0ba4-ea87" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2ba-c9b5-1bfe-70dc" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="b985-6e0a-f7e3-1ce8" name="Endless Warriors" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="84a0-23f9-bdc2-85d3" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="5865-27df-40ff-f4f8" name="Endless Warriors" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="99e9-10cf-4e1a-71f4" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2775-f236-7625-3d67" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="53d6-d93a-b66b-daba" name="10 Endless Warriors" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd1a-07b6-18d6-7388" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3765-83fa-89ea-8762" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="180.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8747-c8c7-1d0f-4299" name="Screech" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17f0-7612-c0f3-7c17" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5706-75f7-d9e4-6c80" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1bdb-0e5e-50ce-1238" name="Screech" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+                <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A2</characteristic>
+                <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c75d-e9c2-750d-2830" name="Spear (A1)" hidden="false" collective="false" import="true" targetId="fd2f-c48e-2881-b8ab" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f90b-cdcc-8225-724f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="babe-2714-8d3e-f92d" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
