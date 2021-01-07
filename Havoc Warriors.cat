@@ -82,6 +82,7 @@
     <entryLink id="2a4b-6cdf-d511-2344" name="Birdman Shaman" hidden="false" collective="false" import="true" targetId="e761-6675-abab-7497" type="selectionEntry"/>
     <entryLink id="6c7d-1d04-1f0d-6a2e" name="Acolytes" hidden="false" collective="false" import="true" targetId="d834-3f96-8d6f-5186" type="selectionEntry"/>
     <entryLink id="c8db-b2ba-ed76-8f27" name="Birdmen" hidden="false" collective="false" import="true" targetId="c579-9ab3-a064-8a4a" type="selectionEntry"/>
+    <entryLink id="47d7-31d4-d05a-a5d9" name="Birdmen Disc Riders" hidden="false" collective="false" import="true" targetId="c972-71de-224e-d930" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="169a-7bfd-c4f3-759f" name="Hand Weapon (A3,AP(1))" hidden="false" collective="false" import="true" type="upgrade">
@@ -3671,6 +3672,94 @@
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="c972-71de-224e-d930" name="Birdmen Disc Riders" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d979-45b1-ca5c-1dfc" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="4b9a-0933-5ce1-7425" name="Birdmen Disc Riders" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Impact(1), Stealth, Strider</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="223a-7d23-3a96-1d8a" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="e446-b779-0977-251a" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="29e2-ba2d-3dbf-5208" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
+        <infoLink id="9bb2-c36c-0d76-b3dd" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0224-a97a-fe9c-5792" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cd2e-f03f-668d-8666" name="3 Birdmen Disc Riders" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="780b-33b2-d7c5-4f7c" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9841-e8a2-70e9-9553" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9498-ca65-0fa8-2201" name="Bows of Fate" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd2e-f03f-668d-8666" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="460b-b8be-8d57-0e59" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fe82-2ac4-503c-a38a" name="Bows of Fate" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="79f4-5578-c041-f866">24&quot;</characteristic>
+                <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+                <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">Rending</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="59f8-1bfe-ecde-7aba" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7763-ca29-9807-cae2" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="1296-4ed8-f762-1cef">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa10-3aeb-df62-d9f5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc7e-cbad-d73a-7e22" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1296-4ed8-f762-1cef" name="Hand Weapon (A2)" hidden="false" collective="false" import="true" targetId="4b3e-ec94-2ac8-9ae2" type="selectionEntry"/>
+            <entryLink id="be87-3617-2347-0cd8" name="Lance (A2)" hidden="false" collective="false" import="true" targetId="8fb4-99f9-6c5e-5d26" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd2e-f03f-668d-8666" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
