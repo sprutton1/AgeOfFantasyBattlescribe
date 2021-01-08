@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="de97-ca23-502e-80c6" name="Saurians" revision="1" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="6032-2fee-7a55-3445" name="Saurians v2.6"/>
+  </publications>
+</catalogue>
