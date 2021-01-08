@@ -118,6 +118,194 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="110.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="be53-3a5d-f270-9283" name="Saurian Veteran" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3950-6f55-f798-603e" name="Saurian Veteran" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Hero, Predator, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a9ae-643f-930c-adcd" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="d69e-c51c-a536-d933" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="9435-8ab3-3b20-5d5d" name="Predator" hidden="false" targetId="19e5-8245-3944-86a1" type="rule"/>
+        <infoLink id="ccd0-cb5d-98d7-5e44" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b241-8eed-3d8b-4da7" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="68dc-ec44-36cb-40fe" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="0964-a7ce-df2b-508a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30ef-9f8f-78d6-fa1b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3877-d212-1b39-3a62" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="764c-8fd8-6881-d5e0" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="df37-8058-e000-bad7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="9b62-da0e-35d8-17f1" name="Lance" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Impact(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="98c8-7e2b-2c1c-20de" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+                <infoLink id="b1ba-5b29-0b0c-8df5" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ec84-ca96-5809-1c69" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="d9dd-33e2-df50-b9c8" name="Spear" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Phalanx</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="e1b7-2232-ca6a-f394" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+                <infoLink id="a29d-8360-ca43-4af2" name="Phalanx" hidden="false" targetId="4c1e-89c9-499f-9ab9" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2cb6-5ac7-aeb7-de25" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="7853-790d-be73-0b8b" name="Halberd" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Rending</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="bbc2-1015-f782-898d" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+                <infoLink id="8c1e-ad72-5dea-16ba" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c51f-4591-a189-7ebe" name="2x Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e748-9d6c-0e3c-8e77" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ef54-61dc-d71a-2a36" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ca08-7b32-5211-f02b" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e7e8-8d36-0d03-ec74" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="be9e-f989-26eb-ab56" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0964-a7ce-df2b-508a" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="3da3-a15d-afec-8901" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="3dfc-1f58-726b-fb55" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="df37-8058-e000-bad7" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f949-f127-3b19-b6d2" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9573-90c3-ed2c-c92e" name="Raptor" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="12cf-2e56-c66f-7fd3" name="Raptor" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Impact(1)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="5890-8c00-ee90-4c5b" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="d916-8007-1545-6131" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+                <infoLink id="8353-b59a-0773-7b48" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="508c-6fe8-8626-6b74" name="Tyrannosaur" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="9a2b-da97-2016-61bf" name="Tyrannosaur" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Defense +1, Fear, Primal Roar, Tough(+6)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="48ae-c159-fdcf-41ce" name="Crushing Jaws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="289d-5a79-1d41-8ab9" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+                <infoLink id="43b1-4a94-5e56-4bff" name="Primal Roar" hidden="false" targetId="ae08-38f5-f638-3ca4" type="rule"/>
+                <infoLink id="d7bf-f0dc-d46c-767c" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="220.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="75.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="bedd-26c2-ad5e-4a66" name="Wizard Spells" hidden="false" collective="false" import="true" type="upgrade">
@@ -164,4 +352,12 @@
       </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="19e5-8245-3944-86a1" name="Predator" publicationId="6032-2fee-7a55-3445" hidden="false">
+      <description>For each unmodified roll of 6 to hit when attacking in melee this model may roll 1 extra attack. This rule doesn&apos;t apply to newly generated attacks.</description>
+    </rule>
+    <rule id="ae08-38f5-f638-3ca4" name="Primal Roar" publicationId="6032-2fee-7a55-3445" hidden="false">
+      <description>Once per game when this unit is activated pick 2 friendly units with Predator within 6&quot;. Those units may roll extra attacks on results of 5-6 next time they fight.</description>
+    </rule>
+  </sharedRules>
 </catalogue>
