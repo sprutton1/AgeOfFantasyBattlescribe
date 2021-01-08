@@ -54,9 +54,9 @@
     <entryLink id="68c9-0f07-1130-0742" name="Chimera" hidden="false" collective="false" import="true" targetId="9175-263c-fa4b-428e" type="selectionEntry"/>
     <entryLink id="9ff8-49e5-cff1-4574" name="Giant" hidden="false" collective="false" import="true" targetId="97f2-81e9-4871-b76c" type="selectionEntry"/>
     <entryLink id="938a-fc9b-f579-86de" name="Drake-Centaurs" hidden="false" collective="false" import="true" targetId="4341-b1a4-9d61-3072" type="selectionEntry"/>
-    <entryLink id="9c03-83c8-d58f-2410" name="Blood Warriors" hidden="false" collective="false" import="true" targetId="3bb7-7025-065f-21b2" type="selectionEntry"/>
+    <entryLink id="9c03-83c8-d58f-2410" name="Warriors" hidden="false" collective="false" import="true" targetId="3bb7-7025-065f-21b2" type="selectionEntry"/>
     <entryLink id="ff41-2d30-22b7-9945" name="Mutated Warriors" hidden="false" collective="false" import="true" targetId="e84c-6cb0-ba15-3cd2" type="selectionEntry"/>
-    <entryLink id="6c88-69e5-538c-62b2" name="Yellow Warriors" hidden="false" collective="false" import="true" targetId="8379-1edf-133b-b7cc" type="selectionEntry"/>
+    <entryLink id="6c88-69e5-538c-62b2" name="Barbarians" hidden="false" collective="false" import="true" targetId="8379-1edf-133b-b7cc" type="selectionEntry"/>
     <entryLink id="1a85-636a-3820-3365" name="Barbarian Horsemen" hidden="false" collective="false" import="true" targetId="2ce8-f86c-c794-4bc7" type="selectionEntry"/>
     <entryLink id="72bd-3b31-5d3a-7322" name="Havoc Lord" hidden="false" collective="false" import="true" targetId="d5bb-4b64-827d-8ed4" type="selectionEntry"/>
     <entryLink id="5904-21c4-b4fa-6515" name="Demon Spawn" hidden="false" collective="false" import="true" targetId="e01d-b101-01b4-8714" type="selectionEntry"/>
@@ -1264,7 +1264,7 @@
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b643-f3b4-e507-3162" name=" Mutated Limbs" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="b643-f3b4-e507-3162" name=" Mutated Limbs" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b2ef-e5df-3cd1-c15a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec10-39e5-1df9-8d22" type="min"/>
@@ -4249,18 +4249,74 @@
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
           </costs>
         </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="0eb8-35e0-17b8-a2cb" name="** Disciple Upgrade (All other units) **" hidden="false" collective="false" import="true">
-      <entryLinks>
-        <entryLink id="7462-6297-ce1c-f66a" name="Disciples of War (Furious)" hidden="true" collective="false" import="true" targetId="0b3b-a3cd-b74d-ed31" type="selectionEntry">
+        <entryLink id="a077-5c37-715e-9701" name="Disciples of Lust (Fast)" hidden="false" collective="false" import="true" targetId="6155-5b56-8957-769d" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
-              </conditions>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="60.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff41-2d30-22b7-9945" type="instanceOf"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c88-69e5-538c-62b2" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="160.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c03-83c8-d58f-2410" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="120.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff41-2d30-22b7-9945" type="instanceOf"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c88-69e5-538c-62b2" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="80.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c03-83c8-d58f-2410" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0eb8-35e0-17b8-a2cb" name="** Disciple Upgrade (Units of [1] with Tough(3)) **" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="7462-6297-ce1c-f66a" name="Disciples of War (Furious)" hidden="true" collective="false" import="true" targetId="0b3b-a3cd-b74d-ed31" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="1949-177a-5ed5-b2dc" name="Disciples of Lust (Fast)" hidden="false" collective="false" import="true" targetId="6155-5b56-8957-769d" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
           </costs>
@@ -4293,6 +4349,64 @@
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
           </costs>
         </entryLink>
+        <entryLink id="761a-0e5c-e7dd-2926" name="Disciples of Lust (Lust Speed)" hidden="false" collective="false" import="true" targetId="55b8-631a-96b2-d7bb" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="60.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1a85-636a-3820-3365" type="instanceOf"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9b15-03a6-874d-1fe7" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1a85-636a-3820-3365" type="instanceOf"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9b15-03a6-874d-1fe7" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="80.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e61d-5666-1b4f-36eb" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="40.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e61d-5666-1b4f-36eb" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="5a8f-f0d1-9f60-388c" name="** Disciple Upgrade (Units of [3] with Tough(3)) **" hidden="false" collective="false" import="true">
@@ -4319,6 +4433,35 @@
           </modifiers>
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="6a94-a594-d6f8-18e4" name="Disciples of Lust (Fast)" hidden="false" collective="false" import="true" targetId="6155-5b56-8957-769d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8638-f4dc-2e03-4be1" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="25.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="938a-fc9b-f579-86de" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="718f-efd8-f297-2608" name="Disciples of Lust (Lust Speed)" hidden="false" collective="false" import="true" targetId="55b8-631a-96b2-d7bb" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8638-f4dc-2e03-4be1" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
           </costs>
         </entryLink>
       </entryLinks>
