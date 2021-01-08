@@ -89,6 +89,7 @@
     <entryLink id="4750-a343-c6f8-7390" name="Endless Warriors" hidden="false" collective="false" import="true" targetId="b985-6e0a-f7e3-1ce8" type="selectionEntry"/>
     <entryLink id="1bc7-6958-c555-2530" name="Lord of Plague" hidden="false" collective="false" import="true" targetId="4254-6cf1-35d2-0e06" type="selectionEntry"/>
     <entryLink id="e711-9742-3c0d-0d28" name="Rotten Sorcerer" hidden="false" collective="false" import="true" targetId="fc19-821e-d305-d28c" type="selectionEntry"/>
+    <entryLink id="987c-41b3-aaaf-ed72" name="Plague Kings" hidden="false" collective="false" import="true" targetId="f08b-d937-8644-65cd" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="169a-7bfd-c4f3-759f" name="Hand Weapon (A3,AP(1))" hidden="false" collective="false" import="true" type="upgrade">
@@ -4380,6 +4381,78 @@
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="f08b-d937-8644-65cd" name="Plague Kings" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62c2-0013-1f60-299d" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="3dd3-e490-f4f8-e0ac" name="Plague Kings" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Regeneration, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a6aa-e585-3f94-786b" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="5eb4-e407-a795-00d5" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1365-ee49-3c7e-b501" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="dd5e-f50e-678d-cb1e" name="Plague Kings [3]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b69-4b9d-ef71-9e8e" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee41-d904-c5e7-ef91" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="215.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c6eb-fced-2371-d866" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="3bd6-f59a-21f8-7946">
+          <modifiers>
+            <modifier type="set" field="c9eb-28f2-0b9f-b225" value="6.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="2a28-ae9e-fccb-8b5a" value="6.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9eb-28f2-0b9f-b225" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a28-ae9e-fccb-8b5a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3bd6-f59a-21f8-7946" name="Hand Weapon (A3)" hidden="false" collective="false" import="true" targetId="df9b-db26-3a90-d447" type="selectionEntry"/>
+            <entryLink id="fd4a-4857-9e42-3d73" name="2x Hand Weapons (A3)" hidden="false" collective="false" import="true" targetId="8eb1-4655-31d4-2e5c" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ded2-037a-f866-975d" name="Great Weapon (A3)" hidden="false" collective="false" import="true" targetId="89f5-3b8b-10f5-e093" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5ce4-d773-6cee-b6bb" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
