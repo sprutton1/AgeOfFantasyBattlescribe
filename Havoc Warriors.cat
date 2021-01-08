@@ -87,6 +87,8 @@
     <entryLink id="acb0-ee32-36e9-5566" name="Masked Sorcerer" hidden="false" collective="false" import="true" targetId="5c2b-0470-a27e-ab50" type="selectionEntry"/>
     <entryLink id="e8a6-0435-0ec6-29b0" name="Agony Warriors" hidden="false" collective="false" import="true" targetId="46cf-74ce-da6a-1249" type="selectionEntry"/>
     <entryLink id="4750-a343-c6f8-7390" name="Endless Warriors" hidden="false" collective="false" import="true" targetId="b985-6e0a-f7e3-1ce8" type="selectionEntry"/>
+    <entryLink id="1bc7-6958-c555-2530" name="Lord of Plague" hidden="false" collective="false" import="true" targetId="4254-6cf1-35d2-0e06" type="selectionEntry"/>
+    <entryLink id="e711-9742-3c0d-0d28" name="Rotten Sorcerer" hidden="false" collective="false" import="true" targetId="fc19-821e-d305-d28c" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="169a-7bfd-c4f3-759f" name="Hand Weapon (A3,AP(1))" hidden="false" collective="false" import="true" type="upgrade">
@@ -2602,6 +2604,84 @@
             <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 6&quot; takes 1 automatic hit per model.</characteristic>
           </characteristics>
         </profile>
+        <profile id="ad69-f8d7-5ad1-47ea" name="1. Abundance" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62c2-0013-1f60-299d" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets Stealth next time it&apos;s shot at.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="aede-f4ed-d031-3aab" name="2. Corruption" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62c2-0013-1f60-299d" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 6&quot; must take a dangerous terrain test.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ded8-7ff0-21d0-2cae" name="3. Putrefaction" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62c2-0013-1f60-299d" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets AP(+2) in melee next time it fights.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b0a8-8235-9064-f8e8" name="4. Visitations" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62c2-0013-1f60-299d" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 1 hit with AP(4) and Deadly(3).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3607-fbbe-fdc0-c039" name="5. Pestilence" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62c2-0013-1f60-299d" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; may immediately move by up to 6&quot;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6fef-b23c-0f9a-eeb9" name="6. Plague Curse" hidden="true" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62c2-0013-1f60-299d" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 4 automatic hits with AP(2).</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -4137,6 +4217,168 @@
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4254-6cf1-35d2-0e06" name="Lord of Plague" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62c2-0013-1f60-299d" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="f2f3-6992-c11d-502c" name="Lord of Plague" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Regeneration, Tough(3)		</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2e7f-7dd2-358c-2740" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="2aa5-ead1-0f1f-9084" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="0f40-2d9f-fe45-6ec9" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cb0e-884c-bd9a-0081" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="65b3-b366-4dd4-51dd" name="Blessing of Plague" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a433-36aa-3ae8-085e" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="e489-555f-b562-5b32" name="Blessing of Plague" publicationId="54a5-d9ec-f7cc-691f" hidden="false">
+              <description>The hero and his unit get +1 to Regeneration rolls.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0b5f-a6f5-2773-8cc5" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="135c-f095-4567-f702">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fc0-8dfa-1bb2-a796" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24a1-a9ad-0f0d-4ffa" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="135c-f095-4567-f702" name="Hand Weapon (A4,AP(1))" hidden="false" collective="false" import="true" targetId="126c-f2fa-4c2d-e401" type="selectionEntry"/>
+            <entryLink id="bcf7-67ec-3bf9-bd9f" name="2x Hand Weapons (A4)" hidden="false" collective="false" import="true" targetId="9c54-15ea-02e6-60b8" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="be89-e374-8b11-93c0" name="Halberd (A4)" hidden="false" collective="false" import="true" targetId="5bba-6cef-56e3-c1d2" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="97b7-16c8-455a-1a4d" name="Great Weapon (A4)" hidden="false" collective="false" import="true" targetId="a763-adad-0106-ca36" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8cde-abc6-5afb-227c" name="Throne of Plague" hidden="false" collective="false" import="true" targetId="0bb4-57ac-230b-2f59" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="120a-644f-9557-3d87" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0bb4-57ac-230b-2f59" name="Throne of Plague" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c789-a0dc-c52e-91a8" name="Throne of Plague" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fear, Tough(+3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e223-dccd-cc5c-18be" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="75bd-c9ab-c524-f568" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="7350-929c-57f9-12e5" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="fc19-821e-d305-d28c" name="Rotten Sorcerer" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62c2-0013-1f60-299d" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="686b-aadf-463c-42f9" name="Rotten Sorcerer" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Regeneration, Tough(3), Wizard(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="233b-ee89-2839-742d" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="c990-4016-1753-e35b" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="b221-7867-cc5d-7d72" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="8f46-66d4-7a2a-bb36" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8ca9-4a86-73ee-8f51" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a270-32a4-05cc-7b05" name="Wizard" hidden="false" collective="false" import="true" defaultSelectionEntryId="a481-64f2-4905-e5fd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="145e-f35f-617b-196e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1573-3f27-a286-233a" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a481-64f2-4905-e5fd" name="Wizard(1)" hidden="false" collective="false" import="true" targetId="b2d2-cfaf-8ce6-6198" type="selectionEntry"/>
+            <entryLink id="440b-49fb-d023-d093" name="Wizard(2)" hidden="false" collective="false" import="true" targetId="3fd8-1309-fe4e-3b6e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="cc04-75a3-cebc-8244" name="Hand Weapon (A3)" hidden="false" collective="false" import="true" targetId="df9b-db26-3a90-d447" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e8d-acb0-14dc-89f2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="667b-5521-9859-16de" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5eab-108d-7e61-7a7e" name="Wizard Spells" hidden="false" collective="false" import="true" targetId="0d5a-0490-727e-a17a" type="selectionEntry"/>
+        <entryLink id="2121-ff9a-cea4-cc14" name="Throne of Plague" hidden="false" collective="false" import="true" targetId="0bb4-57ac-230b-2f59" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53fa-8100-28a3-e000" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
