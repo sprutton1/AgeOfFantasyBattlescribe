@@ -165,7 +165,7 @@
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3563-0e72-0cb2-2756" name="5 Havoc Hounds" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3563-0e72-0cb2-2756" name="Havoc Hounds [5]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5099-a217-ce84-0e89" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cec-01a1-a818-2d9d" type="min"/>
@@ -217,7 +217,7 @@
         <categoryLink id="91e1-0a61-669f-d66c" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8422-910e-5e9d-20e3" name="3 Havoc Ogres" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8422-910e-5e9d-20e3" name="Havoc Ogres [3]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0246-2e13-e1f6-ea0e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3ad-9dec-2570-3a50" type="min"/>
@@ -1117,7 +1117,7 @@
         <categoryLink id="c4b1-426a-bb49-284f" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2770-1883-c13a-9337" name="10 Warriors" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2770-1883-c13a-9337" name="Warriors [10]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c39-3797-b177-dfc2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93cd-d3b0-eb62-a886" type="min"/>
@@ -1260,7 +1260,7 @@
         <categoryLink id="3239-493b-2f68-0293" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e5f1-ae89-d0af-fb51" name="10 Mutated Warriors" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e5f1-ae89-d0af-fb51" name="Mutated Warriors [10]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a90d-8385-6af3-9006" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cc0-5c24-c266-b35d" type="min"/>
@@ -1269,7 +1269,7 @@
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b643-f3b4-e507-3162" name=" Mutated Limbs" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b643-f3b4-e507-3162" name="Mutated Limbs" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b2ef-e5df-3cd1-c15a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec10-39e5-1df9-8d22" type="min"/>
@@ -1308,7 +1308,7 @@
         <categoryLink id="076b-d08f-2017-fbde" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7cc2-91b3-502d-ef0b" name="10 Barbarians" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="7cc2-91b3-502d-ef0b" name="Barbarians [10]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9fc-fe0f-ea9d-7e32" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc12-6f24-c21d-0873" type="min"/>
@@ -1426,7 +1426,7 @@
         <categoryLink id="3dde-a68c-d2c7-d9c3" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8a2a-4eed-10ad-aeb3" name="3 Daemonic Guard Knights" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8a2a-4eed-10ad-aeb3" name="Daemonic Guard Knights [3]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d948-eeaa-a5bc-ac67" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10da-907e-e26d-701c" type="min"/>
@@ -1713,7 +1713,7 @@
         <categoryLink id="1cf3-0e5c-b5ac-e068" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3732-ae53-c830-bbeb" name="3 Havoc Trolls" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3732-ae53-c830-bbeb" name="Havoc Trolls [3]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1b6d-f439-6d1c-caea" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="858a-0812-d0fe-3138" type="min"/>
@@ -1827,7 +1827,7 @@
         <categoryLink id="e1f5-24f1-23a4-c474" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6df9-29b9-aa0d-8b8c" name="5 Barbarian Horsemen" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="6df9-29b9-aa0d-8b8c" name="Barbarian Horsemen [5]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="10fa-5d81-c478-dc4e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="861a-e076-eb7d-8704" type="min"/>
@@ -2192,7 +2192,7 @@
         <categoryLink id="1256-cee0-29dd-8342" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="64ed-c640-1b13-1292" name="3 Drake-Centaurs" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="64ed-c640-1b13-1292" name="Drake-Centaurs [3]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="be60-2b91-7560-75dd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d21-6b5f-2bc3-018a" type="min"/>
@@ -2325,7 +2325,7 @@
         <categoryLink id="7585-df6d-3390-c891" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d569-d78e-14b9-5e8e" name="5 Havoc Knights" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="d569-d78e-14b9-5e8e" name="Havoc Knights [5]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5c15-e962-6420-76d4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78ef-2a58-d97a-c756" type="min"/>
@@ -2903,7 +2903,7 @@
         <categoryLink id="e426-4cbb-115c-8707" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a442-097d-fda0-48e7" name="10 Gore Reavers" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a442-097d-fda0-48e7" name="Gore Reavers [10]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5897-2c09-db65-279f" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fd3-981d-828e-05ab" type="max"/>
@@ -2956,7 +2956,7 @@
         <categoryLink id="46a8-fa60-a424-fed9" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="39aa-4826-1f34-8434" name="10 Gore Warriors" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="39aa-4826-1f34-8434" name="Gore Warriors [10]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99a9-7b6e-1cda-2ae8" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7de3-73e9-4dd9-2f6d" type="max"/>
@@ -3036,7 +3036,7 @@
         <categoryLink id="fce9-b154-a74b-3cc2" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b229-b489-8a98-1609" name="3 Death Reapers" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="b229-b489-8a98-1609" name="Death-Reapers [3]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed97-9239-16fb-f875" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e00-4365-d5ad-36aa" type="max"/>
@@ -3121,7 +3121,7 @@
         <categoryLink id="ff82-14fd-55d3-60f8" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0ec3-159c-4975-89d7" name="3 Death Mongers" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="0ec3-159c-4975-89d7" name="Death Mongers [3]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7afa-de00-d5b1-8d7a" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d0d-a2e7-d162-1fc7" type="max"/>
@@ -3182,7 +3182,7 @@
         <categoryLink id="0e2c-162f-3908-a45a" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3f68-b877-8586-3033" name="3 Brass Beast Knights" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3f68-b877-8586-3033" name="Brass Beast Knights [3]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1015-404c-a996-9dc5" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf9f-b0de-41e0-40f5" type="max"/>
@@ -3542,7 +3542,7 @@
         <categoryLink id="6876-bc91-b45d-9540" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ac23-11ae-09a5-5277" name="10 Acolytes" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ac23-11ae-09a5-5277" name="Acolytes [10]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3ff-4e23-7ef9-c3a7" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd04-dba0-a8ba-8e83" type="max"/>
@@ -3696,7 +3696,7 @@
         <categoryLink id="fac6-82df-8188-2a3f" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="82a8-97ac-3173-09d3" name="10 Birdmen" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="82a8-97ac-3173-09d3" name="Birdmen [10]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c360-4431-b5a0-76a0" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1124-9fa6-0d4e-a99a" type="max"/>
@@ -3778,7 +3778,7 @@
         <categoryLink id="0224-a97a-fe9c-5792" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="cd2e-f03f-668d-8666" name="3 Birdmen Disc Riders" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cd2e-f03f-668d-8666" name="Birdmen Disc Riders [3]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="780b-33b2-d7c5-4f7c" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9841-e8a2-70e9-9553" type="max"/>
@@ -4066,7 +4066,7 @@
         <categoryLink id="65af-f0c9-accf-60d0" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d1f5-e905-59d4-2636" name="10 Agony Warriors" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="d1f5-e905-59d4-2636" name="Agony Warriors [10]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bed-fbce-6a01-5460" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bba5-18cd-421e-e60d" type="max"/>
@@ -4112,7 +4112,7 @@
         <categoryLink id="2775-f236-7625-3d67" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="53d6-d93a-b66b-daba" name="10 Endless Warriors" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="53d6-d93a-b66b-daba" name="Endless Warriors [10]" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd1a-07b6-18d6-7388" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3765-83fa-89ea-8762" type="max"/>
@@ -4166,6 +4166,9 @@
       <infoLinks>
         <infoLink id="a302-a60a-98ae-e400" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="55b8-631a-96b2-d7bb" name="Disciples of Lust (Lust Speed)" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -4181,6 +4184,9 @@
       <infoLinks>
         <infoLink id="2663-42bf-4955-c9f0" name="Lust Speed" hidden="false" targetId="d51a-7297-ab1a-c271" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bd6c-c799-7ca3-af45" name="Daemon Mount" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -4320,6 +4326,9 @@
         <infoLink id="75bd-c9ab-c524-f568" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
         <infoLink id="7350-929c-57f9-12e5" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fc19-821e-d305-d28c" name="Rotten Sorcerer" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
@@ -4455,6 +4464,9 @@
       <entryLinks>
         <entryLink id="5ce4-d773-6cee-b6bb" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0a82-6419-9e6f-d0d1" name="Plague King Fly Rider" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -4540,6 +4552,9 @@
               <infoLinks>
                 <infoLink id="5e9c-8eed-2dda-b5c1" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="4bc0-aef9-bd17-8318" name="Poisoned Stinger" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -4607,6 +4622,9 @@
           <infoLinks>
             <infoLink id="9837-ce19-11c6-1513" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4740,6 +4758,9 @@
       <infoLinks>
         <infoLink id="63c4-33f9-fbe0-7461" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
