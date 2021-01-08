@@ -615,6 +615,55 @@
         </entryLink>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="f8eb-f819-d342-d6e2" name="Chameleons" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="490a-fea5-37e4-842a" name="Chameleons" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Chameleon, Fearless, Scout, Strider</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7c3e-8074-35a2-e146" name="Chameleon" hidden="false" targetId="ce01-bebf-d906-f498" type="rule"/>
+        <infoLink id="a3d7-2636-127e-ad25" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="96bb-906e-ace6-6a6a" name="Scout" hidden="false" targetId="7bc7-a892-49bc-ad88" type="rule"/>
+        <infoLink id="bb57-f66c-e815-9ed6" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="23ce-3f63-d4b3-5e31" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d365-c999-5d7c-5355" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="3066-5133-78e2-f52c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4240-2916-32b2-4681" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c57f-2a18-0519-d76c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3066-5133-78e2-f52c" name="Chameleons [5]" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="135.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e028-e2b4-1a96-c269" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="e5cd-e60e-53a9-7ce4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3121-c846-4e8a-40c2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b576-d0e3-3c40-f8c8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="193b-e97b-aba6-4e63" name="Blowpipe" hidden="false" collective="false" import="true" targetId="6c07-0845-a9ad-b4f7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e04b-8134-0af3-c946" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b42b-c7e2-a459-b3e4" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="bedd-26c2-ad5e-4a66" name="Wizard Spells" hidden="false" collective="false" import="true" type="upgrade">
@@ -724,6 +773,9 @@
     </rule>
     <rule id="ae08-38f5-f638-3ca4" name="Primal Roar" publicationId="6032-2fee-7a55-3445" hidden="false">
       <description>Once per game when this unit is activated pick 2 friendly units with Predator within 6&quot;. Those units may roll extra attacks on results of 5-6 next time they fight.</description>
+    </rule>
+    <rule id="ce01-bebf-d906-f498" name="Chameleon" publicationId="6032-2fee-7a55-3445" hidden="false">
+      <description>Enemies get -2 to their shooting rolls against this unit.</description>
     </rule>
   </sharedRules>
 </catalogue>
