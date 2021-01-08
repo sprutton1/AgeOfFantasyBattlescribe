@@ -447,7 +447,7 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="00c2-fd8c-2fa0-4f85" name="Gecko Priest" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="00c2-fd8c-2fa0-4f85" name="Gecko Priest" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="d9d2-10f8-1c30-79be" name="Gecko Priest" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
           <characteristics>
@@ -479,6 +479,141 @@
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="6748-a96d-a139-6ab7" name="Geckos" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e3bb-60e1-5fb8-d0dc" name="Geckos" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Strider</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7e35-ded9-13c2-87ec" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="c4f2-df37-bcf2-db74" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="863e-cc02-0970-ed34" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8c63-910a-071b-f4a5" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="f072-a2c1-7053-6696">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ba7-4289-857d-0f6d" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4772-e51b-bd2a-0726" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f072-a2c1-7053-6696" name="Geckos [5]" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7944-ab44-70b1-8e14" name="Ranged Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f79-6b0c-2ea5-4f34" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="11ff-9def-7e5d-6f61" name="Javelin" hidden="false" collective="false" import="true" targetId="9e75-4825-6425-90f0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="5255-6a44-cbad-4369" name="Blowpipe" hidden="false" collective="false" import="true" targetId="6c07-0845-a9ad-b4f7" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4867-a20e-44c8-a8c4" name="Upgrades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="f524-0203-51de-aa1f" name="Jungle Toxins" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="5.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e288-799f-4e60-bf58" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c19f-5864-2494-1f97" name="Jungle Toxins" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Poison in melee</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="55a1-7622-88a0-aae6" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="0d68-33b1-bc4d-674e" name="Camouflage Paint" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2779-e38b-c7e3-c1da" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="69de-a610-e9ba-305b" name="Camouflage Paint" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Stealth</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="e368-b08a-14f8-53d2" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a849-d866-991f-2eff" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+        <entryLink id="79ff-78d3-793d-6974" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="e5cd-e60e-53a9-7ce4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e4e-ab09-813e-efc4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cab5-959e-a451-f9b8" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
