@@ -3,4 +3,165 @@
   <publications>
     <publication id="6032-2fee-7a55-3445" name="Saurians v2.6"/>
   </publications>
+  <selectionEntries>
+    <selectionEntry id="0738-ca29-3003-d585" name="Frog-Mage" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="40d9-8e4b-8e58-675e" name="Frog-Mage" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">2+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Tough(3), Wizard(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4382-5178-257d-da15" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="9178-a908-f86b-b2b0" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="2f27-9a3a-2f56-4b1d" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8e76-1d3a-aba8-b8d9" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1ac3-cc1b-8d7f-6008" name="Ancient Palanquin" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="352f-0034-9cfa-edf4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="31d3-a96b-0446-ad51" name="Ancient Palanquin" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Defense +1, Fear, Strider, Tough(+3)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ac9b-063e-d044-03c4" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+            <infoLink id="dae7-e770-eda9-8dae" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+            <infoLink id="6179-80b0-98f0-01b7" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2ac6-2514-9f63-14a3" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="4a4e-1904-7078-662c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b05-ca03-3120-4bbe" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5822-c2ec-f31a-60e8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4a4e-1904-7078-662c" name="Energy Pulse" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="43c9-7e35-fefa-4089" name="Energy Pulse" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="d373-1bf0-47ce-986e" name="Energy Shock" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="5de6-fa8c-a61d-8095" name="Energy Shock" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Rending</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="dde7-1794-5d00-5c80" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="294f-178c-971a-b1d7" name="Energy Blast" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="5b85-dc30-8c9e-a054" name="Energy Blast" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Blast(3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="131a-5420-b327-bcfb" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+                <infoLink id="0a3f-ffb5-1608-e55c" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="681b-4264-13fe-6d33" name="Wizard(X)" hidden="false" collective="false" import="true" defaultSelectionEntryId="0817-d19f-ce73-6f9e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0653-fdef-eb1a-a1dd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48bf-2581-7460-8f8c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0817-d19f-ce73-6f9e" name="Wizard(2)" hidden="false" collective="false" import="true" targetId="3fd8-1309-fe4e-3b6e" type="selectionEntry"/>
+            <entryLink id="38f0-4000-7138-1396" name="Wizard(3)" hidden="false" collective="false" import="true" targetId="5b94-0e56-00d3-1804" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2774-1830-3fbd-a431" name="Wizard Spells" hidden="false" collective="false" import="true" targetId="bedd-26c2-ad5e-4a66" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="110.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="bedd-26c2-ad5e-4a66" name="Wizard Spells" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dd5-d93a-b9e8-85c0" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="64ed-2c48-3eb0-40ce" name="4. Jaguar Pounce" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy model within 12&quot; takes 1 automatic hit with AP(3).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f265-78fa-5182-cfe9" name="2. Serpent Egg" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 4 automatic hits.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="353d-57c5-7bd6-fd36" name="3. Transcend" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; may heal 1 wound or restore 1 model (with only 1 health left if it had Tough).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="60b1-b5bb-0c4c-43bc" name="5. Energy Reservoir" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets +9&quot; next time it moves.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6c6d-4571-cf4c-1e8a" name="6. Piranha Swarm" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target 2 enemy units within 6&quot; take 6 hits with AP(1) each.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6241-991b-6210-e990" name="1. Scrutiny" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; gets -1 to melee rolls next time it fights.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </catalogue>
