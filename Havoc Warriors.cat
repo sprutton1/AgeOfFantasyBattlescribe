@@ -566,63 +566,19 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="210.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b4d8-325b-abd3-217a" name="Horse" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="0606-4c9e-643e-1bab" name="Horse" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
-                  <characteristics>
-                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Impact(1)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="9963-3ddc-7a8c-216a" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
-                <infoLink id="7619-8366-d61f-39c2" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2164-77d6-5869-8bb6" name="Daemon Mount" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="3eb8-9b07-b83b-e738" name="Daemon Mount" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
-                  <characteristics>
-                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Fear, Impact(3), Tough(+3)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="9add-8df1-9405-4440" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
-                <infoLink id="3b76-3074-a8dd-c682" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
-                <infoLink id="60dc-d823-0369-e877" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
-                <infoLink id="0b95-84a5-f3f6-f3f7" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="738e-2a63-7729-1686" name="Claws (A3, AP(1))" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4a78-a018-7ad6-df43" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="24a6-103e-cc91-468d" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="80d6-e897-18fd-6a92" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
-                      <characteristics>
-                        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
-                        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="f672-739a-a4eb-9fec" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="5305-7bd1-24a7-0b7a" name="Daemon Mount" hidden="false" collective="false" import="true" targetId="bd6c-c799-7ca3-af45" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="95.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="52b4-04f8-4f25-7259" name="Horse" hidden="false" collective="false" import="true" targetId="37ea-318c-d68b-be7e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -952,22 +908,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f039-b140-c26b-8f6d" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="9c57-56d4-9549-c613" name="Horse" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="4c89-82a7-4301-8f25" name="Horse" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
-                  <characteristics>
-                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Impact(1)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="da69-6731-d9e0-f82f" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
-                <infoLink id="de50-9f95-757a-2121" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="e15e-e81d-8b10-2c94" name="Daemon Mount" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="0d71-94b8-0697-8b82" name="Daemon Mount" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
@@ -1046,6 +986,13 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="9df4-7089-0973-bb33" name="Horse" hidden="false" collective="false" import="true" targetId="37ea-318c-d68b-be7e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2200,63 +2147,19 @@
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="210.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fe7b-9e2a-931d-a78b" name="Horse" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="48bd-6b1a-77a9-af51" name="Horse" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
-                  <characteristics>
-                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Impact(1)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="fc46-97af-d71a-abe5" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
-                <infoLink id="f546-5085-af89-0ed3" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="25a4-87e3-24e5-cb11" name="Daemon Mount" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="ad8d-f667-431a-2e02" name="Daemon Mount" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
-                  <characteristics>
-                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Fear, Impact(3), Tough(+3)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="206f-c538-fd39-df84" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
-                <infoLink id="0397-5adc-13f0-0769" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
-                <infoLink id="9b90-d8d1-ee4c-c039" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
-                <infoLink id="1c30-d218-8504-338c" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="16fd-706f-3360-7a44" name="Claws (A3, AP(1))" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2234-8e3a-8be0-35f5" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5f56-4412-5ab3-e178" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="2db7-3559-4a4d-e0f8" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
-                      <characteristics>
-                        <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
-                        <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="d3d3-1493-385f-3e4c" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="b292-b6ea-3184-3611" name="Daemon Mount" hidden="false" collective="false" import="true" targetId="bd6c-c799-7ca3-af45" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="95.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="55fc-4a47-7b39-0376" name="Horse" hidden="false" collective="false" import="true" targetId="37ea-318c-d68b-be7e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -3852,6 +3755,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c97e-2793-89c3-431b" name="Disciples of Change (Stealth)" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -3867,6 +3773,9 @@
       <infoLinks>
         <infoLink id="fba8-6e3d-7145-3037" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9f3b-2705-d655-de74" name="Lord of Lust" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
@@ -3977,8 +3886,14 @@
           <infoLinks>
             <infoLink id="f566-cb42-1d8c-d846" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5c2b-0470-a27e-ab50" name="Masked Sorcerer" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
@@ -4086,6 +4001,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b985-6e0a-f7e3-1ce8" name="Endless Warriors" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
@@ -4134,6 +4052,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -4144,6 +4065,79 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6155-5b56-8957-769d" name="Disciples of Lust (Fast)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="84a0-23f9-bdc2-85d3" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e70-8a0e-de18-bbad" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a302-a60a-98ae-e400" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="55b8-631a-96b2-d7bb" name="Disciples of Lust (Lust Speed)" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="84a0-23f9-bdc2-85d3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4b4-fa69-ac64-0fae" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2663-42bf-4955-c9f0" name="Lust Speed" hidden="false" targetId="d51a-7297-ab1a-c271" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="bd6c-c799-7ca3-af45" name="Daemon Mount" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="08f7-b720-2ebc-b28d" name="Daemon Mount" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Fear, Impact(3), Tough(+3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b13c-88cf-5cfa-e55a" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="124e-4b1b-8296-4be4" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="cdfa-07b2-330c-21e5" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="d694-4d97-d29c-2f03" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="1398-83ab-1b9a-da5c" name="Claws (A3, AP(1))" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fad8-0120-65e3-535b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ac7e-1121-97f7-9eec" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="90ce-c12b-ca3b-04c8" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7060-9de7-bab7-2228" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="95.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -4164,6 +4158,67 @@
           </modifiers>
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="d6f9-73d1-2b21-16ed" name="Disciples of Lust (Lust Speed)" hidden="false" collective="false" import="true" targetId="55b8-631a-96b2-d7bb" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e15e-e81d-8b10-2c94" type="lessThan"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd6c-c799-7ca3-af45" type="lessThan"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="37ea-318c-d68b-be7e" type="lessThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5bb-4b64-827d-8ed4" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4e93-0871-4e7e-fac8" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="eb4c-7fda-a8c6-3d76" name="Disciples of Lust (Fast)" hidden="false" collective="false" import="true" targetId="6155-5b56-8957-769d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5bb-4b64-827d-8ed4" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4e93-0871-4e7e-fac8" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="15.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a05-52df-abe5-b205" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e15e-e81d-8b10-2c94" type="greaterThan"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="37ea-318c-d68b-be7e" type="greaterThan"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd6c-c799-7ca3-af45" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
           </costs>
         </entryLink>
       </entryLinks>
