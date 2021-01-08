@@ -4726,6 +4726,21 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="290.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="5dd0-f2f5-3d47-9919" name="Disciples of Plague (Regeneration)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62c2-0013-1f60-299d" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5176-506a-cb32-0131" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="63c4-33f9-fbe0-7461" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="cd09-858a-8e7d-51dd" name="** Disciple Upgrade (Heroes) **" hidden="false" collective="false" import="true">
@@ -4806,6 +4821,18 @@
           </modifiers>
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="92cd-b2cc-7347-51a8" name="Disciples of Plague (Regeneration)" hidden="false" collective="false" import="true" targetId="5dd0-f2f5-3d47-9919" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="35.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a05-52df-abe5-b205" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -4893,6 +4920,18 @@
               </conditionGroups>
             </modifier>
           </modifiers>
+        </entryLink>
+        <entryLink id="4494-5de2-9054-a2dc" name="Disciples of Plague (Regeneration)" hidden="false" collective="false" import="true" targetId="5dd0-f2f5-3d47-9919" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="120.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -4994,6 +5033,18 @@
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="71a8-c15e-9233-f1ce" name="Disciples of Plague (Regeneration)" hidden="false" collective="false" import="true" targetId="5dd0-f2f5-3d47-9919" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="60.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="5a8f-f0d1-9f60-388c" name="** Disciple Upgrade (Units of [3] with Tough(3)) **" hidden="false" collective="false" import="true">
@@ -5051,6 +5102,18 @@
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
           </costs>
         </entryLink>
+        <entryLink id="29ad-fbd0-c47a-8a36" name="Disciples of Plague (Regeneration)" hidden="false" collective="false" import="true" targetId="5dd0-f2f5-3d47-9919" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="110.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="5d4f-3565-1da3-2777" name="** Disciple Upgrade (Units of [1] with Tough(6)) **" hidden="false" collective="false" import="true">
@@ -5060,7 +5123,12 @@
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
           </costs>
         </entryLink>
-        <entryLink id="c731-a6ac-9aa1-e542" name="Disciples of Change (Stealth)" hidden="false" collective="false" import="true" targetId="c97e-2793-89c3-431b" type="selectionEntry">
+        <entryLink id="c731-a6ac-9aa1-e542" name="Disciples of Plague (Regeneration)" hidden="false" collective="false" import="true" targetId="5dd0-f2f5-3d47-9919" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="e669-73b7-0083-cf45" name="Disciples of Change (Stealth)" hidden="false" collective="false" import="true" targetId="c97e-2793-89c3-431b" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
           </costs>
