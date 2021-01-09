@@ -60,6 +60,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d373-1bf0-47ce-986e" name="Energy Shock" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -246,6 +249,9 @@
               <infoLinks>
                 <infoLink id="3dfc-1f58-726b-fb55" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -416,28 +422,15 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8f8-1ee2-7769-39bc" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="6ae9-2fc7-6d59-acb3" name="Ripper Breed" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="c947-5362-2705-0ced" name="Ripper Breed" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
-                  <characteristics>
-                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Furious, Impact(+2)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="5b21-36d2-3cb5-7191" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
-                <infoLink id="2a1d-78da-ba47-ce2d" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <entryLinks>
             <entryLink id="dc06-599f-ec4a-1331" name="Rock Bombs" hidden="false" collective="false" import="true" targetId="e1cf-bf96-a603-7f75" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2ecd-9f85-4810-7d22" name="Ripper Breed" hidden="false" collective="false" import="true" targetId="85a0-3578-f207-e4e3" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -574,6 +567,9 @@
               <infoLinks>
                 <infoLink id="55a1-7622-88a0-aae6" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0d68-33b1-bc4d-674e" name="Camouflage Paint" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -601,6 +597,9 @@
               <infoLinks>
                 <infoLink id="e368-b08a-14f8-53d2" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -614,6 +613,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f8eb-f819-d342-d6e2" name="Chameleons" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -663,6 +665,144 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="732b-5173-2c8a-86cb" name="Pterodactyl Riders" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2b43-baae-d4d8-4c56" name="Pterodactyl Riders" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Fearless, Flying, Impact(1), Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0b54-0299-3c3f-f595" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="3137-d318-851f-d304" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="cd9b-98f0-dd7b-a33e" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+        <infoLink id="87ce-e2aa-f78b-ac44" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="09d9-0e87-5f3c-1daa" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0196-27c7-99c8-62ae" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="619b-a073-88c2-8abb" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48e3-401d-f7e9-3a96" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e1a-8cd3-9291-c262" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="25b8-08a7-e571-5ad1" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cfd4-d81e-261e-6800" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="325b-c307-38ff-491d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0f7-68b5-28a4-c2a9" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94a2-f16c-b73f-17e0" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="325b-c307-38ff-491d" name="Pterodactyl Riders [3]" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="135.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7691-3c9f-25d8-fdef" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="ed27-451f-e124-f0dc">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eec8-123a-ccac-7b15" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f02-28fa-a001-7c79" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ed27-451f-e124-f0dc" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="e5cd-e60e-53a9-7ce4" type="selectionEntry"/>
+            <entryLink id="7101-ec05-b4e0-82ea" name="Lance (A1)" hidden="false" collective="false" import="true" targetId="b2ba-1897-ecd9-2780" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="339c-5d73-a1fc-4c84" name="Ranged Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dde9-e2fb-24bc-d7f1" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0b1d-538c-2e19-31e6" name="Javelin" hidden="false" collective="false" import="true" targetId="9e75-4825-6425-90f0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7cfd-bb51-31e1-01ab" name="Fire Bolas" hidden="false" collective="false" import="true" targetId="7e93-d182-e3f6-9fd0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4554-44a7-5776-6084" name="Pterodactyl Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6701-7cd1-7c5c-07cc" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ca3a-0a59-4a5e-05b2" name="Rock Bombs" hidden="false" collective="false" import="true" targetId="e1cf-bf96-a603-7f75" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="120.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="0689-4c12-8272-dc6b" name="Ripper Breed" hidden="false" collective="false" import="true" targetId="85a0-3578-f207-e4e3" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="50.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -708,6 +848,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6c07-0845-a9ad-b4f7" name="Blowpipe" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -722,6 +865,9 @@
       <infoLinks>
         <infoLink id="39e6-262f-2897-d81f" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7e93-d182-e3f6-9fd0" name="Fire Bolas" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -736,6 +882,9 @@
       <infoLinks>
         <infoLink id="4e94-8051-ff37-5901" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9e75-4825-6425-90f0" name="Javelin" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -751,6 +900,9 @@
         <infoLink id="2703-0d63-3daa-e634" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="c0e0-f0d2-14a2-7f0f" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e1cf-bf96-a603-7f75" name="Rock Bombs" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -765,6 +917,25 @@
           <description>Whenever this model moves over enemies pick one of them and roll 1 die, on a 2+ it takes 3 hits with AP(1).</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="85a0-3578-f207-e4e3" name="Ripper Breed" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c0e4-e7c9-1d57-fa5a" name="Ripper Breed" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Furious, Impact(+2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8024-8ba5-11c2-ffc9" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="ae48-a634-d3ec-e182" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
