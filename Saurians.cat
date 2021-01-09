@@ -1539,6 +1539,130 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2ec3-0236-215b-5522" name="Ankylosaurus" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cf06-6735-f57c-db9f" name="Ankylosaurus" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(9)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0ca8-4602-f2b3-9eed" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="7ab4-b161-f13b-c60d" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="d3bc-4831-0570-fa86" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="be17-1413-ad49-3e81" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a35d-7b49-353a-ba37" name="Crew Attacks" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5019-cde3-2a85-37f4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8ce-c3be-6e22-4f94" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dddf-505e-3fb0-c54f" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="37d9-4c5a-8e54-4c4b" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="926a-2840-1c50-7c3d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe8b-8b2d-3da5-6a76" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f63a-d641-a0f6-e66c" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4cbc-aac9-58e1-ce35" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="8be8-6ebd-18c2-86c2" name="Mace Tail" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6058-c786-53a6-cec0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3efe-a8b0-0464-15b6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1dae-d113-4bab-73d1" name="Mace Tail" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(4), Deadly(3)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="60da-f7c0-8937-cdd5" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+            <infoLink id="6a9d-f060-fa41-9c29" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1cfb-4f7c-650c-f871" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="329c-9023-b225-ca4c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="517d-1021-1c3e-369c" name="Ark of Snakes" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e0ed-ec76-8103-64bc" name="Ark of Snakes" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Ark of Snakes	</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="e38b-87a2-552a-96ef" name="Ark of Snakes" publicationId="6032-2fee-7a55-3445" hidden="false">
+                  <description>When this unit is activated pick 2 enemy units within 6” and roll one die for each. On a 2+ they take 3 automatic hits, on a 6 they take 9 automatic hits.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bd8b-5c4e-5d46-cf55" name="Solar Beam" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="fb10-63b6-f92d-64c2" name="Solar Beam" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="79f4-5578-c041-f866">24&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A6</characteristic>
+                    <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="e091-5dd7-0205-2388" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f489-4f0f-0fb6-b745" name="Javelin" hidden="false" collective="false" import="true" targetId="9e75-4825-6425-90f0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b83-eec4-ac9b-72c4" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bbb-ebe9-ccc0-ebdb" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="230.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="bedd-26c2-ad5e-4a66" name="Wizard Spells" hidden="false" collective="false" import="true" type="upgrade">
