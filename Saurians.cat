@@ -912,6 +912,51 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="56f8-f63e-88e4-47f3" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="8bf0-def8-b06f-7dc0" name="Guardians" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="912d-08b1-2657-fb0d" name="Guardians" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Predator</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3039-1aff-5c76-1ece" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="49f9-0f6b-3ce2-b870" name="Predator" hidden="false" targetId="19e5-8245-3944-86a1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c9ab-8ff9-bafe-570e" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="501b-905e-b6a9-8c6d" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="19c7-b691-ceea-92cf">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fef1-a8d9-088f-1206" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f34-fd01-fbc3-0379" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="19c7-b691-ceea-92cf" name="Guardians [10]" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="300.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="848c-62ca-651d-ac97" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+        <entryLink id="122e-b77b-5836-77b7" name="Halberd (A2)" hidden="false" collective="false" import="true" targetId="d84a-3dd5-3948-4d3d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bde-d381-bc46-f511" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d6a-0dfd-b194-070a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
