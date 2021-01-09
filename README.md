@@ -91,7 +91,7 @@ table!
 |Ossified Undead|-|NOT STARTED|-|
 |Ratmen|-|NOT STARTED|-|
 |Rift Daemons|v2.8|Done|cartag|
-|Saurians|-|NOT STARTED|-|
+|Saurians|v2.6|Done|Darguth|
 |Shadow Stalkers|-|NOT STARTED|-|
 |Sky-City Dwarves|-|NOT STARTED|-|
 |Vampiric Undead|-|NOT STARTED|-|
