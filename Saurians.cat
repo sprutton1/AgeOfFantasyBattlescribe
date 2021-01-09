@@ -958,6 +958,80 @@
         </entryLink>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="7ef6-cf27-0c7e-55ee" name="Raptor Riders" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3e66-dedc-cf87-ebbc" name="Raptor Riders" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Fearless, Predator</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e488-6a66-656c-226a" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="8a44-6638-a7dd-a563" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="5556-674e-4618-e4db" name="Predator" hidden="false" targetId="19e5-8245-3944-86a1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9a16-44c9-2637-5055" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7050-b887-2123-0b65" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48ff-20f5-6bcb-0472" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a87-6d39-7c9f-808a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8ecd-b779-094a-740e" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c66b-697d-e0f8-941a" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="d64d-c5ed-81d2-d587">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="912f-62b3-d3e3-d83d" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="456b-2606-054f-d713" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d64d-c5ed-81d2-d587" name="Raptor Riders [5]" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="185.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="cff8-9e50-a19d-325d" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="4660-7a4f-08bd-bb17">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4af6-0d51-4dd2-5075" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27a7-2639-f162-7f87" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4660-7a4f-08bd-bb17" name="Hand Weapon (A2)" hidden="false" collective="false" import="true" targetId="4b3e-ec94-2ac8-9ae2" type="selectionEntry"/>
+            <entryLink id="62f0-b745-0ebc-2e3d" name="Lance (A2)" hidden="false" collective="false" import="true" targetId="8fb4-99f9-6c5e-5d26" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6c14-050c-bd9e-3f28" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="bedd-26c2-ad5e-4a66" name="Wizard Spells" hidden="false" collective="false" import="true" type="upgrade">
