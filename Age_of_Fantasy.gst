@@ -454,7 +454,7 @@
     </selectionEntry>
     <selectionEntry id="3cc3-f100-14b2-b35b" name="Sergeant" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="e5cc-fee7-eb28-f672" name="Sergeant" hidden="false" targetId="58f7-c42b-1b9a-0fe4" type="profile"/>
+        <infoLink id="e5cc-fee7-eb28-f672" name="Sergeant" hidden="false" targetId="d93e-2050-2e33-e5ce" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -462,7 +462,7 @@
     </selectionEntry>
     <selectionEntry id="f0ab-367a-82e4-7a85" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="6b7b-8839-e897-b92a" name="Musician" hidden="false" targetId="2566-b4e3-d247-1089" type="profile"/>
+        <infoLink id="6b7b-8839-e897-b92a" name="Musician" hidden="false" targetId="7dfd-fc07-5ebc-5240" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -470,7 +470,7 @@
     </selectionEntry>
     <selectionEntry id="284a-5077-0751-f8e9" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="92b6-4f39-e4d8-3ce0" name="Standard Bearer" hidden="false" targetId="19da-5c1b-a387-ca43" type="profile"/>
+        <infoLink id="92b6-4f39-e4d8-3ce0" name="Standard Bearer" hidden="false" targetId="3f3a-3ac9-c9b7-5c5d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -906,6 +906,15 @@ Note that the charging unit must only roll up to as many dice as models with the
     <rule id="92bc-0fe3-fc76-788f" name="Artillery" publicationId="d755-5d69-pubN65537" hidden="false">
       <description>Models with this special rule count as having Defense 2+ against all shooting attacks.</description>
     </rule>
+    <rule id="7dfd-fc07-5ebc-5240" name="Musician" publicationId="d755-5d69-pubN65537" hidden="false">
+      <description>Always counts as having dealt +1 wound for seeing who won melee.</description>
+    </rule>
+    <rule id="d93e-2050-2e33-e5ce" name="Sergeant" publicationId="d755-5d69-pubN65537" hidden="false">
+      <description>One model in the unit gets +1 to hit when shooting or in melee (pick one before the game begins.)</description>
+    </rule>
+    <rule id="3f3a-3ac9-c9b7-5c5d" name="Standard Bearer" publicationId="d755-5d69-pubN65537" hidden="false">
+      <description>Always counts as having dealt +1 wound for seeing who won melee.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="cc05-7b8d-015b-defa" name="Hand Weapon (A1)" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
@@ -1088,21 +1097,6 @@ Note that the charging unit must only roll up to as many dice as models with the
     <profile id="cb17-fbfa-24f6-af25" name="Wizard(3)" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
       <characteristics>
         <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Wizard(3)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="58f7-c42b-1b9a-0fe4" name="Sergeant" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
-      <characteristics>
-        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">One model in the unit gets +1 to hit when shooting or in melee (pick one before the game begins.)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="2566-b4e3-d247-1089" name="Musician" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
-      <characteristics>
-        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Always counts as having dealt +1 wound for seeing who won melee.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="19da-5c1b-a387-ca43" name="Standard Bearer" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
-      <characteristics>
-        <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Always counts as having dealt +1 wound for seeing who won melee.</characteristic>
       </characteristics>
     </profile>
     <profile id="350e-f8eb-3154-cf1f" name="Harpoon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
