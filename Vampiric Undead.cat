@@ -1916,6 +1916,36 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="195.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4397-7611-476e-9558" name="Corpse Chariot" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="bf90-78c0-4a42-0387" name="Corpse Chariot" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">6+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Corpse Pile, Fear, Regeneration, Tough(6), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="251f-e2f4-74b0-1737" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A12</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5484-9797-c1fd-8f5c" name="Corpse Pile" hidden="false" targetId="5b63-9143-7916-5378" type="rule"/>
+        <infoLink id="3a38-d7c3-14cf-fe3d" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="4225-5b89-1b3d-9b68" name="Undead" hidden="false" targetId="b8c4-89c7-8442-34eb" type="rule"/>
+        <infoLink id="32ed-54a5-e07a-1143" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="4d01-7d34-a581-4cc8" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d7b2-065a-fd32-2025" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="325.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="66ca-95d4-d301-49c6" name="Wizard Spells" hidden="false" collective="false" import="true" type="upgrade">
@@ -2025,6 +2055,9 @@
     </rule>
     <rule id="b230-366f-17ad-24e9" name="Reliquary" publicationId="ced6-2f6b-331b-7ba0" hidden="false">
       <description>When this unit is activated pick 2 enemy units within 12” and roll 1 die for each, on a 2+ they take 3 hits with AP(1).</description>
+    </rule>
+    <rule id="5b63-9143-7916-5378" name="Corpse Pile" publicationId="ced6-2f6b-331b-7ba0" hidden="false">
+      <description>When this unit is activated pick 2 friendly units within 6”, which get Regeneration next time they take wounds.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
