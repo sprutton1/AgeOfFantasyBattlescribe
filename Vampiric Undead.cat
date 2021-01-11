@@ -696,12 +696,12 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e954-f882-f2f6-8a22" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="90fc-2b1a-512d-1462">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc8a-8529-00d0-0d43" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5408-72a9-0f04-ad9f" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="90fc-2b1a-512d-1462" name="Zombies [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69b4-dbd8-3429-3659" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa0a-1786-4e4d-523f" type="max"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
               </costs>
@@ -818,12 +818,12 @@
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="2c55-b577-582d-18a9" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="7ace-9437-a26d-59a9">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5b4-20d9-4be8-cdf4" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff7d-3564-270c-2ce8" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="7ace-9437-a26d-59a9" name="Skeletons [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f437-d9c5-a962-5eda" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b153-2e5d-3217-38df" type="max"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
               </costs>
@@ -834,6 +834,45 @@
       <entryLinks>
         <entryLink id="f724-3328-2449-25fa" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="d813-b9cb-9a91-e60d" name="Ghouls" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="145d-ccc3-5dbe-a813" name="Ghouls" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c56f-8b0a-b401-77bd" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Poison</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="62bf-e033-0f52-885d" name="Undead" hidden="false" targetId="b8c4-89c7-8442-34eb" type="rule"/>
+        <infoLink id="cbb4-e383-db58-cb4d" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="41bb-6eeb-20bd-285f" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a8e9-d594-dddf-7fad" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="3828-2f47-1754-e217">
+          <selectionEntries>
+            <selectionEntry id="3828-2f47-1754-e217" name="Ghouls [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ce4-1ab3-c6c9-adb4" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8f4-0a7e-3007-cc4e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="105.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
