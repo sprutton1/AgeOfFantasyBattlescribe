@@ -1147,6 +1147,69 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry id="2396-7cf7-cc6f-e333" name="Skeleton Knights" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="61d9-fb2c-1cfd-1786" name="Skeleton Knights" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Impact(1), Undead</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ed01-2013-b945-a70a" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="edb0-bb63-7306-f5dd" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="178d-ed94-cf2a-9053" name="Undead" hidden="false" targetId="b8c4-89c7-8442-34eb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="721c-3414-b5cb-d9a7" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="22d2-3ff0-6f1b-2f49" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="de2b-29e0-c5b2-017b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5972-d1ca-5857-bb64" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="de2b-29e0-c5b2-017b" name="Skeleton Knights [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8f2-e813-34dd-0fac" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52ad-cc0d-701c-6734" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="115.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d864-3a81-0e05-d5be" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="db8e-c3d7-1413-452b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d429-176e-6e74-6d51" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42fb-ff0b-3765-1417" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="db8e-c3d7-1413-452b" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="e5cd-e60e-53a9-7ce4" type="selectionEntry"/>
+            <entryLink id="b50d-15e1-97f1-dbce" name="Lance (A1)" hidden="false" collective="false" import="true" targetId="b2ba-1897-ecd9-2780" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="15.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1de4-e5c1-75c5-1de2" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="66ca-95d4-d301-49c6" name="Wizard Spells" hidden="false" collective="false" import="true" type="upgrade">
