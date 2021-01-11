@@ -1942,6 +1942,42 @@
       <categoryLinks>
         <categoryLink id="d7b2-065a-fd32-2025" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8529-a9fe-605a-cb41" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="778e-2e2d-ae37-37b5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="953c-fffe-da2c-abff" name="Cursed Brazier" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="caa6-cda6-989a-ba80" name="Cursed Brazier" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">This unit may block spells as if it had the Wizard special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="1eaa-2900-42ea-0ac6" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e838-0f54-cbc8-f76a" name="Cursed Lodestone" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="1c1d-2d2e-342e-66c9" name="Cursed Lodestone" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">When this unit activates pick 1 friendly Wizard within 6”, which gets +1 to its roll next time it casts a spell.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="325.0"/>
       </costs>
