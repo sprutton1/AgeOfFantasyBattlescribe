@@ -1361,7 +1361,7 @@
         <infoLink id="233d-f98a-3a7c-9cab" name="Undead" hidden="false" targetId="b8c4-89c7-8442-34eb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5751-8f71-4176-1336" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="61d2-55cb-d6a7-76fe" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a407-bd3c-572b-2694" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="926a-2547-2bf4-2e28">
@@ -1375,6 +1375,92 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="7bc3-8fd8-03e0-6be4" name="Giant Bats" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="da3e-6ead-476a-80f7" name="Giant Bats" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Flying, Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="55b9-19e8-ea15-16ba" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e85a-170b-d16e-9e82" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="4a36-ebfc-123b-e6cd" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+        <infoLink id="ab6b-a954-91db-d18a" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="0814-8428-2121-6385" name="Undead" hidden="false" targetId="b8c4-89c7-8442-34eb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5c37-256b-8bd8-eb5b" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5329-fa46-5f75-2cc5" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="b9dd-1808-cad3-15bb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0ae-6e75-c36b-f6f6" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b9dd-1808-cad3-15bb" name="Giant Bats [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="542c-3e44-35e3-0ea5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="85.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="7f10-0a5d-00c7-49c2" name="Ghost Swarms" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="263b-4e9a-0e2a-4101" name="Ghost Swarms" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Strider, Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="751b-6398-dca6-b06c" name="Swarm Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1abe-0487-8722-2e6c" name="Ethereal" hidden="false" targetId="42b2-d91d-c3af-9bd6" type="rule"/>
+        <infoLink id="de98-f5d4-2e18-6d49" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="0ae6-942d-671a-8936" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="9f64-5031-3d81-efc5" name="Undead" hidden="false" targetId="b8c4-89c7-8442-34eb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="eba4-3f5a-1d10-ccd1" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="abca-ed08-9b21-606c" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="ac94-9fa0-f132-ae47">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d81-9e34-994a-3bda" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ac94-9fa0-f132-ae47" name="Ghost Swarms [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1ab-e593-e357-5e19" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="115.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
