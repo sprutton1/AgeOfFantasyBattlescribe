@@ -94,7 +94,7 @@ table!
 |Saurians|v2.6|Done|Darguth|
 |Shadow Stalkers|-|NOT STARTED|-|
 |Sky-City Dwarves|-|NOT STARTED|-|
-|Vampiric Undead|-|NOT STARTED|-|
+|Vampiric Undead|v2.8|Done|Darguth|
 |Volcanic Dwarves|-|NOT STARTED|-|
 |Wood Elves|-|NOT STARTED|-|
 
