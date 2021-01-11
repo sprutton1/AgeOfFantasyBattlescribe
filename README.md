@@ -69,7 +69,7 @@ table!
 ### What's Done
 
 | Army | Version | Progress | Author |
-|---|---|---|
+|---|---|---|---|
 |Game System|v2.10|Done|Darguth|
 |Beastmen|v2.4|Done|cartag|
 |Chivalrous Kingdoms|-|NOT STARTED|-|
@@ -81,7 +81,7 @@ table!
 |Goblins|v2.10|Done|Darguth|
 |Halflings|-|NOT STARTED|-|
 |Havoc Dwarves|v2.2|Done|Darguth|
-|Havoc Warriors|-|NOT STARTED|-|
+|Havoc Warriors|Main v2.9 - Disciples v2.10|Done|cartag (Main), Darguth (Disciples)|
 |High Elves|v2.7|Done|Darguth|
 |Humans|-|NOT STARTED|-|
 |Kingdom of Angels|v2.3|Done|Perram|
@@ -91,7 +91,7 @@ table!
 |Ossified Undead|-|NOT STARTED|-|
 |Ratmen|-|NOT STARTED|-|
 |Rift Daemons|v2.8|Done|cartag|
-|Saurians|-|NOT STARTED|-|
+|Saurians|v2.6|Done|Darguth|
 |Shadow Stalkers|-|NOT STARTED|-|
 |Sky-City Dwarves|-|NOT STARTED|-|
 |Vampiric Undead|-|NOT STARTED|-|
