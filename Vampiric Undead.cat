@@ -1807,6 +1807,47 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="29a5-42d5-db04-5160" name="Coach Chariot" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2313-3644-8264-f967" name="Coach Chariot" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Fast, Fear, Furious, Impact(6), Regeneration, Strider, Tough(6), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9c24-4363-deb9-7466" name="Hooves" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2d2c-8f55-6acd-5469" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d79a-aa5c-4b63-4eab" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="33f6-340f-82ad-76d4" name="Ethereal" hidden="false" targetId="42b2-d91d-c3af-9bd6" type="rule"/>
+        <infoLink id="71b9-84eb-b153-cb12" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="a8df-9296-a453-8e6e" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="8935-2027-e1a8-6449" name="Undead" hidden="false" targetId="b8c4-89c7-8442-34eb" type="rule"/>
+        <infoLink id="6f48-4e53-1700-d88c" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="cec8-dffd-103e-c350" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="2f73-9225-3490-bc9a" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="9572-b9ea-6d6c-8c89" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="de07-7a71-6879-71e8" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3632-7402-8b5a-4cd9" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="155.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="66ca-95d4-d301-49c6" name="Wizard Spells" hidden="false" collective="false" import="true" type="upgrade">
