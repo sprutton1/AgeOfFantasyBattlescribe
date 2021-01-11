@@ -1067,6 +1067,43 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry id="6a75-cabe-5928-6ddd" name="Wraiths" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="74e9-41bb-fd03-a9c1" name="Wraiths" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Strider, Undead</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4f1e-8247-cebe-bf17" name="Ethereal" hidden="false" targetId="42b2-d91d-c3af-9bd6" type="rule"/>
+        <infoLink id="0c2e-2f9a-e48d-4f1d" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="1ac5-b4f2-fc19-cf86" name="Undead" hidden="false" targetId="b8c4-89c7-8442-34eb" type="rule"/>
+        <infoLink id="b76e-e2f4-a013-2ef9" name="Great Weapon (A1)" hidden="false" targetId="850d-0fac-53e0-2988" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="35c1-47cf-1696-c34d" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ba00-9e05-6eb7-e5f6" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="cfd9-6991-8e69-e71c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8d3-8b97-a97c-55fb" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="cfd9-6991-8e69-e71c" name="Wraiths [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b26-3987-7bf4-3482" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="75.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="66ca-95d4-d301-49c6" name="Wizard Spells" hidden="false" collective="false" import="true" type="upgrade">
