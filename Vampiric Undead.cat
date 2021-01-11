@@ -1848,6 +1848,42 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="155.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="0e95-67f3-39fa-379b" name="Ghost Chariot" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f893-0528-827e-252f" name="Ghost Chariot" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Fast, Fear, Impact(6), Regeneration, Reliquary, Strider, Tough(6), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4e69-1cd7-d75d-2fea" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A8</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ad7f-3df4-486c-e4e5" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="c9ca-82a7-26e0-6b01" name="Ethereal" hidden="false" targetId="42b2-d91d-c3af-9bd6" type="rule"/>
+        <infoLink id="d873-0d91-0289-6b57" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="2558-e1da-20e4-ab6b" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="9f5f-aa03-ab09-45c5" name="Undead" hidden="false" targetId="b8c4-89c7-8442-34eb" type="rule"/>
+        <infoLink id="b000-6925-c928-528f" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="ceff-2018-4a90-f277" name="Reliquary" hidden="false" targetId="b230-366f-17ad-24e9" type="rule"/>
+        <infoLink id="0968-fecb-060f-66bf" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="d9b1-f46e-2637-b4da" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="741a-267f-2eb2-1cf5" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="cdf1-6ca7-dc94-4000" name="Howl" hidden="false" targetId="10bf-a9b0-fe2d-15f0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2e15-422a-6db2-37a4" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="66ca-95d4-d301-49c6" name="Wizard Spells" hidden="false" collective="false" import="true" type="upgrade">
