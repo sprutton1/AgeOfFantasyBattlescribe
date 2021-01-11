@@ -451,6 +451,133 @@
         <entryLink id="71b3-0ba2-1b35-7859" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="8620-7c94-a550-4f6e" name="Warriors" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="364f-abc6-8e11-03c0" name="Warriors" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9d9a-884c-3069-8e12" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ddbc-359c-2363-dfad" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="a79d-08e3-374e-09ce">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b49-0bc4-4485-4617" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a79d-08e3-374e-09ce" name="Warriors [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff96-691c-08e7-0586" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e171-5f06-e9e0-0984" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="3a2f-a763-bac7-de11">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9b6-c93c-e589-9ff3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4355-b517-1a44-3919" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3a2f-a763-bac7-de11" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="e5cd-e60e-53a9-7ce4" type="selectionEntry"/>
+            <entryLink id="d5ed-1807-73c3-4f82" name="Halberd (A1)" hidden="false" collective="false" import="true" targetId="88b0-76c7-e9f2-fee0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="5.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="1674-fa1e-3419-d7b9" name="2x Hand Weapons (A1)" hidden="false" collective="false" import="true" targetId="3864-81be-1759-179c" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="64cc-4aa4-769a-e8e7" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="fa2b-dd87-7353-7873" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="05f3-9563-2e71-bdb2" name="Spear (A1)" hidden="false" collective="false" import="true" targetId="fd2f-c48e-2881-b8ab" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="60.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0f0a-0954-e493-1cc5" name="Upgrades" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="d7bb-27bd-98ba-55a7" name="Harpoon" hidden="false" collective="false" import="true" targetId="c27c-a967-632d-29d5" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="7c4b-0ea8-294c-578e" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c4b-0ea8-294c-578e" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f33a-4183-4439-149c" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+        <entryLink id="46c1-d1b1-4659-cb85" name="Squad Weapon Attachment" hidden="false" collective="false" import="true" targetId="68d3-1939-8cc9-15a0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="29a7-92ae-7276-9f14" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29a7-92ae-7276-9f14" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="9c73-bcdc-b362-bfe2" name="Gigantic Rat" hidden="false" collective="false" import="true" type="upgrade">
@@ -532,6 +659,90 @@
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry id="fb96-b0dd-fdc9-0323" name="Deathball" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="22c0-6a65-e256-d215" name="Deathball" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Impact(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3539-8913-23c8-884b" name="Weapon Team" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7a03-a966-7a17-0ef2" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="7116-bf44-1080-2347" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="87af-5be6-3c6a-6139" name="Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ec38-da8d-f4e6-082b" name="Flamethrower" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A6</characteristic>
+            <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e803-5097-47df-09bc" name="Weapon Team" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f598-7843-4bc1-0271" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="b4a5-e6b9-e418-ff25" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="7e71-4416-f615-6d3b" name="Gatling Gun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2f40-6a41-9452-1554" name="Gatling Gun" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="79f4-5578-c041-f866">18&quot;</characteristic>
+            <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A6	</characteristic>
+            <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d"/>
+          </characteristics>
+        </profile>
+        <profile id="dad1-8b5c-9f6e-e4f9" name="Weapon Team" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="67c4-a00c-2046-7626" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="1fa5-07db-a5d8-1ee1" name="Tunnel Drill" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="feb6-f28e-2bdb-9a37" name="Tunnel Drill" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Burrow	</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f48e-acff-44a1-a70e" name="Weapon Team" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="df5c-20fb-a1cc-ff5d" name="Burrow" hidden="false" targetId="bdd0-2f29-8777-5840" type="rule"/>
+        <infoLink id="9960-755e-00bc-5af8" name="Ambush" hidden="false" targetId="859e-e070-e91c-26e1" type="rule"/>
+        <infoLink id="84d1-74af-d9ba-4064" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -686,7 +897,24 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="68d3-1939-8cc9-15a0" name="Squad Weapon Attachment" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="0ffd-d3f4-52b5-8ef6" name="Gatling Gun" hidden="false" collective="false" import="true" targetId="7e71-4416-f615-6d3b" type="selectionEntry"/>
+        <entryLink id="ab32-b956-9ef7-857f" name="Deathball" hidden="false" collective="false" import="true" targetId="fb96-b0dd-fdc9-0323" type="selectionEntry"/>
+        <entryLink id="2809-911e-7c25-4e9b" name="Flamethrower" hidden="false" collective="false" import="true" targetId="87af-5be6-3c6a-6139" type="selectionEntry"/>
+        <entryLink id="902f-245a-7dec-9225" name="Tunnel Drill" hidden="false" collective="false" import="true" targetId="1fa5-07db-a5d8-1ee1" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="bdd0-2f29-8777-5840" name="Burrow" publicationId="b027-f01e-6af6-82c9" hidden="false">
+      <description>The model and its unit get Ambush.	</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
     <profile id="8475-b951-88cd-ec06" name="Censer Flail" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
       <characteristics>
