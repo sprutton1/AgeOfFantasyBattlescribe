@@ -605,6 +605,69 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="92ff-ea70-ba7e-ae87" name="Ancient Banshee" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d4f9-2715-1603-d21e" name="Ancient Banshee" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Hero, Strider, Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f0dd-a38f-a2b2-0a9b" name="Ethereal" hidden="false" targetId="42b2-d91d-c3af-9bd6" type="rule"/>
+        <infoLink id="fa77-1c1f-e27f-35e5" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="4771-4dd2-e7af-23cd" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="b99f-c0f3-3320-82b5" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="d706-8455-acf2-6efd" name="Undead" hidden="false" targetId="b8c4-89c7-8442-34eb" type="rule"/>
+        <infoLink id="30e5-d948-73b8-1091" name="Hand Weapon (A3)" hidden="false" targetId="f7ac-ec82-eef1-ae36" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6c59-9b70-c832-7713" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5a49-fc9d-d317-a258" name="Howl" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef95-9b7e-81a0-2350" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d6d5-18ce-21db-96cd" name="Howl" hidden="false" targetId="10bf-a9b0-fe2d-15f0" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be90-48bf-9666-f154" name="Ancient Wraith" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="797e-4c07-6d33-cd3a" name="Ancient Wraith" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Hero, Strider, Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4616-93a2-bafe-9cb5" name="Ethereal" hidden="false" targetId="42b2-d91d-c3af-9bd6" type="rule"/>
+        <infoLink id="ece6-71a7-4b5a-2d60" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="08aa-283b-bafc-1c02" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="0bb6-e4d6-05be-5b7b" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="eb4f-e78c-9836-0758" name="Undead" hidden="false" targetId="b8c4-89c7-8442-34eb" type="rule"/>
+        <infoLink id="076a-cadf-8b29-a27c" name="Great Weapon (A3)" hidden="false" targetId="fdbb-8cb0-601b-b272" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3413-bc35-785d-b252" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="66ca-95d4-d301-49c6" name="Wizard Spells" hidden="false" collective="false" import="true" type="upgrade">
