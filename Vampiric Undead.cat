@@ -1104,6 +1104,49 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry id="1561-acc3-e26a-f45b" name="Zombie Wolves" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ee95-3e93-de73-be6b" name="Zombie Wolves" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Furious, Scout, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3d78-ac7b-734e-fcee" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="992d-e28e-14ae-d5f8" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="3db1-4437-de41-9edc" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="ef36-e43e-19dc-9cb3" name="Undead" hidden="false" targetId="b8c4-89c7-8442-34eb" type="rule"/>
+        <infoLink id="628a-fde4-9806-97c4" name="Scout" hidden="false" targetId="7bc7-a892-49bc-ad88" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8011-2bbb-34b2-3e22" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a362-3e68-c75a-1475" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="9ed7-0ec7-2ea7-87a2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9f6-faf4-9af3-8513" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9ed7-0ec7-2ea7-87a2" name="Zombie Wolves [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e44d-5271-eeee-f9de" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="66ca-95d4-d301-49c6" name="Wizard Spells" hidden="false" collective="false" import="true" type="upgrade">
