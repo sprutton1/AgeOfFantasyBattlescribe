@@ -404,6 +404,9 @@
       <entryLinks>
         <entryLink id="4a8e-5fb0-a1a1-0186" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="25aa-1bf5-15ee-d5f2" name="Furious Mob" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -446,6 +449,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4445-b24e-a570-3bd3" name="Greatswords" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -490,6 +496,9 @@
       <entryLinks>
         <entryLink id="8a5a-3945-f950-bbec" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c0d7-8663-4fcc-9c7c" name="Marksmen" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -497,13 +506,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
             <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
-            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32"></characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32"/>
           </characteristics>
         </profile>
         <profile id="020c-e731-51a5-481c" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
           <characteristics>
             <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
-            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
           </characteristics>
         </profile>
       </profiles>
@@ -635,6 +644,9 @@
               <infoLinks>
                 <infoLink id="206c-d4d5-de34-ccc3" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="cf12-463f-4efc-64e6" name="Hunters" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -659,6 +671,9 @@
               <infoLinks>
                 <infoLink id="961c-7444-44cf-ea0e" name="Scout" hidden="false" targetId="7bc7-a892-49bc-ad88" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -666,6 +681,9 @@
       <entryLinks>
         <entryLink id="b1d8-2870-efcc-3355" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="15ae-a237-bfe0-abac" name="Light Cavalry" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -679,7 +697,7 @@
         <profile id="872c-8aae-713c-1b58" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
           <characteristics>
             <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
-            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
           </characteristics>
         </profile>
       </profiles>
@@ -789,6 +807,9 @@
       <entryLinks>
         <entryLink id="fd4d-c0b2-70ff-09bd" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7c82-5efc-2ccf-cdb1" name="Knights" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -888,6 +909,9 @@
               <infoLinks>
                 <infoLink id="2b2b-104f-4289-5526" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -895,6 +919,9 @@
       <entryLinks>
         <entryLink id="e78b-921d-28a2-fc29" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8dbb-37df-5f90-8646" name="Gryph Riders" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -965,6 +992,9 @@
       <entryLinks>
         <entryLink id="4ccd-ee66-3284-0827" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b419-490e-0b39-b3ac" name="Hurricane Chariot" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1014,6 +1044,54 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="215.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="274d-636d-5ca3-18d4" name="Beamer Chariot" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0397-a09f-0dce-e066" name="Beamer Chariot" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Impact(6), Protective Aura, Tough(6)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="220b-23d7-f6a8-236c" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+        <profile id="db74-d212-93ad-dbdb" name="Hooves" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+        <profile id="be6e-5e6a-c8f8-cf71" name="Searing Beam" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="79f4-5578-c041-f866">36&quot;</characteristic>
+            <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+            <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(3), Deadly(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0446-3bfe-5871-7d58" name="Protective Aura" publicationId="b192-e00b-676c-7d3c" hidden="false">
+          <description>When this unit is activated pick 2 friendly units within 6”, which get +1 to their defense rolls next time they take hits.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6eeb-61c5-d20c-1b81" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="4e9b-4733-dfa6-f2e8" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="eae3-a443-8bf1-a2c1" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="a05b-63b0-0d37-c372" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="7523-a3a3-74e9-ae17" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4697-a38e-22d1-59c7" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="220.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="3620-61f6-26a1-bc28" name="Gatling Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -1021,6 +1099,9 @@
         <infoLink id="cafc-bead-074b-9440" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="bb26-d944-6a99-8dd7" name="Gatling Pistol" hidden="false" targetId="da96-90f0-ecc2-534d" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e47f-7665-b1bf-a733" name="Gatling Rifle" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1035,6 +1116,9 @@
       <infoLinks>
         <infoLink id="e1ba-4898-f788-c1dc" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="36ef-2e8e-76a6-51d0" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1078,6 +1162,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
