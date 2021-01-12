@@ -87,7 +87,7 @@ table!
 |Kingdom of Angels|v2.3|Done|Perram|
 |Mummified Undead|-|NOT STARTED|-|
 |Ogres|-|NOT STARTED|-|
-|Orcs|-|NOT STARTED|-|
+|Orcs|v2.7|Done|Darguth|
 |Ossified Undead|-|NOT STARTED|-|
 |Ratmen|-|NOT STARTED|-|
 |Rift Daemons|v2.8|Done|cartag|
