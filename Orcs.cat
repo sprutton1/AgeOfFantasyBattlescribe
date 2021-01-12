@@ -293,6 +293,72 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ca14-27b3-602a-5648" name="Shaman" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7a91-4217-e19b-bb19" name="Shaman" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Furious, Hero, Tough(3), Wizard(1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="30a3-fc03-6e65-be44" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="117c-202e-6bd2-9051" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="911a-2390-8be6-9837" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="881c-d2f9-b963-a22b" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a76e-6319-74b6-e9d8" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d120-eba2-4849-4bd8" name="Boar" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4cb-a4ad-79b0-27e6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0a06-fa0a-b9f9-db0b" name="Boar" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Impact(1)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="fb9e-6c52-fb8e-4575" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="fffd-20d3-4710-3c96" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+            <infoLink id="dc80-bc94-1f43-8d34" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b77d-a8f7-cb4c-34bd" name="Wizard(2)" hidden="false" collective="false" import="true" targetId="3fd8-1309-fe4e-3b6e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f591-46db-b862-031b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="0f57-fe50-12e9-4ef6" name="Wizard Spells" hidden="false" collective="false" import="true" targetId="f3ce-b5fc-56dd-1b84" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="153b-b844-d637-215e" name="WAR!" hidden="false" collective="false" import="true" type="upgrade">
@@ -307,6 +373,49 @@
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="f3ce-b5fc-56dd-1b84" name="Wizard Spells" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9c3-d8de-71ba-44ec" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b88e-b7d4-85c8-911c" name="1. Evil Gaze" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets Stealth next time it&apos;s shot at.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9ec8-e318-d753-bbc6" name="4. Headbutt" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 1 hit with AP(4) and Deadly(3).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3d7c-aa51-ba0c-2aa4" name="3. Magic Fists" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets Rending in melee next time it fights.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fa27-a047-aee0-1869" name="5. Let&apos;s Go" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; may immediately move by up to 6&quot;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2f47-cd69-b92c-a8b1" name="6. Godly Foot" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 4 automatic hits with AP(2).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4da4-c46b-f7e8-69f1" name="2. Burst" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 6&quot; must take a dangerous terrain test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
