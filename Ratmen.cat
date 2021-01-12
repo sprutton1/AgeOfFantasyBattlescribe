@@ -981,6 +981,96 @@
         <entryLink id="ba27-8d2a-81ba-f84a" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="300b-0a7f-715f-c28e" name="Grenadiers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="75f6-3b74-c6bc-41a8" name="Grenadiers" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Expert Thrower</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a948-30c3-234b-7f68" name="Expert Thrower" publicationId="b027-f01e-6af6-82c9" hidden="false">
+          <description>This model may shoot after using Rush actions and doesn’t get -1 to hit for shooting at models out of sight.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="86d7-578d-36cb-3c77" name="Hand Weapon (A1)" hidden="false" targetId="cc05-7b8d-015b-defa" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="da39-64bb-edaa-9529" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="82af-0b00-426b-af35" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="842f-5c1d-cf00-c019">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6caa-96ba-4209-0b5f" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="842f-5c1d-cf00-c019" name="Grenadiers [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="badc-cf2d-0ea6-ba01" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="65.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c656-98f0-f9d0-d886" name="Ranged Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="dc1b-5efc-a8ca-a522">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="609e-88ba-c993-0dbf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a1e-a9eb-8f12-c6e8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="dc1b-5efc-a8ca-a522" name="Poison Grenades" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="77e4-ba84-0705-8fd0" name="Poison Grenades" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">Indirect, Poison</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="94c8-e3ef-45aa-e84f" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
+                <infoLink id="71fa-1ee8-8aeb-7502" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="dca6-0b18-5f81-1890" name="Poison Bombs" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="15.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="0283-fa6d-fd3c-4fa8" name="Poison Bombs" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">Blast(3), Indirect, Poison</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="c67e-68df-4c9e-8d3d" name="Indirect" hidden="false" targetId="587a-b92c-a265-06c4" type="rule"/>
+                <infoLink id="9f29-b9aa-0a1a-8e6b" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+                <infoLink id="7957-9406-bed1-5b44" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="9c73-bcdc-b362-bfe2" name="Gigantic Rat" hidden="false" collective="false" import="true" type="upgrade">
