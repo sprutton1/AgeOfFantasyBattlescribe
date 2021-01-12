@@ -898,6 +898,84 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry id="71e3-16dc-ab48-3230" name="Orc Archers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e6cf-3781-db1b-15f0" name="Orc Archers" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Furious</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c58b-d797-e17f-cce4" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="e270-2d4e-e900-ca43" name="Hand Weapon (A1)" hidden="false" targetId="cc05-7b8d-015b-defa" type="profile"/>
+        <infoLink id="eb8c-7c4e-f63c-c101" name="Bow" hidden="false" targetId="b4aa-c3c4-ef81-0ac5" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2888-f16c-ba7f-a0b8" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bb1b-9938-d7be-2541" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="4f49-6844-ec70-bd12">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a46e-8567-10be-a3de" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4f49-6844-ec70-bd12" name="Orc Archers [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f8-3567-a206-b623" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="cd5a-7f50-e9b1-c393" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="a602-eceb-5012-0b98" name="Savage Archers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="99e0-c547-d437-cf05" name="Savage Archers" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Frenzy</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ae83-28c3-23f9-8c77" name="Frenzy" hidden="false" targetId="bed1-c61e-a70e-d8de" type="rule"/>
+        <infoLink id="758c-b3a2-f351-d875" name="Hand Weapon (A1)" hidden="false" targetId="cc05-7b8d-015b-defa" type="profile"/>
+        <infoLink id="3c5d-8099-ddca-3ae5" name="Bow" hidden="false" targetId="b4aa-c3c4-ef81-0ac5" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="35e1-82cf-a78d-c680" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="395f-f45c-5719-c032" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="261f-1ba7-9d86-f7e3">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68c9-075e-d975-63a9" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="261f-1ba7-9d86-f7e3" name="Savage Archers [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be3a-03e6-af85-a73d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="13f8-b846-ba3f-f8c3" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="153b-b844-d637-215e" name="WAR!" hidden="false" collective="false" import="true" type="upgrade">
