@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="bef1-21cb-1428-cf3e" name="Humans" revision="1" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="b192-e00b-676c-7d3c" name="Humans v2.6"/>
+  </publications>
+</catalogue>
