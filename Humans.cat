@@ -46,6 +46,49 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c6bc-5b40-b017-6427" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c5de-1e84-fb5e-a266" name="Champion" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ffc3-0b4a-4d77-20ca" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="6c98-be4b-315e-cb75" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5807-996a-7003-75bd" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1609-542f-2b85-bf5e" name="Battle Chant" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bd3-ed86-4508-1a84" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="4c8b-e675-1e64-8ec4" name="Battle Chant" publicationId="b192-e00b-676c-7d3c" hidden="false">
+              <description>The hero and his unit get the Furious special rule.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="ff8a-329c-dc35-5bb1" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="d389-9e47-7e9c-604d" name="Melee Weapons (Heroes)" hidden="false" collective="false" import="true" targetId="b67d-5696-87b7-24f9" type="selectionEntryGroup"/>
+        <entryLink id="5563-9908-e694-3333" name="Mount (Heroes)" hidden="false" collective="false" import="true" targetId="a384-e900-eacf-324e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="b67d-5696-87b7-24f9" name="Melee Weapon (Heroes)" hidden="false" collective="false" import="true" defaultSelectionEntryId="9a87-1012-4135-f76f">
@@ -98,6 +141,13 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="3fa4-b2e1-553f-9db6" name="Pegasus" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="21e4-b253-503e-2b02" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <profiles>
             <profile id="68c2-c831-44bf-6cf2" name="Pegasus" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
               <characteristics>
@@ -122,6 +172,13 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="9205-7f10-d77c-8a0e" name="Griffon" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="21e4-b253-503e-2b02" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <profiles>
             <profile id="8561-3c30-9797-7c40" name="Griffon" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
               <characteristics>
@@ -146,6 +203,13 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="1eca-87c8-4d66-8a22" name="Dragon" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="21e4-b253-503e-2b02" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <profiles>
             <profile id="d3c7-7452-716a-3cab" name="Dragon" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
               <characteristics>
