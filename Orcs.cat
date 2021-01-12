@@ -159,6 +159,33 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="1a25-0982-548f-46a9" name="Savage Boss" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2a1b-f683-c6f9-5a49" name="Savage Boss" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Frenzy, Hero, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9ee9-5ad1-3c12-c51c" name="Frenzy" hidden="false" targetId="bed1-c61e-a70e-d8de" type="rule"/>
+        <infoLink id="6ff0-81cf-cf51-76c1" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="f35f-e00c-5f82-8f3e" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4ef0-2938-263c-5d26" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f67c-3299-369a-49d3" name="Melee Weapon (Heroes)" hidden="false" collective="false" import="true" targetId="5132-c2f2-a8d1-66cf" type="selectionEntryGroup"/>
+        <entryLink id="3f14-5602-34b3-5896" name="Mount (Heroes)" hidden="false" collective="false" import="true" targetId="b9b9-74ec-a2ac-a21f" type="selectionEntryGroup"/>
+        <entryLink id="ea1e-db9a-a295-493f" name="WAR!" hidden="false" collective="false" import="true" targetId="153b-b844-d637-215e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="153b-b844-d637-215e" name="WAR!" hidden="false" collective="false" import="true" type="upgrade">
@@ -271,4 +298,9 @@
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="bed1-c61e-a70e-d8de" name="Frenzy" publicationId="7321-d12d-403d-10ac" hidden="false">
+      <description>This model counts as having Furious but gets 2 extra attacks when charging (instead of just 1).</description>
+    </rule>
+  </sharedRules>
 </catalogue>
