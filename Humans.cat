@@ -405,6 +405,48 @@
         <entryLink id="4a8e-5fb0-a1a1-0186" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="25aa-1bf5-15ee-d5f2" name="Furious Mob" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a7a2-3118-be46-c587" name="Furious Mob" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Furious</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cdb2-53ae-727f-8444" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="534d-fa8e-d41a-a841" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="a7cb-bd14-ad29-0c6e" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="a1a2-fb70-bd12-516a" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4b39-11bc-4539-3e2b" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fc7a-dd2c-4ee0-8025" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="1ff6-a533-f8ec-8a15">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4ef-049c-39a8-fd8f" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1ff6-a533-f8ec-8a15" name="Furious Mob [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03ad-2455-80f8-7eb9" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="110.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="3620-61f6-26a1-bc28" name="Gatling Pistol" hidden="false" collective="false" import="true" type="upgrade">
