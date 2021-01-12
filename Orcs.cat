@@ -3,4 +3,149 @@
   <publications>
     <publication id="7321-d12d-403d-10ac" name="Orcs v2.7"/>
   </publications>
+  <selectionEntries>
+    <selectionEntry id="af4b-882f-39fd-9a14" name="Brute Ultra Boss" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="969e-46cf-3767-f036" name="Brute Ultra Boss" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Furious, Hero, Tough(6)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8715-795c-38ce-2f02" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="4491-d3c7-f0d2-af6f" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="42cb-682f-4ac5-c103" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ecd4-0e8c-4022-5034" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0aed-1257-c1b8-672d" name="Melee Weapon 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="2b3c-cf37-4de1-0118">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aff-d31d-6b4b-8197" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf07-4382-7846-2bf1" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2b3c-cf37-4de1-0118" name="Hand Weapon (A3)" hidden="false" collective="false" import="true" targetId="8ee1-94a2-4fc8-a2a8" type="selectionEntry"/>
+            <entryLink id="8ffc-a20b-d099-dbd4" name="Great Weapon (A3)" hidden="false" collective="false" import="true" targetId="89f5-3b8b-10f5-e093" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="eecf-5150-5715-c09a" name="Lance (A3)" hidden="false" collective="false" import="true" targetId="3bb1-404a-e499-ee8f" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fe1-ebf1-ee3c-795d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0cc9-cf7b-48d1-30f4" name="Melee Weapon 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="6fc4-44dc-7e4a-a1bc">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="967b-428b-ab64-c3d3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae30-5e2b-99d2-d820" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2991-acb1-4651-6449" name="Scrap-Fist" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6c4f-e5b0-9eff-147e" name="Scrap-Fist" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="d33a-60d2-341f-9080" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3aab-6c0b-7a66-2ca1" name="Rip-Fist" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="934a-99aa-b45c-3913" name="Rip-Fist" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Rending</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="715e-53ca-ff89-f520" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="6fc4-44dc-7e4a-a1bc" name="Hand Weapon (A3)" hidden="false" collective="false" import="true" targetId="8ee1-94a2-4fc8-a2a8" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2fe1-ebf1-ee3c-795d" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a33-0f87-a19c-0024" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="803b-78dd-206b-d9bc" name="Maw Wyvern" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="811c-453e-0341-db60" name="Maw Wyvern" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Defense +2, Fear, Flying, Impact(3), Tough(+6)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="eac4-5a20-c869-ee57" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="9dd3-27d3-8665-cbf4" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+                <infoLink id="e062-dea7-dee3-f108" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+                <infoLink id="a2cc-bfcc-039c-88f3" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+                <infoLink id="c451-cfca-5697-75a3" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+                <infoLink id="185d-c591-16ae-4579" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="215.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="547e-32ef-73e9-be2a" name="WAR!" hidden="false" collective="false" import="true" targetId="153b-b844-d637-215e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="100.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="153b-b844-d637-215e" name="WAR!" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="541a-4ad2-3745-ed90" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="5134-41ed-a00a-2b87" name="WAR!" publicationId="7321-d12d-403d-10ac" hidden="false">
+          <description>hero and his unit move +3” on advance and +6” on rush/charge actions.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </catalogue>
