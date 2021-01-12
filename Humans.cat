@@ -447,6 +447,50 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry id="4445-b24e-a570-3bd3" name="Greatswords" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4882-e23e-02e9-e6c9" name="Greatswords" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="04ab-9d1a-699c-5553" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="35ee-8328-9a24-5209" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="fc73-fb68-5115-fddc" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1320-8fbf-dee7-545d" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8130-c19d-f657-559e" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="e88b-60cf-11dc-21fe">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53fc-ee5b-9816-4d39" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e88b-60cf-11dc-21fe" name="Greatswords [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d27-55b3-8a02-8b22" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8a5a-3945-f950-bbec" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="3620-61f6-26a1-bc28" name="Gatling Pistol" hidden="false" collective="false" import="true" type="upgrade">
