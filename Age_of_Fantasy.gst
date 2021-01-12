@@ -57,6 +57,9 @@
         <categoryLink id="1a76-8dcd-50ef-68ae" name="Infantry: Heavy" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="false"/>
         <categoryLink id="5761-fe17-da08-7655" name="Cavalry" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="false"/>
         <categoryLink id="321d-b66d-2f40-8446" name="Cavalry: Heavy" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="false"/>
+        <categoryLink id="f09a-2f96-b7cc-0938" name="Beasts" hidden="false" targetId="fc29-0828-4663-18ca" primary="false"/>
+        <categoryLink id="d13d-9252-89e4-5ca2" name="Monsters" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="false"/>
+        <categoryLink id="0c79-6ad1-697d-c3e4" name="Warmachines" hidden="false" targetId="0db7-2001-2aba-d986" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
