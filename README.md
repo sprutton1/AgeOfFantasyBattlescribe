@@ -89,7 +89,7 @@ table!
 |Ogres|-|NOT STARTED|-|
 |Orcs|-|NOT STARTED|-|
 |Ossified Undead|-|NOT STARTED|-|
-|Ratmen|-|NOT STARTED|-|
+|Ratmen|v2.12|Done|Darguth|
 |Rift Daemons|v2.8|Done|cartag|
 |Saurians|v2.6|Done|Darguth|
 |Shadow Stalkers|-|NOT STARTED|-|
