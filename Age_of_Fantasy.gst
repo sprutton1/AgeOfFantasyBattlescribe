@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="a88e-2b4c-d1b5-d4d3" name="Age of Fantasy" revision="4" battleScribeVersion="2.03" authorName="Scott Prutton" authorContact="sprutton1@gmail.com" authorUrl="https://github.com/sprutton1/AgeOfFantasyBattlescribe" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="a88e-2b4c-d1b5-d4d3" name="Age of Fantasy" revision="5" battleScribeVersion="2.03" authorName="Scott Prutton" authorContact="sprutton1@gmail.com" authorUrl="https://github.com/sprutton1/AgeOfFantasyBattlescribe" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="d755-5d69-pubN65537" name="Age of Fantasy v2.10"/>
   </publications>
@@ -43,10 +43,11 @@
     <categoryEntry id="4b4e-fbe0-5211-ae65" name="Heroes" hidden="false"/>
     <categoryEntry id="dfbf-5076-f148-2f58" name="Infantry" hidden="false"/>
     <categoryEntry id="d248-d52b-61c0-d4d9" name="Cavalry" hidden="false"/>
-    <categoryEntry id="2ac9-aad6-b0c0-3833" name="Monsters" hidden="false"/>
-    <categoryEntry id="a4d0-1721-c616-6775" name="Warmachines" hidden="false"/>
     <categoryEntry id="a3a9-bf23-dca8-0fc3" name="Infantry: Heavy" hidden="false"/>
     <categoryEntry id="29ed-f715-6de9-9e1c" name="Cavalry: Heavy" hidden="false"/>
+    <categoryEntry id="fc29-0828-4663-18ca" name="Beasts" hidden="false"/>
+    <categoryEntry id="b0f1-d6c3-6849-6640" name="Monsters" hidden="false"/>
+    <categoryEntry id="0db7-2001-2aba-d986" name="Warmachines" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="e1b6-6db4-e6e8-6188" name="Army" hidden="true">
@@ -56,8 +57,6 @@
         <categoryLink id="1a76-8dcd-50ef-68ae" name="Infantry: Heavy" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="false"/>
         <categoryLink id="5761-fe17-da08-7655" name="Cavalry" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="false"/>
         <categoryLink id="321d-b66d-2f40-8446" name="Cavalry: Heavy" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="false"/>
-        <categoryLink id="4bb1-374c-f4e4-f4f9" name="Monster: Light" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="false"/>
-        <categoryLink id="ef4b-5148-9626-516a" name="Warmachines" hidden="false" targetId="a4d0-1721-c616-6775" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
