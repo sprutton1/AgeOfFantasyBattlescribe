@@ -186,6 +186,68 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="da39-a665-812c-8f3f" name="Black Boss" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ac1f-0ba3-b03e-f289" name="Black Boss" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Furious, Hero, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="92e9-f6be-a72a-6f31" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="772a-e3f0-1164-36c8" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="8239-87c2-dbe5-6709" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3f1e-0672-6bc9-f16e" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2c3e-fdf6-702e-cf6d" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="090e-838d-ec89-c9e0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="069c-b6ed-43a3-e9d2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d317-bd99-7cfa-38db" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="090e-838d-ec89-c9e0" name="2x Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="3fcf-0e4c-6f52-ab25" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="b34e-2f55-5120-1565" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="45fa-e638-ba22-c82e" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="9400-db97-4421-d83d" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="09d6-d2f4-69e7-626a" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="bed0-573f-5a7d-a18d" name="Mount (Heroes)" hidden="false" collective="false" import="true" targetId="b9b9-74ec-a2ac-a21f" type="selectionEntryGroup"/>
+        <entryLink id="7d95-9b6f-47f6-5f16" name="WAR!" hidden="false" collective="false" import="true" targetId="153b-b844-d637-215e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="153b-b844-d637-215e" name="WAR!" hidden="false" collective="false" import="true" type="upgrade">
