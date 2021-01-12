@@ -667,20 +667,135 @@
         <entryLink id="b1d8-2870-efcc-3355" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
-  </selectionEntries>
-  <sharedSelectionEntries>
-    <selectionEntry id="3620-61f6-26a1-bc28" name="Gatling Pistol" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="15ae-a237-bfe0-abac" name="Light Cavalry" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="0f6d-f874-41cf-bdbd" name="Gatling Pistol" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+        <profile id="1f50-7e99-c51b-7aaf" name="Light Cavalry" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
           <characteristics>
-            <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
-            <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A3</characteristic>
-            <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Impact(1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="872c-8aae-713c-1b58" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="5e86-ce78-b252-5352" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="5630-a074-9cc7-0e25" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a453-3b3d-b35d-5a9c" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c9de-2fac-37c6-6190" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="01a2-69d2-bd5f-6c39">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="029e-076e-dc61-d62a" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="01a2-69d2-bd5f-6c39" name="Light Cavalry [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d7a-e959-40a3-ffe2" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8934-3e8b-71a2-6a9e" name="Ranged Weapons (All Models)" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f922-335a-5510-e6ae" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="238b-4836-c2c6-52c7" name="2x Pistols" hidden="false" collective="false" import="true" targetId="e704-7adb-6004-26a0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="15.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="3066-b407-dbc3-f4b5" name="Rifles" hidden="false" collective="false" import="true" targetId="9d2a-d0f5-1183-1fe0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="15.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="3104-7c3b-aeff-ea71" name="Shortbow" hidden="false" collective="false" import="true" targetId="366b-eaf8-31b4-b1d4" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="30d8-2a4b-6578-847a" name="Ranged Weapon (One Model)" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="3e3a-224b-6cde-f1b6" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e3a-224b-6cde-f1b6" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="eefe-ca02-f7e3-7d11" name="2x Gatling Pistols" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="e9ee-c0fc-bfb4-72e0" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+                <infoLink id="f644-f5b5-054e-f772" name="Gatling Pistol" hidden="false" targetId="da96-90f0-ecc2-534d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="1678-4aa6-e9b5-dd27" name="Gatling Rifle" hidden="false" collective="false" import="true" targetId="e47f-7665-b1bf-a733" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="fd4d-c0b2-70ff-09bd" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="3620-61f6-26a1-bc28" name="Gatling Pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
         <infoLink id="cafc-bead-074b-9440" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="bb26-d944-6a99-8dd7" name="Gatling Pistol" hidden="false" targetId="da96-90f0-ecc2-534d" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry id="e47f-7665-b1bf-a733" name="Gatling Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -945,4 +1060,13 @@
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="da96-90f0-ecc2-534d" name="Gatling Pistol" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A3</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>
