@@ -1635,6 +1635,60 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="160.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ecc9-84b3-fb11-5150" name="Bell Chariot" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7efd-b492-6546-9ab1" name="Bell Chariot" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(6), Unholy Bell</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2288-c83f-5ba3-0628" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5010-7cc6-908b-1a2e" name="Unholy Bell" publicationId="b027-f01e-6af6-82c9" hidden="false">
+          <description>When this unit is activated roll one die to sound the bell:
+- 1-2: Moves +6” and gets Impact(6) for this activation
+- 3-4: Target 2 friendly units within 12” get +1A next time they charge
+- 5-6: Target 2 enemy units within 12” take 6 automatic hits each</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d667-96a4-67ec-1037" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="8289-57a4-22c5-278b" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="67d1-fcd5-0874-8dbe" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="3126-43c6-6553-bdcf" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2307-9634-65c3-efcb" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="9ddf-e5b9-5efb-127f" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fbd4-42d4-62e5-b583" name="Priest Charioteer" hidden="false" collective="false" import="true" targetId="b891-2115-7d62-19bc" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="aafa-62d6-5ec2-328f" name="Wizard Spells" hidden="false" collective="false" import="true" targetId="232b-f26e-de09-adde" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b891-2115-7d62-19bc" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="9c73-bcdc-b362-bfe2" name="Gigantic Rat" hidden="false" collective="false" import="true" type="upgrade">
