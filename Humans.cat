@@ -89,6 +89,52 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="59af-d72d-4451-cc4a" name="Bounty Hunter" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1500-b147-f662-cfbb" name="Bounty Hunter" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ce8a-5d5a-fe91-8355" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="2023-1583-59f5-c87c" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f088-73bd-7a1c-a593" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e645-6ef3-f6c7-a3d6" name="Accusation" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94f5-b537-af93-e165" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="34cc-73a3-f35f-c57b" name="Accusation" publicationId="b192-e00b-676c-7d3c" hidden="false">
+              <description>Before the game starts pick one enemy model. The hero gets the Deadly(3) and Sniper special rules when attacking it.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="6bb6-a453-948a-7eb3" name="Melee Weapon (Heroes)" hidden="false" collective="false" import="true" targetId="b67d-5696-87b7-24f9" type="selectionEntryGroup"/>
+        <entryLink id="67b3-ffdd-8002-0ff6" name="Ranged Weapon (Heroes)" hidden="false" collective="false" import="true" targetId="b283-f44e-a8f1-7de0" type="selectionEntryGroup"/>
+        <entryLink id="3b86-4db3-beb1-45bf" name="Pistol" hidden="false" collective="false" import="true" targetId="c14d-740c-cb3f-88af" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="648d-141d-34a2-dee6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="503b-ec3a-bc51-ef50" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="b67d-5696-87b7-24f9" name="Melee Weapon (Heroes)" hidden="false" collective="false" import="true" defaultSelectionEntryId="9a87-1012-4135-f76f">
@@ -118,6 +164,11 @@
             <modifier type="set" field="c9e6-f530-2566-2a1a" value="0.0">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a384-e900-eacf-324e" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="59af-d72d-4451-cc4a" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
