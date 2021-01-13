@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="bf09-4b5e-e894-0a87" name="Sky-City Dwarves" revision="1" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="91e5-8ca9-cbdc-0c1f" name="Sky-City Dwarves v2.7"/>
+  </publications>
+</catalogue>
