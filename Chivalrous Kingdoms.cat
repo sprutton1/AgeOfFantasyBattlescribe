@@ -45,6 +45,32 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7171-822a-0551-eae4" name="Paladin" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e7e8-89c6-48f5-9a13" name="Paladin" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Hero, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="07a6-8dbd-66de-8d14" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="92db-5285-b084-a9fc" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="9fa6-69d7-920a-f5b8" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="390b-a056-a340-32b0" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="79b9-d6af-299e-98f8" name="Melee Weapon (Heroes)" hidden="false" collective="false" import="true" targetId="46d0-7bcb-9e13-8864" type="selectionEntryGroup"/>
+        <entryLink id="b681-32ac-16d5-3db9" name="Mount (Heroes)" hidden="false" collective="false" import="true" targetId="9f8e-1f43-90c0-932c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="46d0-7bcb-9e13-8864" name="Melee Weapon (Heroes)" hidden="false" collective="false" import="true" defaultSelectionEntryId="6149-839b-a0e6-d2c2">
@@ -103,6 +129,11 @@
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c965-1c7d-253c-5191" type="instanceOf"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="567f-6468-66c6-2ea2" value="70.0">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7171-822a-0551-eae4" type="instanceOf"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <profiles>
             <profile id="d5b9-8897-f117-fdb3" name="Pegasus" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
@@ -125,6 +156,13 @@
           </infoLinks>
         </selectionEntry>
         <selectionEntry id="425e-39fc-d571-fb3e" name="Hippogryph" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c965-1c7d-253c-5191" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <profiles>
             <profile id="06d5-6e2c-fcc6-aa6c" name="Hippogryph" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
               <characteristics>
