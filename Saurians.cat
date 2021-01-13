@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="de97-ca23-502e-80c6" name="Saurians" revision="1" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="de97-ca23-502e-80c6" name="Saurians" revision="1" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6032-2fee-7a55-3445" name="Saurians v2.6"/>
   </publications>
@@ -703,6 +703,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -803,6 +806,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dc54-9637-b50d-8b4e" name="Saurian Warriors" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -915,6 +921,9 @@
       <entryLinks>
         <entryLink id="56f8-f63e-88e4-47f3" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8bf0-def8-b06f-7dc0" name="Guardians" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -957,6 +966,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7ef6-cf27-0c7e-55ee" name="Raptor Riders" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -990,6 +1002,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1031,6 +1046,9 @@
       <entryLinks>
         <entryLink id="6c14-050c-bd9e-3f28" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b820-8ef5-e47f-e237" name="Gators" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1067,6 +1085,9 @@
           <infoLinks>
             <infoLink id="389b-00a0-86da-7606" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1084,6 +1105,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c1f5-015c-ab4e-c8e2" name="Snake Swarms" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1101,7 +1125,7 @@
         <infoLink id="f6fd-cc5b-55af-0636" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9467-c3fd-10c5-4bd9" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+        <categoryLink id="c5ba-09be-a07b-5e9d" name="New CategoryLink" hidden="false" targetId="fc29-0828-4663-18ca" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7e21-001b-5ea7-c834" name="Swarm Attack" hidden="false" collective="false" import="true" type="upgrade">
@@ -1120,6 +1144,9 @@
           <infoLinks>
             <infoLink id="0b59-a407-7d5b-7c99" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1137,6 +1164,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1da7-d9a2-5eaf-9829" name="Dragon Lizard" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1155,7 +1185,7 @@
         <infoLink id="fed5-204c-b545-d9ee" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="df29-1e21-1608-cad4" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="1759-79cc-4283-3961" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="42dc-3026-b66b-7079" name="Spit Flames" hidden="false" collective="false" import="true" type="upgrade">
@@ -1175,6 +1205,9 @@
           <infoLinks>
             <infoLink id="1091-4b30-0211-4f84" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f6c7-f64c-720d-e1c7" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1192,6 +1225,9 @@
           <infoLinks>
             <infoLink id="37ec-0a00-b1cb-e477" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -1225,7 +1261,7 @@
         <infoLink id="f991-6011-508e-7367" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3d7a-ceb8-3d34-3f19" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="8688-5b6a-ef21-5ddc" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="dc7b-163d-dba2-41a3" name="Shoot Spikes" hidden="false" collective="false" import="true" type="upgrade">
@@ -1238,10 +1274,13 @@
               <characteristics>
                 <characteristic name="Range" typeId="79f4-5578-c041-f866">18&quot;</characteristic>
                 <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A3D3</characteristic>
-                <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d"></characteristic>
+                <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d"/>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="536a-d262-4bc1-ad98" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1259,6 +1298,9 @@
           <infoLinks>
             <infoLink id="f687-a057-a741-40ea" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -1291,7 +1333,7 @@
         <infoLink id="4cf4-8a10-d019-48cf" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6db7-d919-074f-487c" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="a09b-a4ce-be0b-9277" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1fec-7108-17b5-6b9b" name="Horns" hidden="false" collective="false" import="true" type="upgrade">
@@ -1310,6 +1352,9 @@
           <infoLinks>
             <infoLink id="ed78-5415-464a-6c9e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5c8f-e85b-5689-c28d" name="Trample" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1441,7 +1486,7 @@
         <infoLink id="e1ba-449b-4533-77d3" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="46e8-76b6-2407-1dc7" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="83bb-07ad-1235-b8fe" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b515-7901-28b6-ffae" name="Spit Venom" hidden="false" collective="false" import="true" type="upgrade">
@@ -1462,6 +1507,9 @@
             <infoLink id="ee3b-d26b-2366-280d" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
             <infoLink id="e0bf-7b72-3010-c512" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a5e4-c476-1956-46bb" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1480,6 +1528,9 @@
             <infoLink id="5dd3-2630-066b-b248" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
             <infoLink id="ec43-b240-704a-5e40" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1555,7 +1606,7 @@
         <infoLink id="d3bc-4831-0570-fa86" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="be17-1413-ad49-3e81" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="fd87-6915-2807-c5f5" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a35d-7b49-353a-ba37" name="Crew Attacks" hidden="false" collective="false" import="true" type="upgrade">
@@ -1571,6 +1622,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="37d9-4c5a-8e54-4c4b" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1588,6 +1642,9 @@
           <infoLinks>
             <infoLink id="4cbc-aac9-58e1-ce35" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8be8-6ebd-18c2-86c2" name="Mace Tail" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1606,6 +1663,9 @@
             <infoLink id="60da-f7c0-8937-cdd5" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
             <infoLink id="6a9d-f060-fa41-9c29" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1800,6 +1860,9 @@
       <infoLinks>
         <infoLink id="cba9-de98-1cac-d73f" name="Lizard Handler" hidden="false" targetId="d18f-efdc-d77f-ebb4" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
