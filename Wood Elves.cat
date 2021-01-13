@@ -1173,6 +1173,119 @@
         <entryLink id="8011-dbdd-038d-7526" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="670c-7985-4762-de35" name="Scouts" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8e3b-3b88-1beb-8c84" name="Scouts" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Scout, Stealth, Strider</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="397e-5ce1-6023-19e4" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1391-ca24-f0fd-0dbe" name="Scout" hidden="false" targetId="7bc7-a892-49bc-ad88" type="rule"/>
+        <infoLink id="0737-4c9f-ff4a-2c8b" name="Longbow" hidden="false" targetId="e2e2-432d-3c5e-965c" type="profile"/>
+        <infoLink id="d33d-1597-462e-35a0" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
+        <infoLink id="fd06-0968-ad17-b7ac" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f05c-41f2-96f0-33ee" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="423e-9af2-b0c5-b8be" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="1312-36cc-3ca7-3f54">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffa0-e1b1-7968-7546" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1312-36cc-3ca7-3f54" name="Scouts [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a57-d412-9804-cd35" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="120.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ed3b-55ad-ed92-80e8" name="Longbow Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be11-ae14-6559-0ddb" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2c8b-8b96-5cc7-f981" name="Precision Arrows" hidden="false" collective="false" import="true" targetId="d1d6-b0ac-a4f1-4b06" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6b47-1bd0-d392-8698" name="Toxic Arrows" hidden="false" collective="false" import="true" targetId="971f-fb56-a3a6-d1c0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b946-787d-fa5f-77b7" name="Magic Arrows" hidden="false" collective="false" import="true" targetId="0840-99c1-007b-6a8c" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1ad1-cd99-6b59-7cd0" name="Rapid-Fire Arrows" hidden="false" collective="false" import="true" targetId="88ee-d47d-dd6e-c5a2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="40.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="859f-11ca-1673-e1f2" name="Barbed Arrows" hidden="false" collective="false" import="true" targetId="9d90-809b-7e7b-e751" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="40.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="21f7-4a99-7bd9-d8fe" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="ad6f-a44e-114f-56f8" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
