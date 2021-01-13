@@ -423,6 +423,82 @@ the Regeneration special rule.�</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry id="ba92-6600-9b12-064b" name="Pilgrims" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f838-0e3c-f7da-4101" name="Pilgrims" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">6+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Grail Relic</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="68e1-7ca8-a807-f615" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="460c-255c-3918-4bd8" name="Grail Relic" publicationId="a5f1-9df9-8a26-a7b9" hidden="false">
+          <description>The Grail Relic is a special model that is part of the Pilgrims unit, which counts as having Crew Attacks (A6) and Tough(6). This model and its unit get the Fearless and Furious rules. When combining two units of Pilgrims only deploy one Grail Relic and replace the other with 6 Pilgrims.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0d9c-39d6-b329-7801" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="c65c-5855-9a0f-f66f" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="ea2d-488b-5b40-a010" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7d04-f6c5-b9be-825c" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8ba9-1733-83d6-404f" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="155e-6eb5-3408-d248">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da16-6038-fb54-c560" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="155e-6eb5-3408-d248" name="Pilgrims [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3354-7a75-c9df-1fef" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="120.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f39b-476d-5f43-5b83" name="Upgrade the Grail Relic with:" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="eb1c-06fd-1bfb-4def" name="Holy Relic" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="220.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="110.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c6b-987e-67d0-87f6" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="6ded-b6ce-f9b4-6860" name="Holy Relic" publicationId="d755-5d69-pubN65537" hidden="false">
+                  <description>This model and its unit get the Regeneration rule.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="99d3-0cf7-e44c-a3ca" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="34f7-4a3b-1e94-f01f" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
