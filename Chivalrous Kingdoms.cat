@@ -954,6 +954,58 @@ the Regeneration special rule.�</description>
         <entryLink id="de85-34fd-8895-5b90" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="0b8f-97b9-f8f2-7c09" name="Quest Knights" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="bbf6-10d7-f48f-b11d" name="Quest Knights" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Fearless, Impact(1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="056d-eb53-c3df-b08a" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9b2a-52c4-5583-cf34" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="46f5-5a46-5522-ed7c" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="a1f5-69ba-eb61-da9f" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="b8c4-b2c0-e849-540d" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6157-67ad-bda3-bf97" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="5f8c-409c-2ab9-3c27" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8a29-39f0-fbba-990e" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="bc27-629a-abfe-2be2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd9b-bbb0-7014-3502" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bc27-629a-abfe-2be2" name="Quest Knights [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f814-2cab-7ed5-ca0e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="220.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="02c2-0f08-3605-1dff" name="Upgrades" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="876f-d51a-a71a-71b6" name="Lance Formation" hidden="false" collective="false" import="true" targetId="9201-88db-142c-aa1c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b8c5-98d9-d2ac-8124" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="34f7-4a3b-1e94-f01f" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
