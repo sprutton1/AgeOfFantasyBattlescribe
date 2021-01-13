@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b386-d293-1d6c-b497" name="Vampiric Undead" revision="1" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b386-d293-1d6c-b497" name="Vampiric Undead" revision="1" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ced6-2f6b-331b-7ba0" name="Vampiric Undead v2.8"/>
   </publications>
@@ -840,6 +840,9 @@
       <entryLinks>
         <entryLink id="f724-3328-2449-25fa" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d813-b9cb-9a91-e60d" name="Ghouls" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -882,6 +885,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="01f3-dc28-01ad-66aa" name="Skeleton Guard" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1004,6 +1010,9 @@
       <entryLinks>
         <entryLink id="61f8-e5cf-2cc0-5e1d" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2e3e-4146-d2cb-37d4" name="Banshees" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1062,10 +1071,16 @@
                 <infoLink id="b199-0362-fa03-abd1" name="Howl" hidden="false" targetId="10bf-a9b0-fe2d-15f0" type="profile"/>
                 <infoLink id="514e-e4fe-3347-6c02" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6a75-cabe-5928-6ddd" name="Wraiths" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1103,6 +1118,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1561-acc3-e26a-f45b" name="Zombie Wolves" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1127,7 +1145,7 @@
         <infoLink id="628a-fde4-9806-97c4" name="Scout" hidden="false" targetId="7bc7-a892-49bc-ad88" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8011-2bbb-34b2-3e22" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="8e89-2d17-fdaf-5ea4" name="New CategoryLink" hidden="false" targetId="fc29-0828-4663-18ca" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a362-3e68-c75a-1475" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="9ed7-0ec7-2ea7-87a2">
@@ -1146,6 +1164,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2396-7cf7-cc6f-e333" name="Skeleton Knights" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1209,6 +1230,9 @@
       <entryLinks>
         <entryLink id="1de4-e5c1-75c5-1de2" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a59a-06de-77ad-2679" name="Hexed Knights" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1249,6 +1273,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4b0b-2a70-0614-c385" name="Vampire Knights" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1303,6 +1330,9 @@
               <infoLinks>
                 <infoLink id="eadc-c915-170a-4fe0" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ebd3-daca-ae16-b5b9" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1329,6 +1359,9 @@
                 <infoLink id="dbcc-ba24-ef3e-f9f7" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
                 <infoLink id="88e0-8e54-565e-3e64" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1336,6 +1369,9 @@
       <entryLinks>
         <entryLink id="2ebb-54f5-2b57-afbb" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="568e-4e05-b80f-a4b0" name="Bat Swarms" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1361,7 +1397,7 @@
         <infoLink id="233d-f98a-3a7c-9cab" name="Undead" hidden="false" targetId="b8c4-89c7-8442-34eb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="61d2-55cb-d6a7-76fe" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
+        <categoryLink id="ad19-aa98-f17e-d983" name="New CategoryLink" hidden="false" targetId="fc29-0828-4663-18ca" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a407-bd3c-572b-2694" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="926a-2547-2bf4-2e28">
@@ -1380,6 +1416,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7bc3-8fd8-03e0-6be4" name="Giant Bats" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1404,7 +1443,7 @@
         <infoLink id="0814-8428-2121-6385" name="Undead" hidden="false" targetId="b8c4-89c7-8442-34eb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5c37-256b-8bd8-eb5b" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="6011-c398-fc62-e45c" name="New CategoryLink" hidden="false" targetId="fc29-0828-4663-18ca" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5329-fa46-5f75-2cc5" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="b9dd-1808-cad3-15bb">
@@ -1423,6 +1462,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7f10-0a5d-00c7-49c2" name="Ghost Swarms" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1466,6 +1508,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="be1f-e5ff-b88b-233b" name="Bat Horrors" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1510,6 +1555,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="00cc-ef11-bea0-fff1" name="Ghoul Horrors" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1553,6 +1601,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8c4c-268b-3fb2-397a" name="Skeleton Harbinger Horrors" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1607,6 +1658,9 @@
                 <infoLink id="53f3-ee5e-b05a-5c87" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
                 <infoLink id="e7b9-5637-c320-f470" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8022-a4aa-b904-a2dc" name="2x Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1632,6 +1686,9 @@
               <infoLinks>
                 <infoLink id="1b8b-f62f-96da-806d" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1660,10 +1717,16 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0941-708e-f881-2d7d" name="Bat Beast" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1690,7 +1753,7 @@
         <infoLink id="b57e-e81f-031c-1b26" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c794-ddd9-b7cb-e686" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="dd55-6ade-f45b-cb12" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="115.0"/>
@@ -1721,7 +1784,7 @@
         <infoLink id="c855-1255-80be-a6f2" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="46b3-72dd-aa26-4632" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="63fe-fdca-738e-cb68" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="175.0"/>
@@ -1759,7 +1822,7 @@
         <infoLink id="b77e-fd6f-033c-be68" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a535-6366-ce16-b6be" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="12a1-cc41-4521-a411" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a6d7-cb43-9911-d43d" name="Upgrades" hidden="false" collective="false" import="true">
@@ -1819,7 +1882,7 @@
         <profile id="9c24-4363-deb9-7466" name="Hooves" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
           <characteristics>
             <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
-            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
           </characteristics>
         </profile>
         <profile id="2d2c-8f55-6acd-5469" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
@@ -1842,7 +1905,7 @@
         <infoLink id="de07-7a71-6879-71e8" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3632-7402-8b5a-4cd9" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="f885-ce47-9db0-668b" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="155.0"/>
@@ -1860,7 +1923,7 @@
         <profile id="4e69-1cd7-d75d-2fea" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
           <characteristics>
             <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A8</characteristic>
-            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1878,7 +1941,7 @@
         <infoLink id="cdf1-6ca7-dc94-4000" name="Howl" hidden="false" targetId="10bf-a9b0-fe2d-15f0" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2e15-422a-6db2-37a4" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="96fa-8712-d0f2-c6b0" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
@@ -1896,7 +1959,7 @@
         <profile id="4425-4d64-10db-5b21" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
           <characteristics>
             <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A8</characteristic>
-            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1910,7 +1973,7 @@
         <infoLink id="10c7-3e3d-1ba6-f2e6" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0b7a-0a9a-b7ef-0500" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="d4c2-7bac-8943-66ce" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="195.0"/>
@@ -1928,7 +1991,7 @@
         <profile id="251f-e2f4-74b0-1737" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
           <characteristics>
             <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A12</characteristic>
-            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1940,7 +2003,7 @@
         <infoLink id="4d01-7d34-a581-4cc8" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d7b2-065a-fd32-2025" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="b7c9-747a-67a6-63ad" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8529-a9fe-605a-cb41" name="Upgrades" hidden="false" collective="false" import="true">
