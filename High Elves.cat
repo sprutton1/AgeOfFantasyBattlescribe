@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9a50-2dc6-6c22-f4fd" name="High Elves" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9a50-2dc6-6c22-f4fd" name="High Elves" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="faef-c7bc-acb0-2646" name="High Elves v2.7"/>
   </publications>
@@ -71,42 +71,38 @@
     </entryLink>
     <entryLink id="90b8-2e5c-9849-9071" name="Giant Eagles" hidden="false" collective="false" import="true" targetId="a6db-5756-ea3a-22da" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a0d7-7b72-3e28-62bf" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="6c06-ee49-34fa-1de0" name="New CategoryLink" hidden="false" targetId="fc29-0828-4663-18ca" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="28f5-e14e-126a-5ec8" name="Ice Phoenix" hidden="false" collective="false" import="true" targetId="ec85-6da0-2047-490a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1747-da7a-18c6-cd8e" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="0dd2-17aa-b915-2a59" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5cef-2bbc-7023-229c" name="Fire Phoenix" hidden="false" collective="false" import="true" targetId="55a3-f9bc-d3f8-ea02" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="1b81-7c40-28e2-59a3" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
-      </categoryLinks>
-    </entryLink>
+    <entryLink id="5cef-2bbc-7023-229c" name="Fire Phoenix" hidden="false" collective="false" import="true" targetId="55a3-f9bc-d3f8-ea02" type="selectionEntry"/>
     <entryLink id="6e8a-b9da-6756-9a22" name="Elf Chariot" hidden="false" collective="false" import="true" targetId="6d85-7b8c-83b7-a7d5" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4a40-0611-ea5d-5927" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="2529-12b8-4d08-06f2" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6f08-d600-1c18-56c7" name="Eagle Chariot" hidden="false" collective="false" import="true" targetId="9419-faf3-a410-3c70" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="969f-392f-2110-3e9b" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="1f9d-cf47-4e56-295d" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a87f-8edc-752a-c9d0" name="Lion Chariot" hidden="false" collective="false" import="true" targetId="2806-5c4e-4b15-4999" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ad72-7292-c066-55ca" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="548f-ca24-2a5a-486a" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="766f-a588-dfe1-962d" name="Bolt Thrower" hidden="false" collective="false" import="true" targetId="2a5e-ef3e-e0bd-5a85" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b582-6378-9ce6-cc17" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="8004-4ed4-ca73-7fb6" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e979-d1da-c34f-aa37" name="Bull Giant" hidden="false" collective="false" import="true" targetId="acc3-e57c-d982-78c8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9b53-fee2-6a21-140d" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="5f36-81ca-ebb6-197a" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1633,18 +1629,27 @@
         <infoLink id="5cc8-3bdc-c250-e62f" name="Giant Greathammer" hidden="false" targetId="6e16-7b02-c494-e8c4" type="profile"/>
         <infoLink id="6259-4f1a-009f-5d72" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="878c-1a54-b6f9-1a51" name="2x Giant Hammers" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="5fe4-e1fa-d20e-03ef" name="Giant Hammer" hidden="false" targetId="4b94-403e-dc74-2de4" type="profile"/>
         <infoLink id="2b3c-3e75-ffe6-fcff" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9108-adbb-c5e1-748e" name="Mountain Shock" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="07fd-34c9-ca7d-b94c" name="Mountain Shock" hidden="false" targetId="1572-56a1-b29d-fa37" type="profile"/>
         <infoLink id="9d17-6cd3-8748-aaba" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="68dc-49f5-0e98-63ab" name="Mountain Blast" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1652,6 +1657,9 @@
         <infoLink id="a8c7-4577-e0b6-326e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="0536-8696-40e3-c295" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="acc3-e57c-d982-78c8" name="Bull Giant" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>

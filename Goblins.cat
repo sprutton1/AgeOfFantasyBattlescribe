@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1ec0-f7b1-9a02-8dc5" name="Goblins" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1ec0-f7b1-9a02-8dc5" name="Goblins" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6b0e-dfdd-26bc-c235" name="Goblins v2.10"/>
   </publications>
@@ -101,52 +101,52 @@
     </entryLink>
     <entryLink id="dc61-90ea-e0e5-9f8d" name="Giant Cave-Beast" hidden="false" collective="false" import="true" targetId="46c4-49af-f8f9-4f4d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b097-8384-34eb-dc99" name="Monsters" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="caf5-80ce-0db8-6817" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0e4d-a5b1-19cb-f819" name="Pair of Giant Cave-Beasts" hidden="false" collective="false" import="true" targetId="45d3-8fd3-86e0-89e2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7871-0228-2537-1bf8" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="4fe8-1854-0bcc-cb1f" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6581-60db-6afd-1b06" name="Troll Giant" hidden="false" collective="false" import="true" targetId="baa8-e81f-7ed9-d3bb" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="058e-bb03-4a94-a2f9" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="6008-e1e3-4c51-3973" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="95dc-6f76-c783-d5e9" name="Giant Spider" hidden="false" collective="false" import="true" targetId="87f0-985e-73e6-5227" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9ad4-bbea-de7f-8b66" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="0f45-3f82-e3db-a2d7" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e239-3034-bbf1-1466" name="Wolf Chariot" hidden="false" collective="false" import="true" targetId="862c-9649-bd3e-6fb6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6a18-4409-a129-bbb9" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="9964-7de3-a983-6311" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="32ea-f586-8010-2060" name="Pump Chariot" hidden="false" collective="false" import="true" targetId="1209-f012-bf56-6bf9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="e90a-e13a-c76c-57e9" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="d2c2-0586-1f0d-b9f5" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="286a-2ff3-6471-80d7" name="Giant Blunderbuss" hidden="false" collective="false" import="true" targetId="bd89-b1bc-51a0-6115" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ca87-7a8d-1f97-809e" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="4cac-36c3-427a-74d5" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5db1-4d26-2d69-7777" name="Goblin Thrower" hidden="false" collective="false" import="true" targetId="7a6b-20e7-c37a-cc44" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1581-4fd4-b72d-60c1" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="53fe-6f17-cbef-41ca" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8ccc-5cbb-7297-b830" name="Bolt Thrower" hidden="false" collective="false" import="true" targetId="2ce7-37e3-6e75-f1b9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="177e-3acc-e87f-4c9d" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="07de-8921-5b7e-8f12" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="095e-ec18-ddf9-06c7" name="Stone Thrower" hidden="false" collective="false" import="true" targetId="3bb9-3718-bb8d-e520" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="499a-a9da-c8e7-c045" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="93c3-63dd-05fe-80f2" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

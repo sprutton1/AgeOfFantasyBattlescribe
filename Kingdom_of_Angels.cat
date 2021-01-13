@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6c95-a97d-888b-9d53" name="Kingdom of Angels" revision="1" battleScribeVersion="2.03" authorName="Jefferson Jay Thacker" authorContact="jefferson.thacker@gmail.com" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6c95-a97d-888b-9d53" name="Kingdom of Angels" revision="1" battleScribeVersion="2.03" authorName="Jefferson Jay Thacker" authorContact="jefferson.thacker@gmail.com" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ef88-8df9-1e27-999f" name="Kingdom of Angels v2.3" shortName="KoA"/>
   </publications>
@@ -61,7 +61,7 @@
     </entryLink>
     <entryLink id="af80-bb5a-2f29-a580" name="Panthers" hidden="false" collective="false" import="true" targetId="fa6b-9d80-f9c1-d051" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="32b1-e9ae-0f4a-6a61" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="5fae-f640-82ce-d914" name="New CategoryLink" hidden="false" targetId="fc29-0828-4663-18ca" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2fa7-2e0e-ba39-9c33" name="Panther Riders" hidden="false" collective="false" import="true" targetId="a170-fe99-df9e-71cc" type="selectionEntry">
@@ -76,17 +76,17 @@
     </entryLink>
     <entryLink id="fdd2-efb3-3f7e-6bac" name="Phoenix" hidden="false" collective="false" import="true" targetId="c35b-3f16-87ea-288d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a498-33ce-52a1-bf8e" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="ab62-57c5-b5ca-4733" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="985e-8abd-c95d-bff3" name="Panther Chariot" hidden="false" collective="false" import="true" targetId="72c8-636a-d0ed-132c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0950-1f8f-2847-2a04" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="d350-19de-9071-e366" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c74d-291d-9bf7-3a8c" name="Bolt Thrower" hidden="false" collective="false" import="true" targetId="fea7-bc36-d203-9f52" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b46b-c354-9a58-64c1" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="5ed7-8bae-1000-969a" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a594-04b5-2237-2706" name="Penitents" hidden="false" collective="false" import="true" targetId="e72f-98b5-9577-d257" type="selectionEntry">
@@ -319,6 +319,9 @@
           <infoLinks>
             <infoLink id="3460-619c-2e11-6fd6" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -1143,6 +1146,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1155,6 +1161,9 @@
       <entryLinks>
         <entryLink id="7dbc-0299-a0f3-d376" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1302,6 +1311,9 @@
             <infoLink id="9a29-0cf1-f40a-83d0" name="5. Shock Speed" hidden="false" targetId="7355-35b5-ac5c-1072" type="profile"/>
             <infoLink id="bc6e-a878-480a-90df" name="6. Storm" hidden="false" targetId="3453-be89-60f6-d92b" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
