@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6f58-1546-0f5a-24f2" name="Havoc Warriors" revision="1" battleScribeVersion="2.03" authorName="cartag, Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6f58-1546-0f5a-24f2" name="Havoc Warriors" revision="1" battleScribeVersion="2.03" authorName="cartag, Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="c2ac-6aff-6930-ddca" name="Havoc Warriors v2.9"/>
     <publication id="54a5-d9ec-f7cc-691f" name="Havoc Warrior Disciples v2.10"/>
@@ -127,7 +127,7 @@
         <infoLink id="40f7-be75-9808-bc05" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e052-1930-0980-ad01" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="c822-16d2-5d15-8a4d" name="New CategoryLink" hidden="false" targetId="fc29-0828-4663-18ca" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="689f-8b1f-09ef-db5c" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
@@ -295,7 +295,7 @@
         <infoLink id="10b5-d093-1e08-9041" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ee6c-5560-a01c-cb30" name="Warmachines" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="10d7-4128-c1dd-dd96" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5f2f-6a39-3dfd-6e20" name="Crew Attacks" hidden="false" collective="false" import="true" type="upgrade">
@@ -342,7 +342,7 @@
         <infoLink id="2eeb-09d7-8c7f-046e" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="60dc-a16c-0cb1-be6b" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="e6b0-f15d-0457-ce6a" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="79cc-c80b-efd5-7cfc" name="Hand Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b063-8e7a-4d6b-cc82">
@@ -626,7 +626,7 @@
         <infoLink id="d8c5-4d11-0489-4c29" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="fa2c-bcd0-8867-58d6" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="7dc1-71f1-676f-9916" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="357c-5891-bb32-fc64" name="3x Vicious Jaws" hidden="false" collective="false" import="true" type="upgrade">
@@ -706,7 +706,7 @@
         <infoLink id="0c64-0f94-da94-6263" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="faae-f7c9-274f-9026" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="e39f-b7ef-dab8-8071" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f986-d0af-a1fb-6a3b" name="Giant Club" hidden="false" collective="false" import="true" type="upgrade">
@@ -753,7 +753,7 @@
         <infoLink id="df52-4caa-8762-530c" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2573-bac4-9471-3323" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="a644-7b5b-818a-9b76" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="292d-7b33-e30a-2239" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
@@ -1052,7 +1052,7 @@
         <infoLink id="f96c-41b3-aeae-a48e" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b6f5-29e2-e489-31c8" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="612a-8a03-3c6f-fad8" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bbc5-94b4-8256-2172" name="Crushing Bite" hidden="false" collective="false" import="true" type="upgrade">
@@ -1573,7 +1573,7 @@
         <infoLink id="19ff-eae8-1b67-2bf2" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b507-8c70-ae15-9440" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="adcc-6fdb-33ce-bd4a" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1daf-61c0-f8b6-9a5e" name="Cannon" hidden="false" collective="false" import="true" type="model">
@@ -1643,7 +1643,7 @@
         <infoLink id="a626-c61d-69f4-61ea" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5b3d-4e8b-b884-4cbb" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="9580-9038-19b5-7b58" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0b39-8ded-a90c-cb8d" name="Vortex of Mutation" hidden="false" collective="false" import="true" type="model">
@@ -1772,7 +1772,7 @@
         <infoLink id="00af-85cf-d7a3-48cf" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7daf-fab2-66ef-75a4" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="b829-01f4-156a-9954" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bf1e-6c22-aae1-07ff" name="Claws" hidden="false" collective="false" import="true" type="model">
@@ -1948,7 +1948,7 @@
         <infoLink id="07c1-131a-b84d-f419" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2413-351b-91be-330c" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="bea6-e149-8262-168a" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="cb77-f11e-36c8-eb1e" name="Crew Attacks (A4)" hidden="false" collective="false" import="true" targetId="ce55-d21d-ac7b-0380" type="selectionEntry">
@@ -2368,7 +2368,7 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d5a-0490-727e-a17a" name="Wizard Spells" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0d5a-0490-727e-a17a" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6281-6588-24f6-2564" type="max"/>
       </constraints>
@@ -3266,7 +3266,7 @@
         <infoLink id="1d01-6bfb-daa6-8c88" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1149-2914-5dfa-22da" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="aca3-1058-313c-345e" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="338e-9df7-cfe1-fdf6" name="Tentacles" hidden="false" collective="false" import="true" type="upgrade">
@@ -4490,7 +4490,7 @@
         <infoLink id="32a6-7527-37f4-b0b5" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b70f-812b-0085-eb05" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="c854-79af-16e1-1f6f" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="98f9-b6f6-067e-611c" name="Poisoned Spit" hidden="false" collective="false" import="true" type="upgrade">
@@ -4603,7 +4603,7 @@
         <infoLink id="95b2-5488-29ad-e5be" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1d50-eb21-1fc9-d1e3" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="4dda-5d74-ac8f-98a1" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0f1c-e16b-ea61-041f" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
