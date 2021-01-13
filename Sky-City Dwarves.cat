@@ -1000,6 +1000,7 @@
         <infoLink id="0b34-a638-3e4a-04ab" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
         <infoLink id="3990-bdaf-22f3-cea0" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="48ce-2e45-1583-19f0" name="Sky-Carbine" hidden="false" targetId="77fb-febc-2241-0ec9" type="profile"/>
+        <infoLink id="e5a0-6657-80d0-2cbf" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b883-1447-4320-58e2" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
@@ -1020,8 +1021,89 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="300e-4e68-b5b9-5a3b" name="Bomb Racks" hidden="false" collective="false" import="true" targetId="b2fb-5ffe-5e87-f6e2" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2cf4-936a-17df-de01" name="Sky-Frigate" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b9d3-8ae1-9df2-768c" name="Sky-Frigate" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Flying, Tough(9), Transport(11)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="63a1-9863-e3c1-3002" name="Crew" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4de7-a0b2-df8d-6ee2" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="8f91-8836-6b48-beca" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+        <infoLink id="4daa-b9b0-3a3f-a60e" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="f16b-6aef-dda8-1304" name="Transport(X)" hidden="false" targetId="b407-e391-b178-4d42" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0948-ffad-aaab-8ba0" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="afa6-b0b4-2a32-d967" name="Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="a149-b34a-0652-fa99">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9952-750c-673f-2198" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8787-4894-70d7-f48c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a149-b34a-0652-fa99" name="Hook Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="310c-9ad7-2915-6a47" name="Hook Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="79f4-5578-c041-f866">36&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2), Blast(3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="7620-ffef-2601-3a82" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+                <infoLink id="e1cb-22ef-f15a-cbf6" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="41eb-4ec4-15f4-18be" name="Heavy Sky Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f2a2-7be0-e760-1f37" name="Heavy Sky Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="79f4-5578-c041-f866">24&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(4), Blast(3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="661c-b3bf-88d9-06ed" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+                <infoLink id="8bd3-3971-0ba6-f4d1" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d1d3-4856-6fe3-4f65" name="Bomb Racks" hidden="false" collective="false" import="true" targetId="b2fb-5ffe-5e87-f6e2" type="selectionEntry"/>
+        <entryLink id="2566-a680-768b-9ddf" name="Sky-Carbine" hidden="false" collective="false" import="true" targetId="cd06-b317-5008-5b16" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c535-02cb-a728-3ba6" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd8f-e459-cfe3-546b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="235.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1155,10 +1237,34 @@
         <infoLink id="8475-d69b-2c0d-8ad6" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry id="b2fb-5ffe-5e87-f6e2" name="Bomb Racks" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4a1-dbab-c3cf-2256" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="ca50-2a0b-80ef-8850" name="Bomb Racks" hidden="false">
+          <description>Whenever this unit moves over enemies pick one enemy unit to attack and select a bomb type below. Then roll 1 die and on a 2+ it takes hits as described:
+- Frag Bombs: A1, Blast(6)
+- AP Bombs: A1, AP(2), Blast(3)
+- Drill Bombs: A1, AP(4), Deadly(3)</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e8ac-b1a2-8872-3083" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="5339-e39d-a7e0-af51" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+        <infoLink id="bc41-624d-be39-673b" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="fc6e-acea-2c31-fe12" name="Repair" publicationId="91e5-8ca9-cbdc-0c1f" hidden="false">
       <description>Once per turn, if within 2” of a unit with Tough, roll one die. On a 4+ you may repair 1 wound from the target.</description>
+    </rule>
+    <rule id="b407-e391-b178-4d42" name="Transport(X)" publicationId="91e5-8ca9-cbdc-0c1f" hidden="false">
+      <description>This model may transport up to X models. Units embark by moving into contact and may use any action to disembark but only move by 6”. Units may also be deployed within a transport. If a unit is inside a transport when it’s destroyed then it must take a Dangerous Terrain test, is immediately Wavering, and surviving models must be placed within 6” of the transport before it’s removed from play.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
