@@ -906,6 +906,55 @@
         <entryLink id="007c-65fd-f4e1-174b" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="a16f-ec0e-ac4a-91fb" name="Rangers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9978-66c9-b01a-a6cf" name="Rangers" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Monster Hunter, Strider</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b607-6f20-b6a1-57ab" name="Ranger Glaives" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ac92-c538-dc1b-3a86" name="Monster Hunter" publicationId="a9e0-2c7d-0f20-d7e1" hidden="false">
+          <description>This model gets AP(+2) when fighting units with Tough(3) or higher.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d025-c883-59d8-82f1" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="377f-27a7-35ca-5203" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f22f-157f-1724-4b5b" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f2e3-a9e7-dce0-31c9" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="1193-da6d-001c-0309">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f2-f45a-9ebb-a282" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1193-da6d-001c-0309" name="Rangers [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47c1-7e07-ee93-831d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="200.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0453-8aac-fac6-a53f" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="ad6f-a44e-114f-56f8" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
