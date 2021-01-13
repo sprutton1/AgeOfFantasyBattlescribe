@@ -458,7 +458,7 @@ the Regeneration special rule.�</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da16-6038-fb54-c560" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="155e-6eb5-3408-d248" name="Pilgrims [10]" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="155e-6eb5-3408-d248" name="Pilgrims [6+1]" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3354-7a75-c9df-1fef" type="max"/>
               </constraints>
@@ -493,6 +493,152 @@ the Regeneration special rule.�</description>
               </rules>
               <infoLinks>
                 <infoLink id="99d3-0cf7-e44c-a3ca" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="b73f-b6b8-d3d3-c1fd" name="Peasant Archers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8e33-0900-ddf6-10c6" name="Peasant Archers" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">6+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32"/>
+          </characteristics>
+        </profile>
+        <profile id="773a-f5a0-ec6f-36e2" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="35c1-6bd4-8254-a671" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4b50-725b-a122-fbfe" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="8d12-8b22-08a7-5459">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b64-498b-8c3c-e8dc" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8d12-8b22-08a7-5459" name="Peasant Archers [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9c4-2a73-4ec9-39ec" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c3d2-2688-5dab-435a" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="24d6-ada3-91b9-e89c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9030-4d35-7749-ccf8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a49-4503-4514-f976" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="24d6-ada3-91b9-e89c" name="Shortbow" hidden="false" collective="false" import="true" targetId="366b-eaf8-31b4-b1d4" type="selectionEntry"/>
+            <entryLink id="39ec-194f-b31b-8cf2" name="Longbow" hidden="false" collective="false" import="true" targetId="f94e-ef25-6aa1-7195" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="5.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5e78-de28-3d91-7c27" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75f2-34fe-c5cb-0e82" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="aaf8-6dc3-53df-a7de" name="Scouts" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="9451-c8f6-9e00-a21d" name="Scouts" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Scout</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="fc7b-8b42-3668-e29c" name="Scout" hidden="false" targetId="7bc7-a892-49bc-ad88" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="6013-6552-fc8a-1b88" name="Defensive Stakes" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="15.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="1dbf-3fe2-67bb-5be8" name="Defensive Stakes" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Phalanx</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="6cc0-cb82-9f91-3781" name="Phalanx" hidden="false" targetId="4c1e-89c9-499f-9ab9" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="fe71-f6c9-e654-2715" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6c2-34a6-1a73-0b9f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2448-083f-49ea-7926" name="Fire Braziers" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="5.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="a7c8-be78-f6e3-e0fc" name="Fire Braziers" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">AP(1) when shooting</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="4097-8cc2-ce60-4a84" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
