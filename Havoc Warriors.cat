@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6f58-1546-0f5a-24f2" name="Havoc Warriors" revision="1" battleScribeVersion="2.03" authorName="cartag, Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6f58-1546-0f5a-24f2" name="Havoc Warriors" revision="2" battleScribeVersion="2.03" authorName="cartag, Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="c2ac-6aff-6930-ddca" name="Havoc Warriors v2.9"/>
     <publication id="54a5-d9ec-f7cc-691f" name="Havoc Warrior Disciples v2.10"/>

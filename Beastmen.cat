@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d0e7-e929-21a7-6bbf" name="Beastmen" revision="1" battleScribeVersion="2.03" authorName="cartag" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d0e7-e929-21a7-6bbf" name="Beastmen" revision="2" battleScribeVersion="2.03" authorName="cartag" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="2eed-57f2-018c-13f9" name="Beastmen v2.4"/>
   </publications>
