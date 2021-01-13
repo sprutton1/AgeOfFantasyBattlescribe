@@ -83,7 +83,7 @@ table!
 |Havoc Dwarves|v2.2|Done|Darguth|
 |Havoc Warriors|Main v2.9 - Disciples v2.10|Done|cartag (Main), Darguth (Disciples)|
 |High Elves|v2.7|Done|Darguth|
-|Humans|-|NOT STARTED|-|
+|Humans|v2.6|Done|Darguth|
 |Kingdom of Angels|v2.3|Done|Perram|
 |Mummified Undead|-|NOT STARTED|-|
 |Ogres|-|NOT STARTED|-|
