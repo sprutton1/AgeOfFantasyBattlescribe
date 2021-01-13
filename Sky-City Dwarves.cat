@@ -162,6 +162,70 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="cd29-efab-77f6-0284" name="Engine Master" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="836e-178e-623f-ef7e" name="Engine Master" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Slow, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e5b8-113f-a326-319f" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f193-efe8-5494-d4da" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="698c-14fb-7b4c-7a15" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="b90d-7fb2-8dc0-34c6" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="3850-ea91-a142-4ea0" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d006-f3f8-1379-efda" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b96c-262e-46d4-b68a" name="Repair" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="538a-3042-3d83-66b9" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="c8bd-a63c-d38c-f358" name="Repair" publicationId="91e5-8ca9-cbdc-0c1f" hidden="false">
+              <description>Once per turn, if within 2” of a unit with Tough, roll one die. On a 4+ you may repair 1 wound from the target.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3e62-1a19-d985-fc5f" name="Eye-Beam" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e726-72e4-9e8f-1479" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6d0d-6948-7d07-0703" name="Eye-Beam" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+                <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+                <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3fd1-5991-6ac6-610d" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedProfiles>
     <profile id="e0cc-8416-af33-f3c7" name="Sky-Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
