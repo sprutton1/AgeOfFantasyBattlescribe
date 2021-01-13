@@ -3,4 +3,141 @@
   <publications>
     <publication id="a9e0-2c7d-0f20-d7e1" name="Wood Elves v2.7"/>
   </publications>
+  <selectionEntries>
+    <selectionEntry id="fb51-c74e-6f52-f56a" name="Forest Queen" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2e3b-eb1a-5ff8-e0ff" name="Forest Queen" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Strider, Tough(3), Wizard(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bec4-3297-231c-9915" name="Great Talon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Poison</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d450-79df-4459-2218" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
+        <infoLink id="1cbc-3706-8df0-b326" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="c8af-a345-781d-6ecf" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="9987-6f52-cfa1-8c88" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+        <infoLink id="e121-108a-b875-e706" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="185a-2cf9-34d9-07d7" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0ec5-d6da-2d0d-402c" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fbeb-e188-14eb-bbc4" name="Great Spear" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d06-1c8c-09e7-2a8d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a190-f682-186c-003c" name="Great Spear" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="79f4-5578-c041-f866">18&quot;</characteristic>
+                <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+                <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(2), Deadly(3)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1121-9f04-5d28-a72b" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+            <infoLink id="e660-3739-b4da-919b" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7c98-ee31-2604-b269" name="Giant Beetle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbaa-9363-738b-80ef" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bb6c-d5be-ede3-92da" name="Giant Beetle" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Defense +1, Fear, Flying, Impact(3), Tough(+6)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8610-4711-f758-9d59" name="Great Horns" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1579-fc8b-f5d9-2482" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+            <infoLink id="d273-a677-5c8b-9756" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+            <infoLink id="ae79-3707-ad29-45bb" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+            <infoLink id="c6f9-f548-8188-b0db" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+            <infoLink id="1dda-1cc3-2f3e-9f5f" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="210.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="bda0-b5ba-a6a0-02a5" name="Show Spells" hidden="false" collective="false" import="true" targetId="ad6f-a44e-114f-56f8" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="115.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="ad6f-a44e-114f-56f8" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ceaf-71e9-0f26-ddc9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c8a7-d59c-2069-bae1" name="4. Insect Attack" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target 2 enemy units within 6&quot; take 3 hits with AP(2) each.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4c9c-99b8-e5ef-74eb" name="2. Tree Stomp" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 1 hit with AP(2) and Deadly(2).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="39d3-16ea-ff97-b098" name="3. Regrowth" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets Regeneration next time it&apos;s wounded.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="404e-ea29-8983-69eb" name="5. Harmony" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target piece of terrain within 6&quot; may be moved by up to 6&quot; in any direction or may be removed from play.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7c1f-6a21-0e10-a65d" name="6. Harvest" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy model within 12&quot; takes 3 automatic hits with AP(2).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="de48-5a11-573e-f013" name="1. Spirit Vines" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; gets -1 to melee rolls next time it fights.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="90bf-5fbb-58a8-4212" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="2354-918c-6e11-cfd7" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+        <infoLink id="0eb2-40c3-044f-d48c" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </catalogue>
