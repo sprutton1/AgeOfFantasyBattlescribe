@@ -638,6 +638,47 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="65.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="1b7b-6fad-eb8f-1a16" name="Treemen" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b6ff-7bdf-7d4b-8de1" name="Treemen" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Furious, Strider</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9034-e66a-d301-2c31" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c630-d2ee-1c8f-506d" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="e894-892b-4405-63a8" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1d6e-ef4b-035e-ed7c" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="228e-5c1d-05ae-acdd" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="e457-d317-8e48-ff6c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85e1-d90e-3649-b930" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e457-d317-8e48-ff6c" name="Treemen [10]" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c542-fba9-2901-bf13" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="ad6f-a44e-114f-56f8" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
