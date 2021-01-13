@@ -399,7 +399,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12c6-7491-b621-eb14" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
           </costs>
         </entryLink>
         <entryLink id="887f-fa7d-bb1d-c3bc" name="Longbow" hidden="false" collective="false" import="true" targetId="f94e-ef25-6aa1-7195" type="selectionEntry">
@@ -411,6 +411,81 @@
           </costs>
         </entryLink>
         <entryLink id="c5e2-9830-8094-25a7" name="Show Spells" hidden="false" collective="false" import="true" targetId="ad6f-a44e-114f-56f8" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d787-44b4-1502-6e45" name="Treeman Elder" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="114e-95c5-4fab-e29e" name="Treeman Elder" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Furious, Hero, Strider, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="dc68-bc08-66c9-8e96" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="5001-49cf-6189-55b3" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="f2be-2a08-fefd-693e" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="0ab9-b457-0e22-63f4" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0bbd-76c3-7adb-fc4e" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="576e-90cb-270b-0e0c" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="17c7-248a-74a8-7282">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a448-1ded-0305-7f9f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e9a-e576-e6bf-fb8a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="17c7-248a-74a8-7282" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c927-4024-667f-a692" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="296a-9727-106e-6bd9" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="cd31-ff99-a468-be71" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="21f4-c9a9-8949-e8d9" name="Wizard(1)" hidden="false" collective="false" import="true" targetId="b2d2-cfaf-8ce6-6198" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5afc-6863-a388-d91f" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="c925-0998-d98b-d400" name="Show Spells" hidden="false" collective="false" import="true" targetId="ad6f-a44e-114f-56f8" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b2d2-cfaf-8ce6-6198" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
