@@ -366,6 +366,63 @@ the Regeneration special rule.�</description>
         <entryLink id="f985-d635-e7c2-e355" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="6424-f802-e428-ce22" name="Foot Knights" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ead9-efa2-9bb2-cfdb" name="Foot Knights" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a92e-230d-7284-6279" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d7ae-28fc-515e-f7f8" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5673-c86e-f0f0-7af6" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="eb6e-5736-a2c6-73f6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d481-b82a-a65e-45d9" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="eb6e-5736-a2c6-73f6" name="Foot Knights [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="191d-1468-9ef7-4df4" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="155.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ee1b-83a7-beba-3183" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="0347-1043-7758-859e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7d2-5283-5561-4830" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df4c-a64b-ed39-95d1" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0347-1043-7758-859e" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="e5cd-e60e-53a9-7ce4" type="selectionEntry"/>
+            <entryLink id="0859-5857-d7f0-66dc" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="fa2b-dd87-7353-7873" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="15.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="34f7-4a3b-1e94-f01f" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
