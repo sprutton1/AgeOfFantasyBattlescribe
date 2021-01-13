@@ -903,6 +903,57 @@ the Regeneration special rule.�</description>
         <entryLink id="f293-7a42-528d-def9" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="2a40-b1e2-ab41-995d" name="Realm Knights" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c3d2-0663-4220-bb1f" name="Realm Knights" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Fearless, Impact(1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="93b5-5eee-4ce7-62ec" name="Lance" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Impact(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6fd7-fdb5-77a9-0d01" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="6d75-68b2-ea52-a806" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="0304-9082-bc71-a915" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a434-0416-da16-479a" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="84ad-f3ee-a560-8248" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2dae-097e-ea2a-ee0e" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="3fef-7766-1d36-9c64">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66be-742a-064f-65c1" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3fef-7766-1d36-9c64" name="Realm Knights [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3b3-3611-3460-629b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="eeb4-1b58-fb3c-1b69" name="Upgrades" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="4092-e0e5-084d-799c" name="Lance Formation" hidden="false" collective="false" import="true" targetId="9201-88db-142c-aa1c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="de85-34fd-8895-5b90" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="34f7-4a3b-1e94-f01f" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
