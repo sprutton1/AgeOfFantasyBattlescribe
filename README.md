@@ -96,7 +96,7 @@ table!
 |Sky-City Dwarves|-|NOT STARTED|-|
 |Vampiric Undead|v2.8|Done|Darguth|
 |Volcanic Dwarves|-|NOT STARTED|-|
-|Wood Elves|-|NOT STARTED|-|
+|Wood Elves|v2.7|Done|Darguth|
 
 ## Reporting an issue
 
