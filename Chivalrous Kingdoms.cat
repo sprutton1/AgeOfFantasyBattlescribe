@@ -883,7 +883,7 @@ the Regeneration special rule.�</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c6b-0583-251a-db88" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d3cf-1a87-27e0-19ae" name="Heavy Cavalry [5]" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="d3cf-1a87-27e0-19ae" name="Heavy Cavalry [6]" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="805b-84ef-8ec6-4d2a" type="max"/>
               </constraints>
@@ -934,7 +934,7 @@ the Regeneration special rule.�</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66be-742a-064f-65c1" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3fef-7766-1d36-9c64" name="Realm Knights [5]" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="3fef-7766-1d36-9c64" name="Realm Knights [6]" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3b3-3611-3460-629b" type="max"/>
               </constraints>
@@ -986,7 +986,7 @@ the Regeneration special rule.�</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd9b-bbb0-7014-3502" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="bc27-629a-abfe-2be2" name="Quest Knights [5]" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="bc27-629a-abfe-2be2" name="Quest Knights [6]" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f814-2cab-7ed5-ca0e" type="max"/>
               </constraints>
@@ -1004,6 +1004,112 @@ the Regeneration special rule.�</description>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="b8c5-98d9-d2ac-8124" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="7ab3-a041-1bcb-fdd8" name="Grail Knights" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="eb77-f8a2-9c52-8614" name="Quest Knights" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Fearless, Impact(1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4d9f-35bb-2f7e-8dd7" name="Lance" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Impact(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f063-66dc-f5f1-2a2a" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="0397-1bac-d35a-f7c4" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="d2bd-2a79-e267-c90f" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="671d-0de8-ad6a-880e" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="4e41-00a3-216e-400d" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="595a-89c9-1c61-1a30" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="1636-b525-9411-6b89">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da0c-99f2-c4bb-aea1" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1636-b525-9411-6b89" name="Grail Knights [6]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4793-9fad-0a03-c0a2" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="240.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="da00-2b5d-4257-0ef7" name="Upgrades" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="51c3-3674-98c6-c58a" name="Lance Formation" hidden="false" collective="false" import="true" targetId="9201-88db-142c-aa1c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="61b0-bd4b-33a4-67fc" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="d393-9550-8308-cfb6" name="Pegasus Knights" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="380f-2a7a-b23e-637d" name="Pegasus Knights" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Fearless, Flying, Impact(3), Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9e70-c2e0-0fdd-3203" name="Lance" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Impact(1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c89e-d4b4-4d7c-68b9" name="Hooves" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5d08-2e5c-4b8a-5387" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="bfcb-e4dd-79f3-0973" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="1129-e4ed-5de3-2b76" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="f8a1-6331-7c53-0162" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+        <infoLink id="4e83-3e58-94cd-5cb2" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e3e9-e92d-1fbb-eb14" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="false"/>
+        <categoryLink id="d43f-1ca2-14b5-53d6" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
+        <categoryLink id="2cce-3b38-0421-2f5e" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="45e7-982d-ad40-39bc" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="4ba9-2134-4d3e-df07">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf4b-974f-a70a-8088" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4ba9-2134-4d3e-df07" name="Pegasus Knights [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fe6-8ba3-9651-ca36" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="230.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="eec4-ded4-5352-860c" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
   </selectionEntries>
