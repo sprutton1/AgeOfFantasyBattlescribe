@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8cdf-87bc-9eb8-77a8" name="Chivalrous Kingdoms" revision="1" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="a5f1-9df9-8a26-a7b9" name="Chivalrous Kingdoms v2.5"/>
+  </publications>
+</catalogue>
