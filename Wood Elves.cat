@@ -1774,6 +1774,183 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry id="2371-d596-4675-22fc" name="Giant Eagles" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6ccf-b68f-6256-6daf" name="Giant Eagles" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Flying, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bb2e-4e21-a2a4-ce43" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="536c-5e57-0e1c-e0a3" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+        <infoLink id="23ac-8c72-e32b-7d96" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="af87-cb31-4252-c89e" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a72c-bec5-44b5-f63c" name="New CategoryLink" hidden="false" targetId="fc29-0828-4663-18ca" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0334-80e1-4f87-14d5" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="60be-9e07-6d71-b0c4">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9578-a9b5-aae2-122f" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="60be-9e07-6d71-b0c4" name="Giant Eagles [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f123-e9ec-5c0a-cb78" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="190.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a117-cdcc-9f45-c5c7" name="Upgrades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="3de2-c56c-2b5b-2b56" name="Metal Spurs" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71f4-6d2d-90bb-0514" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="91f8-3df1-a1ea-55fa" name="Metal Spurs" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">AP(1) in melee</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="0b37-d8c7-b3ec-68b8" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e491-7636-2836-a5aa" name="Swoop Attacks" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63a3-673b-ad5f-3cde" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4af5-7a18-dd1f-5dd3" name="Swoop Attacks" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Impact(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="e397-47b0-5136-e0bd" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="9deb-bc8a-2c5a-ff8a" name="Tree Giant" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="aa4b-e24c-c799-d05d" name="Tree Giant" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Strider, Tough(6)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9ec8-3d98-f7f0-66d6" name="Branch Stomp" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9f66-ebd5-a4fc-e296" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="144e-a25c-0cd6-153b" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="a6e0-c3c8-7a0e-eb26" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="0f7b-3b68-046f-b82d" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6559-881c-cd29-74c1" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0fa8-0b4e-25f0-1917" name="Whip Roots" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db0d-a306-e810-8a55" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="38f1-6cec-f333-f642" name="Whip Roots" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+                <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A3</characteristic>
+                <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b63b-332b-17e3-3c55" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1a9f-016d-1fdc-7eb3" name="Wizard(X)" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4e8-dca6-54f9-405b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6733-654c-2884-1002" name="Wizard(1)" hidden="false" collective="false" import="true" targetId="b2d2-cfaf-8ce6-6198" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4134-34c3-95c1-8e50" name="Wizard(2)" hidden="false" collective="false" import="true" targetId="3fd8-1309-fe4e-3b6e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="78c9-db06-7f7f-17a9" name="Show Spells" hidden="false" collective="false" import="true" targetId="ad6f-a44e-114f-56f8" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1a9f-016d-1fdc-7eb3" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="ad6f-a44e-114f-56f8" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
