@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fe51-6124-23ba-8212" name="Orcs" revision="1" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fe51-6124-23ba-8212" name="Orcs" revision="1" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7321-d12d-403d-10ac" name="Orcs v2.7"/>
   </publications>
@@ -223,6 +223,9 @@
               <infoLinks>
                 <infoLink id="b34e-2f55-5120-1565" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="45fa-e638-ba22-c82e" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -236,6 +239,9 @@
               <infoLinks>
                 <infoLink id="09d6-d2f4-69e7-626a" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -545,6 +551,9 @@
       <entryLinks>
         <entryLink id="46fd-a292-1a5b-2e33" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0b08-5d75-c853-2eb0" name="Savage Orcs" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -693,6 +702,9 @@
       <entryLinks>
         <entryLink id="6403-b72f-1e2c-7d4f" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7aff-ee37-a881-2711" name="Black Orcs" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -756,6 +768,9 @@
               <infoLinks>
                 <infoLink id="cd98-a823-66d0-8489" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="203f-c4ae-fc52-0fed" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -769,6 +784,9 @@
               <infoLinks>
                 <infoLink id="0c2d-a159-d670-6541" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -776,6 +794,9 @@
       <entryLinks>
         <entryLink id="3666-0791-1c01-9f10" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0b1e-be4b-727a-abed" name="Brute Orcs" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -897,6 +918,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="71e3-16dc-ab48-3230" name="Orc Archers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -936,6 +960,9 @@
       <entryLinks>
         <entryLink id="cd5a-7f50-e9b1-c393" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a602-eceb-5012-0b98" name="Savage Archers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -975,6 +1002,9 @@
       <entryLinks>
         <entryLink id="13f8-b846-ba3f-f8c3" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f325-8939-0419-0e16" name="Boar Riders" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -992,7 +1022,6 @@
         <infoLink id="0772-0070-1851-f102" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1a96-b582-4f35-67c0" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="false"/>
         <categoryLink id="b34c-5c6c-a649-c18e" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -1052,6 +1081,9 @@
       <entryLinks>
         <entryLink id="f461-bc16-bed7-a7d6" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1e6d-d785-47bb-dd6d" name="Savage Riders" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1128,6 +1160,9 @@
       <entryLinks>
         <entryLink id="ca5e-3c29-5346-5f2c" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4772-aa4a-ff4e-fc70" name="Giant Boar Riders" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1199,6 +1234,9 @@
       <entryLinks>
         <entryLink id="5002-32e9-d19b-b757" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="db0e-bbe5-23a6-edf7" name="Giant" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1223,7 +1261,7 @@
         <infoLink id="12cb-bcee-95ba-a609" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0f40-2aa9-69d1-bd8e" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="32c3-d62b-57bf-369e" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="160.0"/>
@@ -1258,7 +1296,7 @@
         <infoLink id="8b33-9a4b-44a1-ecb5" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="bbed-3675-9537-ed07" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="6806-70b1-1b59-b1c0" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="135.0"/>
@@ -1321,6 +1359,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
