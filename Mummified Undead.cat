@@ -323,7 +323,7 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d5c-e5b9-5749-6e2a" name="Skeletons Archers" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7d5c-e5b9-5749-6e2a" name="Skeleton Archers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="0c1c-2847-9dbd-418b" name="Skeleton Archers" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
           <characteristics>
@@ -366,6 +366,70 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="6554-b2f3-ec5e-48ac" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d37-0402-1928-aeb0" name="Skeleton Knights" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3da8-f9f8-51ed-0e0d" name="Skeleton Knights" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Impact(1), Scout, Undead</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1e44-2daa-e7dd-ee8f" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="cbed-0d6b-d246-76c0" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="eff8-fc62-2d7d-3cc0" name="Scout" hidden="false" targetId="7bc7-a892-49bc-ad88" type="rule"/>
+        <infoLink id="13d7-9cf6-21ad-37ed" name="Undead" hidden="false" targetId="8c0d-ceff-c519-3051" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c26d-400f-7b2d-798e" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="575a-07f3-6645-c198" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="fc20-c786-3f4b-444b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f038-537a-0e88-5738" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="fc20-c786-3f4b-444b" name="Skeleton Knights [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8690-2f9d-3e7e-e08e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="100.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4774-a366-2526-0e95" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="58be-49e2-c358-8f0d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4362-a2b3-5205-b570" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6da-b2fc-8be3-fd8d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="58be-49e2-c358-8f0d" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="e5cd-e60e-53a9-7ce4" type="selectionEntry"/>
+            <entryLink id="39be-1420-aed6-2439" name="Lance (A1)" hidden="false" collective="false" import="true" targetId="b2ba-1897-ecd9-2780" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0f40-017e-360e-309e" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
