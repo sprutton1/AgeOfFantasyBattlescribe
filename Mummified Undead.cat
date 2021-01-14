@@ -147,6 +147,54 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6f33-fea3-89b9-6392" name="Mummy Priest" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f297-ffca-edfe-dfcd" name="Mummy Priest" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Tough(3), Undead, Wizard(1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4f13-6637-94fa-459c" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="090a-769c-b3c0-e807" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="ffb3-0859-c8c7-4f03" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="a99f-dce3-3056-dd90" name="Undead" hidden="false" targetId="8c0d-ceff-c519-3051" type="rule"/>
+        <infoLink id="168b-6bbe-da8d-fd56" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d5db-3859-519b-c010" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="298f-5835-ae5a-f6a8" name="Skeletal Steed" hidden="false" collective="false" import="true" targetId="486e-32db-58ac-425f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f1b-6adc-16cb-91ed" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="13e3-0343-1917-a282" name="Wizard(2)" hidden="false" collective="false" import="true" targetId="3fd8-1309-fe4e-3b6e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ee3-191a-57c7-0af4" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="bfe2-a307-c0c4-7300" name="Show Spells" hidden="false" collective="false" import="true" targetId="5673-a5ca-5664-4530" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="486e-32db-58ac-425f" name="Skeletal Steed" hidden="false" collective="false" import="true" type="upgrade">
@@ -160,6 +208,54 @@
       <infoLinks>
         <infoLink id="a03b-cb36-2d29-ac7d" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
         <infoLink id="f8eb-060e-b99b-7db4" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="5673-a5ca-5664-4530" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e5a-71a4-3476-462d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e953-7768-badd-0055" name="3. Protection" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets Regeneration next time it&apos;s wounded.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="63af-35fe-190a-679e" name="2. Storm of Skulls" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 2 automatic hits with AP(2).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="648b-e108-a73d-2719" name="4. Desiccation" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 1 hit with AP(4) and Deadly(3).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="27a7-4364-df2e-d3af" name="5. Smiting" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; may immediately charge by up to 6&quot; and gets +1 to hit for that melee.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1101-e6d8-1d89-a13e" name="1. Blade Curse" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12&quot; gets +1 to melee rolls next time it fights.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="160f-4a48-f75c-681e" name="6. Vengeance" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; must take a morale test. If failed it takes 1 automatic hit per model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="03c1-7836-4604-f827" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="be1e-8a58-fe18-4544" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="b320-b8a4-60fe-470c" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
