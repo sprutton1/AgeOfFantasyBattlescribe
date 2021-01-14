@@ -73,7 +73,7 @@ table!
 |Game System|v2.10|Done|Darguth|
 |Beastmen|v2.4|Done|cartag|
 |Chivalrous Kingdoms|v2.5|Done|Darguth|
-|Dark Elves|-|NOT STARTED|-|
+|Dark Elves|v2.6|Done|Darguth|
 |Deap-Sea Elves|-|NOT STARTED|-|
 |Dwarves|v2.9|Done|Darguth|
 |Eternal Wardens|-|NOT STARTED|-|
