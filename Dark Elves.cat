@@ -683,6 +683,81 @@
         <entryLink id="d7ec-8396-f407-7208" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="8f29-e04d-26e8-ccf4" name="Winged Sisters" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="becb-befa-49fd-cc57" name="Winged Sisters" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ambush, Flying, Furious</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="56e4-9c01-1057-1c70" name="Hand Weapons" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6d46-451f-6920-feff" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+        <infoLink id="0083-f397-77a5-d253" name="Ambush" hidden="false" targetId="859e-e070-e91c-26e1" type="rule"/>
+        <infoLink id="c601-f92f-6c72-9ea4" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5cf6-aec4-c69a-c44c" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2d37-cae4-f16e-c708" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="1aae-b0c5-cd8d-607f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b0c-cebc-e45b-b823" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1aae-b0c5-cd8d-607f" name="Winged Sisters [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4867-0ead-fe85-58a8" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="225.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2445-1702-2057-356e" name="Ranged Weapons" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="9144-2bf9-9065-e08a" name="Javelins" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="25.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="50.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b853-d2b1-d4f7-f3fd" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="618a-0471-0341-7a4a" name="Javelin" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="0480-5b51-437c-26d4" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="d6f7-ba1c-bc95-674b" name="Repeater Handbow" hidden="false" collective="false" import="true" type="upgrade">
