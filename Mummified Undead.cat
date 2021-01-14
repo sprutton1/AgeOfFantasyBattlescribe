@@ -195,6 +195,47 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2a75-00e1-79cc-6de4" name="Mummies" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1e52-4ba0-ae64-94bf" name="Mummies" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">6+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Slow, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1c61-c024-fb46-4406" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="451a-28bd-7874-43be" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="a891-fd99-0672-439f" name="Undead" hidden="false" targetId="8c0d-ceff-c519-3051" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9d1e-b8f2-c0f6-f6eb" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="609b-7cc9-a3f3-10fe" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="d9a8-d73b-8e92-2f98">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c261-fe6c-1887-a487" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d9a8-d73b-8e92-2f98" name="Mummies [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="406d-2d6e-c5d9-6cf7" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="486e-32db-58ac-425f" name="Skeletal Steed" hidden="false" collective="false" import="true" type="upgrade">
