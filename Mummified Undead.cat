@@ -1039,7 +1039,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
             <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
-            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Flying, Tough(9), Undead</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Tough(9), Undead</characteristic>
           </characteristics>
         </profile>
         <profile id="b2ed-c5c3-9334-dfd7" name="Stomp" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
@@ -1059,7 +1059,6 @@
         <infoLink id="5cb1-647c-eb1d-5702" name="Undead" hidden="false" targetId="8c0d-ceff-c519-3051" type="rule"/>
         <infoLink id="1a25-8328-e11e-9b9b" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
         <infoLink id="b048-15ec-80e6-02ca" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
-        <infoLink id="1f98-cbcc-d79e-9a3b" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
         <infoLink id="be0b-53e8-6c8a-4819" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="c3be-3a06-9283-e6d4" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
       </infoLinks>
@@ -1112,6 +1111,98 @@
               </constraints>
               <infoLinks>
                 <infoLink id="0d4d-ed5a-c023-f4c1" name="Fire Breath" hidden="false" targetId="3e72-2796-edff-896b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="235.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b8c0-fe8d-2e0c-c747" name="Sphinx Champion" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6192-5709-5963-25d7" name="Sphinx Champion" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Flying, Tough(9), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3dcc-41b7-5634-1611" name="Stomp" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6ede-577d-99b4-f509" name="Decapitating Strike" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(4), Deadly(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5663-e286-4568-cf96" name="Undead" hidden="false" targetId="8c0d-ceff-c519-3051" type="rule"/>
+        <infoLink id="fd38-5ada-ffb3-438d" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="ce0d-92f5-6269-0ed5" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="80ed-1f41-284a-98be" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+        <infoLink id="211d-f1e3-ee2d-1d76" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="7765-28e2-1b62-c887" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="e3cf-69cd-c9ae-1c32" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d192-47f1-1201-3476" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6a38-ed08-523d-1197" name="Upgrades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="7a57-e7f9-a70f-6615" name="Stone Shaper" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f710-256e-95c4-14ce" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="f137-4571-3033-689d" name="Stone Shaper" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Furious, Regeneration	</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="9873-f137-9252-f5b5" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+                <infoLink id="b926-0b50-f24d-8be5" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b0a4-e552-65c2-69f6" name="Toxic Stinger" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfb4-7e42-b273-bdb7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="850b-f226-7bd4-7c25" name="Toxic Stinger" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Stomp gets Poison</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="21c2-3d3f-64b7-2376" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6df4-10c5-c425-4c4c" name="Fire Breath" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcde-03d9-015a-79a3" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7b85-fe19-ac57-270a" name="Fire Breath" hidden="false" targetId="3e72-2796-edff-896b" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
