@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="00b3-9ff8-266a-ae9a" name="Mummified Undead" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="00b3-9ff8-266a-ae9a" name="Mummified Undead" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="13dd-be8c-ee42-2e55" name="Mummified Undead v2.8"/>
   </publications>
@@ -235,6 +235,51 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4df5-cda8-7a65-f22e" name="Skeletons" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9e95-3ce4-74af-67e8" name="Skeletons" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Undead</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8169-33c5-b927-6536" name="Undead" hidden="false" targetId="8c0d-ceff-c519-3051" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2c10-635c-62d2-635b" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2bb6-0c63-5bde-90d6" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="25c7-da10-8e38-3fdd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39d1-11cf-e830-fa17" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="25c7-da10-8e38-3fdd" name="Skeletons [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76ce-5646-8ea3-6bbc" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f86a-41c4-fad8-0ba8" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+        <entryLink id="2b27-ab2f-f7da-9a8a" name="Weapons - Infantry - Melee (Q5+, A1)" hidden="false" collective="false" import="true" targetId="42a4-0feb-4203-681c" type="selectionEntryGroup"/>
+        <entryLink id="1962-0479-5e9f-f267" name="Weapons - Harpoons" hidden="false" collective="false" import="true" targetId="569c-b0b3-81f6-c6b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -250,6 +295,9 @@
         <infoLink id="a03b-cb36-2d29-ac7d" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
         <infoLink id="f8eb-060e-b99b-7db4" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5673-a5ca-5664-4530" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -298,6 +346,9 @@
         <infoLink id="be1e-8a58-fe18-4544" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
         <infoLink id="b320-b8a4-60fe-470c" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
