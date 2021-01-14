@@ -3,4 +3,169 @@
   <publications>
     <publication id="13dd-be8c-ee42-2e55" name="Mummified Undead v2.8"/>
   </publications>
+  <selectionEntries>
+    <selectionEntry id="5f5d-90bb-0c72-7e0d" name="Mummy King" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4b4f-ad65-48cc-f14a" name="Mummy King" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d9fa-c60c-7e6d-2c14" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="8e67-dfc7-b9bb-46f6" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="be10-cad2-19b7-5dde" name="Undead" hidden="false" targetId="8c0d-ceff-c519-3051" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6b05-714e-e40d-b357" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1ddb-15cd-46e2-0a68" name="King&apos;s Will" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d841-adc2-af12-933a" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="3c29-2c62-ddb1-c4dd" name="King&apos;s Will" publicationId="13dd-be8c-ee42-2e55" hidden="false">
+              <description>If the hero is part of a unit of Mummies, Skeletons, Skeleton Guard or Skeleton Knights, then that unit counts as having Quality 3+.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4236-d5aa-651e-69ef" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2986-6347-a8a6-6079">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7931-24a7-1df0-7cab" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bbd-a399-e2f7-027a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2986-6347-a8a6-6079" name="Hand Weapon (A3)" hidden="false" collective="false" import="true" targetId="df9b-db26-3a90-d447" type="selectionEntry"/>
+            <entryLink id="3e1d-4632-94fc-ef1e" name="Great Weapon (A3)" hidden="false" collective="false" import="true" targetId="89f5-3b8b-10f5-e093" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9e61-816a-6ae2-316e" name="Halberd (A3)" hidden="false" collective="false" import="true" targetId="1e72-2624-86e9-0ee0" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="de16-78f8-2342-0f49" name="Spear (A3)" hidden="false" collective="false" import="true" targetId="35fe-a77c-b5e7-7610" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7d9c-e8f6-f83b-7558" name="Lance (A3)" hidden="false" collective="false" import="true" targetId="3bb1-404a-e499-ee8f" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="5a0c-3f9b-2cfe-b2f4" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="82a6-c524-a1a9-2ae3" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a0c-3f9b-2cfe-b2f4" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="17cc-860b-dc96-25aa" name="2x Hand Weapons (A3)" hidden="false" collective="false" import="true" targetId="8eb1-4655-31d4-2e5c" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="82a6-c524-a1a9-2ae3" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f05-e86e-66ad-a439" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6347-a369-dc2e-866f" name="Royal Chariot" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="9612-f9d3-581b-bdb8" name="Royal Chariot" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Defense +2, Fast, Impact(6), Tough(+6)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="8d92-bb24-96eb-3735" name="Hooves" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="1a2a-9ba7-2eae-5f0f" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+                <infoLink id="e31b-2f4d-5537-604f" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+                <infoLink id="baa4-1f50-3477-15a4" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5cc1-c91d-5fdf-b172" name="War Sphinx" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6767-179e-d62d-2d43" name="War Sphinx" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Defense +2, Fear, Tough(+9)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c14a-f738-7e69-e11c" name="Stomp" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="bbd2-4c80-95c4-a389" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+                <infoLink id="46bf-1e94-5183-a6a5" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+                <infoLink id="9e17-3c26-43d2-f235" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="235.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="7e95-5479-b5ec-ba6f" name="Skeletal Steed" hidden="false" collective="false" import="true" targetId="486e-32db-58ac-425f" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="486e-32db-58ac-425f" name="Skeletal Steed" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2df5-c9a3-5d08-b8e8" name="Skeletal Steed" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Impact(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a03b-cb36-2d29-ac7d" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="f8eb-060e-b99b-7db4" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="8c0d-ceff-c519-3051" name="Undead" publicationId="13dd-be8c-ee42-2e55" hidden="false">
+      <description>Whenever this unit takes a morale test it is passed automatically. Then roll as many dice as remaining models/tough in the unit, and for each result of 1 the unit takes one wound, which can’t be regenerated.</description>
+    </rule>
+  </sharedRules>
 </catalogue>
