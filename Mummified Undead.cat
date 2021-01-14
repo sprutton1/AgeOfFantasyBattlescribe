@@ -1215,6 +1215,112 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="235.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="363e-e6b3-501b-e23a" name="Skeleton Chariots" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c63a-bbb4-80fa-54bb" name="Skeleton Chariots" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Cursed Arrows, Fast, Impact(3), Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ee6b-ca3a-003c-8c70" name="Hooves" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7c76-f0d6-8116-4dfd" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Impact(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4348-89a0-98ec-22c3" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="b1e2-7282-1dac-d646" name="Undead" hidden="false" targetId="8c0d-ceff-c519-3051" type="rule"/>
+        <infoLink id="27d5-079b-1eda-2eb4" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="195d-e172-7c3a-ecb2" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="b08c-7f08-c1e3-e425" name="Cursed Arrows" hidden="false" targetId="d8ba-f400-9e95-ba0c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0c0a-c948-a632-ce7d" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d964-20a5-7ea3-2293" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="951f-9eeb-dcf7-34d7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9178-0a45-3571-1ba6" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="951f-9eeb-dcf7-34d7" name="Skeleton Chariots [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9866-c5fd-e786-1939" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="175.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b1f6-ab51-8b75-c367" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+        <entryLink id="11bb-78bd-e101-4ab6" name="Bow" hidden="false" collective="false" import="true" targetId="6692-eae4-9176-05bb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2afb-dc28-db32-b4de" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e189-6bb4-b22b-2c50" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="85a6-b9ba-19b1-9806" name="Royal Chariot" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fbe0-72c7-bd2d-24d0" name="Royal Chariot" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Cursed Arrows, Fast, Impact(6), Tough(6), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6a6a-f28a-ea38-1f91" name="Hooves" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0e07-ab53-3ba4-49b5" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Impact(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ae4b-5f1a-cba4-d917" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="131c-b845-f7b1-74dc" name="Undead" hidden="false" targetId="8c0d-ceff-c519-3051" type="rule"/>
+        <infoLink id="52de-c571-4c6c-a0e0" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="773a-12fa-0a46-ff1f" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="86fb-f6f0-5899-94a3" name="Cursed Arrows" hidden="false" targetId="d8ba-f400-9e95-ba0c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1732-d1a0-2f7e-038e" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c197-03f6-f21c-a632" name="Bow" hidden="false" collective="false" import="true" targetId="6692-eae4-9176-05bb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="876d-9ffc-0e59-b783" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c60d-f846-19bc-ac3b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="150.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="486e-32db-58ac-425f" name="Skeletal Steed" hidden="false" collective="false" import="true" type="upgrade">
