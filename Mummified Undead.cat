@@ -621,6 +621,82 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="f372-27cb-4e65-2d78" name="Snakemen" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a8d9-2e12-31d9-a4a9" name="Snakemen" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Impact(3), Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4c81-f850-2d75-c153" name="Gaze" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A3</characteristic>
+            <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d"></characteristic>
+          </characteristics>
+        </profile>
+        <profile id="43a9-1cfc-5179-7040" name="Halberd" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Rending</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f305-5ac7-a844-5860" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="b219-b26b-518f-56ec" name="Undead" hidden="false" targetId="8c0d-ceff-c519-3051" type="rule"/>
+        <infoLink id="f51d-21c4-7ee8-33e5" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="fbe8-d788-fd6c-e20e" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="3adb-5412-b5a2-844c" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7fc4-2b69-b528-cc8e" name="New CategoryLink" hidden="false" targetId="29ed-f715-6de9-9e1c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="12d8-5f04-7bec-6280" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="7b7e-ffa7-e115-ff38">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b19-6224-fe0e-2d89" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7b7e-ffa7-e115-ff38" name="Snakemen [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff75-ddc8-cc83-42be" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="185.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d0c9-c529-6a42-43f3" name="Upgrades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="a023-c48f-c771-5fc6" name="Ambush" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="50.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e02-d521-fb92-6645" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1357-73f1-1e87-aea5" name="Ambush" hidden="false" targetId="859e-e070-e91c-26e1" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="486e-32db-58ac-425f" name="Skeletal Steed" hidden="false" collective="false" import="true" type="upgrade">
