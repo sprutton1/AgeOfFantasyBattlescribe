@@ -1366,6 +1366,40 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="160.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="1fc7-7298-7938-b95e" name="Blood Chariot" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f88e-b54d-a653-f05d" name="Blood Chariot" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Blood Fury, Regeneration, Tough(6)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6ea8-671c-1536-06d9" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Poison</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="37b4-3771-abb1-0951" name="Blood Fury" publicationId="b70f-fe67-1911-de4e" hidden="false">
+          <description>When this unit is activated pick two friendly units within 6”. Those units get the Furious rule next time they charge.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="aeb4-a19b-c705-723d" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="5946-016b-9f81-8885" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="53a8-8923-e378-1974" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
+        <infoLink id="01d0-e40c-f88e-8abf" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2bc6-294e-d433-40dd" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="175.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="d6f7-ba1c-bc95-674b" name="Repeater Handbow" hidden="false" collective="false" import="true" type="upgrade">
