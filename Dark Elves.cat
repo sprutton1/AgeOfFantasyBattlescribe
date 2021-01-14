@@ -269,6 +269,46 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7177-44c7-1041-1e9b" name="Harpies" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5ecc-59c1-31ab-8b57" name="Harpies" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Flying	</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="be38-7afb-876a-efa9" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f6b3-d4ce-6c85-4b70" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9dca-cb99-e7e1-af01" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3233-97f2-eba3-9b97" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="87a7-5840-05d7-3be2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="735f-9f86-73ab-7001" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="87a7-5840-05d7-3be2" name="Harpies [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3683-fffa-05bc-a1f7" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="120.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="d6f7-ba1c-bc95-674b" name="Repeater Handbow" hidden="false" collective="false" import="true" type="upgrade">
