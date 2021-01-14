@@ -323,6 +323,54 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7d5c-e5b9-5749-6e2a" name="Skeletons Archers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0c1c-2847-9dbd-418b" name="Skeleton Archers" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Cursed Arrows, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2e22-dcfe-06bf-fb4e" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="614b-cee5-8939-58d0" name="Cursed Arrows" hidden="false" targetId="d8ba-f400-9e95-ba0c" type="rule"/>
+        <infoLink id="e3e3-2cc5-8353-26ef" name="Undead" hidden="false" targetId="8c0d-ceff-c519-3051" type="rule"/>
+        <infoLink id="5229-9d5f-65f8-d928" name="Bow" hidden="false" targetId="b4aa-c3c4-ef81-0ac5" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9b57-e73c-6793-43fc" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="de53-aad4-7b2e-478c" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="0fcf-49bb-5aaa-f524">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdee-e4b2-60d4-7cab" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0fcf-49bb-5aaa-f524" name="Skeleton Archers [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b68-2a5a-4459-231c" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6554-b2f3-ec5e-48ac" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="486e-32db-58ac-425f" name="Skeletal Steed" hidden="false" collective="false" import="true" type="upgrade">
@@ -396,6 +444,9 @@
   <sharedRules>
     <rule id="8c0d-ceff-c519-3051" name="Undead" publicationId="13dd-be8c-ee42-2e55" hidden="false">
       <description>Whenever this unit takes a morale test it is passed automatically. Then roll as many dice as remaining models/tough in the unit, and for each result of 1 the unit takes one wound, which can’t be regenerated.</description>
+    </rule>
+    <rule id="d8ba-f400-9e95-ba0c" name="Cursed Arrows" publicationId="13dd-be8c-ee42-2e55" hidden="false">
+      <description>This unit’s shooting attacks always ignore cover.</description>
     </rule>
   </sharedRules>
 </catalogue>
