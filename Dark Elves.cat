@@ -1326,7 +1326,7 @@
       <infoLinks>
         <infoLink id="3f21-0bcb-2c3a-9ab5" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
         <infoLink id="9f4a-cfa4-c063-8ccd" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
-        <infoLink id="21bd-a279-267c-5745" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="21bd-a279-267c-5745" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="914c-5843-4a95-bf98" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
@@ -1398,6 +1398,49 @@
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="476c-30c7-78b2-75d2" name="Raptor Chariot" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7cd9-5d37-492c-2b5d" name="Raptor Chariot" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Fear, Impact(6), Tough(6)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ed7b-8e7d-b2fb-2b00" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+        <profile id="fa4d-d23b-157b-25ce" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Impact(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1d63-ac3d-533c-e754" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="1683-6b32-2024-05e3" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="b683-161c-8545-85d1" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="ffcb-2034-e438-a557" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="19f3-d45c-612a-1550" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9132-43c6-9c30-10b5" name="Repeater Crossbow" hidden="false" collective="false" import="true" targetId="421b-63cd-2b86-d831" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7adb-f992-34ca-93d2" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbdd-36b5-2af5-3e1d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="205.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
