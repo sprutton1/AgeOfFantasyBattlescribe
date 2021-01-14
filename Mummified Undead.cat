@@ -435,6 +435,57 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c2e0-4030-af22-4cb8" name="Skeleton Horse Archers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4fa1-fe9d-f3fa-8c30" name="Skeleton Horse Archers" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Cursed Arrows, Fast, Impact(1), Scout, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="154c-239c-3eb1-599e" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ba3e-2f57-8c0a-c555" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="7886-9390-cf8e-164b" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="0ce4-c3e9-1a5e-b509" name="Scout" hidden="false" targetId="7bc7-a892-49bc-ad88" type="rule"/>
+        <infoLink id="1a5a-6efe-a9ea-2cfb" name="Undead" hidden="false" targetId="8c0d-ceff-c519-3051" type="rule"/>
+        <infoLink id="e805-6faa-dc5e-d6ff" name="Cursed Arrows" hidden="false" targetId="d8ba-f400-9e95-ba0c" type="rule"/>
+        <infoLink id="a303-2314-46b6-0835" name="Bow" hidden="false" targetId="b4aa-c3c4-ef81-0ac5" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="700c-dd43-3564-19b7" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="88a9-36eb-b176-96db" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="020d-676b-b86e-b9fb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5268-3cf3-10a4-3448" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="020d-676b-b86e-b9fb" name="Skeleton Horse Archers [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7b1-314a-5543-c908" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="105.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c017-c723-b0eb-e414" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="486e-32db-58ac-425f" name="Skeletal Steed" hidden="false" collective="false" import="true" type="upgrade">
