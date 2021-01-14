@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="00b3-9ff8-266a-ae9a" name="Mummified Undead" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="13dd-be8c-ee42-2e55" name="Mummified Undead v2.8"/>
+  </publications>
+</catalogue>

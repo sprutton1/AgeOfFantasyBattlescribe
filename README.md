@@ -85,7 +85,7 @@ table!
 |High Elves|v2.7|Done|Darguth|
 |Humans|v2.6|Done|Darguth|
 |Kingdom of Angels|v2.3|Done|Perram|
-|Mummified Undead|-|NOT STARTED|-|
+|Mummified Undead|v2.8|Done|Darguth|
 |Ogres|-|NOT STARTED|-|
 |Orcs|v2.7|Done|Darguth|
 |Ossified Undead|-|NOT STARTED|-|
