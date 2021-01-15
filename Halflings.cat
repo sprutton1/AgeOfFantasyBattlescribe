@@ -1097,6 +1097,54 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="65.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="f5e5-890b-e948-25c5" name="Chicken Chariot" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="81ea-fa8d-32f9-6afa" name="Chicken Chariot" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Impact(3), Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9c29-7462-c1b9-961e" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5fdf-a816-467c-2e79" name="Beaks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ae2b-d8b2-ceea-7a91" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="7bfc-e7f2-ac8f-eee2" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="baf7-4357-1718-a29f" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="1575-859e-5e91-2f92" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2727-a690-09a8-a0c1" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f342-8d89-e5de-76f8" name="2x Shortbows" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9a7-a715-c803-b982" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="da60-d103-3835-45d8" name="Shortbow" hidden="false" targetId="ca3d-1b17-d7a7-412e" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="65.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="5934-fb8f-01a4-f6d7" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
