@@ -969,6 +969,53 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry id="e0c7-9195-5057-3d5e" name="Ice Golems" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d6d6-e409-4b20-df85" name="Ice Golems" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ice Shell, Slow, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9293-78af-823f-c094" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5b75-c0e0-721d-ef40" name="Ice Shell" publicationId="a63c-0d5e-b4f9-5fcb" hidden="false">
+          <description>Enemy units get -1 to their melee rolls when fighting against this unit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="daa8-ef0b-1d4e-8b48" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="76f0-0390-0bd9-5821" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="69ee-42a2-08b3-455e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="54be-7b4c-59e3-ffff" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="45bd-bbb7-9601-aa20" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="5094-3ab6-cc21-2a48">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c743-992f-8863-a546" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5094-3ab6-cc21-2a48" name="Ice Golems [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6942-1fba-4d92-6eb5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="130.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="5934-fb8f-01a4-f6d7" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
