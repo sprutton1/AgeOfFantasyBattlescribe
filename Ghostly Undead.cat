@@ -3,4 +3,164 @@
   <publications>
     <publication id="b347-ae55-b433-1d0c" name="Ghostly Undead v2.5"/>
   </publications>
+  <selectionEntries>
+    <selectionEntry id="480c-da6a-f817-f5e0" name="Grim King" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ae58-cd32-feff-89e5" name="Grim King" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Fear the King, Hero, Strider, Tough(6), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="36ac-5f5a-7f03-ab70" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="970b-ffa0-9e32-de42" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="2833-1517-3196-d36a" name="Fear the King" hidden="false" targetId="7cec-00b6-712d-eaf5" type="rule"/>
+        <infoLink id="24fa-11e9-f532-aac4" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="cc13-6f5e-d379-2399" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="4ca3-7da0-034e-919e" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="7889-827e-a496-e715" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="66bc-6cb8-22cf-3aeb" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="7771-df92-3266-6b86" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="4f95-d3bf-42b6-b4b9" name="Wraith Heralds" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0d9-99e3-39e6-d222" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2c90-6d25-56fc-1792" name="Wraith Heralds" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fear</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9fdd-2802-f1a0-2369" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56ad-04e8-2f35-445b" name="Grieving Queen" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7c50-e066-e92e-390f" name="Grieving Queen" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Fear, Hero, Sands of Time, Strider, Tough(6), Undead, Wizard(2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="56b1-2317-5eed-5604" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Rending</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2966-efc5-d06b-0728" name="Death Stare" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+            <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">Deadly(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d0f6-eb03-462f-3c73" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="6bb2-dc8e-ce17-787d" name="Sands of Time" hidden="false" targetId="647f-a126-ece2-dba8" type="rule"/>
+        <infoLink id="d335-9846-ae15-5a12" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="65b5-1a3a-98c6-55cd" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="68b9-7aa4-3cae-f44c" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="8909-1f34-51f7-7669" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="7ffc-fd34-c3c5-59a5" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="45c6-e711-f812-bbfb" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="2f4c-c093-1294-e27a" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+        <infoLink id="4dd2-6e2a-fb54-c08f" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+        <infoLink id="b4dd-e5a5-7c39-bca9" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="df4e-27e4-daa4-f85d" name="Show Spells" hidden="false" collective="false" import="true" targetId="b35b-a673-67cc-c292" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="b35b-a673-67cc-c292" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b0d-8f81-a8d2-63a5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4b2f-5550-f119-8b6f" name="3. Rise Again" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12” gets Regeneration next time it’s wounded.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0464-f286-7ed5-54c6" name="2. Terror" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12” must take a morale test. If failed it must take a dangerous terrain test.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="580e-61e5-f01f-dbe1" name="4. Eat Soul" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12” takes 1 hit with AP(4) and Deadly(3).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7eba-3a3f-4826-19c4" name="5. Grief" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12” gets Impact(1) next time it charges.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ba4c-4252-a24a-9b29" name="6. Vicious Spirits" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12” takes 3 automatic hits with AP(3).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2728-5384-bc69-922e" name="1. Dread" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12” may immediately charge by up to 3”.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="eb39-d592-b194-1d2c" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="798c-9b53-785e-4fda" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="e97b-9c76-0675-8105" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+        <infoLink id="67b0-238b-a721-39f9" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="7cec-00b6-712d-eaf5" name="Fear the King" publicationId="b347-ae55-b433-1d0c" hidden="false">
+      <description>When the hero is activated pick 2 enemy units within 12” and they each get -1 to their next morale test roll.</description>
+    </rule>
+    <rule id="bab2-5a17-73ea-3c7d" name="Undead" publicationId="b347-ae55-b433-1d0c" hidden="false">
+      <description>Whenever this unit takes a morale test it is passed automatically. Then roll as many dice as remaining models/tough in the unit, and for each result of 1 the unit takes one wound, which can’t be regenerated.</description>
+    </rule>
+    <rule id="d11a-8942-0a5a-15ff" name="Ethereal" publicationId="b347-ae55-b433-1d0c" hidden="false">
+      <description>Counts as having Regeneration against non-spell attacks. This stacks with Regeneration.</description>
+    </rule>
+    <rule id="647f-a126-ece2-dba8" name="Sands of Time" publicationId="b347-ae55-b433-1d0c" hidden="false">
+      <description>When the hero is activated roll one die. On a 4+ it may heal 1 wound.</description>
+    </rule>
+  </sharedRules>
 </catalogue>
