@@ -46,6 +46,32 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c87e-1fb4-ea48-39f9" name="Champion" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="39d8-d7b0-643b-2588" name="Champion" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Slow, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e1ee-3c60-e131-52de" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="3a2a-643c-30bf-d6fd" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="920f-c013-e141-66e0" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="aefa-215c-3382-3fa3" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="86f9-ac41-ca56-0908" name="Melee Weapon" hidden="false" collective="false" import="true" targetId="b729-4de6-76e6-af71" type="selectionEntryGroup"/>
+        <entryLink id="dd37-09e5-af6f-b3a2" name="Mount" hidden="false" collective="false" import="true" targetId="9d34-0b01-3ab8-a843" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="b729-4de6-76e6-af71" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="458f-6ee5-60cb-1e21">
