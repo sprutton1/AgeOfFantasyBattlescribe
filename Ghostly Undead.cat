@@ -912,6 +912,56 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry id="2225-2edd-6841-5452" name="Glaive Stalkers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0e8a-7b2a-1b4f-ea12" name="Glaive Stalkers" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Fast, Impact(1), Strider, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ddc9-31cf-174c-81f5" name="Glaive" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Rending</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="010f-6cf9-b1bf-7682" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="7d9b-6515-3ae2-3c3b" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="b2a1-0b0c-261e-961c" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="4ac9-3b29-9252-8231" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="1f3f-11f1-4f3b-de30" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="1d63-a3d4-bd49-72c5" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="9799-e72e-f30a-fcc0" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+        <infoLink id="d140-0f89-0e6b-c6e3" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dc30-7371-fc1a-851f" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="390a-a5ce-cc10-1b5a" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="6d09-e8fd-c9a9-3ff9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46e4-71eb-5f22-57a2" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6d09-e8fd-c9a9-3ff9" name="Glaive Stalkers [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="159a-d8dd-1e0a-ee5f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="110.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5426-3aa2-b997-2a1a" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="b35b-a673-67cc-c292" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
