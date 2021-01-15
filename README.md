@@ -79,7 +79,7 @@ table!
 |Eternal Wardens|-|NOT STARTED|-|
 |Ghostly Undead|-|NOT STARTED|-|
 |Goblins|v2.10|Done|Darguth|
-|Halflings|-|NOT STARTED|-|
+|Halflings|v2.3|Done|Darguth|
 |Havoc Dwarves|v2.2|Done|Darguth|
 |Havoc Warriors|Main v2.9 - Disciples v2.10|Done|cartag (Main), Darguth (Disciples)|
 |High Elves|v2.7|Done|Darguth|
