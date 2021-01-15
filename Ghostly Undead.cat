@@ -238,6 +238,38 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="455b-62d6-2993-f938" name="Ghost Wizard" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0658-e261-cac1-f23a" name="Ghost Wizard" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Hero, Strider, Tough(3), Undead, Wizard(1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1bfe-a88f-11e9-bd65" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ce9c-8eaa-9322-576f" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="1084-7d68-59f0-4eb0" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="115c-a884-35cc-836e" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="38d8-c7b6-8103-bed6" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="4d3d-2cb7-b035-251a" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="727f-c3fb-4ef5-de5c" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="ee21-770c-3f23-2092" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="b93f-690f-6b58-d518" name="Show Spells" hidden="false" collective="false" import="true" targetId="b35b-a673-67cc-c292" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="b35b-a673-67cc-c292" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
