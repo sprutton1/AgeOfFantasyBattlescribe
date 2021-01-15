@@ -868,6 +868,50 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry id="3249-f8ce-31ae-0048" name="Ghost Swarms" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b065-49d3-12df-8fa3" name="Ghost Swarms" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Strider, Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b198-9601-aa79-1b92" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="38d9-9d83-151d-8080" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="db2b-4fd4-ad6b-26c4" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="9944-f09d-caa7-9261" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="009f-0403-6e61-a606" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="654c-e3a0-82c6-0fd8" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="72e8-0284-b803-664a" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3008-dae3-75f8-33c6" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="dd90-d7c9-04a1-d6b2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0ef-8844-e6b4-e4dc" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="dd90-d7c9-04a1-d6b2" name="Ghost Swarms [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="707f-0857-1f14-9c17" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="115.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="b35b-a673-67cc-c292" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
