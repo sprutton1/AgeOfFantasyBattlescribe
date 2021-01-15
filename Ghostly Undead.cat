@@ -648,6 +648,80 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry id="020d-adc0-a5bb-98d8" name="Banshees" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b0ba-cd05-2676-c43c" name="Banshees" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Strider, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1859-7cd3-4b86-944b" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9a32-98da-9068-0809" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="bc63-3d8f-e156-a252" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="de16-aa67-0dfb-5009" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="afe0-a946-ea15-7d3d" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ceae-9d66-f3c7-ecaf" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5c14-dd24-a0eb-8107" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="84ec-0ed8-43be-1ae9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c44c-2d99-e008-4f80" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="84ec-0ed8-43be-1ae9" name="Banshees [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12ae-3e7a-61b8-a889" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3493-7076-f7f4-fb5d" name="Ranged Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ff-59d9-df95-f8db" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d8db-4138-34b9-afe6" name="Howl" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="4812-b2ea-08b4-9f20" name="Howl" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="e9b6-a568-5991-28df" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="b35b-a673-67cc-c292" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
