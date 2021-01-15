@@ -3,4 +3,231 @@
   <publications>
     <publication id="a63c-0d5e-b4f9-5fcb" name="Halflings v2.3"/>
   </publications>
+  <selectionEntries>
+    <selectionEntry id="7aeb-3501-708e-fee0" name="Lord" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e1ca-db67-e019-422b" name="Lord" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Hero, Slow, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ea6e-30a2-c6b6-f3b1" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="4e4e-8c51-e672-610e" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="e6af-c08e-e39c-d0cd" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="4d29-9651-7b0c-5b95" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d5b2-0024-6b78-58c7" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a122-07c2-28cb-a836" name="Aura of Luck" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0621-457c-31cf-96fe" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="8d49-8fab-447c-9066" name="Aura of Luck" publicationId="a63c-0d5e-b4f9-5fcb" hidden="false">
+              <description>The hero and his unit may roll 1 extra attack in melee for each unmodified roll of 6 to hit. This rule doesn’t apply to newly generated attacks.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5f4c-130e-923e-0b48" name="Melee Weapon" hidden="false" collective="false" import="true" targetId="b729-4de6-76e6-af71" type="selectionEntryGroup"/>
+        <entryLink id="d7aa-e11d-f67b-4733" name="Mount" hidden="false" collective="false" import="true" targetId="9d34-0b01-3ab8-a843" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="b729-4de6-76e6-af71" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="458f-6ee5-60cb-1e21">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06ea-8256-4620-2def" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec55-a5d3-5577-612b" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="458f-6ee5-60cb-1e21" name="Hand Weapon (A3)" hidden="false" collective="false" import="true" targetId="df9b-db26-3a90-d447" type="selectionEntry"/>
+        <entryLink id="7d1e-23ba-6ea0-286d" name="Halberd (A3)" hidden="false" collective="false" import="true" targetId="1e72-2624-86e9-0ee0" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="1af7-b24f-381e-1f07" name="2x Hand Weapons (A3)" hidden="false" collective="false" import="true" targetId="8eb1-4655-31d4-2e5c" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="a420-2e30-8d3c-18bb" name="Great Weapon (A3)" hidden="false" collective="false" import="true" targetId="89f5-3b8b-10f5-e093" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="d2f7-5eb6-2a9b-fca4" name="Spear (A3)" hidden="false" collective="false" import="true" targetId="35fe-a77c-b5e7-7610" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="15fd-07bc-4390-0ca1" name="Lance (A3)" hidden="false" collective="false" import="true" targetId="3bb1-404a-e499-ee8f" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="041f-d3f4-1c5a-a4ed" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9d34-0b01-3ab8-a843" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="041f-d3f4-1c5a-a4ed" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9d34-0b01-3ab8-a843" name="Mount" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6475-359e-1d4f-4bfd" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a925-c3a4-3b4a-82f8" name="Great Goat" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="ab91-d954-6d4f-3551" name="Great Goat" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Impact(2), Swift</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c712-3bb6-b57a-2f9c" name="Hooves" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6a4d-9ae4-eca9-5729" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+            <infoLink id="0d0c-42be-2235-d634" name="Swift" hidden="false" targetId="83dc-9bd4-7b11-7c2d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c0ca-44b4-96f8-b69b" name="Great Chicken" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="8a6d-ce0b-e49e-6b3c" name="Great Chicken" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Impact(1), Very Swift</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1dbb-8a37-aeee-cbe1" name="Beak" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ce5a-a68f-8454-4a66" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+            <infoLink id="b317-2b55-b8d1-48f6" name="Very Swift" hidden="false" targetId="3ff8-e8ed-bd25-6f31" type="rule"/>
+            <infoLink id="b63c-6394-2bc4-061f" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6621-f017-65fe-81ce" name="Great Pig" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="7ad7-feec-1083-81f0" name="Great Pig" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Impact(1), Swift, Tough(+3)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="bd95-bff8-86cd-1043" name="Hooves" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="cde4-7478-8054-536a" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+            <infoLink id="3483-0e3c-dbed-0894" name="Swift" hidden="false" targetId="83dc-9bd4-7b11-7c2d" type="rule"/>
+            <infoLink id="40ea-07c7-84c7-fc6f" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3091-9864-0c22-2ed2" name="Pig Chariot" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="e843-b617-3a82-f229" name="Pig Chariot" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Defense +2, Impact(3), Swift, Tough(+6)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d3ba-6d5a-0e00-fa9b" name="Hooves" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ec57-68d6-58ab-1f07" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+            <infoLink id="a59f-892a-2ce9-59fb" name="Swift" hidden="false" targetId="83dc-9bd4-7b11-7c2d" type="rule"/>
+            <infoLink id="931b-e324-25bd-1866" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2022-a1b1-3916-f1d0" name="Cockatrice" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="1430-2449-71c7-c024" name="Cockatrice" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Defense +2, Fear, Flying, Swift, Tough(+6)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="df6a-4b41-b145-9609" name="Beak" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(4)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f84b-4ed7-0434-c3ba" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9f79-854a-656a-109e" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+            <infoLink id="5e9f-acab-200b-de71" name="Swift" hidden="false" targetId="83dc-9bd4-7b11-7c2d" type="rule"/>
+            <infoLink id="7b0e-ac1d-d420-5fd5" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+            <infoLink id="3c05-d21f-79d8-eed4" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+            <infoLink id="02d3-8b1f-4786-7cc6" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="83dc-9bd4-7b11-7c2d" name="Swift" publicationId="a63c-0d5e-b4f9-5fcb" hidden="false">
+      <description>The hero may ignore the Slow rule.</description>
+    </rule>
+    <rule id="3ff8-e8ed-bd25-6f31" name="Very Swift" publicationId="a63c-0d5e-b4f9-5fcb" hidden="false">
+      <description>The hero may ignore the Slow rule and gets the Fast rule instead.</description>
+    </rule>
+  </sharedRules>
 </catalogue>
