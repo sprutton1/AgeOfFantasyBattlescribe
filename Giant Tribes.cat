@@ -62,6 +62,38 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a3a7-5b30-c348-15f1" name="Drunken Giant" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3e0b-0706-274f-1e38" name="Drunken Giant" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Fearless, Tough(6)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d3c3-7ce7-aa14-5db2" name="Drunken Swing" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">AD6</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ef24-baac-f6a2-1d57" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="2373-c3ce-610a-2155" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="33a2-6779-e1b9-cc0b" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="3ca4-4198-d0bb-07b1" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dd77-7162-6b9b-b100" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3420-8833-60ae-55cb" name="Giant Options" hidden="false" collective="false" import="true" targetId="60cc-4390-78bf-1a0e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="165.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="60cc-4390-78bf-1a0e" name="Giant Options" hidden="false" collective="false" import="true">
