@@ -423,6 +423,54 @@
         <entryLink id="aace-b237-0ec1-1aee" name="Weapons - Harpoons" hidden="false" collective="false" import="true" targetId="569c-b0b3-81f6-c6b5" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="84b4-6fac-a7ed-8222" name="Braves" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f433-ce85-9752-c297" name="Braves" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fearless, Furious, Slayer, Slow</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a216-0d8f-5f8f-0ea5" name="2x Hand Weapons" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="cba1-d014-7e11-c6b8" name="Slayer" publicationId="a63c-0d5e-b4f9-5fcb" hidden="false">
+          <description>This model gets AP(+2) when fighting units with Tough(3) or higher.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0f8b-69aa-53c3-32a6" name="Fearless" hidden="false" targetId="fe6b-f29d-2128-a0b0" type="rule"/>
+        <infoLink id="e8c5-5c0a-c2d0-8d20" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="740c-4799-0573-0cba" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="dd1c-99ea-3caf-12d4" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cc0d-84e9-a725-1e1e" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="46ba-f9bc-7a72-dc5e" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="da5a-4faf-e1f6-b558">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="106d-566c-557b-2d5c" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="da5a-4faf-e1f6-b558" name="Braves [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cb4-52d3-1331-e281" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="5934-fb8f-01a4-f6d7" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
