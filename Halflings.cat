@@ -501,12 +501,107 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfa2-1b1c-e810-8982" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="dd9a-08f1-d50c-912f" name="Drunks [10]" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="dd9a-08f1-d50c-912f" name="Drunks [5]" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="683a-6a9b-73ad-d544" type="max"/>
               </constraints>
               <costs>
                 <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="d82b-f2ef-5eb7-7c4e" name="Thieves" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6a1d-6934-0c4c-71d9" name="Thieves" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ambush, Slow, Strider</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5dd9-5b9d-eb03-ef85" name="2x Hand Weapons" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1b4c-3221-da82-0501" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="815a-c956-dec1-f335" name="Slow" hidden="false" targetId="394b-1b64-d270-f49e" type="rule"/>
+        <infoLink id="1076-a589-b691-cca1" name="Ambush" hidden="false" targetId="859e-e070-e91c-26e1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c52b-7385-dff7-2bf6" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c545-7e41-2771-b98d" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="ef5e-6a0e-15ee-a422">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9925-c371-c422-0b9c" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ef5e-6a0e-15ee-a422" name="Thieves [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="290d-f1f1-8afa-095f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="09e8-ea81-e359-73f0" name="Upgrades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="958e-04d4-d2ac-76c8" name="Throwing Daggers" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="10.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8388-417d-5311-3121" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2d53-1b2d-ec09-a3c1" name="Throwing Daggers" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a4e8-17ed-11dc-5bd3" name="Smoke Bombs" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b301-a65b-54aa-e570" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8d09-bdf4-8610-f67d" name="Smoke Bombs" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Stealth</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="7c17-c138-276c-9b35" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
