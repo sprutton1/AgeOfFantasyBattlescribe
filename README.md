@@ -77,7 +77,7 @@ table!
 |Deap-Sea Elves|-|NOT STARTED|-|
 |Dwarves|v2.9|Done|Darguth|
 |Eternal Wardens|-|NOT STARTED|-|
-|Ghostly Undead|-|NOT STARTED|-|
+|Ghostly Undead|v2.5|Done|Darguth|
 |Goblins|v2.10|Done|Darguth|
 |Halflings|v2.3|Done|Darguth|
 |Havoc Dwarves|v2.2|Done|Darguth|
