@@ -826,7 +826,7 @@
         <profile id="c461-fde9-0554-fce8" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
           <characteristics>
             <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
-            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
           </characteristics>
         </profile>
         <profile id="b32c-b3f5-82f8-0a26" name="Hand Cannon" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
@@ -864,6 +864,47 @@
       <entryLinks>
         <entryLink id="6f1d-dd2c-ec7f-6af8" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="d1e9-947e-dc6d-5789" name="Sabre-Tooths" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a687-ec5d-f91a-9c2c" name="Sabre-Tooths" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fast, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8ef2-1cdd-c3b7-69bb" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7dfd-528c-0ffc-2f55" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="fe56-b0cd-2d08-90f0" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c085-dc9d-e0a3-04c3" name="New CategoryLink" hidden="false" targetId="fc29-0828-4663-18ca" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8d56-b434-a57e-9623" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="30d2-ffa6-d573-7692">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcb1-c8ce-4d32-8692" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="30d2-ffa6-d573-7692" name="Sabre-Tooths [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee4c-f216-dbe5-08ff" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
