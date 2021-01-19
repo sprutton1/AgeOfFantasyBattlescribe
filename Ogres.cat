@@ -3,4 +3,164 @@
   <publications>
     <publication id="d77b-d7fc-d0c3-8d61" name="Ogres v2.4"/>
   </publications>
+  <selectionEntries>
+    <selectionEntry id="e03d-828e-3c82-eb6e" name="Warchief" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fec5-2110-6b18-a6b1" name="Warchief" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Hero, Tough(6)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bbc1-aee5-7ea7-f3b3" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="8e6b-7dba-3329-d4ff" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="7b80-ff78-0a02-c723" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="af86-2adf-b0ee-0b7a" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cc71-8103-a9a1-ed56" name="Upgrade Options - Heroes" hidden="false" collective="false" import="true" targetId="d8ad-35cc-ab5f-dfe4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="130.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="a860-5068-9f99-a129" name="Big Pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ae14-f261-0983-4dac" name="Big Pistol" hidden="false" targetId="0de1-dd71-9b0f-1d44" type="profile"/>
+        <infoLink id="c9b2-91ec-e594-19a2" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="d8ad-35cc-ab5f-dfe4" name="Upgrade Options - Heroes" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d09e-f805-acae-c09d" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6efc-b46c-7fe0-c1d9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="131a-ca3b-02ab-7544" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5315-6a73-a198-b2f4" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6efc-b46c-7fe0-c1d9" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="655d-4e2f-a0f9-dcdc" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="0dd3-7479-7d2c-49d4" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="b696-7a6a-b637-350a" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a54b-4fb1-9dec-40ac" name="Halberd" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Rending</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="1745-20b9-c7a9-c444" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+                <infoLink id="5753-5609-d146-aa98" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f30d-2df3-137e-8c8e" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="9455-73f3-cd39-0b24" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(4)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="662f-b77d-85d4-ca85" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="59f5-9c00-b0ce-6693" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a1b4-1011-4adb-ecf0" name="Spear" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Phalanx</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="8f60-76d0-a7b0-aee5" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+                <infoLink id="fd36-e752-5e2b-ca06" name="Phalanx" hidden="false" targetId="4c1e-89c9-499f-9ab9" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="192c-a0cc-5b35-d4be" name="2x Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="1c85-6333-ef4b-f6b3" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="01a7-b3e9-e2a3-8c2c" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="834a-f58c-57ea-4f5d" name="Ranged Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0e2-d396-4c85-a2e1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3b0f-e17b-5513-f1d0" name="2x Big Pistols" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0aa4-5e9a-7209-a4cf" name="Big Pistol" hidden="false" targetId="0de1-dd71-9b0f-1d44" type="profile"/>
+                <infoLink id="6c2d-539d-1b8a-88c4" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="5480-5dc2-044e-899a" name="Big Pistol" hidden="false" collective="false" import="true" targetId="a860-5068-9f99-a129" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="0de1-dd71-9b0f-1d44" name="Big Pistol" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="79f4-5578-c041-f866">18&quot;</characteristic>
+        <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+        <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>
