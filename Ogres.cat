@@ -1094,6 +1094,58 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="250.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6701-6553-8d86-ff5c" name="Giant Bison" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1ff4-b689-2a03-7f41" name="Giant Bison" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Stone Bones, Tough(9)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2328-ad8c-78ed-b3bd" name="Stomp" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A4</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bd3b-ddc9-f98a-aed1" name="Crew Attacks" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f63a-7d68-ecd9-e8c1" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="6520-0f5d-4637-618a" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="0bea-04e4-1852-ad47" name="Stone Bones" hidden="false" targetId="7bf2-86c8-3412-d85d" type="rule"/>
+        <infoLink id="5959-9041-261b-e0ea" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="7f9e-9614-d9e0-4081" name="Blast(X)" hidden="false" targetId="187f-6414-7037-a542" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ef17-bc11-80f7-4c52" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c992-b4da-337b-8b8f" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="9991-7988-327e-2bc5">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4919-16f3-9102-6f5c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4af9-6c97-a55d-dd09" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9991-7988-327e-2bc5" name="Trap-Chain" hidden="false" collective="false" import="true" targetId="63e3-95ee-d18c-e1e8" type="selectionEntry"/>
+            <entryLink id="e919-31e1-6520-3d0f" name="Harpoon Crossbow" hidden="false" collective="false" import="true" targetId="a760-1d3a-df17-d993" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="260.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-5068-9f99-a129" name="Big Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -1164,9 +1216,6 @@
         <infoLink id="2259-177a-06c7-4376" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="a715-0624-4030-c966" name="Trap-Chain" hidden="false" targetId="3636-080f-47e1-0049" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
-      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
