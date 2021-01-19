@@ -771,6 +771,49 @@
         <entryLink id="abce-e322-fa4e-519d" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="38fa-3898-75be-a6db" name="Yeti Pack" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="927e-4968-4456-a276" name="Yeti Pack" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Frost, Strider, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ebb3-0a27-9fef-a4e6" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d29d-9207-0cd4-3543" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="ceaa-0410-61ac-8d17" name="Frost" hidden="false" targetId="9b31-710a-d6ba-9564" type="rule"/>
+        <infoLink id="4f40-a030-8e17-c791" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="4c57-284a-2d12-9fed" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c473-2788-39ea-6661" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7627-f9f1-1385-64c8" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="0e5e-05b6-7891-d769">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b44-bf88-4292-c308" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0e5e-05b6-7891-d769" name="Yeti Pack [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aad7-375e-6220-36a5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="135.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-5068-9f99-a129" name="Big Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -953,6 +996,9 @@
   <sharedRules>
     <rule id="7bf2-86c8-3412-d85d" name="Stone Bones" publicationId="d77b-d7fc-d0c3-8d61" hidden="false">
       <description>This unit ignores the Deadly rule when taking wounds.</description>
+    </rule>
+    <rule id="9b31-710a-d6ba-9564" name="Frost" publicationId="d77b-d7fc-d0c3-8d61" hidden="false">
+      <description>Enemy units get -1 to their melee rolls when fighting against this unit.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
