@@ -202,6 +202,91 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="289c-84a8-74ed-c826" name="Shaman" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="244a-cbe8-f2c2-d5d4" name="Shaman" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Tough(3), Wizard(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="42ae-4de1-84a9-c10b" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="b594-c20e-d6bd-b9dc" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="d6eb-4692-a386-46d8" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0428-297e-9702-2196" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8719-32e3-fd65-3a67" name="Fire Breath" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0559-0bc1-7419-a073" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3bb1-6525-14ce-6deb" name="Fire Breath" hidden="false" targetId="3e72-2796-edff-896b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c764-ff15-056c-ee2a" name="Fire God&apos;s Blessing" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f82d-5c00-a0a1-f7da" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d2ac-61ff-0da4-3b25" name="Fire God&apos;s Blessing" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Regeneration</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="925c-b3c5-ed82-dc13" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0dc3-c264-fdbb-91ce" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="ece6-5271-8001-fa04">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e79-7a1c-6c9b-81ef" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b56-ebcd-d303-cf6b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a04e-10e5-fb36-7fcc" name="2x Hand Weapons (A3)" hidden="false" collective="false" import="true" targetId="8eb1-4655-31d4-2e5c" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f3bf-37b9-b024-7211" name="Great Weapon (A3)" hidden="false" collective="false" import="true" targetId="89f5-3b8b-10f5-e093" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ece6-5271-8001-fa04" name="Hand Weapon (A3)" hidden="false" collective="false" import="true" targetId="df9b-db26-3a90-d447" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2669-2eac-ab2e-348d" name="Wizard(2)" hidden="false" collective="false" import="true" targetId="3fd8-1309-fe4e-3b6e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cf5-9eb3-d055-2cdf" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="b881-5e09-c646-1719" name="Show Spells" hidden="false" collective="false" import="true" targetId="44c3-ca59-0968-2d9f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="a860-5068-9f99-a129" name="Big Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -215,6 +300,53 @@
         <infoLink id="6d26-df68-4eaf-7324" name="Harpoon Crossbow" hidden="false" targetId="8105-41eb-2c1e-4d37" type="profile"/>
         <infoLink id="03b1-772a-8648-f9a7" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
         <infoLink id="5781-c44d-77ce-b4b6" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="44c3-ca59-0968-2d9f" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acc6-21c9-cca6-db81" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8328-1558-ba72-299a" name="3. Crack" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; gets -2 to hit next time it shoots.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="12ad-af47-36b0-7c78" name="2. Gobble" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy model within 12&quot; takes 1 automatic hit with AP(2).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="53f3-b111-3d43-55eb" name="4. Crush" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target 2 enemy units within 6&quot; take 4 hits with AP(1) each.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7f6b-30f3-d19a-32b2" name="5. Guts" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12” may immediately charge by up to 6&quot; and gets +1 to hit for that melee.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="289d-1031-2da4-7e7f" name="6. The Maw" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12&quot; takes 8 automatic hits.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7932-0f7f-832e-d465" name="1. Gorge" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12” gets Furious next time it charges.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ca81-e14b-0a8b-b9a3" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="4999-73c7-c77a-3d6a" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
