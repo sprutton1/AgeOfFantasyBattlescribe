@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c68e-fc2e-6ddb-9949" name="Ogres" revision="1" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="d77b-d7fc-d0c3-8d61" name="Ogres v2.4"/>
+  </publications>
+</catalogue>
