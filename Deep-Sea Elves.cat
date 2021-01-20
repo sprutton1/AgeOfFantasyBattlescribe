@@ -3,4 +3,152 @@
   <publications>
     <publication id="6c8c-3c44-fe5e-b9c4" name="Deep-Sea Elves v2.5"/>
   </publications>
+  <selectionEntries>
+    <selectionEntry id="bccd-b8fb-a011-abd1" name="Deep-Sea King" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="609b-e965-4869-43be" name="Deep-Sea King" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Strider, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d412-545c-d3e6-e0c3" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="2873-a2d5-7ef6-5330" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="e05a-4bab-486e-b6e9" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9019-d411-b4ae-f094" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a501-9c1a-ca24-345a" name="Tide Master" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aa5-00a1-1e8f-0e88" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="f9b6-6b4d-3a07-cf00" name="Tide Master" publicationId="6c8c-3c44-fe5e-b9c4" hidden="false">
+              <description>When the hero is activated pick 2 friendly units within 12”, which get +1 attack in melee next time they fight.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f5a1-2434-e426-71d6" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="c459-80ba-45f7-ed49">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b1c-8f69-970a-f063" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfd0-92ab-4d2b-b553" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c459-80ba-45f7-ed49" name="Hand Weapon (A3)" hidden="false" collective="false" import="true" targetId="df9b-db26-3a90-d447" type="selectionEntry"/>
+            <entryLink id="f3f6-8b6a-9e38-0be7" name="Great Weapon (A3)" hidden="false" collective="false" import="true" targetId="89f5-3b8b-10f5-e093" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e49d-ebe2-20f6-8517" name="Halberd (A3)" hidden="false" collective="false" import="true" targetId="1e72-2624-86e9-0ee0" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a57e-91d0-e415-399f" name="Spear (A3)" hidden="false" collective="false" import="true" targetId="35fe-a77c-b5e7-7610" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1f34-5a3e-58dc-6297" name="2x Hand Weapons (A3)" hidden="false" collective="false" import="true" targetId="8eb1-4655-31d4-2e5c" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8b32-d593-384a-ba60" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="798d-c929-77a3-a15d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7bd8-c5d8-a054-3793" name="War-Eel" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="5f7b-b836-6fee-7a84" name="War-Eel" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Furious, Impact(1)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="2fdf-0021-7d35-7828" name="Electric Skin" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="d1e2-7383-9139-168c" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+                <infoLink id="0289-4454-864c-b804" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+                <infoLink id="2e5c-7207-0ce5-788f" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+                <infoLink id="aba3-4c6e-2969-3048" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9b45-5031-dddb-fae2" name="Sea-Wyrm" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="5e9b-d68f-85dd-2bf2" name="Sea-Wyrm" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Impact(3), Tough(+3)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="8b72-06ef-39f4-45b5" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="3b8d-c0d0-80bc-2fc8" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+                <infoLink id="5da6-4708-838c-9224" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+                <infoLink id="333d-5b7e-66f6-50b7" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+                <infoLink id="2fa1-8f7e-3db2-29c2" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="338a-81f8-1a6e-7036" name="Deep-Sea Dragon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c546-579b-f989-5635" name="Deep-Sea Dragon" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Defense +2, Fear, Tough(+6)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="4b4c-ab67-1c81-f38b" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="10e0-22c0-2ac0-ec33" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+                <infoLink id="09d3-b559-c010-1c58" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+                <infoLink id="4b98-6074-ce3b-77b7" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="220.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>
