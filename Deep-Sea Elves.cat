@@ -582,6 +582,78 @@
         <entryLink id="bff8-81f6-0963-dd5a" name="Weapons - Harpoons" hidden="false" collective="false" import="true" targetId="569c-b0b3-81f6-c6b5" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="e228-d561-d62d-a3a7" name="Sea Reavers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="abb2-6a8b-1ef7-6ed7" name="Sea Reavers" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Shots of Grace, Strider</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cf7e-6a96-6282-b963" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f3c2-3af8-65a4-789d" name="Shots of Grace" publicationId="6c8c-3c44-fe5e-b9c4" hidden="false">
+          <description>Whenever this unit shoots pick one shooting style:
+- Aim: +2 to hit when shooting
+- Volley: +1A when shooting</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e2ed-dc53-ce12-4323" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="763d-99b3-848a-f113" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e151-910c-e3fa-d527" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c71c-29b2-963f-9606" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="9cfb-78d2-0d9a-de0c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="619e-9562-b8a3-f1b8" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9cfb-78d2-0d9a-de0c" name="Sea Reavers [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e44-dd39-cfdb-acec" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="110.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2a3d-4d77-bc7f-08de" name="Ranged Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="af56-8f14-88d8-bdab">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73b8-58ef-f85d-ae2e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="878f-87eb-8627-a41d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="af56-8f14-88d8-bdab" name="Bow" hidden="false" collective="false" import="true" targetId="6692-eae4-9176-05bb" type="selectionEntry"/>
+            <entryLink id="3d11-6ca4-5467-6559" name="Crossbow" hidden="false" collective="false" import="true" targetId="cbe3-a564-3af7-b8a6" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8809-1870-c3be-3591" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="ca90-207e-98a0-c735" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
