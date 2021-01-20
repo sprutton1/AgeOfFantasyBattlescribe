@@ -266,6 +266,46 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="83fd-d400-3991-9962" name="Spirit Caster" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="642a-64cc-cb0e-1b0a" name="Spirit Caster" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Strider, Tough(3), Wizard(1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2b30-b84a-cead-784f" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2c51-ec5f-9929-547a" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="600d-2292-8572-72ff" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="e157-ac26-d7a0-ac53" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="2b58-65e6-f051-4894" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="96eb-320d-f88b-45ff" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a995-e8f6-2522-6187" name="Wizard(2)" hidden="false" collective="false" import="true" targetId="3fd8-1309-fe4e-3b6e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76e7-62d2-76a3-4861" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="8772-a1a1-35ab-32e3" name="Show Spells" hidden="false" collective="false" import="true" targetId="ca90-207e-98a0-c735" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="ca90-207e-98a0-c735" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
