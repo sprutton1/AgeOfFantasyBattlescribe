@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="11bd-7c94-8695-77b5" name="Ghostly Undead" revision="1" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="b347-ae55-b433-1d0c" name="Ghostly Undead v2.5"/>
+  </publications>
+  <selectionEntries>
+    <selectionEntry id="480c-da6a-f817-f5e0" name="Grim King" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ae58-cd32-feff-89e5" name="Grim King" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Fear the King, Hero, Strider, Tough(6), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="36ac-5f5a-7f03-ab70" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="970b-ffa0-9e32-de42" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="2833-1517-3196-d36a" name="Fear the King" hidden="false" targetId="7cec-00b6-712d-eaf5" type="rule"/>
+        <infoLink id="24fa-11e9-f532-aac4" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="cc13-6f5e-d379-2399" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="4ca3-7da0-034e-919e" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="7889-827e-a496-e715" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="66bc-6cb8-22cf-3aeb" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="7771-df92-3266-6b86" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="4f95-d3bf-42b6-b4b9" name="Wraith Heralds" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0d9-99e3-39e6-d222" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2c90-6d25-56fc-1792" name="Wraith Heralds" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fear</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9fdd-2802-f1a0-2369" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56ad-04e8-2f35-445b" name="Grieving Queen" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7c50-e066-e92e-390f" name="Grieving Queen" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Fear, Hero, Sands of Time, Strider, Tough(6), Undead, Wizard(2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="56b1-2317-5eed-5604" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Rending</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2966-efc5-d06b-0728" name="Death Stare" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A1</characteristic>
+            <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">Deadly(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d0f6-eb03-462f-3c73" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="6bb2-dc8e-ce17-787d" name="Sands of Time" hidden="false" targetId="647f-a126-ece2-dba8" type="rule"/>
+        <infoLink id="d335-9846-ae15-5a12" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="65b5-1a3a-98c6-55cd" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="68b9-7aa4-3cae-f44c" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="8909-1f34-51f7-7669" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="7ffc-fd34-c3c5-59a5" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="45c6-e711-f812-bbfb" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="2f4c-c093-1294-e27a" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+        <infoLink id="4dd2-6e2a-fb54-c08f" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+        <infoLink id="b4dd-e5a5-7c39-bca9" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="df4e-27e4-daa4-f85d" name="Show Spells" hidden="false" collective="false" import="true" targetId="b35b-a673-67cc-c292" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="170.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a82a-85ec-e5b8-8da5" name="Mounted Reaper" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2192-a65f-6561-6325" name="Mounted Reaper" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Fear, Flying, Hero, Impact(3), Reap, Tough(6), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e238-0df7-9b11-266e" name="Reaper&apos;s Scythe" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cd6d-5e4c-b9c5-dd45" name="Decapitate" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(4), Deadly(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bc5e-130f-2d3b-6930" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="eb6c-7b08-7071-5785" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="67d9-035d-e87f-f47f" name="Reap" hidden="false" targetId="b7b5-373a-c002-5c38" type="rule"/>
+        <infoLink id="7c88-a7c8-18b0-b058" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="2a86-d7a3-c671-eaab" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="7d6a-aec4-f2cc-94ec" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="c111-1585-0a6e-9ea3" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="9773-4e34-287b-377e" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="df54-eedb-57d9-880e" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+        <infoLink id="a117-6203-159a-bfb4" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+        <infoLink id="8c94-ef04-2e5e-d29b" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="155.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3457-93b8-dc71-5416" name="Ghost Knight" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a40e-616e-0e43-c51f" name="Ghost Knight" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Hero, Strider, Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f809-d34d-4a7c-834a" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="384c-c2e3-33ff-c757" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="318d-44e8-6eb3-511a" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="e75d-1fc2-a16e-3b2b" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="3bf7-addb-f8cf-fcaf" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="936c-bbe3-eaee-8d5d" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="ae8d-c59b-d83a-31e2" name="Cursed Lantern" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fec-02a5-8559-1b50" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="4eb6-741e-f8f1-0b55" name="Cursed Lantern" publicationId="b347-ae55-b433-1d0c" hidden="false">
+              <description>The hero and his unit get AP(+1) in melee.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="292a-d885-2cea-cb2b" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3008-4516-1b34-394a" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="f85b-ac17-8cad-89bb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b99c-7e31-424d-02f9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="688f-6941-7bed-dbcf" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f85b-ac17-8cad-89bb" name="Hand Weapon (A3)" hidden="false" collective="false" import="true" targetId="df9b-db26-3a90-d447" type="selectionEntry"/>
+            <entryLink id="816b-2f03-a672-d45b" name="2x Hand Weapons (A3)" hidden="false" collective="false" import="true" targetId="8eb1-4655-31d4-2e5c" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1164-fec9-a045-4e5e" name="Halberd (A3)" hidden="false" collective="false" import="true" targetId="1e72-2624-86e9-0ee0" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="cbfd-b8c9-3082-a70f" name="Great Weapon (A3)" hidden="false" collective="false" import="true" targetId="89f5-3b8b-10f5-e093" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="231b-9115-1842-113b" name="Spear (A3)" hidden="false" collective="false" import="true" targetId="35fe-a77c-b5e7-7610" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3104-463e-933e-a7ba" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d0d-96e4-9035-5f3c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e2dc-bdaf-93da-1863" name="Ghost Ram" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="4481-1b42-37fd-6525" name="Ghost Ram" hidden="false" typeId="a964-43c6-d8f5-e47f" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="189e-687a-bec2-51ad">Fast, Impact(3), Tough(+3)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="8d0e-1984-103a-8255" name="Horns" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="eac0-b27b-c00a-e3b7" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+                <infoLink id="fea9-b57a-631a-bc72" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+                <infoLink id="2df5-a25f-4572-8ba6" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+                <infoLink id="58e9-4bc4-6e55-df30" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="455b-62d6-2993-f938" name="Ghost Wizard" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0658-e261-cac1-f23a" name="Ghost Wizard" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Hero, Strider, Tough(3), Undead, Wizard(1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1bfe-a88f-11e9-bd65" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ce9c-8eaa-9322-576f" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="1084-7d68-59f0-4eb0" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="115c-a884-35cc-836e" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="38d8-c7b6-8103-bed6" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="4d3d-2cb7-b035-251a" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="727f-c3fb-4ef5-de5c" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="ee21-770c-3f23-2092" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="b93f-690f-6b58-d518" name="Show Spells" hidden="false" collective="false" import="true" targetId="b35b-a673-67cc-c292" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="811a-1cfe-a204-9452" name="Ghost Executioner" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e8da-689b-f16b-1aaf" name="Ghost Executioner" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Hero, Strider, Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="698d-e271-a907-cc09" name="Great Axe" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2), Deadly(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="30d7-2b38-e359-9f18" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="7a90-68a4-a8af-7f7b" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="1b89-306d-ba79-6545" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="1475-389f-0f7a-a783" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="9dda-1d64-b8fe-1ba4" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="0d29-d9ff-555c-e2d7" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="37ac-db07-18af-325e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="8994-286d-1db3-caf9" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ffde-7f4e-d2e7-2da3" name="Ghost Jailer" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d03f-07a3-4c41-ef9a" name="Ghost Jailer" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Hero, Strider, Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="818e-ccfd-7830-90a1" name="Heavy Chains" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ac6e-aba6-748c-b20a" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="3fbb-042e-88bc-8478" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="df8b-d6a7-8ba1-f4de" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="e150-04f8-c447-c839" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="ce49-a7d8-b31b-cb56" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="e697-0c6d-340b-6f5d" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="abd3-b06b-64da-8ef6" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="2974-c785-7326-03d2" name="Chained Spirit" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a867-33e8-db98-5e71" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="67ce-7d3a-70e3-2712" name="Chained Spirit" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+                <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="798e-8d73-e2c8-a8e9" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="aff1-3cef-20d1-8d3c" name="Capture Souls" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="741f-fc6d-b356-f63d" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="700f-6ee3-4a40-a6cf" name="Capture Souls" publicationId="b347-ae55-b433-1d0c" hidden="false">
+              <description>When the hero is activated pick 2 enemy units within 6” and roll one die for each. On a 2+ they take 3 automatic hits, on a 6 they take 9 automatic hits.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="552d-3297-44a4-54ab" name="Ancient Banshee" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="25c3-81e4-956c-833d" name="Ancient Banshee" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Hero, Strider, Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="48e4-ec0a-f91d-ecd1" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="955c-ad48-55aa-3d60" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="e27f-92be-7048-bf9f" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="1974-e7fa-83a5-738d" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="cf48-ed72-d269-5ebf" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="c2e5-666e-22dd-03d5" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="c82b-b6dd-1f1d-6e37" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="5ab4-1c0f-5104-b9fa" name="Howl" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf39-67a9-832f-f014" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5ef6-a9d8-5c47-6610" name="Howl" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+                <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A4</characteristic>
+                <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a075-0d0e-2f5c-2a00" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc8e-431a-e806-1fee" name="Ancient Wraith" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c76f-c04a-9e37-e95a" name="Ancient Wraith" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Hero, Strider, Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1683-18c2-a735-e7e5" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c239-2ece-2f96-0db5" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="c505-c005-354d-9f7f" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="5349-bd13-56c2-1175" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="a5d2-5733-a061-88b7" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="f43f-00e4-4271-3a8a" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="2f90-3578-309d-6b13" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="ddd2-fa38-ceb9-5fb8" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f151-e668-4826-3f96" name="Ghost Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9537-738c-cdc7-6f56" name="Ghost Horde" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Strider, Undead</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="389b-b55b-0faf-35e5" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="5e1e-60e9-3d96-0eb4" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="41db-32bf-8348-0270" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="5ee0-7d54-cae4-0334" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="efe0-0185-81e1-952c" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9b35-97a9-30ab-541a" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e8f-a7c9-f3a6-8abe">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6f9-9b7d-1344-0129" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6e8f-a7c9-f3a6-8abe" name="Ghost Horde [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eddc-ed8e-2d40-739b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="145.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="fb0a-6966-f4b7-af28" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+        <entryLink id="80fc-221d-e8ba-d844" name="Weapons - Infantry - Melee (Q5+, A1)" hidden="false" collective="false" import="true" targetId="42a4-0feb-4203-681c" type="selectionEntryGroup"/>
+        <entryLink id="70b0-1f72-5b51-d401" name="Weapons - Harpoons" hidden="false" collective="false" import="true" targetId="569c-b0b3-81f6-c6b5" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="f3ad-5d36-d695-f8ba" name="Scythed Ghosts" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3784-a239-679f-265e" name="Scythed Ghosts" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Strider, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="47f1-a352-605d-ff0e" name="Scythe-Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Rending</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c425-6b8e-8a44-d0be" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="5939-e828-6e92-a683" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="832a-aeb2-3a08-39aa" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="8482-8c50-c895-36a0" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="48bc-566f-92f6-e072" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7492-ae8c-f07e-5041" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="06b8-e9db-ff1a-f702" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="35c4-57dc-0499-9577">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6e9-e87f-d677-4287" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="35c4-57dc-0499-9577" name="Scythed Ghosts [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1d5-6cb5-4f2c-8590" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="160.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="013f-511d-f5ad-b55b" name="Ghost Reapers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b791-6e93-8e71-4929" name="Ghost Reapers" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Reap, Strider, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dd96-5adb-df80-2a08" name="Scythe" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2315-3a2e-1966-f52a" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="2ba2-fcb1-06f7-9ef4" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="eb1d-b289-9150-81a3" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="250b-a987-c5d5-6d1a" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="0f92-425b-a792-87fc" name="Reap" hidden="false" targetId="b7b5-373a-c002-5c38" type="rule"/>
+        <infoLink id="0238-7baa-5ce8-c1a2" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c7ed-33d1-474e-3ade" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cc91-5718-d4ea-ecd0" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="49ed-60cf-f505-3310">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96aa-54f1-c15a-42a7" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="49ed-60cf-f505-3310" name="Ghost Reapers [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3487-2139-6293-55fa" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="175.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6ad8-02a1-87fa-cfa5" name="Upgrades (Replace Scythe)" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="2eae-8e67-aa04-b422" name="Death Bell" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="1fad-28bf-2d18-b5b4" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fad-28bf-2d18-b5b4" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1698-0153-9b3c-81ac" name="Death Bell" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="2c43-f8a2-904e-e237" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="99fd-51a5-8028-7ece" name="Ghost Revenants" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cea4-eb8b-b463-2815" name="Ghost Revenants" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Furious, Strider, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b0ce-ad3b-2e56-01ff" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a744-77a7-bf90-0f72" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="e0c9-731b-f76a-bc44" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="d07e-1259-379a-f36f" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="ddc6-ed42-ce43-a9e9" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="a347-17a4-c1c8-013a" name="Furious" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule"/>
+        <infoLink id="a141-d891-a49e-d95b" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2970-66bf-5cac-d6b8" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4736-57f1-0dcb-28a3" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="e7a8-bff8-5e6e-0409">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1350-cffa-012a-454f" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e7a8-bff8-5e6e-0409" name="Ghost Revenants [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43bd-046d-3723-0b83" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="195.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="020d-adc0-a5bb-98d8" name="Banshees" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b0ba-cd05-2676-c43c" name="Banshees" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Strider, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1859-7cd3-4b86-944b" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9a32-98da-9068-0809" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="bc63-3d8f-e156-a252" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="de16-aa67-0dfb-5009" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="afe0-a946-ea15-7d3d" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ceae-9d66-f3c7-ecaf" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5c14-dd24-a0eb-8107" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="84ec-0ed8-43be-1ae9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c44c-2d99-e008-4f80" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="84ec-0ed8-43be-1ae9" name="Banshees [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12ae-3e7a-61b8-a889" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="70.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3493-7076-f7f4-fb5d" name="Ranged Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ff-59d9-df95-f8db" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d8db-4138-34b9-afe6" name="Howl" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="4812-b2ea-08b4-9f20" name="Howl" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="e9b6-a568-5991-28df" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="effd-c4db-1934-fec6" name="Mourner Banshees" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0db4-4d15-5669-0178" name="Mourner Banshees" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Strider, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="39bd-c21c-8ecb-9e5a" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">Rending</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8887-7da6-215d-908c" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="b3ea-9364-29fb-3af0" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="4a68-4067-3f6e-f157" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="3ae8-129e-63c6-c319" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="c0ec-78ee-68c5-f340" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6c4d-efca-24a2-f6e5" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5a1b-f7a2-030f-990f" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="7be8-0800-2135-ae31">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e22-079d-477b-588a" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7be8-0800-2135-ae31" name="Mourner Banshees [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaae-85c5-8987-8ba1" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9f91-dbe3-bb97-d539" name="Ranged Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfde-fcc1-036e-dc07" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5542-fa62-3ae5-32d1" name="Howl" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="50.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="8762-ad4d-01f3-4319" name="Howl" hidden="false" typeId="3c71-da94-e5b3-d7c8" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="79f4-5578-c041-f866">12&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="4633-0aa3-94f7-3be7">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="9fb1-424b-834c-5e7d">AP(1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="b1fa-47ce-cc6e-4660" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c615-c0d4-04d0-9f41" name="Upgrades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="bc78-4351-bf1b-8c43" name="Spell Eater" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="e2a4-4580-06b4-f4ab" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2a4-4580-06b4-f4ab" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="a2dd-c775-5384-0110" name="Spell Eater" publicationId="b347-ae55-b433-1d0c" hidden="false">
+                  <description>This unit may block spells as if it had the Wizard special rule.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="a437-2375-b2d3-d468" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="4048-86ec-7f44-33b0" name="Wraiths" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1e9a-c8a5-2fca-7592" name="Wraiths" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Strider, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3180-2a51-3bf4-059f" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1188-c488-f383-8967" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="74a1-6480-942a-8191" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="95dc-8847-97e1-7425" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="2fba-8e0d-b7ca-5810" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="d39c-75de-52d8-55a4" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e3ff-2b04-57d8-8bb0" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="82e4-0e0d-7109-ac04" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="80d4-af4d-3322-9da2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cfa-ae67-02ce-9d90" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="80d4-af4d-3322-9da2" name="Wraiths [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a46f-ba97-9f2d-40d4" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="75.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="3249-f8ce-31ae-0048" name="Ghost Swarms" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b065-49d3-12df-8fa3" name="Ghost Swarms" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Strider, Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b198-9601-aa79-1b92" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="38d9-9d83-151d-8080" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="db2b-4fd4-ad6b-26c4" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="9944-f09d-caa7-9261" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+        <infoLink id="009f-0403-6e61-a606" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="654c-e3a0-82c6-0fd8" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="72e8-0284-b803-664a" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3008-dae3-75f8-33c6" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="dd90-d7c9-04a1-d6b2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0ef-8844-e6b4-e4dc" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="dd90-d7c9-04a1-d6b2" name="Ghost Swarms [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="707f-0857-1f14-9c17" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="115.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="2225-2edd-6841-5452" name="Glaive Stalkers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0e8a-7b2a-1b4f-ea12" name="Glaive Stalkers" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Fast, Impact(1), Strider, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ddc9-31cf-174c-81f5" name="Glaive" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Rending</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="010f-6cf9-b1bf-7682" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="7d9b-6515-3ae2-3c3b" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="b2a1-0b0c-261e-961c" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="4ac9-3b29-9252-8231" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="1f3f-11f1-4f3b-de30" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="1d63-a3d4-bd49-72c5" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="9799-e72e-f30a-fcc0" name="Rending" hidden="false" targetId="9726-accd-9015-f6f6" type="rule"/>
+        <infoLink id="d140-0f89-0e6b-c6e3" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dc30-7371-fc1a-851f" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="390a-a5ce-cc10-1b5a" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="6d09-e8fd-c9a9-3ff9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46e4-71eb-5f22-57a2" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6d09-e8fd-c9a9-3ff9" name="Glaive Stalkers [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="159a-d8dd-1e0a-ee5f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="110.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5426-3aa2-b997-2a1a" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="2775-50e7-1c2e-3d00" name="Hexed Knights" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9714-f5c7-20a8-13a5" name="Hexed Knights" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Fast, Impact(1), Strider, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="28a9-5a6d-bf61-3326" name="Great Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="522e-8b41-29ef-a800" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="e488-c743-7acb-e542" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="4391-2ae9-c92a-3da5" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="256a-6e8c-6258-b7cc" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="325c-e778-986d-6b63" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="15f1-21c3-6cdc-d705" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="cca4-e147-5332-a93e" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9047-9452-6553-14a9" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5aee-6254-0a85-3cbb" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="8e11-1a00-fb05-8c24">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee4d-ebe6-931e-5f87" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8e11-1a00-fb05-8c24" name="Hexed Knights [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abcb-facf-151b-4b2a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="140.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="c709-92c7-0fcb-3a64" name="Dread Knights" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c6db-2cfa-1ccc-cac6" name="Dread Knights" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">6+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ethereal, Fast, Impact(2), Strider, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cae7-c283-f4ea-cf6e" name="Hand Weapon" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A2</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="445e-8966-ae27-6ec2" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="e0b2-e5b5-b3fe-5710" name="Undead" hidden="false" targetId="bab2-5a17-73ea-3c7d" type="rule"/>
+        <infoLink id="05a7-0ebe-093c-dd90" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="815c-9d40-dd7c-d3ee" name="Fast" hidden="false" targetId="f6ca-56fe-a21c-08fa" type="rule"/>
+        <infoLink id="b48c-aa06-b0cf-3bc9" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+        <infoLink id="7a6b-1d6b-b567-5af2" name="Ethereal" hidden="false" targetId="d11a-8942-0a5a-15ff" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="292b-8728-3bc6-30cb" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0d4f-f8f3-2391-c34e" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="0623-ab9d-953d-d5f7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0a1-085e-e33e-eaea" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0623-ab9d-953d-d5f7" name="Dread Knights [5]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eb7-14f0-fd82-391f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="155.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3a60-8f34-a4f6-5af7" name="Upgrades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="4dc6-8f80-a83e-fc0d" name="Ambush" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="60.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83e0-7d7b-d1fa-5428" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0ba0-9c2d-1014-4ca9" name="Ambush" hidden="false" targetId="859e-e070-e91c-26e1" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="b35b-a673-67cc-c292" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b0d-8f81-a8d2-63a5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4b2f-5550-f119-8b6f" name="3. Rise Again" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12” gets Regeneration next time it’s wounded.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0464-f286-7ed5-54c6" name="2. Terror" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12” must take a morale test. If failed it must take a dangerous terrain test.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="580e-61e5-f01f-dbe1" name="4. Eat Soul" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">5+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12” takes 1 hit with AP(4) and Deadly(3).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7eba-3a3f-4826-19c4" name="5. Grief" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12” gets Impact(1) next time it charges.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ba4c-4252-a24a-9b29" name="6. Vicious Spirits" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12” takes 3 automatic hits with AP(3).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2728-5384-bc69-922e" name="1. Dread" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">4+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target friendly unit within 12” may immediately charge by up to 3”.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="eb39-d592-b194-1d2c" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+        <infoLink id="798c-9b53-785e-4fda" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="e97b-9c76-0675-8105" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+        <infoLink id="67b0-238b-a721-39f9" name="Impact(X)" hidden="false" targetId="0c08-1729-0be7-c286" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="7cec-00b6-712d-eaf5" name="Fear the King" publicationId="b347-ae55-b433-1d0c" hidden="false">
+      <description>When the hero is activated pick 2 enemy units within 12” and they each get -1 to their next morale test roll.</description>
+    </rule>
+    <rule id="bab2-5a17-73ea-3c7d" name="Undead" publicationId="b347-ae55-b433-1d0c" hidden="false">
+      <description>Whenever this unit takes a morale test it is passed automatically. Then roll as many dice as remaining models/tough in the unit, and for each result of 1 the unit takes one wound, which can’t be regenerated.</description>
+    </rule>
+    <rule id="d11a-8942-0a5a-15ff" name="Ethereal" publicationId="b347-ae55-b433-1d0c" hidden="false">
+      <description>Counts as having Regeneration against non-spell attacks. This stacks with Regeneration.</description>
+    </rule>
+    <rule id="647f-a126-ece2-dba8" name="Sands of Time" publicationId="b347-ae55-b433-1d0c" hidden="false">
+      <description>When the hero is activated roll one die. On a 4+ it may heal 1 wound.</description>
+    </rule>
+    <rule id="b7b5-373a-c002-5c38" name="Reap" publicationId="b347-ae55-b433-1d0c" hidden="false">
+      <description>For each unmodified roll of 6 to hit when attacking in melee this model may roll 1 extra attack. This rule doesn’t apply to newly generated attacks.</description>
+    </rule>
+  </sharedRules>
+</catalogue>

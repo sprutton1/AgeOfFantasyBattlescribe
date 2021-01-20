@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d0e7-e929-21a7-6bbf" name="Beastmen" revision="1" battleScribeVersion="2.03" authorName="cartag" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d0e7-e929-21a7-6bbf" name="Beastmen" revision="2" battleScribeVersion="2.03" authorName="cartag" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="2eed-57f2-018c-13f9" name="Beastmen v2.4"/>
   </publications>
@@ -12,14 +12,22 @@
     <entryLink id="4dab-deb9-9d4e-2b20" name="Elites" hidden="false" collective="false" import="true" targetId="79a0-e59a-bb87-fc81" type="selectionEntry"/>
     <entryLink id="6cd3-9cf9-4523-b185" name="Warriors" hidden="false" collective="false" import="true" targetId="f0b3-cdbe-7e1d-3206" type="selectionEntry"/>
     <entryLink id="6cde-a0dc-7421-cf0e" name="Raiders" hidden="false" collective="false" import="true" targetId="ecaf-57c9-7b79-f93d" type="selectionEntry"/>
-    <entryLink id="4faf-8061-f3ae-6082" name="Boar Chariot" hidden="false" collective="false" import="true" targetId="6dfd-7f70-2988-43ed" type="selectionEntry"/>
+    <entryLink id="4faf-8061-f3ae-6082" name="Boar Chariot" hidden="false" collective="false" import="true" targetId="6dfd-7f70-2988-43ed" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="39c7-3ffc-9970-7993" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="false"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="4bf8-9348-155e-a9da" name="Havoc Hounds" hidden="false" collective="false" import="true" targetId="a3b1-b505-0494-cb47" type="selectionEntry"/>
     <entryLink id="fe7d-a1ae-57be-e26c" name="Hunter Chariot" hidden="false" collective="false" import="true" targetId="0a7c-09eb-9757-d3f4" type="selectionEntry"/>
     <entryLink id="0d65-031a-0c6e-1304" name="Minotaur Giant" hidden="false" collective="false" import="true" targetId="cbea-330d-92e6-4d97" type="selectionEntry"/>
     <entryLink id="08ec-dc3f-28e8-8221" name="Minotaurs" hidden="false" collective="false" import="true" targetId="1a17-7e86-a709-3b12" type="selectionEntry"/>
     <entryLink id="9898-ad8f-3715-a068" name="Slimy Beast" hidden="false" collective="false" import="true" targetId="cb79-c930-a84d-5f48" type="selectionEntry"/>
     <entryLink id="0f83-4e14-3c21-92ed" name="Crazed Boars" hidden="false" collective="false" import="true" targetId="fbe3-291b-cfc9-b64a" type="selectionEntry"/>
-    <entryLink id="fec0-2d08-465f-792b" name="Centaurs" hidden="false" collective="false" import="true" targetId="40d0-a235-e09b-68f3" type="selectionEntry"/>
+    <entryLink id="fec0-2d08-465f-792b" name="Centaurs" hidden="false" collective="false" import="true" targetId="40d0-a235-e09b-68f3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="913f-43ed-2070-4a3b" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="0827-0b83-8816-40d2" name="Cyclops" hidden="false" collective="false" import="true" targetId="8bd5-feee-52cf-52ad" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
@@ -662,7 +670,7 @@
         <infoLink id="40f7-be75-9808-bc05" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e052-1930-0980-ad01" name="New CategoryLink" hidden="false" targetId="d248-d52b-61c0-d4d9" primary="true"/>
+        <categoryLink id="186d-8714-1d4d-d2e6" name="New CategoryLink" hidden="false" targetId="fc29-0828-4663-18ca" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="83ef-feb3-34b8-c5d1" name="5 Hounds" hidden="false" collective="false" import="true" type="model">
@@ -909,7 +917,7 @@
         <infoLink id="86f8-12be-4606-5b45" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4143-b42d-098b-0b89" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="686b-eaa5-8529-092d" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="dc10-e63b-f1aa-308b" name="Claws(A2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -994,7 +1002,7 @@
         <infoLink id="148c-0f7d-50d2-002b" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7a32-5484-c8b9-0f54" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="d0cb-5f4a-3eed-cf05" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="724e-be48-afee-fc6c" name="Tusks(A3)" hidden="false" collective="false" import="true" targetId="7eda-7cc9-42a6-2c6e" type="selectionEntry"/>
@@ -1026,7 +1034,7 @@
         <infoLink id="3228-5366-4eaf-38f7" name="Wizard(X)" hidden="false" targetId="ba47-b43b-18f8-97c1" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a0d8-bbf6-fa64-6a20" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="baaa-4d7d-3905-e7e3" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b2d0-9e9e-2d33-3827" name="Claws (A6, AP(1))" hidden="false" collective="false" import="true" type="upgrade">
@@ -1092,7 +1100,7 @@
         <infoLink id="2eeb-09d7-8c7f-046e" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="60dc-a16c-0cb1-be6b" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="6834-715c-5feb-a1cb" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3f34-11a5-2d79-57cb" name="Claws (A6, AP(1))" hidden="false" collective="false" import="true" type="upgrade">
@@ -1141,7 +1149,7 @@
         <infoLink id="4252-df99-459c-2b7b" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="acee-5589-a9ff-8257" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="f8f8-42b5-c06e-f2c9" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e4a1-fe93-c3f4-efa6" name="Claws (A6, AP(1), Poison)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1225,6 +1233,9 @@
             <infoLink id="a9e0-3a6a-ddee-8405" name="5. Animalistic" hidden="false" targetId="78b3-e570-8a03-bf15" type="profile"/>
             <infoLink id="3003-4e73-d6ea-f0ed" name="6. Howling Roar" hidden="false" targetId="b90f-5c2f-26e0-dfac" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

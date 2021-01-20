@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="040f-53de-2e2d-7666" name="Dwarves" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="040f-53de-2e2d-7666" name="Dwarves" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="203a-872c-5637-fe03" name="Dwarves v2.9"/>
   </publications>
@@ -91,42 +91,42 @@
     </entryLink>
     <entryLink id="f6ab-c663-7c73-130d" name="Attack Helicopter" hidden="false" collective="false" import="true" targetId="5101-fa8f-c4f8-4f53" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="e391-5eed-033b-8ceb" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="ec27-ba88-ea28-dd17" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7d05-dab4-bb86-1db9" name="Bomber Helicopter" hidden="false" collective="false" import="true" targetId="b6b3-d8ce-aaa4-838d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4fc4-01cf-5e4b-80b0" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="cf07-c040-68f3-393e" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d1f1-d545-000b-0449" name="Giant Construct" hidden="false" collective="false" import="true" targetId="f28c-1490-aac9-52c7" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6c35-7035-606d-c6ee" name="New CategoryLink" hidden="false" targetId="2ac9-aad6-b0c0-3833" primary="true"/>
+        <categoryLink id="b8de-1522-49e9-85a9" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3260-b4d4-d9ce-ca22" name="Cannon" hidden="false" collective="false" import="true" targetId="43d7-d37b-14e3-d6a8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4a39-df32-787e-17d5" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="b378-dc9d-fb38-52a7" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f537-29e5-f56f-cff6" name="Flame Cannon" hidden="false" collective="false" import="true" targetId="47f3-42d1-3aa6-e7bb" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="e319-3fa6-b6d5-ec73" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="f646-2699-7af4-6827" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2bca-3359-2f23-8b50" name="Organ Gun" hidden="false" collective="false" import="true" targetId="5498-8502-79c8-5ba6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4299-0a2e-fffa-2fff" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="a81c-37b0-b0e2-20df" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0893-e057-a13f-0d45" name="Bolt Thrower" hidden="false" collective="false" import="true" targetId="7962-9824-eed3-964c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b0b4-114b-d2fd-1fb1" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="fbbc-f98b-ac4c-e4e5" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e727-2207-755d-e468" name="Stone Thrower" hidden="false" collective="false" import="true" targetId="fb6b-df9a-94db-fbe8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7da0-fbac-7734-a2af" name="New CategoryLink" hidden="false" targetId="a4d0-1721-c616-6775" primary="true"/>
+        <categoryLink id="5d1f-3bc6-f649-ae9e" name="New CategoryLink" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
