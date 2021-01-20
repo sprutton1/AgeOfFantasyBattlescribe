@@ -306,6 +306,47 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="45.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="278e-c2cd-1e17-bab0" name="Spirit Render" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b223-af17-71a6-8fd1" name="Spirit Render" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Lantern of Souls, Strider, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9e0f-b435-9aa0-c1af" name="Giant Hook" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="46fd-9483-ed63-b909" name="Pet Swordfish" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1), Deadly(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c5e3-2043-b090-89f1" name="Lantern of Souls" publicationId="6c8c-3c44-fe5e-b9c4" hidden="false">
+          <description>Whenever the hero and his unit cause a wound place a healing marker next to any friendly unit within 12”. When a unit with healing markers takes a wound you may remove one healing marker and roll one die, on a 4+ the wound is ignored.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f955-cfcd-476a-b17e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="1a3d-874b-0bdd-38bd" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="c018-ce6a-4ae4-5c31" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="8624-c1dc-8817-7144" name="Deadly(X)" hidden="false" targetId="377b-3864-960e-57ac" type="rule"/>
+        <infoLink id="c8c4-38bf-52c2-fcd9" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="66d9-7ba4-06cc-4313" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="ca90-207e-98a0-c735" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
