@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="0edd-7f51-27fd-8d8b" name="Deep-Sea Elves" revision="1" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="6c8c-3c44-fe5e-b9c4" name="Deep-Sea Elves v2.5"/>
+  </publications>
+</catalogue>
