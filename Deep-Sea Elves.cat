@@ -750,6 +750,49 @@
         <entryLink id="a819-cee9-5baa-fbc6" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="ec41-3bea-ee4d-8229" name="Giant Crabs" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2ac7-d2a5-a135-3d65" name="Giant Crabs" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">3+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ambush, Strider, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="afe9-d904-6486-2aac" name="Pincers" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A3</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0892-7544-e26d-cb8b" name="Ambush" hidden="false" targetId="859e-e070-e91c-26e1" type="rule"/>
+        <infoLink id="58bf-75f2-8250-773a" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="c257-c6d6-8c39-fb7a" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="ebfe-7f5f-8e2b-cd63" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="deee-5128-4943-8419" name="New CategoryLink" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="19c5-f138-a23b-903a" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="f0d7-e5a6-df39-7cb0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="765a-3ebd-dc29-2cdb" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f0d7-e5a6-df39-7cb0" name="Giant Crabs [3]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="334d-ddce-bc3c-8348" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="180.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="ca90-207e-98a0-c735" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
