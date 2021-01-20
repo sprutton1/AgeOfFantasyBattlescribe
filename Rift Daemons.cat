@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6f58-1546-0f5a-24f2" name="Rift Daemons" revision="2" battleScribeVersion="2.03" authorName="cartag" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b44-4dae-4561-9d7f" name="Rift Daemons" revision="2" battleScribeVersion="2.03" authorName="cartag" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="26a7-8eba-5611-16d4" name="Rift Daemons v2.8"/>
   </publications>
