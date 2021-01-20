@@ -347,6 +347,39 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d547-0e77-7e7f-a497" name="Spirit Ledger" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fa4e-f818-b13c-fe0b" name="Spirit Ledger" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Hero, Spirit Ledger, Strider, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="70c9-8a0a-ccab-03a0" name="Octopus Bodyguard" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A8</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="109f-a478-ff07-04c4" name="Spirit Ledger" publicationId="6c8c-3c44-fe5e-b9c4" hidden="false">
+          <description>The hero and his unit get +1 to hit rolls in melee and +1 to morale test rolls.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0cce-5d10-e246-599d" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="41c5-05f7-01a9-64c0" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="ea94-4315-6693-886a" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4972-5b1d-b0fa-b61f" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="95.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="ca90-207e-98a0-c735" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
