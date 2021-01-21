@@ -256,6 +256,48 @@
         <entryLink id="1fe9-549d-c027-bd79" name="Weapons - Harpoons" hidden="false" collective="false" import="true" targetId="569c-b0b3-81f6-c6b5" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="3584-ce9b-e9fb-51e6" name="Phantoms" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f58c-e1ad-5e10-7967" name="Phantoms" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Flying, Stealth, Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e4bc-7b12-a3a8-56dc" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="50e7-cb5a-4174-471c" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
+        <infoLink id="a06d-afd5-ab9d-f24a" name="Undead" hidden="false" targetId="4081-d06d-8002-d864" type="rule"/>
+        <infoLink id="eb47-1a29-e620-f979" name="Flying" hidden="false" targetId="adc6-ddd5-223d-29b1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fadd-da8e-142b-3098" name="New CategoryLink" hidden="false" targetId="dfbf-5076-f148-2f58" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="615e-016d-3642-9395" name="* Unit Size *" hidden="false" collective="false" import="true" defaultSelectionEntryId="0c46-3377-da4b-febe">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fcc-2822-6784-8995" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0c46-3377-da4b-febe" name="Phantoms [10]" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70af-dcca-b7f0-0c39" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="215.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="cc9d-b43a-56d6-620d" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
