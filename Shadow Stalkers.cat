@@ -790,6 +790,43 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="185.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="78c6-f540-28a4-5523" name="Cthulu Terror" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4108-964b-02ad-faa1" name="Cthulu Terror" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">3+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Ensnare, Fear, Regeneration, Stealth, Strider, Tough(6), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b360-9998-0883-36d0" name="Tentacles" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A12</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022">AP(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ecd8-5b63-f4da-df73" name="Ensnare" publicationId="711d-10cb-f44b-7de8" hidden="false">
+          <description>Enemy units get -1 to their melee rolls when fighting against this unit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6224-e5d8-8f48-6f3a" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
+        <infoLink id="2859-7087-9504-9a24" name="Undead" hidden="false" targetId="4081-d06d-8002-d864" type="rule"/>
+        <infoLink id="a4cb-e1ae-edc4-b457" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="0643-1263-a34f-52fd" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
+        <infoLink id="70a4-3ce2-1359-2d0c" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
+        <infoLink id="4167-e699-bf74-f57e" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="16a8-9d13-b95d-e425" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7349-32e6-c489-f67d" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="240.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="cc9d-b43a-56d6-620d" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
