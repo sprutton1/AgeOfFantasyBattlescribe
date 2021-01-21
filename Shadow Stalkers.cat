@@ -139,6 +139,84 @@
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9313-8a7c-1b47-f77e" name="Horror" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b7b6-54e0-24a2-918e" name="Horror" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">5+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Hero, Stealth, Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="725a-e057-df70-2225" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A1</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b9ab-dcd1-aafd-7ea3" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="a914-4b33-71e1-43e8" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
+        <infoLink id="c977-396a-bff6-ce65" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="331c-d149-1bda-ad12" name="Undead" hidden="false" targetId="4081-d06d-8002-d864" type="rule"/>
+        <infoLink id="c923-a61a-b75f-14c5" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a842-5976-927d-4af7" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5ee0-0990-a877-0862" name="Vicious Aura" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c39-2522-f443-97c4" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="ae68-f62e-ea2b-dc78" name="Vicious Aura" publicationId="711d-10cb-f44b-7de8" hidden="false">
+              <description>The hero and his unit get the Poison rule in melee.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="4c82-40c5-5cdd-0fab" name="Poison" hidden="false" targetId="2c45-0e1e-fec5-8dbb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6de0-e01a-fbdb-8336" name="Wizard(X)" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bf1-08e6-8ada-1937" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="570f-e733-fccf-ee16" name="Wizard(1)" hidden="false" collective="false" import="true" targetId="b2d2-cfaf-8ce6-6198" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5cd6-fc8b-613c-81c7" name="Wizard(2)" hidden="false" collective="false" import="true" targetId="3fd8-1309-fe4e-3b6e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b2cd-ed06-f0e6-8191" name="Show Spells" hidden="false" collective="false" import="true" targetId="cc9d-b43a-56d6-620d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6de0-e01a-fbdb-8336" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="50.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="cc9d-b43a-56d6-620d" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
