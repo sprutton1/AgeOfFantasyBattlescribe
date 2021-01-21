@@ -3,4 +3,53 @@
   <publications>
     <publication id="711d-10cb-f44b-7de8" name="Shadow Stalkers v2.2"/>
   </publications>
+  <selectionEntries>
+    <selectionEntry id="a4f4-6f97-fc40-2a25" name="Scarecrow King" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="210a-9380-9e57-1a1c" name="Scarecrow King" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">4+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">4+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Hero, Stealth, Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4f6e-8e11-a291-b90a" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+        <infoLink id="ec07-b29d-15d8-b502" name="Hero" hidden="false" targetId="5065-c3a4-a9cf-db27" type="rule"/>
+        <infoLink id="0f8a-c221-c14b-d3f8" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
+        <infoLink id="280b-f8c7-ead2-2fa9" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="0c7f-fedf-b802-2f5a" name="Undead" hidden="false" targetId="4081-d06d-8002-d864" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6841-82f3-c461-e2a0" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="143a-73d0-2db7-543e" name="Pumpkin Master" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47cc-2f3b-b6f0-3f24" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="d3a8-3a2f-bba6-d388" name="Pumpkin Master" publicationId="711d-10cb-f44b-7de8" hidden="false">
+              <description>If the hero is part of a unit of Scarecrows, then that unit has Quality 4+.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="90.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0385-7aed-52ba-6383" name="Weapons - Heroes (A3)" hidden="false" collective="false" import="true" targetId="a6ff-4cea-61c7-ad69" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="65.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedRules>
+    <rule id="4081-d06d-8002-d864" name="Undead" publicationId="711d-10cb-f44b-7de8" hidden="false">
+      <description>Whenever this unit takes a morale test it is passed automatically. Then roll as many dice as remaining models/tough in the unit, and for each result of 1 the unit takes one wound, which can’t be regenerated.</description>
+    </rule>
+  </sharedRules>
 </catalogue>
