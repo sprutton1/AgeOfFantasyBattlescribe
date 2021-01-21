@@ -74,7 +74,7 @@ table!
 |Beastmen|v2.4|Done|cartag|
 |Chivalrous Kingdoms|v2.5|Done|Darguth|
 |Dark Elves|v2.6|Done|Darguth|
-|Deap-Sea Elves|-|NOT STARTED|-|
+|Deap-Sea Elves|v2.5|Done|Darguth|
 |Dwarves|v2.9|Done|Darguth|
 |Eternal Wardens|-|NOT STARTED|-|
 |Ghostly Undead|v2.5|Done|Darguth|
