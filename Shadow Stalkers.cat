@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d7f8-1e90-714d-9b22" name="Shadow Stalkers" revision="1" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="711d-10cb-f44b-7de8" name="Shadow Stalkers v2.2"/>
+  </publications>
+</catalogue>
