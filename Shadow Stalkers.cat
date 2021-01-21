@@ -663,7 +663,7 @@
             </selectionEntry>
             <selectionEntry id="1ffd-beeb-d93a-c818" name="2x Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="40.0">
                   <conditions>
                     <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
                   </conditions>
@@ -681,12 +681,41 @@
                 <infoLink id="b179-db3a-3f02-6520" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="c3c2-4e6d-0be7-8508" name="Horror Swarm" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8cf3-ba9d-3424-35fd" name="Horror Swarm" hidden="false" typeId="a8fa-e9ce-c38a-c73e" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c619-fc26-5d0b-187d">5+</characteristic>
+            <characteristic name="Defense" typeId="5564-b1cb-27d0-1af7">2+</characteristic>
+            <characteristic name="Special Rules" typeId="6039-8041-2416-3f32">Fear, Stealth, Tough(3), Undead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3ccc-fc73-e955-4fe8" name="Claws" hidden="false" typeId="a876-7ff4-b28f-0999" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="af84-b2a4-6a80-9e7b">A6</characteristic>
+            <characteristic name="Special Rules" typeId="7a54-240f-72ef-5022"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9f54-d3e9-b622-bf16" name="Stealth" hidden="false" targetId="1b59-5d31-4675-c926" type="rule"/>
+        <infoLink id="a891-02ed-641f-1b7e" name="Undead" hidden="false" targetId="4081-d06d-8002-d864" type="rule"/>
+        <infoLink id="2e3d-e3ed-0328-60ea" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="0e7a-c804-d65d-7e8d" name="Fear" hidden="false" targetId="d21e-0b0f-ebec-46da" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c9a2-5f60-07e8-a276" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
