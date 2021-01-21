@@ -96,7 +96,7 @@ table!
 |Shadow Stalkers|-|NOT STARTED|-|
 |Sky-City Dwarves|v2.7|Done|Darguth|
 |Vampiric Undead|v2.8|Done|Darguth|
-|Volcanic Dwarves|-|NOT STARTED|-|
+|Volcanic Dwarves|v2.8|Done|kuroi-usagi|
 |Wood Elves|v2.7|Done|Darguth|
 
 ## Reporting an issue
@@ -107,4 +107,4 @@ Github issue so that myself or the owner of that file can address it.
 # Credits
 
 Scott Prutton for creation and maintenance of the repo and build infrastructure.
-Darguth, cartag and Perram for army catalog authorship.
+Darguth, cartag, Perram and kuroi-usagi for army catalog authorship.
