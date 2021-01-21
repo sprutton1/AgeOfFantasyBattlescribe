@@ -300,13 +300,9 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="a82b-f806-7e23-af2b" name="Command Group" hidden="false" collective="false" import="true" targetId="9ef2-ae67-0a46-a60a" type="selectionEntryGroup"/>
-        <entryLink id="8a5d-876d-729c-6675" name="Harpoon" hidden="false" collective="false" import="true" targetId="c27c-a967-632d-29d5" type="selectionEntry">
-          <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
-          </costs>
-        </entryLink>
         <entryLink id="b62a-54f4-5dd0-a786" name="Weapons - Infantry - Melee (Q4+, A1)" hidden="false" collective="false" import="true" targetId="1121-3c82-993b-18a3" type="selectionEntryGroup"/>
         <entryLink id="968e-9e3d-759c-d747" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="ac3d-6a13-4ed0-48af" type="selectionEntryGroup"/>
+        <entryLink id="6578-2a22-9bbd-a8f3" name="Weapons - Harpoons" hidden="false" collective="false" import="true" targetId="569c-b0b3-81f6-c6b5" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
@@ -354,7 +350,18 @@
           </constraints>
           <entryLinks>
             <entryLink id="bed2-8798-b6c9-4ce1" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="e5cd-e60e-53a9-7ce4" type="selectionEntry"/>
-            <entryLink id="0886-5d1c-e802-5c65" name="2x Hand Weapons (A1)" hidden="false" collective="false" import="true" targetId="3864-81be-1759-179c" type="selectionEntry"/>
+            <entryLink id="0886-5d1c-e802-5c65" name="2x Hand Weapons (A1)" hidden="false" collective="false" import="true" targetId="3864-81be-1759-179c" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="567f-6468-66c6-2ea2" value="30.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="15.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
