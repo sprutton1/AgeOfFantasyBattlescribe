@@ -753,6 +753,12 @@
             <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy unit within 12” gets -3 to melee rolls next time it fights.</characteristic>
           </characteristics>
         </profile>
+        <profile id="670e-4f38-d4e6-e0c0" name="6. Lava Bolts" publicationId="2eca-a171-46e8-aaa3" hidden="false" typeId="57dc-caf6-641d-327b" typeName="Wizard Spell">
+          <characteristics>
+            <characteristic name="Roll" typeId="86f2-adcb-3afd-566c">6+</characteristic>
+            <characteristic name="Details" typeId="e490-3d41-dc85-9d0f">Target enemy model within 12&quot; takes 3 automatic hits with AP(2).</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="4658-c1c7-f554-e70e" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
