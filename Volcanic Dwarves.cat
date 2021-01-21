@@ -471,6 +471,7 @@
         <infoLink id="295a-66d1-76b8-9336" name="Regeneration" hidden="false" targetId="dea8-a8f9-1865-4424" type="rule"/>
         <infoLink id="e20a-50cb-bfcc-3036" name="Strider" hidden="false" targetId="9dea-b566-200a-0605" type="rule"/>
         <infoLink id="224a-b406-aa9f-c7e1" name="Tough(X)" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule"/>
+        <infoLink id="5e34-4224-02e6-b32c" name="AP(X)" hidden="false" targetId="f84f-fda5-e478-455d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2e01-72da-4874-137a" name="Infantry: Heavy" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
