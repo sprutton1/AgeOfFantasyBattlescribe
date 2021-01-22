@@ -646,7 +646,7 @@
         <infoLink id="913f-1f60-4878-9d04" name="Undead" hidden="false" targetId="9416-f391-561b-2548" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="620d-6e88-b1f1-075f" name="Infantry: Heavy" hidden="false" targetId="a3a9-bf23-dca8-0fc3" primary="true"/>
+        <categoryLink id="eae3-5ff4-c94e-71d6" name="New CategoryLink" hidden="false" targetId="b0f1-d6c3-6849-6640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6765-a3aa-5c8b-bea2" name="Shriek" publicationId="315d-9008-7571-9638" hidden="false" collective="false" import="true" type="upgrade">
@@ -675,22 +675,6 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7d79-a9d4-0f77-8f73" name="* Unit Size *" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebff-7a51-8a39-0c50" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="9eb7-7120-4cf6-10ca" name="Harvester Beast [3]" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40a1-97cf-e2e8-bd29" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dd3-125d-acaa-d00b" type="min"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="270.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="c743-356a-8820-4390" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="0279-f2c6-3391-8d6e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9315-0273-40b0-e867" type="max"/>
@@ -740,7 +724,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="270.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="64a2-4be8-e78d-c665" name="Skull Catapult" hidden="false" collective="false" import="true" type="unit">
