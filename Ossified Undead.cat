@@ -202,6 +202,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="63ad-75e9-da06-b350" name="Show Spells" hidden="false" collective="false" import="true" targetId="283b-dae8-2f88-933c" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="65.0"/>
       </costs>
