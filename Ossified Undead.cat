@@ -325,6 +325,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="58a2-ab9a-1447-93b7" name="Show Spells" hidden="false" collective="false" import="true" targetId="283b-dae8-2f88-933c" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
