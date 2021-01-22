@@ -89,7 +89,7 @@ table!
 |Mummified Undead|v2.8|Done|Darguth|
 |Ogres|v2.4|Done|Darguth|
 |Orcs|v2.7|Done|Darguth|
-|Ossified Undead|-|NOT STARTED|-|
+|Ossified Undead|v2.3|Done|kuroi-usagi|
 |Ratmen|v2.12|Done|Darguth|
 |Rift Daemons|v2.8|Done|cartag|
 |Saurians|v2.6|Done|Darguth|
