@@ -762,26 +762,8 @@
       <categoryLinks>
         <categoryLink id="2097-df26-9f8b-ba89" name="Warmachines" hidden="false" targetId="0db7-2001-2aba-d986" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="138f-3c8d-7321-da8b" name="* Unit Size *" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eca8-8bed-1e91-6403" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="c520-3c94-4257-87dc" name="Skull Catapult [1]" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="093a-4ebc-8533-c8ca" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10b4-810c-4f59-4e3c" type="min"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="80.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
