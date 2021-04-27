@@ -76,7 +76,7 @@ table!
 |Dark Elves|v2.6|Done|Darguth|
 |Deap-Sea Elves|v2.5|Done|Darguth|
 |Dwarves|v2.9|Done|Darguth|
-|Eternal Wardens|-|NOT STARTED|-|
+|Eternal Wardens|v2.7|Done|PerramUnderhill|
 |Ghostly Undead|v2.5|Done|Darguth|
 |Giant Tribes|v2.0|Done|Darguth|
 |Goblins|v2.10|Done|Darguth|
@@ -92,7 +92,7 @@ table!
 |Ossified Undead|v2.3|Done|kuroi-usagi|
 |Ratmen|v2.12|Done|Darguth|
 |Rift Daemons|v2.8|Done|cartag|
-|Saurians|v2.6|Done|Darguth|
+|Saurians|v2.8|Done|Darguth|
 |Shadow Stalkers|v2.2|Done|Darguth|
 |Sky-City Dwarves|v2.7|Done|Darguth|
 |Vampiric Undead|v2.8|Done|Darguth|
